@@ -649,7 +649,7 @@ FBStreamDialog* dialog = [[[FBStreamDialog alloc] init] autorelease];
 	NSString *emailBody = [answer objectForKey:@"bible quote"];
 	[picker setMessageBody:emailBody isHTML:NO];
 	
-	[self presentModalViewController:picker animated:YES];
+	[self presentViewController:picker animated:YES completion:NULL];
     [picker release];
 }
 

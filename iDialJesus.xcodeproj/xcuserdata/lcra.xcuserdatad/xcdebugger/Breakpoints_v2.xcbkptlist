@@ -30,9 +30,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "652"
-            endingLineNumber = "652"
-            landmarkName = "-displayComposerSheet"
-            landmarkType = "5">
+            endingLineNumber = "652">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

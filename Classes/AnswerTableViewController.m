@@ -599,7 +599,7 @@ FBStreamDialog* dialog = [[[FBStreamDialog alloc] init] autorelease];
     // _label.text = [NSString stringWithFormat:@"Error(%d) %@", error.code,
     //                error.localizedDescription];
     // The user canceled -- simply dismiss the image picker.
-	[self dismissModalViewControllerAnimated:YES];
+	[self dismissViewControllerAnimated:YES completion:NULL];
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

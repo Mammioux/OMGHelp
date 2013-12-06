@@ -5,69 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>F193AE1F-97DC-4D84-9CCD-ADCA6A07B116</string>
+	<string>1D4E922E-AC96-4DDC-ABEB-B268F9A63B43</string>
 	<key>IDESourceControlProjectName</key>
 	<string>iDialJesus</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>E1EC2435-7BAA-44C0-B2C9-462B66FD29AD</key>
-		<string>http://magali/svn/repos/OMGHelp/iDialJesus.xcodeproj</string>
-		<key>F03B8A1D-444E-4CB6-85D6-E438ABE6B012</key>
-		<string>http://magali/svn/repos/OMGHelp/FBConnect/FBConnect.bundle</string>
-		<key>FF66781C-EAAA-4A57-88BF-3892AA89A30E</key>
-		<string>http://magali/svn/repos/OMGHelp/Settings.bundle</string>
+		<key>83EF69FB-A626-443F-859A-91CAEC925D5D</key>
+		<string>https://github.com/trvd1707/OMGHelp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>project.xcworkspace</string>
+	<string>iDialJesus.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>E1EC2435-7BAA-44C0-B2C9-462B66FD29AD</key>
-		<string>..</string>
-		<key>F03B8A1D-444E-4CB6-85D6-E438ABE6B012</key>
-		<string>../../FBConnect/FBConnect.bundle</string>
-		<key>FF66781C-EAAA-4A57-88BF-3892AA89A30E</key>
-		<string>../../Settings.bundle</string>
-	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>E1EC2435-7BAA-44C0-B2C9-462B66FD29AD</key>
-		<string>http://magali/svn/repos</string>
-		<key>F03B8A1D-444E-4CB6-85D6-E438ABE6B012</key>
-		<string>http://magali/svn/repos</string>
-		<key>FF66781C-EAAA-4A57-88BF-3892AA89A30E</key>
-		<string>http://magali/svn/repos</string>
+		<key>83EF69FB-A626-443F-859A-91CAEC925D5D</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>http://magali/svn/repos/OMGHelp/iDialJesus.xcodeproj</string>
+	<string>https://github.com/trvd1707/OMGHelp.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>E1EC2435-7BAA-44C0-B2C9-462B66FD29AD</string>
+	<string>83EF69FB-A626-443F-859A-91CAEC925D5D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F03B8A1D-444E-4CB6-85D6-E438ABE6B012</string>
+			<string>83EF69FB-A626-443F-859A-91CAEC925D5D</string>
 			<key>IDESourceControlWCCName</key>
-			<string>FBConnect</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>E1EC2435-7BAA-44C0-B2C9-462B66FD29AD</string>
-			<key>IDESourceControlWCCName</key>
-			<string>iDialJesus</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>FF66781C-EAAA-4A57-88BF-3892AA89A30E</string>
-			<key>IDESourceControlWCCName</key>
-			<string>Settings</string>
+			<string>OMGHelp</string>
 		</dict>
 	</array>
 </dict>

@@ -82,7 +82,7 @@
 
 		// Pass the selected object to the new view controller.
 		Disclaimer *disclaimer = [[Disclaimer alloc] initWithNibName:@"Disclaimer" bundle:nil];
- 		[self.navigationController presentViewController:disclaimer animated:YES];
+ 		[self.navigationController presentViewController:disclaimer animated:YES completion:NULL];
 		[disclaimer release];
 		CastYourCrownPick *cast = [[CastYourCrownPick alloc] initWithNibName:@"CastYourCrownPick" bundle:nil];
 		[self.navigationController pushViewController:cast animated:YES];

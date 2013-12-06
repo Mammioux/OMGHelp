@@ -55,7 +55,7 @@
 - (IBAction)previousPage:(id)sender;
 - (IBAction)styleAction:(id)sender;
 
-- (void)showCurrentPage;
+- (IBAction)showCurrentPage;
 
 - (void) configureToolbarItems;
 - (void) showQuote;

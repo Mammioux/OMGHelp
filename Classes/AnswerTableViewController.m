@@ -517,7 +517,7 @@
 {
     // show Twitter login screen.
     TwitterLoginViewController *tweet = [[TwitterLoginViewController alloc] initWithNibName:@"TwitterLoginViewController" bundle:nil];
-    [self.navigationController presentViewController:tweet animated:YES];
+    [self.navigationController presentViewController:tweet animated:YES completion:NULL];
     [tweet release];    
     
 }
@@ -676,7 +676,7 @@ FBStreamDialog* dialog = [[[FBStreamDialog alloc] init] autorelease];
 			//message.text = @"Result: not sent";
 			break;
 	}
-	[self dismissModalViewControllerAnimated:YES];
+	[self dismissViewControllerAnimated:YES completion:NULL];
 }
 
 // Launches the Mail application on the device.

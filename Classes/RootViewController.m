@@ -50,7 +50,7 @@
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	NSLog(@"User should agree next time? %@",[defaults boolForKey:@"agreed_preference"]?@"YES":@"NO");
 	NSLog(@"with %d jewels",[defaults integerForKey:@"count_preference"]);
-	NSLog(@"and %ld seconds interval between adding jewels",[defaults integerForKey:@"time_preference"]);
+	NSLog(@"and %ld seconds interval between adding jewels",(long)[defaults integerForKey:@"time_preference"]);
 
 	//initialize internal persistent jewel count in BETA test
 	[defaults setInteger:[defaults integerForKey:@"count_preference"] forKey:@"count"];
@@ -82,7 +82,7 @@
 
 		// Pass the selected object to the new view controller.
 		Disclaimer *disclaimer = [[Disclaimer alloc] initWithNibName:@"Disclaimer" bundle:nil];
- 		[self.navigationController presentModalViewController:disclaimer animated:YES];
+ 		[self.navigationController presentViewController:disclaimer animated:YES];
 		[disclaimer release];
 		CastYourCrownPick *cast = [[CastYourCrownPick alloc] initWithNibName:@"CastYourCrownPick" bundle:nil];
 		[self.navigationController pushViewController:cast animated:YES];
@@ -207,7 +207,7 @@
 	
 	cell.textLabel.backgroundColor = [UIColor clearColor];
 	cell.backgroundColor = [UIColor clearColor];
-	cell.textLabel.textAlignment = UITextAlignmentCenter; 
+	cell.textLabel.textAlignment = NSTextAlignmentCenter; 
     
     NSDictionary *dataItem = [data objectAtIndex:indexPath.row];
     cell.textLabel.text = [dataItem objectForKey:@"topic"];

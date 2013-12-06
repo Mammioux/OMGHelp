@@ -108,7 +108,7 @@
 	//Get today's date nad minimum wait time
     NSDate *now = [NSDate date];
     NSTimeInterval minWaitTime = [defaults integerForKey:@"time_preference"];
-    NSLog(@"and %ld seconds interval between adding jewels", minWaitTime);
+    NSLog(@"and %f seconds interval between adding jewels", minWaitTime);
     
     if (count < [self.jewelDictArray count]) {
         NSDictionary *jewel = [self.jewelDictArray objectAtIndex:count];
@@ -164,7 +164,7 @@
     srandom(time(NULL));
     int index = (random() % [self.songsArray count]);
     NSDictionary *song = [self.songsArray objectAtIndex:index];
-	NSString *filename = [[NSString alloc] initWithFormat:[song objectForKey:@"name"]];
+	NSString *filename = [[NSString alloc] initWithFormat:@"%@", [song objectForKey:@"name"]];
 	//NSLog(@"filename = %@", filename);
     
 	NSString *soundFilePath = [[NSBundle mainBundle] pathForResource: filename
@@ -373,8 +373,8 @@ This method is NOT called if the player is stopped due to an interruption. */
     srandom(time(NULL));
     int index = (random() % [self.songsArray count]);
     NSDictionary *song = [self.songsArray objectAtIndex:index];
-	NSString *filename = [[NSString alloc] initWithFormat:[song objectForKey:@"name"]];
-    NSString *file_ext = [[NSString alloc] initWithFormat:[song objectForKey:@"ext"]];
+	NSString *filename = [[NSString alloc] initWithFormat:@"%@", [song objectForKey: @"name"]];
+    NSString *file_ext = [[NSString alloc] initWithFormat:@"%@", [song objectForKey:@"ext"]];
 	NSString *soundFilePath = [[NSBundle mainBundle] pathForResource: filename ofType:file_ext];
     NSLog(@"audioPlayerDidFinishPlaying: filename = %@.%@", filename, file_ext);
     [filename release];

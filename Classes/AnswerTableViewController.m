@@ -517,7 +517,7 @@
 {
     // show Twitter login screen.
     TwitterLoginViewController *tweet = [[TwitterLoginViewController alloc] initWithNibName:@"TwitterLoginViewController" bundle:nil];
-    [self.navigationController presentModalViewController:tweet animated:YES];
+    [self.navigationController presentViewController:tweet animated:YES];
     [tweet release];    
     
 }

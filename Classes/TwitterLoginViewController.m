@@ -91,7 +91,7 @@
 	[loadingActionSheet dismissWithClickedButtonIndex:0 animated:YES];
 	[loadingActionSheet release];
 	NSLog(@"%@",[[NSString alloc] initWithData:content encoding:NSASCIIStringEncoding]);
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion: NULL];
 }
 
 

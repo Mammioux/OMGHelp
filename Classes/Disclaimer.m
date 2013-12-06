@@ -76,7 +76,7 @@
     [defaults setBool:YES forKey:@"agreed"];
 	[defaults setBool:YES forKey:@"agreed_preference"];
     
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:NULL];
     
 }
 

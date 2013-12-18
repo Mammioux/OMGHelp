@@ -94,7 +94,7 @@
 	NSDictionary *dataItem = [questions objectAtIndex:indexPath.row];
     cell.textLabel.text = [dataItem objectForKey:@"question"];
 	cell.backgroundColor = [UIColor clearColor];
-	cell.textLabel.textAlignment = UITextAlignmentCenter;  
+	cell.textLabel.textAlignment = NSTextAlignmentCenter;  
     return cell;
 }
 

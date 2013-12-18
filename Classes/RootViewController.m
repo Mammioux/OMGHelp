@@ -70,7 +70,7 @@
 		//[alert release];
 		// Pass the selected object to the new view controller.
 		Disclaimer *disclaimer = [[Disclaimer alloc] initWithNibName:@"Disclaimer" bundle:nil];
- 		[self.navigationController presentModalViewController:disclaimer animated:YES];
+ 		[self.navigationController presentViewController:disclaimer animated:YES completion:NULL];
 		[disclaimer release];
 	} else {
 		NSLog(@"continuing using the application");
@@ -115,7 +115,8 @@
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
 	
 	if ([alertView.title compare:@"Closing Guide Me Jesus"] == NSOrderedSame) {
-		[[UIApplication sharedApplication] terminateWithSuccess];	
+       //[NSThread exit];
+       exit(0);
 	}
 }
 
@@ -202,7 +203,7 @@
 	
 	cell.textLabel.backgroundColor = [UIColor clearColor];
 	cell.backgroundColor = [UIColor clearColor];
-	cell.textLabel.textAlignment = UITextAlignmentCenter; 
+	cell.textLabel.textAlignment = NSTextAlignmentCenter; 
     
     NSDictionary *dataItem = [data objectAtIndex:indexPath.row];
     cell.textLabel.text = [dataItem objectForKey:@"topic"];

@@ -185,7 +185,7 @@
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
 	
 	if ([alertView.title compare:@"Closing Tell Me Jesus"] == NSOrderedSame) {
-		//[[UIApplication sharedApplication] terminateWithSuccess];	
+		[[UIApplication sharedApplication] terminateWithSuccess];	
 	}
 }
 

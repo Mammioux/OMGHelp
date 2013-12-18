@@ -2,99 +2,63 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>SettingsPageTitle</key>
+	<string>iDialJesus Preferences</string>
 	<key>StringsTable</key>
 	<string>Root</string>
 	<key>PreferenceSpecifiers</key>
 	<array>
 		<dict>
 			<key>Type</key>
-			<string>PSTitleValueSpecifier</string>
+			<string>PSGroupSpecifier</string>
 			<key>Title</key>
-			<string>Titulo</string>
+			<string>iDialJesus Preferences</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>agreed</string>
 			<key>Key</key>
-			<string>titulo</string>
+			<string>agreed_preference</string>
 			<key>DefaultValue</key>
-			<string>default</string>
-			<key>Titles</key>
-			<array/>
-			<key>titulo1</key>
-			<string>Crown Status</string>
-			<key>Titulo2</key>
-			<string>User</string>
-			<key>Values</key>
-			<array/>
-			<key>Value1</key>
-			<integer>0</integer>
-			<key>Value2</key>
-			<string>Super Mario</string>
+			<true/>
+			<key>Value for ON</key>
+			<true/>
+			<key>Value for OFF</key>
+			<false/>
 		</dict>
 		<dict>
 			<key>Type</key>
 			<string>PSTextFieldSpecifier</string>
 			<key>Title</key>
-			<string>Crown Status</string>
+			<string>jewel count</string>
 			<key>Key</key>
-			<string>Crow_Status_preference</string>
+			<string>count_preference</string>
 			<key>DefaultValue</key>
 			<integer>0</integer>
+			<key>KeyboardType</key>
+			<string>NumberPad</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>AutocapilaztionType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>time interval</string>
+			<key>Key</key>
+			<string>time_preference</string>
+			<key>DefaultValue</key>
+			<integer>86400</integer>
 			<key>IsSecure</key>
 			<false/>
 			<key>KeyboardType</key>
 			<string>NumberPad</string>
-			<key>AutocapitalizationType</key>
-			<string>None</string>
-			<key>AutocorrectionType</key>
-			<string>No</string>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSTextFieldSpecifier</string>
-			<key>Title</key>
-			<string>user</string>
-			<key>Key</key>
-			<string>user_preference</string>
-			<key>DefaultValue</key>
-			<string></string>
-			<key>IsSecure</key>
-			<false/>
-			<key>KeyboardType</key>
-			<string>Alphabet</string>
-			<key>AutocapitalizationType</key>
-			<string>None</string>
-			<key>AutocorrectionType</key>
-			<string>No</string>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSTextFieldSpecifier</string>
-			<key>Title</key>
-			<string>email</string>
-			<key>Key</key>
-			<string>email_preference</string>
-			<key>DefaultValue</key>
-			<string></string>
-			<key>IsSecure</key>
-			<false/>
-			<key>KeyboardType</key>
-			<string>ASCIICapable</string>
-			<key>AutocapitalizationType</key>
-			<string>None</string>
-			<key>AutocorrectionType</key>
-			<string>No</string>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSTextFieldSpecifier</string>
-			<key>Title</key>
-			<string>counselor</string>
-			<key>Key</key>
-			<string>counselor_preference</string>
-			<key>DefaultValue</key>
-			<string></string>
-			<key>IsSecure</key>
-			<false/>
-			<key>KeyboardType</key>
-			<string>Alphabet</string>
 			<key>AutocapitalizationType</key>
 			<string>None</string>
 			<key>AutocorrectionType</key>

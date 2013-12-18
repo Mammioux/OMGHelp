@@ -11,6 +11,10 @@
 #import "Disclaimer.h"
 #import "About.h"
 
+//hopefully only one will stay
+#import "CastYourCrownPick.h"
+
+
 @implementation RootViewController
 
 @synthesize data;
@@ -33,49 +37,64 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	// Load the data.
-	
+	//basic configuration
 	self.hidesBottomBarWhenPushed = YES;
 	[self.navigationController setToolbarHidden:YES animated:YES];
 	self.view.backgroundColor = [UIColor clearColor];
 	self.tableView.separatorColor = [UIColor clearColor];
+	self.navigationItem.title = @"iDialJesus";
+	UIBarButtonItem *done = self.navigationItem.rightBarButtonItem;
+	[done initWithBarButtonSystemItem: UIBarButtonSystemItemDone target:self action: @selector(done:)];
+    
+	// read BETA test settings
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	//NSLog(@"User should agree next time? %@",[defaults boolForKey:@"agreed_preference"]?@"YES":@"NO");
+	//NSLog(@"with %d jewels",[defaults integerForKey:@"count_preference"]);
+	//NSLog(@"and %ld seconds interval between adding jewels",[defaults integerForKey:@"time_preference"]);
+
+	//initialize internal persistent jewel count in BETA test
+	[defaults setInteger:[defaults integerForKey:@"count_preference"] forKey:@"count"];
+	
+    // Load the data.
 	self.parentViewController.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"JesusRevBW.png"]];
-	self.navigationItem.title = @"Tell Me Jesus";
-    NSString *dataPath = [[NSBundle mainBundle] pathForResource:@"topics" ofType:@"plist"];
+	NSString *dataPath     = [[NSBundle mainBundle] pathForResource:@"topics"   ofType:@"plist"];
+	//NSString *jewelPath    = [[NSBundle mainBundle] pathForResource:@"jewels"   ofType:@"plist"];
+	
 	// sort by topic
     NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"topic" ascending:YES];
     NSArray *sortDescriptors = [[NSArray alloc] initWithObjects:&sortDescriptor count:1];
-	
     self.data = [[NSArray arrayWithContentsOfFile:dataPath] sortedArrayUsingDescriptors:sortDescriptors];
 	[sortDescriptor release];
     [sortDescriptors release];
 	
-	UIBarButtonItem *done = self.navigationItem.rightBarButtonItem;
-	[done initWithBarButtonSystemItem: UIBarButtonSystemItemDone target:self action: @selector(done:)];  
-	
-	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	//NSInteger count = [defaults integerForKey:@"count"];
-	BOOL agreed = [defaults	boolForKey:@"agreed"];
-	
-	NSString *jewelPath = [[NSBundle mainBundle] pathForResource:@"jewels" ofType:@"plist"];
-    self.jewelery = [NSArray arrayWithContentsOfFile:jewelPath];
-	[self dumpJewels];
+	BOOL agreed = [defaults	boolForKey:@"agreed_preference"];
+	if (!agreed)
+	{
+	    [defaults setBool:YES forKey:@"agreed_preference"];
+	}else {
+		agreed = [defaults boolForKey:@"agreed"];
+	}
+
+    //self.jewelery = [NSArray arrayWithContentsOfFile:jewelPath];
 	
 	if (!agreed){
-		NSLog(@"first time use");
-		
-		//UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Guide Me Jesus" message:@"First Time use"
-		//											   delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
-		//[alert show];	
-		//[alert release];
+
 		// Pass the selected object to the new view controller.
 		Disclaimer *disclaimer = [[Disclaimer alloc] initWithNibName:@"Disclaimer" bundle:nil];
- 		[self.navigationController presentViewController:disclaimer animated:YES completion:NULL];
+ 		[self.navigationController presentModalViewController:disclaimer animated:YES];
 		[disclaimer release];
-	} else {
-		NSLog(@"continuing using the application");
-	}
-	[defaults setObject:jewelery forKey: @"jewelery"];
+	} 
+/*    
+    BOOL donated = [defaults boolForKey:@"donated"];
+    
+    if (!donated) {
+		CastYourCrownPick *cast = [[CastYourCrownPick alloc] initWithNibName:@"CastYourCrownPick" bundle:nil];
+		[self.navigationController pushViewController:cast animated:YES];
+		[cast release];
+    }
+    
+*/	//[defaults setObject:jewelery forKey: @"jewelery"];
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     //self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
@@ -85,42 +104,17 @@
 	About *about = [[About alloc] initWithNibName:@"About" bundle:nil];
 	[self.navigationController pushViewController:about animated:YES];
 	[about release];	
-	
-	/*
-	 UIAlertView *alert;
-	 
-	 NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-	 NSInteger count = [defaults integerForKey:@"count"];
-	 [self dumpJewels];
-	 if (count== 0 ){
-	 NSLog(@"first time use");
-	 alert = [[UIAlertView alloc] initWithTitle:@"Closing Guide Me Jesus" message:@"Showing the View with Crown and Donation radio buttons"
-	 delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
-	 }
-	 
-	 NSDictionary *d = [jewelery objectAtIndex:count];
-	 NSString *message = [NSString stringWithFormat: @"Your crown now has the jewell %@ added. Meaning: %@", 
-	 [d objectForKey:@"stone"], 
-	 [d objectForKey:@"description"]];
-	 alert = [[UIAlertView alloc] initWithTitle:@"Closing Guide Me Jesus" 
-	 message:message 
-	 delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
-	 [defaults setInteger:++count forKey:@"count"];
-	 [alert show];
-	 [alert release];
-	 */
 }
 
-
+/*
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
 	
-	if ([alertView.title compare:@"Closing Guide Me Jesus"] == NSOrderedSame) {
-       //[NSThread exit];
-       exit(0);
+	if ([alertView.title compare:@"Closing Thy will Jesus"] == NSOrderedSame) {
+		[[UIApplication sharedApplication] terminateWithSuccess];	
 	}
 }
 
-
+*/
 - (void)viewWillAppear:(BOOL)animated {
 	[super viewWillAppear:animated];
 	self.hidesBottomBarWhenPushed = YES;
@@ -134,9 +128,7 @@
  */
 
 - (void)viewWillDisappear:(BOOL)animated {
-	NSLog(@"Root view will disappear");
-	
-	[self dumpJewels];
+
 	/*	[super viewWillDisappear:animated];
 	 UIAlertView *alert;
 	 
@@ -173,6 +165,22 @@
  }
  */
 
+#pragma mark -
+#pragma mark UIResponder
+
+//Override this method in the controller class.
+// Hide cut/copy/paste menu
+
+-(BOOL)canPerformAction:(SEL)action withSender:(id)sender
+{
+	
+	if ( [UIMenuController sharedMenuController] )
+	{
+		[UIMenuController sharedMenuController].menuVisible = NO;
+	}
+	return NO;
+	
+}
 
 #pragma mark -
 #pragma mark Table view data source
@@ -203,11 +211,11 @@
 	
 	cell.textLabel.backgroundColor = [UIColor clearColor];
 	cell.backgroundColor = [UIColor clearColor];
-	cell.textLabel.textAlignment = NSTextAlignmentCenter; 
+	cell.textLabel.textAlignment = UITextAlignmentCenter; 
     
     NSDictionary *dataItem = [data objectAtIndex:indexPath.row];
     cell.textLabel.text = [dataItem objectForKey:@"topic"];
-	
+	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
@@ -256,7 +264,6 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	[self dumpJewels];
     
 	
 	QuestionViewController *questionViewController = [[QuestionViewController alloc] initWithNibName:@"QuestionViewController" bundle:nil];
@@ -290,22 +297,18 @@
 - (void)viewDidUnload {
     // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
     // For example: self.myOutlet = nil;
+	// read settings
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	[defaults setInteger:[defaults integerForKey:@"count"] forKey:@"count_prefrence"];
+
 }
 
 
 - (void)dealloc {
+    
+    [data release];
+    //[jewelery release];
     [super dealloc];
-}
-
--(void)dumpJewels
-{
-	/*
-	 NSLog(@"dump jewels");
-	 for (int i=0; i < [jewelery count]; ++i) {
-	 NSDictionary *d= [jewelery objectAtIndex:i];
-	 NSLog(@"Index: %d, Stone:%@",i,[d objectForKey:@"stone"]);
-	 }
-	 */
 }
 
 @end

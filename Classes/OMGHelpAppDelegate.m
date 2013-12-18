@@ -54,22 +54,12 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
 	// Save data if appropriate
 		NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-		UIAlertView *alert;
+        [[NSUserDefaults standardUserDefaults] synchronize];
 		if ([defaults objectForKey:@"firstTime"]==nil ){
-			NSLog(@"first time use");
-			alert = [[UIAlertView alloc] initWithTitle:@"OMGHelp" message:@"Leaving the application after first time use"
-											  delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
 			[defaults setBool:NO forKey:@"firstTime"];
 		}
 		else {
-			alert = [[UIAlertView alloc] initWithTitle:@"OMGHelp" message:@"Leaving the application already used"
-											  delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
-			
 		}
-		
-		[alert show];
-		[alert release];
-		
 }
 
 
@@ -84,5 +74,12 @@
 }
 
 
+- (void)applicationWillResignActive:(UIApplication *)application
+{
+
+    [self applicationWillTerminate:application];
+    [self dealloc];
+    exit(0);
+}
 @end
 

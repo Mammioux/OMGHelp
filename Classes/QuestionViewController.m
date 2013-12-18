@@ -12,7 +12,7 @@
 
 
 @implementation QuestionViewController
-@synthesize questions,topic;
+@synthesize topic, questions;
 
 
 #pragma mark -
@@ -76,7 +76,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return [questions count];
+    return( [questions count] * 2);
 }
 
 
@@ -87,15 +87,33 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+    }
+    if(indexPath.row % 2 == 0){
+        // Configure the even cell...
+        NSDictionary *dataItem = [questions objectAtIndex: (indexPath.row / 2) ];
+        cell.textLabel.text = [dataItem objectForKey:@"question"];
+        cell.textLabel.font = [UIFont fontWithName:@"STHeitiK-Medium" size:14];
+        //cell.textLabel.adjustsFontSizeToFitWidth = YES; 
+        cell.textLabel.numberOfLines = 7;
+        cell.backgroundColor = [UIColor clearColor];
+        cell.textLabel.textAlignment = UITextAlignmentCenter;
+        cell.textLabel.baselineAdjustment = UIBaselineAdjustmentAlignBaselines;
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        //cell.detailTextLabel.text = @"sub-title";
+        return cell;
+    }else {
+        // Configure the odd cell...
+        cell.textLabel.text = @"";
+        cell.textLabel.font = [UIFont fontWithName:@"STHeitiK-Medium" size:14];
+        //cell.textLabel.adjustsFontSizeToFitWidth = YES; 
+        cell.textLabel.numberOfLines = 7;
+        cell.backgroundColor = [UIColor clearColor];
+        cell.textLabel.textAlignment = UITextAlignmentCenter;
+        //cell.detailTextLabel.text = @"sub-title";
+        return cell;
     }
     
-    // Configure the cell...
-	NSDictionary *dataItem = [questions objectAtIndex:indexPath.row];
-    cell.textLabel.text = [dataItem objectForKey:@"question"];
-	cell.backgroundColor = [UIColor clearColor];
-	cell.textLabel.textAlignment = NSTextAlignmentCenter;  
-    return cell;
 }
 
 
@@ -138,38 +156,44 @@
  }
  */
 
+#pragma mark -
+#pragma mark UIResponder
+
+//Override this method in the controller class.
+// Hide cut/copy/paste menu
+
+-(BOOL)canPerformAction:(SEL)action withSender:(id)sender
+{
+	
+	if ( [UIMenuController sharedMenuController] )
+	{
+		[UIMenuController sharedMenuController].menuVisible = NO;
+	}
+	return NO;
+	
+}
 
 #pragma mark -
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
-    self.hidesBottomBarWhenPushed = NO;
-    //  [self.navigationController popViewControllerAnimated:NO];
-    //  [self.navigationController pushViewController:self animated:NO];
-	
-	//AnswerViewController *answerViewController = [[AnswerViewController alloc] initWithNibName:@"tabbedAnswer" bundle:nil];
-	//AnswerViewController *answerViewController = [[AnswerViewController alloc] initWithNibName:@"AnswerViewController" bundle:nil];
-	AnswerTableViewController *answerTableViewController = [[AnswerTableViewController alloc] initWithNibName:@"AnswerTableViewController" bundle:nil];
+    if(indexPath.row % 2 ==0){
+        self.hidesBottomBarWhenPushed = NO;
+        AnswerTableViewController *answerTableViewController = [[AnswerTableViewController alloc] initWithNibName:@"AnswerTableViewController" bundle:nil];
+        
+        //Get dictionary at selected row, than get all the data assocciated with that particular question
+        NSDictionary *dataItem = [questions objectAtIndex:(indexPath.row / 2)];
+        //It will call the all answering data of the one selected question
+        answerTableViewController.answer = dataItem;
+        answerTableViewController.index = (indexPath.row / 2);
+        answerTableViewController.topic = topic;
+        answerTableViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
+        // Pass the selected object to the answerViewController.
+        [self.navigationController pushViewController:answerTableViewController animated:YES];
+        [answerTableViewController release];
+    }//if row is even
     
-    //Get dictionary at selected row, than get all the data assocciated with that particular question
-    NSDictionary *dataItem = [questions objectAtIndex:indexPath.row];
-    
-    //answerViewController.answer = dataItem;
-    //answerViewController.index = indexPath.row;
-    //answerViewController.navigationItem.title = [dataItem objectForKey:@"question"];
-    //// Pass the selected object to the answerViewController.
-    //[self.navigationController pushViewController:answerViewController animated:YES];
-    //[AnswerViewController release];
-	
-	answerTableViewController.answer = dataItem;
-    answerTableViewController.index = indexPath.row;
-//    answerTableViewController.navigationItem.title = topic;
-	answerTableViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
-    // Pass the selected object to the answerViewController.
-    [self.navigationController pushViewController:answerTableViewController animated:YES];
-    [AnswerTableViewController release];
-    //It will call the all answering data of the one selected question
 }
 
 
@@ -190,6 +214,8 @@
 
 
 - (void)dealloc {
+    [questions release];
+    [topic release];
     [super dealloc];
 }
 

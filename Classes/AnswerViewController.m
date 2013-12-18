@@ -46,7 +46,7 @@
                                              nil]];
 	[segmentedControl addTarget:self action:@selector(segmentAction:) forControlEvents:UIControlEventValueChanged];
 	segmentedControl.frame = CGRectMake(0, 0, 180, 30.0);
-	//segmentedControl.segmentedControlStyle = UISegmentedControlStyleBar;
+	segmentedControl.segmentedControlStyle = UISegmentedControlStyleBar;
 	segmentedControl.momentary = YES;
 	
 	//UIColor *defaultTintColor = [segmentedControl.tintColor retain];	// keep track of this for later

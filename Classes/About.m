@@ -83,5 +83,21 @@
 	
 }
 
+#pragma mark -
+#pragma mark UIResponder
+
+//Override this method in the controller class.
+// Hide cut/copy/paste menu
+
+-(BOOL)canPerformAction:(SEL)action withSender:(id)sender
+{
+	
+	if ( [UIMenuController sharedMenuController] )
+	{
+		[UIMenuController sharedMenuController].menuVisible = NO;
+	}
+	return NO;
+	
+}
 
 @end

@@ -17,6 +17,7 @@
 @property (nonatomic, retain) IBOutlet UITextView *disc;
 
 - (IBAction)agree:(id)sender;
+- (IBAction) info:(id)sender;
 
 
 @end

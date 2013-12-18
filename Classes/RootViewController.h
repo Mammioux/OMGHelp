@@ -10,6 +10,8 @@
 @class QuestionViewController;
 @class Disclaimer;
 
+#define SECONDS_IN_A_DAY 86400
+
 @interface RootViewController : UITableViewController <UIAlertViewDelegate>
 {
 	NSArray *data;
@@ -20,7 +22,5 @@
 @property (nonatomic, retain) NSArray *jewelery;
 
 - (void)done:(id)sender; 
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex;
-- (void)dumpJewels;
 
 @end

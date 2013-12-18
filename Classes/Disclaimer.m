@@ -17,7 +17,7 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
         // Custom initialization
-        NSLog(@"Showing Modal view");
+        //NSLog(@"Showing Modal view");
         self.disc.font = [UIFont fontWithName:@"STHeitiK-Medium" size:12];
 
         //self.view.backgroundColor = [UIColor clearColor];
@@ -33,6 +33,12 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSInteger timeWait = [defaults integerForKey:@"time_preference"];//check if time_preference was initialized
+    
+    if (timeWait == 0) {
+        	[defaults setInteger:86400 forKey:@"time_preference"];
+    }
     
 	//self.navigationItem.hidesBackButton = YES;
     // Release any retained subviews of the main view.
@@ -66,17 +72,46 @@
 
 -(void) viewWillDisappear:(BOOL)animated
 {
-	NSLog(@"Disclaimer View going away");
+	//NSLog(@"Disclaimer View going away");
 }
 
 - (IBAction)agree:(id)sender{
-    NSLog(@"agree on Disclaimer");
+    //NSLog(@"agree on Disclaimer");
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setBool:YES forKey:@"agreed"];
+	[defaults setBool:YES forKey:@"agreed_preference"];
     
-    [self dismissViewControllerAnimated:YES completion:NULL];
+    [self dismissModalViewControllerAnimated:YES];
     
+}
+
+- (IBAction)info:(id)sender{
+    UIAlertView *alert;
+    //NSLog(@"easter egg");
+    NSString *message = @"Luiz Carlos Rios-Abreu and Teresa Van Dusen - www.nonstandardsolutions.com";
+    alert = [[UIAlertView alloc] initWithTitle:@"Developed by " 
+                                       message:message 
+                                      delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
+    [alert show];
+    [alert release];    
+}
+
+#pragma mark -
+#pragma mark UIResponder
+
+//Override this method in the controller class.
+// Hide cut/copy/paste menu
+
+-(BOOL)canPerformAction:(SEL)action withSender:(id)sender
+{
+	
+	if ( [UIMenuController sharedMenuController] )
+	{
+		[UIMenuController sharedMenuController].menuVisible = NO;
+	}
+	return NO;
+	
 }
 
 @end

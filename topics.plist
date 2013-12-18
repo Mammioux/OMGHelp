@@ -1,0 +1,2331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>topic</key>
+		<string>Religion</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>				
+        </array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Sickness</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Sin</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Witnessing</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Jesus in the flesh</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Bible</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Christ&apos;s Return</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Creation</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Fear</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Forgiveness</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Why Should I forgive someone?</string>
+				<key>bible quote</key>
+				<string>“For if you forgive men when they sin against you, your heavenly Father will also forgive you. But if you do not forgive men their sins, your Father will not forgive your sins.”  Matthew 6:14-15</string>
+				<key>explanation</key>
+				<string>We must always remember that we are supposed to forgive others because we have been forgiven (if you are a Christian).  Jesus has very strong words for someone who will not forgive someone who has hurt them when God has already forgiven them.  We must keep that in perspective.</string>
+				<key>examples</key>
+				<string>GET REAL!
+Pray that God would change your heart so that you can truly forgive and not hold a grudge.</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>What does it mean to forgive someone?</string>
+				<key>bible quote</key>
+				<string>“This is the covenant I will make with them after that time, says the Lord.  I will put my laws in their hearts and I will write them on their minds.  Then he adds: “Their sins and lawless acts I will remember no more.”  And where these have been forgiven, there is no longer any sacrifice for sin.” Hebrews 10:16-18</string>
+				<key>explanation</key>
+				<string>To forgive someone means to give up resentment towards someone or to not get back at someone who has wronged you or hurt you.  You can see in this verse that part of forgiving someone is to not remember it anymore.  You must make peace with the person who has wronged you as well as refuse to remember what they did to wrong you.</string>
+				<key>examples</key>
+				<string>GET REAL!
+Pray that God will teach you how to forgive like He forgave you.  It may seem impossible to forget what they have done to hurt you right now.  Actively pray against remembering the hurt, believing God will restore your relationship with that person.</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How many times do I have to forgive someone?</string>
+				<key>bible quote</key>
+				<string>"If he sins against you seven times in a day, and seven times comes back to you and says, 'I repent', 'forgive him.'" Luke 17:4</string>
+				<key>explanation</key>
+				<string>"Even though this is counter-cultural, God says to forgive someone no matter how many times they have wronged you.  We tend to think that we can forgive someone one time and then if they hurt us again then we don't have to forgive them, but God's love is unconditional.  We must continue to forgive those who hurt us because we are also forgiven."</string>
+				<key>examples</key>
+				<string>GET REAL!
+Pray that God will give you the ability to continually forgive them.  It seems silly to our world to continually forgive someone, but we are to always forgive when they come to us seeking forgiveness for that is not of the “world”, and as Christians we are not to be of the world, but of Lord.</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>You really don’t understand what they did to me. I don’t think I can forgive them. What should I do?</string>
+				<key>bible quote</key>
+				<string>“Bear with each other and forgive whatever grievances you may have against one another. Forgive as the Lord forgave you.” Colossians 3:13</string>
+				<key>explanation</key>
+				<string>It is evident that our world is broken and we are always getting hurt, but this is never an excuse to not forgive someone.  It can take a long time to rebuild a relationship and rebuild trust, but we have to be willing to forgive others EVEN IF it takes a little while.  This is not permission to hold onto a grudge, but as we pray and ask God to help us forgive them, He can work supernaturally.  This is actually one of the biggest ways that Christ is shown to people who do not know Jesus – instead of getting back or getting even, we forgive as Christ forgave us.</string>
+				<key>examples</key>
+				<string>GET REAL!
+Pray that God would really change your heart and remove the bitterness that is so easy to get wrapped up in when we have been wronged.  Pray also for an eternal perspective rather than focusing on the here and now, because God is in control and has a great plan for you through forgiveness.</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How do we know if we are forgiven?</string>
+				<key>bible quote</key>
+				<string>“If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness.” 1 John 1:9</string>
+				<key>explanation</key>
+				<string>God tells us that he has provided forgiveness for all sins through the death of Jesus (see the SAVED topic), so this verse is a promise that if we confess our sins to him, then he will forgive us.  Forgiveness has been provided, and we can know that we are forgiven if we truly ask God with a sincere heart to forgive us of our sins.</string>
+				<key>examples</key>
+				<string>GET REAL!
+Pray that God would transform your heart as you surrender to Him.</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Guilt</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Hate</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Heaven</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>How do I get to Heaven?</string>
+				<key>bible quote</key>
+				<string>Jesus answered, “I am the way and the truth and the life. No one comes to the Father except through me.” John 14:6</string>
+				<key>explanation</key>
+				<string>This was Jesus’ response to the disciple Thomas when he questioned how to know the way to go to be with his Lord.  In the preceding verses, Jesus had been speaking of going to heaven and the disciples wanted desperately to follow their Lord. Jesus told them how to get to heaven and be with him. The only way is through me he said.</string>
+				<key>examples</key>
+				<string>You can’t get to heaven by just being good or doing good things such as serving as a volunteer.  Those are all great things and worthy of reward once you GET to heaven.  But, to get to heaven, you must know Jesus as your Lord and Savior, and recognize that you are a sinner. And as a sinner you need his grace to save you.  Do you know him? If you don’t, would you like to? Welcome him in your life today.
+
+For more information go to the “Saved” questions and pray the sinner’s prayer for salvation today.
+You can’t get to heaven by just being good or doing good things such as serving as a volunteer.  Those are all great things and worthy of reward once you GET to heaven.  But, to get to heaven, you must know Jesus as your Lord and Savior, and recognize that you are a sinner. And as a sinner you need his grace to save you.  Do you know him? If you don’t, would you like to? Welcome him in your life today.
+
+For more information go to the “Saved” questions and pray the sinner’s prayer for salvation today.
+</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Is heaven real?</string>
+				<key>bible quote</key>
+				<string>“After the Lord Jesus had spoken to them, he was taken up into heaven and he sat at the right hand of God” Mark 16:19</string>
+				<key>explanation</key>
+				<string>Yes, there is a heaven. Jesus not only went before us, he went FOR us. He is alive and serving as King with God.  Heaven is not the white clouds and harp that you see on TV or on the internet. Heaven is where God lives with his son.  Life in heaven is all about God. It is forever and unshakeable.</string>
+				<key>examples</key>
+				<string>What’s real in your life? The love of friends and family? You can’t see it, but you know it’s there. Heaven is the same. It exists. God, your heavenly father loves you, just as your friends and family do.
+
+Pray to Jesus to feel his love, it is REAL!</string>
+				<key>links</key>
+				<array>
+					<string>www,passive-aggressive.com</string>
+					<string>www.ptsd.com</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Where is Heaven?</string>
+				<key>bible quote</key>
+				<string>“As the time approached for him to be taken up to heaven, Jesus resolutely set out for Jerusalem.” Luke 9:51
+
+“Taking the five loaves and the two fish and looking up to heaven, he gave thanks and broke the loaves.” Mark 6:41</string>
+				<key>explanation</key>
+				<string>Jesus referred to heaven as being “up” in direction. We do not know whether it is a place “in the heavens” (the universe beyond the Earth) or outside space and time as we know it. We do know heaven is some place based on the word of God through scriptures such as these. In addition, people have shared their experiences as they were dying and visualized heaven. They returned to tell their stories, but that place described wasn’t Earth.</string>
+				<key>examples</key>
+				<string>To understand the exact location is not for us to know until God reveals it to us. Our goal should be to strive to get there when our time on earth has come to an end. Until then, it is beyond our imagination!  
+
+To read more about heaven the actual place, check out these Bible verses: John 1:32, 6:33, 6:42, 18:36; Matthew 28:2; Acts 1:2; Revelation 10:1.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>What is Heaven like?</string>
+				<key>bible quote</key>
+				<string>“In my Father’s house are many rooms; if it were not so, I would have told you. I am going there to prepare a place for you.”  John 14:2</string>
+				<key>explanation</key>
+				<string>Jesus spoke of heaven often and in this verse he describes it as a vast place for all that follow him.  Heaven has been described as a beautiful city of pure gold where you will rest and fellowship in love and joy.  It is a place of worship and a great reward.  Heaven is all these things and more!</string>
+				<key>examples</key>
+				<string>You’ve heard the phrase, “It was like heaven” or the song, “Almost Heaven”. These comparisons use heaven as a term to describe wonderful things or experiences. Heaven is simply heaven! It is beautiful, marvelous, phenomenal, amazing…get the picture?
+
+To read more about what heaven is like, check out these Bible verses:  Matthew 5:11; John 14:3; Hebrews 11:16; Revelation 15:4, 20:2, 21:4, 21:18-21.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Will I know anyone in Heaven?</string>
+				<key>bible quote</key>
+				<string>“The time came when the beggar died and the angels carried him to Abraham’s side.  The rich man also died and was buried. In hell, where he was in torment, he looked up and saw Abraham far away with Lazarus by his side.”  Luke 16:22-23</string>
+				<key>explanation</key>
+				<string>In this historical account of the afterlife of a rich man and Lazurus, a beggar, Jesus used their proper names to show it was not just an example or parable. The rich man recognized the beggar that once lay outside his gate on Earth. The verse goes on to describe the scene. Now in hell, the man seeing Lazarus in heaven, as he looks up, begs him to give him drink for his burning lips and begs him to warn his five brothers to avoid the torment he has come to know in hell.  Even in hell, we do not necessarily lose our memories of our families on Earth or acquaintances.</string>
+				<key>examples</key>
+				<string>Yes, if your loved one has died and knew Jesus Christ as his or her personal Savior here on Earth, you will see them in heaven!  Make sure you share this scripture with your loved ones, so they can avoid the eternal torment that the rich man suffers.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Hell</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Hope</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Jealousy</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Leadership</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Love</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>What does loving like God require of me?</string>
+				<key>bible quote</key>
+				<string>“Teacher, which is the greatest commandment in the Law?’ Jesus replied: 'Love the Lord your God with all your heart and with all your soul and with all your mind. This is the first and greatest commandment. And the second is like it: Love your neighbor as yourself.” Matthew 22:36-39</string>
+				<key>explanation</key>
+				<string>As a follower of Jesus we are commanded to love, it’s not a choice. If we call ourselves Christians, then we should strive to live our lives as a reflection of Jesus’ love. This means putting God first in our lives, and allowing His love to overwhelm us and fill every part of who we are. Then that same love should spill out of us onto others, loving them as we would want or desire for ourselves.</string>
+				<key>examples</key>
+				<string>GET REAL!
+As a follower of Jesus, loving others with Jesus’ love should become a natural part of who we are. If His love is a part of our character, then it shouldn’t take too much effort to love even the difficult people in our lives. It’s not about trying to be someone you’re not, but honestly making love a foundational part of who you are.
+In your encounters with people today, stop and ask God how you can demonstrate His love to them.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How do I love God if I Can't see Him or touch Him?</string>
+				<key>bible quote</key>
+				<string>“Now faith is being sure of what we hope for and certain of what we do not see”. Hebrews 11:1</string>
+				<key>explanation</key>
+				<string>If we were able to tangibly touch God or see Jesus in the flesh, then there would be no need for faith. God is bigger than we can comprehend, so it’s silly to think that we could limit His greatness to our small lives and little understanding. Faith enables us to see God working in the lives of His people, and it is what gives us hope.</string>
+				<key>examples</key>
+				<string>GET REAL!
+Love for God is different than the love you have for your family, or your boyfriend or girlfriend. It’s a greater love than surpasses understanding, not a touchy-feely kind of love. We express our love for God through worship, prayer, spending quiet time with Him, serving Him, and loving others.
+Pray that God would reveal Himself to you, so that you can experience His powerful love in your life.</string>
+				<key>links</key>
+				<array>
+					<string>www,passive-aggressive.com</string>
+					<string>www.ptsd.com</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How can I have God’s love in my life?</string>
+				<key>bible quote</key>
+				<string>“And so we know and rely on the love God has for us. God is love. Whoever lives in love lives in God, and God in him.” 1 John 4:16</string>
+				<key>explanation</key>
+				<string>The essence of who God is can be defined in one word: Love. Love is not just a characteristic of God, but He is the ultimate embodiment of love. It cannot be taken from God, which means that His love for us will never run out or disappear. We can always count on God, and when we love others, that is God living Himself out through us.</string>
+				<key>examples</key>
+				<string>GET REAL!
+When we go throughout our day loving others, it is not just being a good person, but it is God working in our lives. In which areas of your life do you need to express more love? When you allow love to win, that is giving God total control, and God reigns!
+Tell God that you want to rely on Him and let love rule in your life.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Does God still love me if I sin?</string>
+				<key>bible quote</key>
+				<string>“But God demonstrates his own love for us in this: While we were still sinners, Christ died for us.” Romans 5:8 
+“For the wages of sin is death, but the gift of God is eternal life, through Christ Jesus our Lord”. Romans 6:23
+“For I am convinced that neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord.” Romans 8:38-39</string>
+				<key>explanation</key>
+				<string>We all sin, but many times we sin even though our hearts know its wrong, or it “just happened”. All sins are contrary to Christ’s character and deserve punishment. However, God still lavishes His love and blessings on us. He wants us to ask forgiveness of our sins and He will give us grace.</string>
+				<key>examples</key>
+				<string>GET REAL!
+Grace does not give us permission to purposefully sin, as it’s not freedom to indulge in sin, but rather a way to experience His love and live in the freedom we have in a relationship with God. Nothing can separate us from the love of God!
+Take a moment to repent of sin in your life and thank God for His unconditional love.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Do I have to love everyone?</string>
+				<key>bible quote</key>
+				<string>"You have heard that it was said, 'Love your neighbor and hate your enemy.' But I tell you: Love your enemies and pray for those who persecute you”. Matthew 5: 43-44</string>
+				<key>explanation</key>
+				<string>Yes, we do have to love everyone. By doing so we are extending the grace and mercy that God gives us to those around us, regardless of the circumstance. God commands that his followers show grace and mercy to others and be representatives of His love even when those people seem unworthy of love or seem perhaps as enemies. We need to love everyone and leave the judgment up to God.</string>
+				<key>examples</key>
+				<string>GET REAL
+Allow love to define your life. Live your life for Christ and treat people with love and respect. You will be extending God’s love to people, regardless of whether or not you think they deserve it. It’s for all people, so show love in all situations, and let love and goodness win. For that is truly being Christ like.
+Pray that God’s love would touch others through you, genuinely and powerfully.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>My Gifts</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>My Future</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>What kind of future does God want me to have?</string>
+				<key>bible quote</key>
+				<string>“For I know the plans I have for you,” declares the Lord, “plans to prosper you and not to harm you, plans to give you a hope and a future.”  Jeremiah 29:11
+“The thief comes only to steal and kill and destroy; I have come that they may have life, and have it to the full.”  John 10:10</string>
+				<key>explanation</key>
+				<string>Both of these verses reveal to us that God knows the plans He has for us, that He desires for us to experience an abundant life, and that with Him we can always have hope.  The life that Jesus Christ gives us is richer and fuller, more satisfying.  It is eternal and it is full of Christ’s love, forgiveness and guidance.  This does not mean that we will not experience pain, hardship, or suffering.  However, it does mean that even through difficult times that the Lord will walk through them with us and will make good even come out of the pain.  He never leaves us…ever.  He loves you and wants your future to include Him!</string>
+				<key>examples</key>
+				<string>GET REAL!
+Lord Jesus, Thank you that you have plans to prosper me.  Help me to remember that You are always with me.  You are with me in the good times and with me in the bad times too.  Help me to be aware of your presence and help me to be satisfied in You alone.  I give my future to you and pray you would open my heart to receive it, open my ears to hear your direction, open my  hands to do your work and set my feet to follow the path you place before me.  My future is in YOU ALONE.  Amen.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>What do I do when things don't happen the way I had planned for them to hapopen?</string>
+				<key>bible quote</key>
+				<string>“Let us fix our eyes on Jesus, the author and perfecter of our faith, who for the joy set before Him endured the cross, scorning its shame, and sat down at the right hand of the throne of God.  Consider Him who endured such opposition from sinful men, so that you will not grow weary and lose heart.”  Hebrews 12:2-3</string>
+				<key>explanation</key>
+				<string>There are many times in life when things don’t happen the way we hoped they would.  Here in Hebrews we are told how to handle the disappointment.  First, we fix our eyes on Jesus.  We focus our heart on Him.  We find comfort in knowing that He is the author of our lives and our faith, and there isn’t anything that God starts that He doesn’t finish.  We are encouraged by the truth that we have a God who understands our pain, heartache, and disappointment because He too came to earth and suffered.  We have a God who understands us.</string>
+				<key>examples</key>
+				<string>GET REAL!
+As you are confronted with heartache and disappointment, run to Jesus.  Share with Him your anger and your hurt.  He is big enough to take it, and honestly, He understands.  He went through it too.  If it helps, find a big rock that you can write on.  Write down what is bothering you, and then throw the rock in a pond or bury it in the ground.  As you drown the rock tell Jesus that you are giving your disappointment to Him and choosing to focus on His goodness rather than your disappointment.
+Pray: Jesus, thank you for humbling yourself and coming to live on this earth, experiencing every hurt, pain and disappointment that I do.  I know that Your ways are not my ways and Your thoughts are not my thoughts.  You have a greater plan and can see the big picture when I can only see part of it.  As I go through disappointments in life, help me to focus on You rather than my pain.  I love You and trust You.  Amen.</string>
+				<key>links</key>
+				<array>
+					<string>www,passive-aggressive.com</string>
+					<string>www.ptsd.com</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How do I prepare now for the future?</string>
+				<key>bible quote</key>
+				<string>“Have nothing to do with godless myths and old wives’ tales; rather train yourself to be godly.  For physical training is of some value, but godliness has value for all things, holding promise for both the present life and the life to come.”  I Timothy 4:7-8</string>
+				<key>explanation</key>
+				<string>The best way to prepare for the future is to be in relationship with the One who knows what the future holds, not just for you but for everyone.  Of course, the One we are talking about is Jesus Christ.  Seek Him.  Spend time in prayer…not just talking to God but also listening as well.  Read the Bible and then put it into practice in your own life.  Life is way too short to focus on things that won’t last so ask the Lord to make you a guy or girl of character.</string>
+				<key>examples</key>
+				<string>GET REAL!
+This week memorize I Timothy 4:7-8 and ask Christ to show you how to train yourself to be godly.  Spend at least 5 minutes each day reading His Word.  If you don’t know where to start, the book of John is a great place.  See how Christ lived His life and follow after His example.
+Pray: Lord Jesus, Help me to follow your example: to follow the Father and to love and serve others well.  Give me a hunger and thirst for your Word.  Help me to focus more on eternal things rather than things that won’t last.  In your name, Amen.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How can I know God’s will for my life?</string>
+				<key>bible quote</key>
+				<string>“I have considered my ways and have turned my steps to your statutes.” Psalm 119:59
+“Your Word is a lamp to my feet and a light for my path.”  Psalm 119:105</string>
+				<key>explanation</key>
+				<string>If you want to know God’s will for your life then you need to be in His Word.  We are told in the Bible that “all Scripture is God-breathed” (II Timothy 3:16).  It gives us guidance, comfort, encouragement, hope and direction.  His basic principles given in the Bible will give you direction for more detailed decisions in your own life: should you date so and so, what college should you go to, how should you spend your time during the summer. Go ahead. Give it a try. I dare you!</string>
+				<key>examples</key>
+				<string>GET REAL!
+
+Take a week to read through all of Psalm 119.  Write down every verse that talks about God’s Word.  It may use words like statutes, commands, precepts, decrees, etc.  Then go back and reflect on all the different blessings that come from God’s Word.   If you have a certain decision in life that you are trying to find God’s answer to, seek out a person who knows Christ well and ask them to point you towards some passage in Scripture that might help you. Then pray and see how God directs your steps.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Does God cares about my future?</string>
+				<key>bible quote</key>
+				<string>“Cast all your anxieties on the Lord because He cares for you.”  I Peter 5:7</string>
+				<key>explanation</key>
+				<string>Does God care about your future?  Well, Scripture tells us that he knows the number of hairs on your head (Matt. 10:30).   He also tells us that if He cares as wonderfully for the wildflowers that are here today and gone tomorrow that He will certainly care for you (Matt. 6:30).  And not only does He desire to care for us but He also knows all our needs before we even need them (Matt. 6:32).   If He cares deeply for you then He also cares deeply about your future.  Christ’s first desire for your future is that you would know Him personally and that you would live a life with Him.  Do you have a personal relationship with Him?
+Find a time soon to go outside and enjoy the world that God created.  Breathe deep.  Look at the clouds in the sky.  Watch the birds fly.   Notice the grass, the trees and the flowers around you.  Meditate on the truth that Jesus loves you enough that He died a horrible death for you.  Thank Him for all the ways that you see Him caring for you now…some examples might be having food to eat, a roof over your head, friends who listen, family who loves you, etc.</string>
+				<key>examples</key>
+				<string>GET REAL!
+Pray:  Jesus, thank you for loving and caring enough about me that you were willing to die on the cross for me.  Thank you that you sent the Holy Spirit so that I can always have you with me.  Thank you for knowing me intimately to where you even know how many hairs are on my head.  Help me to come to you with my hopes and dreams of the future and to seek your direction for my life.  Thank you for caring about all of me, including my future plans.  Amen.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Partying</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Prayer</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Questioning</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Sad</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Saved</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>How can I be saved?</string>
+				<key>bible quote</key>
+				<string>“For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life. For God did not send his Son into the world to condemn the world, but to save the world through him.” John 3:16-17</string>
+				<key>explanation</key>
+				<string>God loves you and created you to be in relationship with Him. Though sin separates us from God, He did not want to see us perish. God sent His one and only Son, Jesus Christ, to die on the cross. If you believe this, you are saved. You will experience eternal life with Jesus Christ. Eternal life is not something that you can earn, nor does it require works; Jesus tells us that it requires believing in him.</string>
+				<key>examples</key>
+				<string>GET REAL!
+No one is perfect, just look around. All of us are in need of Jesus, and God knew that when he sent Jesus to die on the cross. Have you admitted this? If so, have you told people about it? Do it. If you haven’t put your faith in God, ask someone who has about it. 
+Lord, I admit that I’m a sinner. I often put my own motives and plans ahead of what you have for me. I trust that you sent Jesus to die on the cross, saving me from my sin. Please forgive me when I sin and help me to be more like you. Amen</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How can I help others be saved?</string>
+				<key>bible quote</key>
+				<string>“but you will receive power when the Holy Spirit comes on you; and you will be my witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth.” Acts 1:8</string>
+				<key>explanation</key>
+				<string>Jesus tells his disciples to be witnesses throughout every part of the earth. To be a witness involves having personal knowledge of something. The disciples had spent three years with Jesus before his death on the cross; they were instructed to go and teach others about him. Jesus also tells the disciples that the Holy Spirit will give them power. This is true for you as well – the Holy Spirit will be with you as you go and share the good news of Christ.</string>
+				<key>examples</key>
+				<string>GET REAL!
+Think about what it takes to be a witness. You will need to spend time with God, studying his Word, worshiping, praying, and being still. You will experience first-hand the power and love of Christ. Once you have the personal experience, you can tell others about Christ. Remember, you can’t make someone believe something, but you can tell others about Christ and be an example in your daily life. While this may be a scary thing to do, the Holy Spirit is in you and will not leave you.
+Eternal life is a serious matter. Ask God to use you in sharing him with your friends and family.</string>
+				<key>links</key>
+				<array>
+					<string>www,passive-aggressive.com</string>
+					<string>www.ptsd.com</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>I’m saved. Now what?</string>
+				<key>bible quote</key>
+				<string>“In the same way, count yourselves dead to sin but alive to God in Christ Jesus. Therefore do not let sin reign in your mortal body so that you obey its evil desires. Do not offer the parts of your body to sin, as instruments of wickedness, but  rather offer yourselves to God, as those who have been brought from death to life; and offer the parts of your body to him as instruments of righteousness. For sin shall not be your master, because you are not under law, but under grace.” Romans 6:11-14</string>
+				<key>explanation</key>
+				<string>Paul tells us that once we are Christians, we are not to keep sinning as before. With Christ on your side, you have the Holy Spirit’s power to break free of being enslaved to Christ. Instead of following sinful temptations and behavior, you are to give your life to doing what’s right. God knows that you will still sin, so he gives you grace, but that doesn’t give you permission to keep sinning. God wants you to live a holy life, set apart for him.</string>
+				<key>examples</key>
+				<string>GET REAL!
+When you get a new phone, how do you treat it? Are you careful not to drop it? Spill water on it? Or do you treat it like an old toy, shoving it under your bed and forgetting about it? In the same way, once you are a Christian, you have a new life in Christ. You are to devote yourself to what’s right and good. Sinful habits often don’t go away overnight, but with the help of the Holy Spirit and someone to keep you accountable, you can break old habits and the things that keep you from God.
+Ask God to help you grow in him, do what’s right and put away the old, sinful self.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Once I’m saved, can I become unsaved?</string>
+				<key>bible quote</key>
+				<string>“My sheep listen to my voice; I know them, and they follow me. I give them eternal life, and they shall never perish; no one can snatch them out of my hand.” John 10:27-28vvv</string>
+				<key>explanation</key>
+				<string>If you have placed an authentic faith in God, you are one of his sheep. He knows you and has given you eternal life. You listen to him and follow him. No one can snatch you out of his hand. No one. The power of Christ’s blood is more powerful than any human being.</string>
+				<key>examples</key>
+				<string>GET REAL!
+Out of all the things you own, your relationship with God is one of the only things that can’t be taken away from you.  Think about what makes a relationship healthy. Do things like spending time with someone, talking, listening, laughing, or crying come to mind? Work on your relationship with God in the same way you build relationships with friends and family. Once you put your faith in God, you can’t become unsaved.
+Pray for people in your life to help you grow in your faith. Obstacles will come, but nothing can overpower God. Pray for wisdom and for God’s strength to shine through you.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Self Control</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>What if I don’t have any self-control?</string>
+				<key>bible quote</key>
+				<string>“…to obey is better than sacrifice…” 1 Samuel 15:22</string>
+				<key>explanation</key>
+				<string>The Bible is filled with stories of men who didn’t have a whole lot of self-control: Samson, David, Cain, Noah, even Abraham.  Though these guys are credited to be men of God, they ended up falling short in certain areas of their lives due to their sins for which they could not control.  1 John tells us that when sin is full grown, it leads to death.  The word of God says it is DEATH. Eventually, when not dealt with, sin will kill you. It’s easy to say now that porn or lying or a little stealing won’t hurt.  But eventually it can become a real problem that will lead you down a road you don’t want travel.</string>
+				<key>examples</key>
+				<string>GET REAL!
+Obey God and walk away from sin. Write down all the sins in your life that are caused by a lack of self-control.  The list gets long.  Use some of the applications in the other questions to help you get a heads up on self-control. 
+God is the ultimate source of strength and endurance.  He wants you to succeed.  Ask him to help you master your will.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>What is self-control?</string>
+				<key>bible quote</key>
+				<string>“Therefore, prepare your minds for action; be self-controlled, set your hope fully on the grace to be given you when Jesus Christ is revealed.” 1 Peter 1:13</string>
+				<key>explanation</key>
+				<string>The biblical idea of self-control comes from the Greek word “KRATOS” which means “strength.”  The idea is that God strengthens you to control your will.  Take hold over your desires and wants and don’t let them rule over you.  With The Spirit of God in you, no sin can master you and you now have the power in you that raised Christ from the dead.</string>
+				<key>examples</key>
+				<string>GET REAL!
+No man can fully change or control his will on his own.  If you did not save yourself, you cannot change yourself.  But Christ can.  Take time today to ask God to give you the strength to control your will.  Better yet, ask him to replace your will with His. God loves you and desires for you to live a “self-controlled” life. Ask for help.</string>
+				<key>links</key>
+				<array>
+					<string>www,passive-aggressive.com</string>
+					<string>www.ptsd.com</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>What example did Jesus give of self-control?</string>
+				<key>bible quote</key>
+				<string>“Again, the devil took him to a very high mountain and showed him all the kingdoms of the world and their splendor.  All this I will give you,” he said, “if you will bow down and worship me.” Jesus said to him, “Away from me, Satan! For it is written: ‘Worship the Lord your God, and serve him only.’ Then the devil left him, and the angels came and attended him.  Matthew 4:8-11</string>
+				<key>explanation</key>
+				<string>Satan offered Jesus power over kingdoms of the world that were in his control and Jesus resisted him showing supernatural self-control given him by his Father in heaven.  And when he did the angels came to offer him peace and comfort.</string>
+				<key>examples</key>
+				<string>GET REAL!
+Be assured that Satan will tempt you to lose control and gosh knows what else, but stand firm in the knowledge that just like Jesus, you have authority in you through HIM to speak, “away from me Satan, for it is written to serve the Lord only”.  So where is it written?  In the Word…the Bible…it is the sword of the Spirit and it is mighty to protect you from the evil snares of the enemy.  
+Pray:  Jesus, give me power to resist the temptations of the enemy who comes to steal, kill and destroy.  You are the author of my life and in your word I will abide.  Thank you for giving me power in YOU to have self-control.  In your precious name, AMEN.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How do you have self-control?</string>
+				<key>bible quote</key>
+				<string>“How can a young man (or woman) keep his (or her) way pure?  By living according to Your word.”  Psalm 119:9</string>
+				<key>explanation</key>
+				<string>The Old Testament is filled with author’s writing about how great God’s laws are.  Why?  Because they understand that God’s laws mean the best for them.  It’s not about how many you can or cannot keep.  It’s about trusting in God for your salvation and in His power for your obedience.  His word has power and will help you fight against any temptations or desires you battle with.</string>
+				<key>examples</key>
+				<string>GET REAL!
+Memorize numerous verses that have to do with overcoming temptation and learning self-control.  And when the battle begins, use them to fight against sin. 
+Read Psalm 119 for more insight on God’s law and power.  Pray for him to help you.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Why is self-control important?</string>
+				<key>bible quote</key>
+				<string>“No one who is born of God will continue to sin, because God’s seed remains in him; he cannot go on sinning, because he has been born of God.”  1 John 3:9</string>
+				<key>explanation</key>
+				<string>Here’s the deal.  It is absolutely a part of God’s will that you be separate from the world around you.  The world gives in to all the pleasures it sees.  But if you call Jesus your savior, you should only give in to His desires.  His will becomes your will and you no longer live to please yourself.  In doing this, you become an ambassador for the grace and power of Christ.</string>
+				<key>examples</key>
+				<string>GET REAL!
+Write down all the things you see in the world that are caused by a lack of self-control.  After that, write down all the things that are cured by self-control.  Which world would you want to live in?  Ask God to create a pure heart inside of you that is devoted to His will and not yours.</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Sex</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Is pornography bad?</string>
+				<key>bible quote</key>
+				<string>“For you know what instructions we gave you by the authority of the Lord Jesus. It is God's will that you should be sanctified: that you should avoid sexual immorality; that each of you should learn to control your own body in a way that is holy and honorable,  not in passionate lust like the pagans, who do not know God; and that in this matter no one should wrong or take advantage of a brother or sister. The Lord will punish all those who commit such sins, as we told you and warned you before. For God did not call us to be impure, but to live a holy life. Therefore, anyone who rejects this instruction does not reject a human being but God, the very God who gives you his Holy Spirit.” 1 Thessalonians 4:2-8  </string>
+				<key>explanation</key>
+				<string>Jesus said we should avoid sexual immorality, that we should strive for honor and holiness rather than give in to the lusts that make us do some really dumb stuff like take advantage of each other for sexual gain. You are called to something much greater than this, you are called to holiness!  It’s not like telling a friend to just hush, when you walk into these things, you are rejecting God Himself, the one who gives you the Holy Spirit!</string>
+				<key>examples</key>
+				<string>GET REAL!
+Would you say that when you are looking at porn you are lusting?  Yeah, I would too.  The question posed is one that makes us feel like this isn’t as bad since we aren’t doing it, let’s not compare sins.  It’s kind of like asking you if you would rather drink puss from a runny sore or a glass of warm snot from a sick hog…. yeah, um, no thanks. This is a graphic metaphor, but pornography is graphic and its images have Satanic power to trap us into bondage.  Many people struggle with this addiction and it is a stronghold difficult to break.  Don’t even go there, for Christ came to set you free from such slavery.
+Ask Christ to remind you who you are in Him.  Ask him to free you from any bondage or desires with porn.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How far is too far?</string>
+				<key>bible quote</key>
+				<string>“Let us behave decently, as in the daytime, not in carousing and drunkenness, not in sexual immorality and debauchery, not in dissension and jealousy. Rather, clothe yourselves with the Lord Jesus Christ, and do not think about how to gratify the desires of the sinful nature.” Romans 13:13-14</string>
+				<key>explanation</key>
+				<string>Be the same person in all your relationships and actions as you are when you pursue Christ. In fact, wrap yourself up with Jesus and remove yourself from having to contemplate things that will trap you…. including sexual behavior outside of marriage.</string>
+				<key>examples</key>
+				<string>GET REAL!
+Ok, this is a question that is asking the wrong thing.  You are looking for a line, i.e. “how much can I get away with and still be ok?”  The truth is sexual contact shouldn’t really be a destination in your relationships.  Your hormones are raging out of control sometimes and there is no perceived line that will be observed.  The question is one of the heart….who is at the center of yours?  If indeed it is Christ, then go to Him with your concerns.  Chances are very good that the idea of how far to go will be of little concern once you take it to Him. A faith that has us preferring Christ over all things snuffs ill based ideas out and sets us free. 
+Pray to Jesus and ask Him to redirect your focus.  Ask Him to be central with your relationships.</string>
+				<key>links</key>
+				<array>
+					<string>www,passive-aggressive.com</string>
+					<string>www.ptsd.com</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>What is the big deal about sex?</string>
+				<key>bible quote</key>
+				<string>“Drink water from your own cistern, running water from your own well. Should your springs overflow in the streets, your streams of water in the public squares? Let them be yours alone, never to be shared with strangers. May your fountain be blessed, and may you rejoice in the wife of your youth.” Proverbs 5:15-18</string>
+				<key>explanation</key>
+				<string>Well, it is a big deal, in fact its great and encouraged the way God intended.  As you read above, he even mentions enjoying it!  He is talking about the confines of marriage, where it is shared between two people who will never share it with anyone else.  King Solomon, the author of Proverbs, isn’t talking about water, he is talking about intimacy.  It’s a big deal because so many things in our future marriage are linked to what we do in this area. Trust, commitment, comparisons, and safety will all be affected in the long run.  Remember purity breeds intimacy.</string>
+				<key>examples</key>
+				<string>GET REAL!
+You need to pursue wise counsel.  Who in your life knows Christ well and loves you?  Get some of their time and be completely honest with them about where you have been, what you have considered and the questions you have about sex.  When the topic of sex comes up among your friends or “the friend”, listen from where their opinion comes. There is a good chance it comes out of the desire to engage in it, rather than an opinion that comes from a God view of the subject. 
+Pray to Jesus that he would guide and reveal to you the importance of sex in your future and why it might be important to follow God’s plan for it in your life.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Why did God make sex?</string>
+				<key>bible quote</key>
+				<string>Awake, north wind, 
+       and come, south wind! 
+       Blow on my garden, 
+       that its fragrance may spread abroad. 
+       Let my beloved come into his garden 
+       and taste its choice fruits. 
+  I have come into my garden, my sister, my bride; 
+       I have gathered my myrrh with my spice. 
+       I have eaten my honeycomb and my honey; 
+       I have drunk my wine and my milk.    
+   Eat, friends, and drink; 
+       drink your fill of love.” Song of Solomon 4:16-5:1</string>
+				<key>explanation</key>
+				<string>Wife- I am ready, it will be awesome, it is yours and yours only for the taking!
+Husband- Uh huh! Woooo Hooo, now that’s what I’m talking about! That was AWESOME!
+God- Enjoy (seriously, it is in the Bible and that’s what it means)</string>
+				<key>examples</key>
+				<string>GET REAL!
+God is the author of sex, it’s that simple.  It’s how he chose that we would bring new life into this world, yes but let’s not discount something, God intended for us to enjoy it!  If we want to experience it the way he intended and without all the consequences and guilt, we just have to wait until we have found the person with whom we will promise God to honor and love the rest of our lives and then… Woo Hoo! God loves you, and sex is good in its proper place, it’s the world that has twisted and perverted it.  Remember fire is good and useful in a fireplace, but not on the curtains and the roof.  
+Ask Jesus and the Holy Spirit to reveal to you the truth about sex.  Ask him to give you eyes to see the lies about sex that are sold to us every day in the world.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Stressed Out</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>If something I’m doing is causing stress, should I just not do it?</string>
+				<key>bible quote</key>
+				<string>“And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.” Philippians 4:7</string>
+				<key>explanation</key>
+				<string>This verse tells us that the peace of God goes beyond reason.  His peace can cover all our worries.  Those we have imagined and made worse in our minds and those that are weighing heavy on our heart.  He can guard our hearts and minds with his perfect peace.</string>
+				<key>examples</key>
+				<string>GET REAL!
+Sometimes you might think you have too much on your plate with school, sports, extra-curricular activities, relationships, parents, friends and more. HOWEVER, that doesn’t mean you can just quit something if it makes life easier. You need to look at all the things in life that you are involved in and ask yourself, “Am I able to do my best at this in order to bring glory to God?” If the answer is no, what else in your life can be shifted around or dropped in order to do your best? When you don’t know what to shift or drop, put your complete reliance on your Savior to give you guidance. When there is something that can be shifted or dropped, talk to your parents, pastor or mentor first before making the decision. You may not be able to see the big picture now, but everything God has placed in your life is in your best interest.
+Sometimes we think that everything in life is stressing us out, but it’s because we don’t take time to read the Word and spend time with Him. He will give us peace, unlike anything we can imagine, if we just trust and rely on Him.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How do I work well through stress?</string>
+				<key>bible quote</key>
+				<string>“An angel from heaven appeared to him and strengthened him.  And being in anguish, he prayed more earnestly, and his sweat was like drops of blood falling to the ground." Luke 22:43-44</string>
+				<key>explanation</key>
+				<string>The best example we can take is from Jesus.  Just hours before He was crucified for our sins, Jesus was in anguish over what he knew was about to happen to Him.  How did He handle it?  The Bible says he prayed so fervently that his sweat became blood.  That means he broke blood vessels in His head he was praying so hard.  The first thing we should always do when stressed out is turn to God in prayer.  Notice what happened to Jesus when He prayed: He was comforted.  Yes, He was eventually crucified to save the sins of the world, but God helped Him through it, just like he will help you.</string>
+				<key>examples</key>
+				<string>GET REAL!
+What task is before you that you need to accomplish without the stress? God is around you and his Holy Spirit is in you, if you have accepted Him as your Savior, and is always ready to hear from you.  Any time you are stressed out, and for any reason, you can just ask him to help you through it.  You can say it aloud or just think it.  That’s the great thing about God!  He is always there and He will help you!.</string>
+				<key>links</key>
+				<array>
+					<string>www,passive-aggressive.com</string>
+					<string>www.ptsd.com</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>My parents cause me more stress than anything, what can I do about that?</string>
+				<key>bible quote</key>
+				<string>“Children, obey your parents in everything, for this pleases the Lord.” Colossians 3:20</string>
+				<key>explanation</key>
+				<string>The key phrase here is “in everything.”  For many teenagers, this seems impossible.  In fact, parents seem to be the sworn enemy of their lives!  You have to remember, though, that this is simply not true.  The Lord placed your parents in your life for a very specific reason and when you obey them you obey Him, and this pleases the Lord.  God put parents in your life to care for you and look after you.  If you have Christian parents they want to raise you up to look more like Jesus.  Unfortunately, some kids don’t have Christian parents, but by obeying our parents we obey God and please Him. In your obedience you might just show parents lacking Christ, the Christ in you. Obedience equals blessing and blessing is NOT stressing.</string>
+				<key>examples</key>
+				<string>GET REAL!
+The ultimate goal of our lives should be to please God.  While this is very hard sometimes, and we all forget this at times, it is the very best, least stressful way to live.  Jesus said He came to give us life to the fullest.  This doesn’t mean an easy life, but it does mean a life where we can please God and not have to worry because we know He will take care of us.  A small part of that is obedience to our folks.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How come some people never get stressed out?</string>
+				<key>bible quote</key>
+				<string>“Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they? Who of you by worrying can add a single hour to his life?” Matthew 6:26-27</string>
+				<key>explanation</key>
+				<string>You are much more valuable than the birds of the air and you are not adding to your life by worrying.  Many reports say that worrying causes illness and takes away from your life.</string>
+				<key>examples</key>
+				<string>GET REAL!
+Appearances are not always what they seem. You may think that some people don’t get stressed, but they may have just found a way to handle it. Some practical things you can do to avoid stress are:  1. Be realistic: don’t try to be perfect, no one is. 2. Get enough sleep: you might think you don’t need much, but a good night’s sleep keeps you going. 3. Learn to relax:  find something that calms you down (listening to music, writing, dancing, jogging, etc) and make sure to find time for it. 4. Watch your attitude: your attitude can influence the way you respond to people and the way you see things.  Keep it in check.  All these little things can help, but the ultimate refuge is the Lord. 
+Take into account the practical things you can do to keep stress low, but rely on the Lord first and foremost. Make sure to tell him what is bothering you and ask for His help in managing your life.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Is being stressed out a sin?</string>
+				<key>bible quote</key>
+				<string>“Do not be anxious about anything, but in everything, by prayer and petition, with thanksgiving, present your requests to God.” Philippians 4:6</string>
+				<key>explanation</key>
+				<string>When you are worried or stressed out, you are not totally and fully releasing your cares to the Lord. Do you believe that He is big enough and wise enough and powerful enough to handle your situation? Even though certain times in life will be busier and more stressful than others, we know that He will never give us more than we can handle. It is completely understandable to have concerns over something, but we cannot let it take hold of us. We must hand those over to the Lord with complete trust that He will handle everything in our best interest.</string>
+				<key>examples</key>
+				<string>GET REAL!
+Sometimes the best thing to do to relieve stress is to talk about it, and who better to talk with than your Heavenly Father who knows every detail about you and your life? Spend some time releasing your cares and concerns to Him when you get worried or stressed.  Jesus is the ultimate stress reliever.  
+Find a quiet place to talk with Him about your worries.  He is always available.</string>
+				<key>links</key>
+				<array>
+					<string>www.omghelp.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>topic</key>
+		<string>Stuck Up</string>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Question 1</string>
+				<key>bible quote</key>
+				<string>quote 1</string>
+				<key>explanation</key>
+				<string>Explanation 1</string>
+				<key>examples</key>
+				<string>Example 1</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 2</string>
+				<key>bible quote</key>
+				<string>quote 2</string>
+				<key>explanation</key>
+				<string>Explanation 2</string>
+				<key>examples</key>
+				<string>Example 2</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 3</string>
+				<key>bible quote</key>
+				<string>quote 3</string>
+				<key>explanation</key>
+				<string>Explanation 3</string>
+				<key>examples</key>
+				<string>Example 3</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 4</string>
+				<key>bible quote</key>
+				<string>quote 4</string>
+				<key>explanation</key>
+				<string>Explanation 4</string>
+				<key>examples</key>
+				<string>Example 4</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Question 5</string>
+				<key>bible quote</key>
+				<string>quote 5</string>
+				<key>explanation</key>
+				<string>Explanation 5</string>
+				<key>examples</key>
+				<string>Example 5</string>
+				<key>links</key>
+				<array>
+					<string>www.TellMeJesus.org</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

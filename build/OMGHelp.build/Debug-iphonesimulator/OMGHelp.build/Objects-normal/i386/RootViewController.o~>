@@ -1,0 +1,8 @@
+/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m: In function '-[RootViewController alertView:clickedButtonAtIndex:]':
+/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:118: warning: 'UIApplication' may not respond to '-terminateWithSuccess'
+/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:118: warning: (Messages without a matching method signature
+/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:118: warning: will be assumed to return 'id' and accept
+/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:118: warning: '...' as arguments.)
+/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m: At top level:
+/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:310: warning: incomplete implementation of class 'RootViewController'
+/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:310: warning: method definition for '-agree:' not found

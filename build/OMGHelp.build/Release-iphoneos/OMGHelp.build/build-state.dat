@@ -1,0 +1,2365 @@
+TOMGHelp
+v7
+r0
+t292862971.869324
+cCheck dependencies
+cCpResource build/Release-iphoneos/tellMeJesus.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/Info.plist OMGHelp-Info.plist
+cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/MainWindow.xib
+cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/RootViewController.xib
+cCpResource build/Release-iphoneos/tellMeJesus.app/Settings.bundle Settings.bundle
+cCopyPlistFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/topics.plist topics.plist
+cCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/JesusRevIcon.png JesusRevIcon.png
+cCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/JesusRevBW.png JesusRevBW.png
+cCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/JesusRevColor.png JesusRevColor.png
+cCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crownEmpty.png crownEmpty.png
+cCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown7.png crown7.png
+cCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown6.png crown6.png
+cCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown5.png crown5.png
+cCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown4.png crown4.png
+cCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown3.png crown3.png
+cCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown2.png crown2.png
+cCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crownRuby.png crownRuby.png
+cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.xib
+cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.xib
+cCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/CrossBG.png CrossBG.png
+cCopyPlistFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/jewels.plist Classes/jewels.plist
+cCpResource build/Release-iphoneos/tellMeJesus.app/answer0.aiff answer0.aiff
+cCpResource build/Release-iphoneos/tellMeJesus.app/answer1.aiff answer1.aiff
+cCpResource build/Release-iphoneos/tellMeJesus.app/answer3.aiff answer3.aiff
+cCpResource build/Release-iphoneos/tellMeJesus.app/answer2.aiff answer2.aiff
+cCpResource build/Release-iphoneos/tellMeJesus.app/answer4.aiff answer4.aiff
+cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabbedAnswer.xib
+cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/GetReal.xib
+cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Links.xib
+cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Explanation.xib
+cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Quote.xib
+cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.xib
+cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.xib
+cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.xib
+cProcessPCH /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-dizlloaqkzcemtdtujmemwzlxvrj/OMGHelp_Prefix.pch.gch OMGHelp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/main.o /Volumes/VERBATIM/OMGHelp/OMGHelp/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/OMGHelpAppDelegate.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/OMGHelpAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/RootViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/QuestionViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/AnswerViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/BibleViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/tabViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/AnswerTableViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/Disclaimer.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/tellMeJesus normal armv6
+cGenerateDSYMFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app.dSYM /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/tellMeJesus
+cProcessProductPackaging "/Users/trvd1707/Library/MobileDevice/Provisioning Profiles/AE4247E5-F030-4A9A-A047-D532F37AA30F.mobileprovision" /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/embedded.mobileprovision
+cTouch /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus.xcent
+cCodeSign /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk
+c000000004B79A1A50000000000000110
+t1266262437
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist
+c000000004B2B3B9F00000000000000DD
+t1261124511
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+c000000004B2B3B9F00000000000001E5
+t1261124511
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004B2B554B000000000001AD10
+t1261131083
+s109840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004B2B554700000000000000EB
+t1261131079
+s235
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B537900000000005F4900
+t1261130617
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B551F0000000000501370
+t1261131039
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B54F40000000000001355
+t1261130996
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.h
+c000000004B2B6602000000000000022F
+t1261135362
+s559
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61610000000000000788
+t1261134177
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B63DA0000000001B3F450
+t1261134810
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/Availability.h
+c000000004B2B564700000000000019F9
+t1261131335
+s6649
+
+N/Users/trios1/Library/MobileDevice/Provisioning Profiles/AE4247E5-F030-4A9A-A047-D532F37AA30F.mobileprovision
+c000000004BB523C90000000000001C42
+t1270162377
+s7234
+
+N/Users/trios1/OMGHelp/Classes/AnswerViewController.h
+c000000004BB6D3010000000000000427
+t1270272769
+s1063
+i<UIKit/UIKit.h>
+i<MediaPlayer/MediaPlayer.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Users/trios1/OMGHelp/Classes/AnswerViewController.m
+c000000004BB876BD0000000000000AA9
+t1270380221
+s2729
+i"AnswerViewController.h"
+
+N/Users/trios1/OMGHelp/Classes/AnswerViewController.xib
+c000000004BB8BECA000000000000676B
+t1270398666
+s26475
+
+N/Users/trios1/OMGHelp/Classes/BibleViewController.h
+c000000004BB69BB600000000000000ED
+t1270258614
+s237
+i<UIKit/UIKit.h>
+
+N/Users/trios1/OMGHelp/Classes/BibleViewController.m
+c000000004BB69BB600000000000005A8
+t1270258614
+s1448
+i"BibleViewController.h"
+
+N/Users/trios1/OMGHelp/Classes/BibleViewController.xib
+c000000004BB69D5800000000000052C1
+t1270259032
+s21185
+
+N/Users/trios1/OMGHelp/Classes/OMGHelpAppDelegate.h
+c000000004BB8C0350000000000000211
+t1270399029
+s529
+i<UIKit/UIKit.h>
+
+N/Users/trios1/OMGHelp/Classes/OMGHelpAppDelegate.m
+c000000004BB8C035000000000000099E
+t1270399029
+s2462
+i"OMGHelpAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/trios1/OMGHelp/Classes/QuestionViewController.h
+c000000004BACCF10000000000000018A
+t1269616400
+s394
+i<UIKit/UIKit.h>
+
+N/Users/trios1/OMGHelp/Classes/QuestionViewController.m
+c000000004BB8BE6900000000000014E1
+t1270398569
+s5345
+i"QuestionViewController.h"
+i"AnswerViewController.h"
+
+N/Users/trios1/OMGHelp/Classes/QuestionViewController.xib
+c000000004BAC2A280000000000001C8D
+t1269574184
+s7309
+
+N/Users/trios1/OMGHelp/Classes/RootViewController.h
+c000000004BB2AD22000000000000024F
+t1270000930
+s591
+i<UIKit/UIKit.h>
+
+N/Users/trios1/OMGHelp/Classes/RootViewController.m
+c000000004BB8BCB40000000000001EA4
+t1270398132
+s7844
+i"RootViewController.h"
+i"QuestionViewController.h"
+
+N/Users/trios1/OMGHelp/Classes/jewels.plist
+c000000004BAF9F3E0000000000001CDC
+t1269800766
+s7388
+
+N/Users/trios1/OMGHelp/Classes/tabbedAnswer.xib
+c000000004BB6B5D900000000000068AB
+t1270265305
+s26795
+
+N/Users/trios1/OMGHelp/CrossBG.png
+c000000004BAD5DD40000000000019B76
+t1269652948
+s105334
+
+N/Users/trios1/OMGHelp/Explanation.xib
+c000000004BB558EC000000000000426E
+t1270175980
+s17006
+
+N/Users/trios1/OMGHelp/GetReal.xib
+c000000004BB5584B0000000000004268
+t1270175819
+s17000
+
+N/Users/trios1/OMGHelp/JesusRevBW.png
+c000000004BAAE7EA00000000000295EA
+t1269491690
+s169450
+
+N/Users/trios1/OMGHelp/JesusRevColor.png
+c000000004B8B1E6C000000000001DFA8
+t1267408492
+s122792
+
+N/Users/trios1/OMGHelp/JesusRevIcon.png
+c000000004B8B1F5E00000000000025EA
+t1267408734
+s9706
+
+N/Users/trios1/OMGHelp/Links.xib
+c000000004BB558AD0000000000003F7E
+t1270175917
+s16254
+
+N/Users/trios1/OMGHelp/MainWindow.xib
+c000000004BB8BED900000000000080BF
+t1270398681
+s32959
+
+N/Users/trios1/OMGHelp/OMGHelp_Prefix.pch
+c000000004BA926F00000000000000140
+t1269376752
+s320
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/trios1/OMGHelp/Quote.xib
+c000000004BB5592B0000000000004274
+t1270176043
+s17012
+
+N/Users/trios1/OMGHelp/RootViewController.xib
+c000000004BACC24A0000000000004A3D
+t1269613130
+s19005
+
+N/Users/trios1/OMGHelp/Settings.bundle
+c000000004BAAE22C0000000000000088
+t1269490220
+s136
+
+N/Users/trios1/OMGHelp/answer0.aiff
+c000000004BAF7358000000000004A30A
+t1269789528
+s303882
+
+N/Users/trios1/OMGHelp/answer1.aiff
+c000000004BAF72DA0000000000044E4A
+t1269789402
+s282186
+
+N/Users/trios1/OMGHelp/answer2.aiff
+c000000004BAF67F800000000000886F8
+t1269786616
+s558840
+
+N/Users/trios1/OMGHelp/answer3.aiff
+c000000004BAF6B92000000000005D5AC
+t1269787538
+s382380
+
+N/Users/trios1/OMGHelp/answer4.aiff
+c000000004BAF670E00000000000A0168
+t1269786382
+s655720
+
+N/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp.xcent
+t1270162607
+s316
+
+N/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/AnswerViewController.o
+t1270474725
+s47892
+
+N/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/BibleViewController.o
+t1270474725
+s29572
+
+N/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/OMGHelp.LinkFileList
+c000000004BB9E7DD00000000000002AB
+t1270474717
+s683
+
+N/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/OMGHelpAppDelegate.o
+t1270474725
+s46736
+
+N/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/QuestionViewController.o
+t1270474725
+s40408
+
+N/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/RootViewController.o
+t1270474725
+s51928
+
+N/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/main.o
+t1270162563
+s6412
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app
+t1270474728
+s1326
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app.dSYM
+t1270474726
+s102
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/AnswerViewController.nib
+t1270474721
+s3345
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/BibleViewController.nib
+t1270474724
+s2451
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/CrossBG.png
+t1270162561
+s91810
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/Explanation.nib
+t1270474722
+s1728
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/GetReal.nib
+t1270474722
+s1725
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/Info.plist
+t1270162607
+s727
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/JesusRevBW.png
+t1270162560
+s151534
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/JesusRevColor.png
+t1270162559
+s99961
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/JesusRevIcon.png
+t1270162559
+s9251
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/Links.nib
+t1270474724
+s1899
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/MainWindow.nib
+t1270474720
+s3305
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/OMGHelp
+t1270474726
+s35564
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/PkgInfo
+t1270162607
+s8
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/QuestionViewController.nib
+t1270162560
+s1387
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/Quote.nib
+t1270474723
+s1741
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/ResourceRules.plist
+t1270162552
+s485
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/RootViewController.nib
+t1270162558
+s1389
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/Settings.bundle
+t1270162558
+s136
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/answer0.aiff
+t1270162561
+s303882
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/answer1.aiff
+t1270162561
+s282186
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/answer2.aiff
+t1270162561
+s558840
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/answer3.aiff
+t1270162561
+s382380
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/answer4.aiff
+t1270162561
+s655720
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown2.png
+t1270162560
+s27758
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown3.png
+t1270162560
+s27924
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown4.png
+t1270162560
+s28099
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown5.png
+t1270162560
+s28270
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown6.png
+t1270162560
+s28439
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown7.png
+t1270162560
+s31564
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crownEmpty.png
+t1270162559
+s27076
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crownRuby.png
+t1270162560
+s27407
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/embedded.mobileprovision
+t1270162564
+s7234
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/jewels.plist
+t1270162561
+s5049
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/tabbedAnswer.nib
+t1270474722
+s2741
+
+N/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/topics.plist
+t1270162558
+s14843
+
+N/Users/trios1/OMGHelp/crown2.png
+c000000004BAC28500000000000009EAF
+t1269573712
+s40623
+
+N/Users/trios1/OMGHelp/crown3.png
+c000000004BAC28640000000000009ECD
+t1269573732
+s40653
+
+N/Users/trios1/OMGHelp/crown4.png
+c000000004BAC28780000000000009EF1
+t1269573752
+s40689
+
+N/Users/trios1/OMGHelp/crown5.png
+c000000004BAC28940000000000009EFC
+t1269573780
+s40700
+
+N/Users/trios1/OMGHelp/crown6.png
+c000000004BAC28AC0000000000009F1A
+t1269573804
+s40730
+
+N/Users/trios1/OMGHelp/crown7.png
+c000000004BAC2996000000000000A39E
+t1269574038
+s41886
+
+N/Users/trios1/OMGHelp/crownEmpty.png
+c000000004BA87DC400000000000090A4
+t1269333444
+s37028
+
+N/Users/trios1/OMGHelp/crownRuby.png
+c000000004BAC283A0000000000009DEA
+t1269573690
+s40426
+
+N/Users/trios1/OMGHelp/main.m
+c000000004BA926F0000000000000016A
+t1269376752
+s362
+i<UIKit/UIKit.h>
+
+N/Users/trios1/OMGHelp/topics.plist
+c000000004BAEA34A000000000000F735
+t1269736266
+s63285
+
+N/Users/trvd1707/Library/MobileDevice/Provisioning Profiles/AE4247E5-F030-4A9A-A047-D532F37AA30F.mobileprovision
+c000000004BB4B8270000000000001C42
+t1270134823
+s7234
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.h
+c000000004BBFB656000000000000027F
+t1270855254
+s639
+i<UIKit/UIKit.h>
+i<MediaPlayer/MediaPlayer.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.m
+c000000004BBFF596000000000000184F
+t1270871446
+s6223
+i"AnswerTableViewController.h"
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.xib
+c000000004BBFC7C80000000000004329
+t1270859720
+s17193
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.h
+c000000004BBBFC2600000000000002F9
+t1270610982
+s761
+i<UIKit/UIKit.h>
+i<MediaPlayer/MediaPlayer.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m
+c000000004BBC02B800000000000014CD
+t1270612664
+s5325
+i"AnswerViewController.h"
+i"tabViewController.h"
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.xib
+c000000004BBBE31C0000000000004DB7
+t1270604572
+s19895
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.h
+c000000004BB69BB600000000000000ED
+t1270258614
+s237
+i<UIKit/UIKit.h>
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.m
+c000000004BB69BB600000000000005A8
+t1270258614
+s1448
+i"BibleViewController.h"
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.xib
+c000000004BB69D5800000000000052C1
+t1270259032
+s21185
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.h
+c000000004BC1F2A600000000000000D9
+t1271001766
+s217
+i<UIKit/UIKit.h>
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.m
+c000000004BC1F2A6000000000000058B
+t1271001766
+s1419
+i"Disclaimer.h"
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.xib
+c000000004BC1F7240000000000005D3F
+t1271002916
+s23871
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/OMGHelpAppDelegate.h
+c000000004BBA6F1400000000000001B4
+t1270509332
+s436
+i<UIKit/UIKit.h>
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/OMGHelpAppDelegate.m
+c000000004BBA6EE40000000000000995
+t1270509284
+s2453
+i"OMGHelpAppDelegate.h"
+i"RootViewController.h"
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.h
+c000000004BBA591E000000000000018A
+t1270503710
+s394
+i<UIKit/UIKit.h>
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.m
+c000000004BBFBC2600000000000017A5
+t1270856742
+s6053
+i"QuestionViewController.h"
+i"AnswerTableViewController.h"
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.xib
+c000000004BBF89E40000000000004361
+t1270843876
+s17249
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.h
+c000000004BC483220000000000000262
+t1271169826
+s610
+i<UIKit/UIKit.h>
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m
+c000000004BC484720000000000002347
+t1271170162
+s9031
+i"RootViewController.h"
+i"QuestionViewController.h"
+i"Disclaimer.h"
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/jewels.plist
+c000000004BAF9F3E0000000000001CDC
+t1269800766
+s7388
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabViewController.h
+c000000004BBA67220000000000000135
+t1270507298
+s309
+i<UIKit/UIKit.h>
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabViewController.m
+c000000004BBA67220000000000000627
+t1270507298
+s1575
+i"tabViewController.h"
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabbedAnswer.xib
+c000000004BBBDEB60000000000006E2E
+t1270603446
+s28206
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/CrossBG.png
+c000000004BAD5DD40000000000019B76
+t1269652948
+s105334
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Explanation.xib
+c000000004BBA66BE0000000000004652
+t1270507198
+s18002
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/GetReal.xib
+c000000004BBA079C0000000000004370
+t1270482844
+s17264
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevBW.png
+c000000004BAAE7EA00000000000295EA
+t1269491690
+s169450
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevColor.png
+c000000004B8B1E6C000000000001DFA8
+t1267408492
+s122792
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevIcon.png
+c000000004B8B1F5E00000000000025EA
+t1267408734
+s9706
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Links.xib
+c000000004BBA59140000000000004AAE
+t1270503700
+s19118
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/MainWindow.xib
+c000000004BBFC7CC0000000000006D0F
+t1270859724
+s27919
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/OMGHelp_Prefix.pch
+c000000004BA926F00000000000000140
+t1269376752
+s320
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Quote.xib
+c000000004BBA66DE0000000000004658
+t1270507230
+s18008
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/RootViewController.xib
+c000000004BBBF4F20000000000004A24
+t1270609138
+s18980
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/Settings.bundle
+c000000004BBF55DE0000000000008000
+t1270830558
+s32768
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/answer0.aiff
+c000000004BAF7358000000000004A30A
+t1269789528
+s303882
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/answer1.aiff
+c000000004BAF72DA0000000000044E4A
+t1269789402
+s282186
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/answer2.aiff
+c000000004BAF67F800000000000886F8
+t1269786616
+s558840
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/answer3.aiff
+c000000004BAF6B92000000000005D5AC
+t1269787538
+s382380
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/answer4.aiff
+c000000004BAF670E00000000000A0168
+t1269786382
+s655720
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/AnswerTableViewController.o
+t1271046408
+s40400
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/AnswerViewController.o
+t1271046408
+s49700
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/BibleViewController.o
+t1271046406
+s29596
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/Disclaimer.o
+t1271046408
+s29432
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/OMGHelpAppDelegate.o
+t1271169826
+s44120
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/QuestionViewController.o
+t1271046406
+s37372
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/RootViewController.o
+t1271170164
+s53072
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/guideMeJesus.LinkFileList
+c000000004BC29FE0000000000000046E
+t1271046112
+s1134
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/main.o
+t1271046406
+s6436
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/tabViewController.o
+t1271046408
+s34344
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/tellMeJesus.LinkFileList
+c000000004BC2A0FC000000000000046E
+t1271046396
+s1134
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/guideMeJesus.xcent
+t1271046120
+s321
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus.xcent
+t1271046408
+s320
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app
+t1271046122
+s32768
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app.dSYM
+t1271046120
+s32768
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/AnswerTableViewController.nib
+t1271046118
+s1382
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/AnswerViewController.nib
+t1271046114
+s2121
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/BibleViewController.nib
+t1271046118
+s2451
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/CrossBG.png
+t1271046116
+s91810
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/Disclaimer.nib
+t1271046118
+s6662
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/Explanation.nib
+t1271046116
+s1767
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/GetReal.nib
+t1271046116
+s1727
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/Info.plist
+t1271046112
+s717
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/JesusRevBW.png
+t1271046114
+s151534
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/JesusRevColor.png
+t1271046112
+s99961
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/JesusRevIcon.png
+t1271046112
+s9251
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/Links.nib
+t1271046116
+s2276
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/MainWindow.nib
+t1271046112
+s2408
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/PkgInfo
+t1271046112
+s8
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/QuestionViewController.nib
+t1271046114
+s1382
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/Quote.nib
+t1271046116
+s1780
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/ResourceRules.plist
+t1271046112
+s485
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/RootViewController.nib
+t1271046112
+s1384
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/Settings.bundle
+t1271046112
+s32768
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/answer0.aiff
+t1271046114
+s303882
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/answer1.aiff
+t1271046114
+s282186
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/answer2.aiff
+t1271046116
+s558840
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/answer3.aiff
+t1271046114
+s382380
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/answer4.aiff
+t1271046116
+s655720
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown2.png
+t1271046114
+s27758
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown3.png
+t1271046114
+s27924
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown4.png
+t1271046114
+s28099
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown5.png
+t1271046114
+s28270
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown6.png
+t1271046114
+s28439
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown7.png
+t1271046114
+s31564
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crownEmpty.png
+t1271046114
+s27076
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crownRuby.png
+t1271046114
+s27407
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/embedded.mobileprovision
+t1271046120
+s7234
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/guideMeJesus
+t1271046120
+s44460
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/jewels.plist
+t1271046114
+s5049
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/tabbedAnswer.nib
+t1271046116
+s2833
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/topics.plist
+t1271046112
+s14304
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app
+t1271170170
+s32768
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app.dSYM
+t1271170164
+s32768
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/AnswerTableViewController.nib
+t1271046404
+s1382
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/AnswerViewController.nib
+t1271046402
+s2121
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/BibleViewController.nib
+t1271046404
+s2451
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/CrossBG.png
+t1271046402
+s91810
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/Disclaimer.nib
+t1271046404
+s6662
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/Explanation.nib
+t1271046404
+s1767
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/GetReal.nib
+t1271046402
+s1727
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/Info.plist
+t1271046396
+s713
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/JesusRevBW.png
+t1271046400
+s151534
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/JesusRevColor.png
+t1271046400
+s99961
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/JesusRevIcon.png
+t1271046398
+s9251
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/Links.nib
+t1271046404
+s2276
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/MainWindow.nib
+t1271046398
+s2408
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/PkgInfo
+t1271046396
+s8
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/QuestionViewController.nib
+t1271046402
+s1382
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/Quote.nib
+t1271046404
+s1780
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/ResourceRules.plist
+t1271046396
+s485
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/RootViewController.nib
+t1271046398
+s1384
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/Settings.bundle
+t1271046398
+s32768
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/answer0.aiff
+t1271046402
+s303882
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/answer1.aiff
+t1271046402
+s282186
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/answer2.aiff
+t1271046402
+s558840
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/answer3.aiff
+t1271046402
+s382380
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/answer4.aiff
+t1271046402
+s655720
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown2.png
+t1271046400
+s27758
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown3.png
+t1271046400
+s27924
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown4.png
+t1271046400
+s28099
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown5.png
+t1271046400
+s28270
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown6.png
+t1271046400
+s28439
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown7.png
+t1271046400
+s31564
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crownEmpty.png
+t1271046400
+s27076
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crownRuby.png
+t1271046400
+s27407
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/embedded.mobileprovision
+t1271046408
+s7234
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/jewels.plist
+t1271046402
+s5049
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/tabbedAnswer.nib
+t1271046402
+s2833
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/tellMeJesus
+t1271170164
+s44460
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/topics.plist
+t1271046398
+s14304
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/crown2.png
+c000000004BAC28500000000000009EAF
+t1269573712
+s40623
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/crown3.png
+c000000004BAC28640000000000009ECD
+t1269573732
+s40653
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/crown4.png
+c000000004BAC28780000000000009EF1
+t1269573752
+s40689
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/crown5.png
+c000000004BAC28940000000000009EFC
+t1269573780
+s40700
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/crown6.png
+c000000004BAC28AC0000000000009F1A
+t1269573804
+s40730
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/crown7.png
+c000000004BAC2996000000000000A39E
+t1269574038
+s41886
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/crownEmpty.png
+c000000004BA87DC400000000000090A4
+t1269333444
+s37028
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/crownRuby.png
+c000000004BAC283A0000000000009DEA
+t1269573690
+s40426
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/main.m
+c000000004BA926F0000000000000016A
+t1269376752
+s362
+i<UIKit/UIKit.h>
+
+N/Volumes/VERBATIM/OMGHelp/OMGHelp/topics.plist
+c000000004BBF91200000000000010F17
+t1270845728
+s69399
+
+N/var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-dizlloaqkzcemtdtujmemwzlxvrj/OMGHelp_Prefix.pch.gch
+t1271046406
+s8204472
+
+N/var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-gxxjajskgqucvjergaphgnnzhnrb/OMGHelp_Prefix.pch.gch
+t1270162562
+s8204472
+
+NOMGHelp-Info.plist
+c000000004BB524AE0000000000000399
+t1270162606
+s921
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies292862963#292862963#0(0"0(0#1#0"2540130336#0"0#
+
+CCodeSign /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app
+s292167526.269879
+e292167528.728642
+r1
+xCodeSign
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app
+lSLF07#2@43"CodeSign build/Release-iphoneos/OMGHelp.app292167526#292167528#0(0"0(0#0#56"/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app4300911832#609"    cd /Users/trios1/OMGHelp    setenv IGNORE_CODESIGN_ALLOCATE_RADAR_7181968 /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Teresa Van Dusen (93ETCX57T7)" --resource-rules=/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/ResourceRules.plist --entitlements /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp.xcent /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app0#
+
+CCodeSign /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app
+s292738921.114786
+e292738923.403692
+r1
+xCodeSign
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app
+lSLF07#2@48"CodeSign build/Release-iphoneos/guideMeJesus.app292738921#292738923#0(0"0(0#0#73"/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app2540130336#672"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IGNORE_CODESIGN_ALLOCATE_RADAR_7181968 /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Teresa Van Dusen (93ETCX57T7)" --resource-rules=/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/ResourceRules.plist --entitlements /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/guideMeJesus.xcent /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app0#
+
+CCodeSign /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app
+s292862965.504261
+e292862971.869170
+r1
+xCodeSign
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app
+lSLF07#2@47"CodeSign build/Release-iphoneos/tellMeJesus.app292862965#292862971#0(0"0(0#0#72"/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app2540130336#669"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IGNORE_CODESIGN_ALLOCATE_RADAR_7181968 /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Teresa Van Dusen (93ETCX57T7)" --resource-rules=/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/ResourceRules.plist --entitlements /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus.xcent /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app0#
+
+CCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/AnswerTableViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292739208.055482
+e292739208.378973
+r1
+xCompileC
+xbuild/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/AnswerTableViewController.o
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.m292739208#292739208#0(0"0(0#0#69"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.m2540130336#1798"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources/armv6 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-dizlloaqkzcemtdtujmemwzlxvrj/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/AnswerTableViewController.o0#
+
+CCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/AnswerViewController.o /Users/trios1/OMGHelp/Classes/AnswerViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292167525.433886
+e292167525.701168
+r1
+xCompileC
+xbuild/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/AnswerViewController.o
+x/Users/trios1/OMGHelp/Classes/AnswerViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/trios1/OMGHelp/Classes/AnswerViewController.m292167525#292167525#0(0"0(0#0#52"/Users/trios1/OMGHelp/Classes/AnswerViewController.m4300911832#1640"    cd /Users/trios1/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-generated-files.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-own-target-headers.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-all-target-headers.hmap -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-project-headers.hmap -F/Users/trios1/OMGHelp/build/Release-iphoneos -I/Users/trios1/OMGHelp/build/Release-iphoneos/include -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources/armv6 -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-gxxjajskgqucvjergaphgnnzhnrb/OMGHelp_Prefix.pch -c /Users/trios1/OMGHelp/Classes/AnswerViewController.m -o /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/AnswerViewController.o0#
+
+CCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/AnswerViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292739207.696258
+e292739208.237471
+r1
+xCompileC
+xbuild/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/AnswerViewController.o
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m: In function '-[AnswerViewController initWithNibName:bundle:]':
+o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m:26: warning: 'AnswerViewController' may not respond to '-configureToolbarItems'
+o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m:26: warning: (Messages without a matching method signature
+o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m:26: warning: will be assumed to return 'id' and accept
+o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m:26: warning: '...' as arguments.)
+lSLF07#2@72"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m292739207#292739208#0(617"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m: In function '-[AnswerViewController initWithNibName:bundle:]':/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m:26: warning: 'AnswerViewController' may not respond to '-configureToolbarItems'/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m:26: warning: (Messages without a matching method signature/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m:26: warning: will be assumed to return 'id' and accept/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m:26: warning: '...' as arguments.)2(22@66"'AnswerViewController' may not respond to '-configureToolbarItems'292739207#129#145#0(6@64"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m292305464#26#0#26#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)292739207#274#124#0(6@64"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m292305464#26#0#26#0#0"0(0#0#64"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m2540130336#1788"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources/armv6 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-dizlloaqkzcemtdtujmemwzlxvrj/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/AnswerViewController.o0#
+
+CCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/BibleViewController.o /Users/trios1/OMGHelp/Classes/BibleViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292167525.514074
+e292167525.695605
+r1
+xCompileC
+xbuild/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/BibleViewController.o
+x/Users/trios1/OMGHelp/Classes/BibleViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/trios1/OMGHelp/Classes/BibleViewController.m292167525#292167525#0(0"0(0#0#51"/Users/trios1/OMGHelp/Classes/BibleViewController.m4300911832#1638"    cd /Users/trios1/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-generated-files.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-own-target-headers.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-all-target-headers.hmap -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-project-headers.hmap -F/Users/trios1/OMGHelp/build/Release-iphoneos -I/Users/trios1/OMGHelp/build/Release-iphoneos/include -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources/armv6 -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-gxxjajskgqucvjergaphgnnzhnrb/OMGHelp_Prefix.pch -c /Users/trios1/OMGHelp/Classes/BibleViewController.m -o /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/BibleViewController.o0#
+
+CCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/BibleViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292739207.791143
+e292739207.933030
+r1
+xCompileC
+xbuild/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/BibleViewController.o
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.m292739207#292739207#0(0"0(0#0#63"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.m2540130336#1786"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources/armv6 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-dizlloaqkzcemtdtujmemwzlxvrj/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/BibleViewController.o0#
+
+CCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/Disclaimer.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292739208.237624
+e292739208.363837
+r1
+xCompileC
+xbuild/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/Disclaimer.o
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.m292739208#292739208#0(0"0(0#0#54"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.m2540130336#1768"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources/armv6 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-dizlloaqkzcemtdtujmemwzlxvrj/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/Disclaimer.o0#
+
+CCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/OMGHelpAppDelegate.o /Users/trios1/OMGHelp/Classes/OMGHelpAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292167524.487900
+e292167525.375794
+r1
+xCompileC
+xbuild/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/OMGHelpAppDelegate.o
+x/Users/trios1/OMGHelp/Classes/OMGHelpAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/trios1/OMGHelp/Classes/OMGHelpAppDelegate.m292167524#292167525#0(0"0(0#0#50"/Users/trios1/OMGHelp/Classes/OMGHelpAppDelegate.m4300911832#1636"    cd /Users/trios1/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-generated-files.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-own-target-headers.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-all-target-headers.hmap -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-project-headers.hmap -F/Users/trios1/OMGHelp/build/Release-iphoneos -I/Users/trios1/OMGHelp/build/Release-iphoneos/include -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources/armv6 -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-gxxjajskgqucvjergaphgnnzhnrb/OMGHelp_Prefix.pch -c /Users/trios1/OMGHelp/Classes/OMGHelpAppDelegate.m -o /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/OMGHelpAppDelegate.o0#
+
+CCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/OMGHelpAppDelegate.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/OMGHelpAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292862626.494676
+e292862627.070823
+r1
+xCompileC
+xbuild/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/OMGHelpAppDelegate.o
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/OMGHelpAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/OMGHelpAppDelegate.m292862626#292862634#0(0"0(0#0#62"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/OMGHelpAppDelegate.m2540130336#1784"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources/armv6 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-dizlloaqkzcemtdtujmemwzlxvrj/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/OMGHelpAppDelegate.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/OMGHelpAppDelegate.o0#
+
+CCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/QuestionViewController.o /Users/trios1/OMGHelp/Classes/QuestionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292167525.375987
+e292167525.513968
+r1
+xCompileC
+xbuild/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/QuestionViewController.o
+x/Users/trios1/OMGHelp/Classes/QuestionViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/trios1/OMGHelp/Classes/QuestionViewController.m292167525#292167525#0(0"0(0#0#54"/Users/trios1/OMGHelp/Classes/QuestionViewController.m4300911832#1644"    cd /Users/trios1/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-generated-files.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-own-target-headers.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-all-target-headers.hmap -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-project-headers.hmap -F/Users/trios1/OMGHelp/build/Release-iphoneos -I/Users/trios1/OMGHelp/build/Release-iphoneos/include -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources/armv6 -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-gxxjajskgqucvjergaphgnnzhnrb/OMGHelp_Prefix.pch -c /Users/trios1/OMGHelp/Classes/QuestionViewController.m -o /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/QuestionViewController.o0#
+
+CCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/QuestionViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292739207.469931
+e292739207.696105
+r1
+xCompileC
+xbuild/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/QuestionViewController.o
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.m292739207#292739207#0(0"0(0#0#66"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.m2540130336#1792"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources/armv6 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-dizlloaqkzcemtdtujmemwzlxvrj/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/QuestionViewController.o0#
+
+CCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/RootViewController.o /Users/trios1/OMGHelp/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292167524.488944
+e292167525.433774
+r1
+xCompileC
+xbuild/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/RootViewController.o
+x/Users/trios1/OMGHelp/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/trios1/OMGHelp/Classes/RootViewController.m: In function '-[RootViewController alertView:clickedButtonAtIndex:]':
+o/Users/trios1/OMGHelp/Classes/RootViewController.m:82: warning: 'UIApplication' may not respond to '-terminateWithSuccess'
+o/Users/trios1/OMGHelp/Classes/RootViewController.m:82: warning: (Messages without a matching method signature
+o/Users/trios1/OMGHelp/Classes/RootViewController.m:82: warning: will be assumed to return 'id' and accept
+o/Users/trios1/OMGHelp/Classes/RootViewController.m:82: warning: '...' as arguments.)
+lSLF07#2@58"Compile /Users/trios1/OMGHelp/Classes/RootViewController.m292167524#292167525#0(545"/Users/trios1/OMGHelp/Classes/RootViewController.m: In function '-[RootViewController alertView:clickedButtonAtIndex:]':/Users/trios1/OMGHelp/Classes/RootViewController.m:82: warning: 'UIApplication' may not respond to '-terminateWithSuccess'/Users/trios1/OMGHelp/Classes/RootViewController.m:82: warning: (Messages without a matching method signature/Users/trios1/OMGHelp/Classes/RootViewController.m:82: warning: will be assumed to return 'id' and accept/Users/trios1/OMGHelp/Classes/RootViewController.m:82: warning: '...' as arguments.)2(22@58"'UIApplication' may not respond to '-terminateWithSuccess'292167525#121#123#0(6@50"/Users/trios1/OMGHelp/Classes/RootViewController.m292090932#82#0#82#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)292167525#244#110#0(6@50"/Users/trios1/OMGHelp/Classes/RootViewController.m292090932#82#0#82#0#0"0(0#0#50"/Users/trios1/OMGHelp/Classes/RootViewController.m4300911832#1636"    cd /Users/trios1/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-generated-files.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-own-target-headers.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-all-target-headers.hmap -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-project-headers.hmap -F/Users/trios1/OMGHelp/build/Release-iphoneos -I/Users/trios1/OMGHelp/build/Release-iphoneos/include -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources/armv6 -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-gxxjajskgqucvjergaphgnnzhnrb/OMGHelp_Prefix.pch -c /Users/trios1/OMGHelp/Classes/RootViewController.m -o /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/RootViewController.o0#
+
+CCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/RootViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292862963.458222
+e292862964.161334
+r1
+xCompileC
+xbuild/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/RootViewController.o
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m: In function '-[RootViewController alertView:clickedButtonAtIndex:]':
+o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:101: warning: 'UIApplication' may not respond to '-terminateWithSuccess'
+o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:101: warning: (Messages without a matching method signature
+o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:101: warning: will be assumed to return 'id' and accept
+o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:101: warning: '...' as arguments.)
+lSLF07#2@70"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m292862963#292862964#0(609"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m: In function '-[RootViewController alertView:clickedButtonAtIndex:]':/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:101: warning: 'UIApplication' may not respond to '-terminateWithSuccess'/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:101: warning: (Messages without a matching method signature/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:101: warning: will be assumed to return 'id' and accept/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:101: warning: '...' as arguments.)2(22@58"'UIApplication' may not respond to '-terminateWithSuccess'292862963#133#136#0(6@62"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m292862962#101#0#101#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)292862963#269#123#0(6@62"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m292862962#101#0#101#0#0"0(0#0#62"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m2540130336#1784"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources/armv6 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-dizlloaqkzcemtdtujmemwzlxvrj/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/RootViewController.o0#
+
+CCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/main.o /Users/trios1/OMGHelp/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291855362.963768
+e291855363.146707
+r1
+xCompileC
+xbuild/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/main.o
+x/Users/trios1/OMGHelp/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Compile /Users/trios1/OMGHelp/main.m291855362#291855363#0(0"0(0#0#28"/Users/trios1/OMGHelp/main.m4300911832#1600"    cd /Users/trios1/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-generated-files.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-own-target-headers.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-all-target-headers.hmap -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-project-headers.hmap -F/Users/trios1/OMGHelp/build/Release-iphoneos -I/Users/trios1/OMGHelp/build/Release-iphoneos/include -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources/armv6 -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-gxxjajskgqucvjergaphgnnzhnrb/OMGHelp_Prefix.pch -c /Users/trios1/OMGHelp/main.m -o /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/main.o /Volumes/VERBATIM/OMGHelp/OMGHelp/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292739207.211504
+e292739207.304360
+r1
+xCompileC
+xbuild/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/main.o
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/main.m292739207#292739207#0(0"0(0#0#40"/Volumes/VERBATIM/OMGHelp/OMGHelp/main.m2540130336#1748"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources/armv6 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-dizlloaqkzcemtdtujmemwzlxvrj/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/main.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/tabViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292739207.933186
+e292739208.055328
+r1
+xCompileC
+xbuild/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/tabViewController.o
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabViewController.m292739207#292739208#0(0"0(0#0#61"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabViewController.m2540130336#1782"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources/armv6 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-dizlloaqkzcemtdtujmemwzlxvrj/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabViewController.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/tabViewController.o0#
+
+CCompileXIB /Users/trios1/OMGHelp/Classes/AnswerViewController.xib
+s292167517.606643
+e292167521.305805
+r1
+xCompileXIB
+x/Users/trios1/OMGHelp/Classes/AnswerViewController.xib
+lSLF07#2@43"CompileXIB Classes/AnswerViewController.xib292167517#292167521#0(0"0(0#0#54"/Users/trios1/OMGHelp/Classes/AnswerViewController.xib4300911832#447"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/AnswerViewController.nib /Users/trios1/OMGHelp/Classes/AnswerViewController.xib0#
+
+CCompileXIB /Users/trios1/OMGHelp/Classes/BibleViewController.xib
+s292167523.796514
+e292167524.487581
+r1
+xCompileXIB
+x/Users/trios1/OMGHelp/Classes/BibleViewController.xib
+lSLF07#2@42"CompileXIB Classes/BibleViewController.xib292167523#292167524#0(0"0(0#0#53"/Users/trios1/OMGHelp/Classes/BibleViewController.xib4300911832#445"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/BibleViewController.nib /Users/trios1/OMGHelp/Classes/BibleViewController.xib0#
+
+CCompileXIB /Users/trios1/OMGHelp/Classes/QuestionViewController.xib
+s291855360.565826
+e291855360.950530
+r1
+xCompileXIB
+x/Users/trios1/OMGHelp/Classes/QuestionViewController.xib
+lSLF07#2@45"CompileXIB Classes/QuestionViewController.xib291855360#291855360#0(0"0(0#0#56"/Users/trios1/OMGHelp/Classes/QuestionViewController.xib4300911832#451"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/QuestionViewController.nib /Users/trios1/OMGHelp/Classes/QuestionViewController.xib0#
+
+CCompileXIB /Users/trios1/OMGHelp/Classes/tabbedAnswer.xib
+s292167521.029831
+e292167522.259029
+r1
+xCompileXIB
+x/Users/trios1/OMGHelp/Classes/tabbedAnswer.xib
+lSLF07#2@35"CompileXIB Classes/tabbedAnswer.xib292167521#292167522#0(0"0(0#0#46"/Users/trios1/OMGHelp/Classes/tabbedAnswer.xib4300911832#431"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/tabbedAnswer.nib /Users/trios1/OMGHelp/Classes/tabbedAnswer.xib0#
+
+CCompileXIB /Users/trios1/OMGHelp/Explanation.xib
+s292167522.259119
+e292167523.218148
+r1
+xCompileXIB
+x/Users/trios1/OMGHelp/Explanation.xib
+lSLF07#2@26"CompileXIB Explanation.xib292167522#292167523#0(0"0(0#0#37"/Users/trios1/OMGHelp/Explanation.xib4300911832#421"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/Explanation.nib /Users/trios1/OMGHelp/Explanation.xib0#
+
+CCompileXIB /Users/trios1/OMGHelp/GetReal.xib
+s292167521.305905
+e292167522.249195
+r1
+xCompileXIB
+x/Users/trios1/OMGHelp/GetReal.xib
+lSLF07#2@22"CompileXIB GetReal.xib292167521#292167522#0(0"0(0#0#33"/Users/trios1/OMGHelp/GetReal.xib4300911832#413"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/GetReal.nib /Users/trios1/OMGHelp/GetReal.xib0#
+
+CCompileXIB /Users/trios1/OMGHelp/Links.xib
+s292167522.249298
+e292167524.346937
+r1
+xCompileXIB
+x/Users/trios1/OMGHelp/Links.xib
+lSLF07#2@20"CompileXIB Links.xib292167522#292167524#0(0"0(0#0#31"/Users/trios1/OMGHelp/Links.xib4300911832#409"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/Links.nib /Users/trios1/OMGHelp/Links.xib0#
+
+CCompileXIB /Users/trios1/OMGHelp/MainWindow.xib
+s292167517.604929
+e292167521.029296
+r1
+xCompileXIB
+x/Users/trios1/OMGHelp/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib292167517#292167521#0(0"0(0#0#36"/Users/trios1/OMGHelp/MainWindow.xib0#419"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/MainWindow.nib /Users/trios1/OMGHelp/MainWindow.xib0#
+
+CCompileXIB /Users/trios1/OMGHelp/Quote.xib
+s292167523.218327
+e292167523.796411
+r1
+xCompileXIB
+x/Users/trios1/OMGHelp/Quote.xib
+lSLF07#2@20"CompileXIB Quote.xib292167523#292167523#0(0"0(0#0#31"/Users/trios1/OMGHelp/Quote.xib4300911832#409"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/Quote.nib /Users/trios1/OMGHelp/Quote.xib0#
+
+CCompileXIB /Users/trios1/OMGHelp/RootViewController.xib
+s291855352.730920
+e291855358.102671
+r1
+xCompileXIB
+x/Users/trios1/OMGHelp/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib291855352#291855358#0(0"0(0#0#44"/Users/trios1/OMGHelp/RootViewController.xib4300911832#435"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/RootViewController.nib /Users/trios1/OMGHelp/RootViewController.xib0#
+
+CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.xib
+s292739205.002263
+e292739205.578525
+r1
+xCompileXIB
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.xib
+lSLF07#2@48"CompileXIB Classes/AnswerTableViewController.xib292739205#292739205#0(0"0(0#0#71"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.xib2540130336#497"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/AnswerTableViewController.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.xib0#
+
+CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.xib
+s292739201.876471
+e292739202.754649
+r1
+xCompileXIB
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.xib
+lSLF07#2@43"CompileXIB Classes/AnswerViewController.xib292739201#292739202#0(0"0(0#0#66"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.xib2540130336#487"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/AnswerViewController.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.xib0#
+
+CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.xib
+s292739204.433781
+e292739205.086619
+r1
+xCompileXIB
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.xib
+lSLF07#2@42"CompileXIB Classes/BibleViewController.xib292739204#292739205#0(0"0(0#0#65"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.xib2540130336#485"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/BibleViewController.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.xib0#
+
+CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.xib
+s292739205.086758
+e292739205.813308
+r1
+xCompileXIB
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.xib
+lSLF07#2@33"CompileXIB Classes/Disclaimer.xib292739205#292739205#0(0"0(0#0#56"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.xib2540130336#467"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/Disclaimer.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.xib0#
+
+CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.xib
+s292739201.783735
+e292739202.417653
+r1
+xCompileXIB
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.xib
+lSLF07#2@45"CompileXIB Classes/QuestionViewController.xib292739201#292739202#0(0"0(0#0#68"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.xib2540130336#491"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/QuestionViewController.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.xib0#
+
+CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabbedAnswer.xib
+s292739202.806970
+e292739203.585632
+r1
+xCompileXIB
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabbedAnswer.xib
+lSLF07#2@35"CompileXIB Classes/tabbedAnswer.xib292739202#292739203#0(0"0(0#0#58"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabbedAnswer.xib2540130336#471"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/tabbedAnswer.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabbedAnswer.xib0#
+
+CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Explanation.xib
+s292739203.758017
+e292739204.433648
+r1
+xCompileXIB
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/Explanation.xib
+lSLF07#2@26"CompileXIB Explanation.xib292739203#292739204#0(0"0(0#0#49"/Volumes/VERBATIM/OMGHelp/OMGHelp/Explanation.xib2540130336#461"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/Explanation.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Explanation.xib0#
+
+CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/GetReal.xib
+s292739203.084249
+e292739203.757865
+r1
+xCompileXIB
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/GetReal.xib
+lSLF07#2@22"CompileXIB GetReal.xib292739203#292739203#0(0"0(0#0#45"/Volumes/VERBATIM/OMGHelp/OMGHelp/GetReal.xib2540130336#453"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/GetReal.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/GetReal.xib0#
+
+CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Links.xib
+s292739203.585769
+e292739204.347492
+r1
+xCompileXIB
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/Links.xib
+lSLF07#2@20"CompileXIB Links.xib292739203#292739204#0(0"0(0#0#43"/Volumes/VERBATIM/OMGHelp/OMGHelp/Links.xib2540130336#449"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/Links.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Links.xib0#
+
+CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/MainWindow.xib
+s292739197.615587
+e292739199.221746
+r1
+xCompileXIB
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib292739197#292739199#0(0"0(0#0#48"/Volumes/VERBATIM/OMGHelp/OMGHelp/MainWindow.xib2540130336#459"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/MainWindow.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/MainWindow.xib0#
+
+CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Quote.xib
+s292739204.347724
+e292739205.002130
+r1
+xCompileXIB
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/Quote.xib
+lSLF07#2@20"CompileXIB Quote.xib292739204#292739205#0(0"0(0#0#43"/Volumes/VERBATIM/OMGHelp/OMGHelp/Quote.xib2540130336#449"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/Quote.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Quote.xib0#
+
+CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/RootViewController.xib
+s292739197.616884
+e292739199.133377
+r1
+xCompileXIB
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/RootViewController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Volumes/VERBATIM/OMGHelp/OMGHelp/RootViewController.xib:2: warning: The separator style "Single Line Etched" is not supported on iPhone OS versions prior to 3.2.
+lSLF07#2@33"CompileXIB RootViewController.xib292739197#292739199#0(204"/* com.apple.ibtool.document.warnings *//Volumes/VERBATIM/OMGHelp/OMGHelp/RootViewController.xib:2: warning: The separator style "Single Line Etched" is not supported on iPhone OS versions prior to 3.2.1(22@93"The separator style "Single Line Etched" is not supported on iPhone OS versions prior to 3.2.292739199#4294967295#0#0(6@56"/Volumes/VERBATIM/OMGHelp/OMGHelp/RootViewController.xib292301938#2#0#2#0#0"0(0#0#56"/Volumes/VERBATIM/OMGHelp/OMGHelp/RootViewController.xib2540130336#475"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/RootViewController.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/RootViewController.xib0#
+
+CCopyPNGFile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/CrossBG.png CrossBG.png
+s291855360.950632
+e291855361.335033
+r1
+xCopyPNGFile
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/CrossBG.png
+xCrossBG.png
+lSLF07#2@70"CopyPNGFile build/Release-iphoneos/OMGHelp.app/CrossBG.png CrossBG.png291855360#291855361#0(0"0(0#0#33"/Users/trios1/OMGHelp/CrossBG.png4300911832#513"    cd /Users/trios1/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/trios1/OMGHelp/CrossBG.png /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/CrossBG.png0#
+
+CCopyPNGFile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/JesusRevBW.png JesusRevBW.png
+s291855358.799292
+e291855360.033900
+r1
+xCopyPNGFile
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/JesusRevBW.png
+xJesusRevBW.png
+lSLF07#2@76"CopyPNGFile build/Release-iphoneos/OMGHelp.app/JesusRevBW.png JesusRevBW.png291855358#291855360#0(0"0(0#0#36"/Users/trios1/OMGHelp/JesusRevBW.png4300911832#519"    cd /Users/trios1/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/trios1/OMGHelp/JesusRevBW.png /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/JesusRevBW.png0#
+
+CCopyPNGFile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/JesusRevColor.png JesusRevColor.png
+s291855359.255328
+e291855359.718717
+r1
+xCopyPNGFile
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/JesusRevColor.png
+xJesusRevColor.png
+lSLF07#2@82"CopyPNGFile build/Release-iphoneos/OMGHelp.app/JesusRevColor.png JesusRevColor.png291855359#291855359#0(0"0(0#0#39"/Users/trios1/OMGHelp/JesusRevColor.png4300911832#525"    cd /Users/trios1/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/trios1/OMGHelp/JesusRevColor.png /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/JesusRevColor.png0#
+
+CCopyPNGFile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/JesusRevIcon.png JesusRevIcon.png
+s291855358.417279
+e291855359.255221
+r1
+xCopyPNGFile
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/JesusRevIcon.png
+xJesusRevIcon.png
+lSLF07#2@80"CopyPNGFile build/Release-iphoneos/OMGHelp.app/JesusRevIcon.png JesusRevIcon.png291855358#291855359#0(0"0(0#0#38"/Users/trios1/OMGHelp/JesusRevIcon.png4300911832#523"    cd /Users/trios1/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/trios1/OMGHelp/JesusRevIcon.png /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/JesusRevIcon.png0#
+
+CCopyPNGFile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown2.png crown2.png
+s291855360.380076
+e291855360.565725
+r1
+xCopyPNGFile
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown2.png
+xcrown2.png
+lSLF07#2@68"CopyPNGFile build/Release-iphoneos/OMGHelp.app/crown2.png crown2.png291855360#291855360#0(0"0(0#0#32"/Users/trios1/OMGHelp/crown2.png4300911832#511"    cd /Users/trios1/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/trios1/OMGHelp/crown2.png /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown2.png0#
+
+CCopyPNGFile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown3.png crown3.png
+s291855360.250274
+e291855360.415234
+r1
+xCopyPNGFile
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown3.png
+xcrown3.png
+lSLF07#2@68"CopyPNGFile build/Release-iphoneos/OMGHelp.app/crown3.png crown3.png291855360#291855360#0(0"0(0#0#32"/Users/trios1/OMGHelp/crown3.png4300911832#511"    cd /Users/trios1/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/trios1/OMGHelp/crown3.png /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown3.png0#
+
+CCopyPNGFile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown4.png crown4.png
+s291855360.211364
+e291855360.379971
+r1
+xCopyPNGFile
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown4.png
+xcrown4.png
+lSLF07#2@68"CopyPNGFile build/Release-iphoneos/OMGHelp.app/crown4.png crown4.png291855360#291855360#0(0"0(0#0#32"/Users/trios1/OMGHelp/crown4.png4300911832#511"    cd /Users/trios1/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/trios1/OMGHelp/crown4.png /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown4.png0#
+
+CCopyPNGFile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown5.png crown5.png
+s291855360.082167
+e291855360.250170
+r1
+xCopyPNGFile
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown5.png
+xcrown5.png
+lSLF07#2@68"CopyPNGFile build/Release-iphoneos/OMGHelp.app/crown5.png crown5.png291855360#291855360#0(0"0(0#0#32"/Users/trios1/OMGHelp/crown5.png4300911832#511"    cd /Users/trios1/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/trios1/OMGHelp/crown5.png /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown5.png0#
+
+CCopyPNGFile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown6.png crown6.png
+s291855360.033996
+e291855360.211258
+r1
+xCopyPNGFile
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown6.png
+xcrown6.png
+lSLF07#2@68"CopyPNGFile build/Release-iphoneos/OMGHelp.app/crown6.png crown6.png291855360#291855360#0(0"0(0#0#32"/Users/trios1/OMGHelp/crown6.png4300911832#511"    cd /Users/trios1/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/trios1/OMGHelp/crown6.png /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown6.png0#
+
+CCopyPNGFile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown7.png crown7.png
+s291855359.907886
+e291855360.082052
+r1
+xCopyPNGFile
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown7.png
+xcrown7.png
+lSLF07#2@68"CopyPNGFile build/Release-iphoneos/OMGHelp.app/crown7.png crown7.png291855359#291855360#0(0"0(0#0#32"/Users/trios1/OMGHelp/crown7.png4300911832#511"    cd /Users/trios1/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/trios1/OMGHelp/crown7.png /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crown7.png0#
+
+CCopyPNGFile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crownEmpty.png crownEmpty.png
+s291855359.718904
+e291855359.907772
+r1
+xCopyPNGFile
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crownEmpty.png
+xcrownEmpty.png
+lSLF07#2@76"CopyPNGFile build/Release-iphoneos/OMGHelp.app/crownEmpty.png crownEmpty.png291855359#291855359#0(0"0(0#0#36"/Users/trios1/OMGHelp/crownEmpty.png4300911832#519"    cd /Users/trios1/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/trios1/OMGHelp/crownEmpty.png /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crownEmpty.png0#
+
+CCopyPNGFile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crownRuby.png crownRuby.png
+s291855360.415341
+e291855360.597761
+r1
+xCopyPNGFile
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crownRuby.png
+xcrownRuby.png
+lSLF07#2@74"CopyPNGFile build/Release-iphoneos/OMGHelp.app/crownRuby.png crownRuby.png291855360#291855360#0(0"0(0#0#35"/Users/trios1/OMGHelp/crownRuby.png4300911832#517"    cd /Users/trios1/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/trios1/OMGHelp/crownRuby.png /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/crownRuby.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/CrossBG.png CrossBG.png
+s292738915.702950
+e292738916.351764
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/CrossBG.png
+xCrossBG.png
+lSLF07#2@75"CopyPNGFile build/Release-iphoneos/guideMeJesus.app/CrossBG.png CrossBG.png292738915#292738916#0(0"0(0#0#45"/Volumes/VERBATIM/OMGHelp/OMGHelp/CrossBG.png2540130336#554"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/CrossBG.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/CrossBG.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/JesusRevBW.png JesusRevBW.png
+s292738912.966914
+e292738914.499691
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/JesusRevBW.png
+xJesusRevBW.png
+lSLF07#2@81"CopyPNGFile build/Release-iphoneos/guideMeJesus.app/JesusRevBW.png JesusRevBW.png292738912#292738914#0(0"0(0#0#48"/Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevBW.png2540130336#560"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevBW.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/JesusRevBW.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/JesusRevColor.png JesusRevColor.png
+s292738913.088175
+e292738913.917778
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/JesusRevColor.png
+xJesusRevColor.png
+lSLF07#2@87"CopyPNGFile build/Release-iphoneos/guideMeJesus.app/JesusRevColor.png JesusRevColor.png292738913#292738913#0(0"0(0#0#51"/Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevColor.png2540130336#566"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevColor.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/JesusRevColor.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/JesusRevIcon.png JesusRevIcon.png
+s292738912.964592
+e292738913.088017
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/JesusRevIcon.png
+xJesusRevIcon.png
+lSLF07#2@85"CopyPNGFile build/Release-iphoneos/guideMeJesus.app/JesusRevIcon.png JesusRevIcon.png292738912#292738913#0(0"0(0#0#50"/Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevIcon.png2540130336#564"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevIcon.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/JesusRevIcon.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown2.png crown2.png
+s292738914.950803
+e292738915.210665
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown2.png
+xcrown2.png
+lSLF07#2@73"CopyPNGFile build/Release-iphoneos/guideMeJesus.app/crown2.png crown2.png292738914#292738915#0(0"0(0#0#44"/Volumes/VERBATIM/OMGHelp/OMGHelp/crown2.png2540130336#552"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/crown2.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown2.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown3.png crown3.png
+s292738914.757928
+e292738915.017580
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown3.png
+xcrown3.png
+lSLF07#2@73"CopyPNGFile build/Release-iphoneos/guideMeJesus.app/crown3.png crown3.png292738914#292738915#0(0"0(0#0#44"/Volumes/VERBATIM/OMGHelp/OMGHelp/crown3.png2540130336#552"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/crown3.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown3.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown4.png crown4.png
+s292738914.689029
+e292738914.950668
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown4.png
+xcrown4.png
+lSLF07#2@73"CopyPNGFile build/Release-iphoneos/guideMeJesus.app/crown4.png crown4.png292738914#292738914#0(0"0(0#0#44"/Volumes/VERBATIM/OMGHelp/OMGHelp/crown4.png2540130336#552"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/crown4.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown4.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown5.png crown5.png
+s292738914.500301
+e292738914.757791
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown5.png
+xcrown5.png
+lSLF07#2@73"CopyPNGFile build/Release-iphoneos/guideMeJesus.app/crown5.png crown5.png292738914#292738914#0(0"0(0#0#44"/Volumes/VERBATIM/OMGHelp/OMGHelp/crown5.png2540130336#552"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/crown5.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown5.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown6.png crown6.png
+s292738914.419392
+e292738914.688873
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown6.png
+xcrown6.png
+lSLF07#2@73"CopyPNGFile build/Release-iphoneos/guideMeJesus.app/crown6.png crown6.png292738914#292738914#0(0"0(0#0#44"/Volumes/VERBATIM/OMGHelp/OMGHelp/crown6.png2540130336#552"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/crown6.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown6.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown7.png crown7.png
+s292738914.163790
+e292738914.419254
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown7.png
+xcrown7.png
+lSLF07#2@73"CopyPNGFile build/Release-iphoneos/guideMeJesus.app/crown7.png crown7.png292738914#292738914#0(0"0(0#0#44"/Volumes/VERBATIM/OMGHelp/OMGHelp/crown7.png2540130336#552"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/crown7.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crown7.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crownEmpty.png crownEmpty.png
+s292738913.918394
+e292738914.163646
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crownEmpty.png
+xcrownEmpty.png
+lSLF07#2@81"CopyPNGFile build/Release-iphoneos/guideMeJesus.app/crownEmpty.png crownEmpty.png292738913#292738914#0(0"0(0#0#48"/Volumes/VERBATIM/OMGHelp/OMGHelp/crownEmpty.png2540130336#560"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/crownEmpty.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crownEmpty.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crownRuby.png crownRuby.png
+s292738915.017718
+e292738915.265172
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crownRuby.png
+xcrownRuby.png
+lSLF07#2@79"CopyPNGFile build/Release-iphoneos/guideMeJesus.app/crownRuby.png crownRuby.png292738915#292738915#0(0"0(0#0#47"/Volumes/VERBATIM/OMGHelp/OMGHelp/crownRuby.png2540130336#558"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/crownRuby.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/crownRuby.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/CrossBG.png CrossBG.png
+s292739202.417879
+e292739203.084127
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/CrossBG.png
+xCrossBG.png
+lSLF07#2@74"CopyPNGFile build/Release-iphoneos/tellMeJesus.app/CrossBG.png CrossBG.png292739202#292739203#0(0"0(0#0#45"/Volumes/VERBATIM/OMGHelp/OMGHelp/CrossBG.png2540130336#553"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/CrossBG.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/CrossBG.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/JesusRevBW.png JesusRevBW.png
+s292739199.676776
+e292739200.991680
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/JesusRevBW.png
+xJesusRevBW.png
+lSLF07#2@80"CopyPNGFile build/Release-iphoneos/tellMeJesus.app/JesusRevBW.png JesusRevBW.png292739199#292739200#0(0"0(0#0#48"/Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevBW.png2540130336#559"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevBW.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/JesusRevBW.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/JesusRevColor.png JesusRevColor.png
+s292739199.750734
+e292739200.496120
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/JesusRevColor.png
+xJesusRevColor.png
+lSLF07#2@86"CopyPNGFile build/Release-iphoneos/tellMeJesus.app/JesusRevColor.png JesusRevColor.png292739199#292739200#0(0"0(0#0#51"/Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevColor.png2540130336#565"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevColor.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/JesusRevColor.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/JesusRevIcon.png JesusRevIcon.png
+s292739199.221883
+e292739199.750597
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/JesusRevIcon.png
+xJesusRevIcon.png
+lSLF07#2@84"CopyPNGFile build/Release-iphoneos/tellMeJesus.app/JesusRevIcon.png JesusRevIcon.png292739199#292739199#0(0"0(0#0#50"/Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevIcon.png2540130336#563"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevIcon.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/JesusRevIcon.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown2.png crown2.png
+s292739201.526144
+e292739201.783600
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown2.png
+xcrown2.png
+lSLF07#2@72"CopyPNGFile build/Release-iphoneos/tellMeJesus.app/crown2.png crown2.png292739201#292739201#0(0"0(0#0#44"/Volumes/VERBATIM/OMGHelp/OMGHelp/crown2.png2540130336#551"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/crown2.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown2.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown3.png crown3.png
+s292739201.337614
+e292739201.594550
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown3.png
+xcrown3.png
+lSLF07#2@72"CopyPNGFile build/Release-iphoneos/tellMeJesus.app/crown3.png crown3.png292739201#292739201#0(0"0(0#0#44"/Volumes/VERBATIM/OMGHelp/OMGHelp/crown3.png2540130336#551"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/crown3.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown3.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown4.png crown4.png
+s292739201.258957
+e292739201.526009
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown4.png
+xcrown4.png
+lSLF07#2@72"CopyPNGFile build/Release-iphoneos/tellMeJesus.app/crown4.png crown4.png292739201#292739201#0(0"0(0#0#44"/Volumes/VERBATIM/OMGHelp/OMGHelp/crown4.png2540130336#551"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/crown4.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown4.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown5.png crown5.png
+s292739201.073506
+e292739201.337477
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown5.png
+xcrown5.png
+lSLF07#2@72"CopyPNGFile build/Release-iphoneos/tellMeJesus.app/crown5.png crown5.png292739201#292739201#0(0"0(0#0#44"/Volumes/VERBATIM/OMGHelp/OMGHelp/crown5.png2540130336#551"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/crown5.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown5.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown6.png crown6.png
+s292739200.991815
+e292739201.258802
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown6.png
+xcrown6.png
+lSLF07#2@72"CopyPNGFile build/Release-iphoneos/tellMeJesus.app/crown6.png crown6.png292739200#292739201#0(0"0(0#0#44"/Volumes/VERBATIM/OMGHelp/OMGHelp/crown6.png2540130336#551"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/crown6.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown6.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown7.png crown7.png
+s292739200.763018
+e292739201.073337
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown7.png
+xcrown7.png
+lSLF07#2@72"CopyPNGFile build/Release-iphoneos/tellMeJesus.app/crown7.png crown7.png292739200#292739201#0(0"0(0#0#44"/Volumes/VERBATIM/OMGHelp/OMGHelp/crown7.png2540130336#551"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/crown7.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crown7.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crownEmpty.png crownEmpty.png
+s292739200.496261
+e292739200.762749
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crownEmpty.png
+xcrownEmpty.png
+lSLF07#2@80"CopyPNGFile build/Release-iphoneos/tellMeJesus.app/crownEmpty.png crownEmpty.png292739200#292739200#0(0"0(0#0#48"/Volumes/VERBATIM/OMGHelp/OMGHelp/crownEmpty.png2540130336#559"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/crownEmpty.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crownEmpty.png0#
+
+CCopyPNGFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crownRuby.png crownRuby.png
+s292739201.594691
+e292739201.876335
+r1
+xCopyPNGFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crownRuby.png
+xcrownRuby.png
+lSLF07#2@78"CopyPNGFile build/Release-iphoneos/tellMeJesus.app/crownRuby.png crownRuby.png292739201#292739201#0(0"0(0#0#47"/Volumes/VERBATIM/OMGHelp/OMGHelp/crownRuby.png2540130336#557"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/VERBATIM/OMGHelp/OMGHelp/crownRuby.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/crownRuby.png0#
+
+CCopyPlistFile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/jewels.plist Classes/jewels.plist
+s291855361.335209
+e291855361.414649
+r1
+xCopyPlistFile
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/jewels.plist
+xClasses/jewels.plist
+lSLF07#2@25"Copy Classes/jewels.plist291855361#291855361#0(0"0(0#0#42"/Users/trios1/OMGHelp/Classes/jewels.plist4300911832#349"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Classes/jewels.plist --outdir /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app0#
+
+CCopyPlistFile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/topics.plist topics.plist
+s291855358.103595
+e291855358.799173
+r1
+xCopyPlistFile
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/topics.plist
+xtopics.plist
+lSLF07#2@17"Copy topics.plist291855358#291855358#0(0"0(0#0#34"/Users/trios1/OMGHelp/topics.plist4300911832#341"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 topics.plist --outdir /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app0#
+
+CCopyPlistFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/jewels.plist Classes/jewels.plist
+s292738915.904080
+e292738915.946693
+r1
+xCopyPlistFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/jewels.plist
+xClasses/jewels.plist
+lSLF07#2@25"Copy Classes/jewels.plist292738915#292738915#0(0"0(0#0#54"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/jewels.plist2540130336#378"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Classes/jewels.plist --outdir /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app0#
+
+CCopyPlistFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/topics.plist topics.plist
+s292738912.891279
+e292738912.966779
+r1
+xCopyPlistFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/topics.plist
+xtopics.plist
+lSLF07#2@17"Copy topics.plist292738912#292738912#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/topics.plist2540130336#370"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 topics.plist --outdir /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app0#
+
+CCopyPlistFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/jewels.plist Classes/jewels.plist
+s292739202.754791
+e292739202.792713
+r1
+xCopyPlistFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/jewels.plist
+xClasses/jewels.plist
+lSLF07#2@25"Copy Classes/jewels.plist292739202#292739202#0(0"0(0#0#54"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/jewels.plist2540130336#377"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Classes/jewels.plist --outdir /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app0#
+
+CCopyPlistFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/topics.plist topics.plist
+s292739199.135745
+e292739199.676633
+r1
+xCopyPlistFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/topics.plist
+xtopics.plist
+lSLF07#2@17"Copy topics.plist292739199#292739199#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/topics.plist2540130336#369"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 topics.plist --outdir /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app0#
+
+CCpResource build/Release-iphoneos/OMGHelp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+s291855352.586038
+e291855352.730076
+r1
+xCpResource
+xbuild/Release-iphoneos/OMGHelp.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist291855352#291855352#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist4300911832#471"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app0#
+
+CCpResource build/Release-iphoneos/OMGHelp.app/Settings.bundle Settings.bundle
+s291855358.102847
+e291855358.259989
+r1
+xCpResource
+xbuild/Release-iphoneos/OMGHelp.app/Settings.bundle
+xSettings.bundle
+lSLF07#2@20"Copy Settings.bundle291855358#291855358#0(0"0(0#0#37"/Users/trios1/OMGHelp/Settings.bundle4300911832#417"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/Settings.bundle /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app0#
+
+CCpResource build/Release-iphoneos/OMGHelp.app/answer0.aiff answer0.aiff
+s291855361.414759
+e291855361.525834
+r1
+xCpResource
+xbuild/Release-iphoneos/OMGHelp.app/answer0.aiff
+xanswer0.aiff
+lSLF07#2@17"Copy answer0.aiff291855361#291855361#0(0"0(0#0#34"/Users/trios1/OMGHelp/answer0.aiff4300911832#414"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/answer0.aiff /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app0#
+
+CCpResource build/Release-iphoneos/OMGHelp.app/answer1.aiff answer1.aiff
+s291855361.415640
+e291855361.525627
+r1
+xCpResource
+xbuild/Release-iphoneos/OMGHelp.app/answer1.aiff
+xanswer1.aiff
+lSLF07#2@17"Copy answer1.aiff291855361#291855361#0(0"0(0#0#34"/Users/trios1/OMGHelp/answer1.aiff4300911832#414"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/answer1.aiff /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app0#
+
+CCpResource build/Release-iphoneos/OMGHelp.app/answer2.aiff answer2.aiff
+s291855361.417017
+e291855361.556423
+r1
+xCpResource
+xbuild/Release-iphoneos/OMGHelp.app/answer2.aiff
+xanswer2.aiff
+lSLF07#2@17"Copy answer2.aiff291855361#291855361#0(0"0(0#0#34"/Users/trios1/OMGHelp/answer2.aiff4300911832#414"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/answer2.aiff /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app0#
+
+CCpResource build/Release-iphoneos/OMGHelp.app/answer3.aiff answer3.aiff
+s291855361.416328
+e291855361.528662
+r1
+xCpResource
+xbuild/Release-iphoneos/OMGHelp.app/answer3.aiff
+xanswer3.aiff
+lSLF07#2@17"Copy answer3.aiff291855361#291855361#0(0"0(0#0#34"/Users/trios1/OMGHelp/answer3.aiff4300911832#414"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/answer3.aiff /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app0#
+
+CCpResource build/Release-iphoneos/OMGHelp.app/answer4.aiff answer4.aiff
+s291855361.417727
+e291855361.581822
+r1
+xCpResource
+xbuild/Release-iphoneos/OMGHelp.app/answer4.aiff
+xanswer4.aiff
+lSLF07#2@17"Copy answer4.aiff291855361#291855361#0(0"0(0#0#34"/Users/trios1/OMGHelp/answer4.aiff4300911832#414"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/answer4.aiff /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app0#
+
+CCpResource build/Release-iphoneos/guideMeJesus.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+s292738912.249369
+e292738912.293173
+r1
+xCpResource
+xbuild/Release-iphoneos/guideMeJesus.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist292738912#292738912#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist2540130336#500"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app0#
+
+CCpResource build/Release-iphoneos/guideMeJesus.app/Settings.bundle Settings.bundle
+s292738912.888865
+e292738912.903233
+r1
+xCpResource
+xbuild/Release-iphoneos/guideMeJesus.app/Settings.bundle
+xSettings.bundle
+lSLF07#2@20"Copy Settings.bundle292738912#292738912#0(0"0(0#0#49"/Volumes/VERBATIM/OMGHelp/OMGHelp/Settings.bundle2540130336#458"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/Settings.bundle /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app0#
+
+CCpResource build/Release-iphoneos/guideMeJesus.app/answer0.aiff answer0.aiff
+s292738915.946866
+e292738915.988969
+r1
+xCpResource
+xbuild/Release-iphoneos/guideMeJesus.app/answer0.aiff
+xanswer0.aiff
+lSLF07#2@17"Copy answer0.aiff292738915#292738915#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/answer0.aiff2540130336#455"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/answer0.aiff /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app0#
+
+CCpResource build/Release-iphoneos/guideMeJesus.app/answer1.aiff answer1.aiff
+s292738915.948551
+e292738915.989160
+r1
+xCpResource
+xbuild/Release-iphoneos/guideMeJesus.app/answer1.aiff
+xanswer1.aiff
+lSLF07#2@17"Copy answer1.aiff292738915#292738915#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/answer1.aiff2540130336#455"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/answer1.aiff /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app0#
+
+CCpResource build/Release-iphoneos/guideMeJesus.app/answer2.aiff answer2.aiff
+s292738915.968196
+e292738916.060040
+r1
+xCpResource
+xbuild/Release-iphoneos/guideMeJesus.app/answer2.aiff
+xanswer2.aiff
+lSLF07#2@17"Copy answer2.aiff292738915#292738916#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/answer2.aiff2540130336#455"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/answer2.aiff /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app0#
+
+CCpResource build/Release-iphoneos/guideMeJesus.app/answer3.aiff answer3.aiff
+s292738915.959049
+e292738915.989340
+r1
+xCpResource
+xbuild/Release-iphoneos/guideMeJesus.app/answer3.aiff
+xanswer3.aiff
+lSLF07#2@17"Copy answer3.aiff292738915#292738915#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/answer3.aiff2540130336#455"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/answer3.aiff /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app0#
+
+CCpResource build/Release-iphoneos/guideMeJesus.app/answer4.aiff answer4.aiff
+s292738915.976970
+e292738916.063565
+r1
+xCpResource
+xbuild/Release-iphoneos/guideMeJesus.app/answer4.aiff
+xanswer4.aiff
+lSLF07#2@17"Copy answer4.aiff292738915#292738916#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/answer4.aiff2540130336#455"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/answer4.aiff /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app0#
+
+CCpResource build/Release-iphoneos/tellMeJesus.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+s292739197.550564
+e292739197.615444
+r1
+xCpResource
+xbuild/Release-iphoneos/tellMeJesus.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist292739197#292739197#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist2540130336#499"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app0#
+
+CCpResource build/Release-iphoneos/tellMeJesus.app/Settings.bundle Settings.bundle
+s292739199.133823
+e292739199.173332
+r1
+xCpResource
+xbuild/Release-iphoneos/tellMeJesus.app/Settings.bundle
+xSettings.bundle
+lSLF07#2@20"Copy Settings.bundle292739199#292739199#0(0"0(0#0#49"/Volumes/VERBATIM/OMGHelp/OMGHelp/Settings.bundle2540130336#457"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/Settings.bundle /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app0#
+
+CCpResource build/Release-iphoneos/tellMeJesus.app/answer0.aiff answer0.aiff
+s292739202.792846
+e292739202.831396
+r1
+xCpResource
+xbuild/Release-iphoneos/tellMeJesus.app/answer0.aiff
+xanswer0.aiff
+lSLF07#2@17"Copy answer0.aiff292739202#292739202#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/answer0.aiff2540130336#454"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/answer0.aiff /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app0#
+
+CCpResource build/Release-iphoneos/tellMeJesus.app/answer1.aiff answer1.aiff
+s292739202.794474
+e292739202.831676
+r1
+xCpResource
+xbuild/Release-iphoneos/tellMeJesus.app/answer1.aiff
+xanswer1.aiff
+lSLF07#2@17"Copy answer1.aiff292739202#292739202#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/answer1.aiff2540130336#454"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/answer1.aiff /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app0#
+
+CCpResource build/Release-iphoneos/tellMeJesus.app/answer2.aiff answer2.aiff
+s292739202.798309
+e292739202.832105
+r1
+xCpResource
+xbuild/Release-iphoneos/tellMeJesus.app/answer2.aiff
+xanswer2.aiff
+lSLF07#2@17"Copy answer2.aiff292739202#292739202#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/answer2.aiff2540130336#454"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/answer2.aiff /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app0#
+
+CCpResource build/Release-iphoneos/tellMeJesus.app/answer3.aiff answer3.aiff
+s292739202.795837
+e292739202.831923
+r1
+xCpResource
+xbuild/Release-iphoneos/tellMeJesus.app/answer3.aiff
+xanswer3.aiff
+lSLF07#2@17"Copy answer3.aiff292739202#292739202#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/answer3.aiff2540130336#454"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/answer3.aiff /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app0#
+
+CCpResource build/Release-iphoneos/tellMeJesus.app/answer4.aiff answer4.aiff
+s292739202.802085
+e292739202.832287
+r1
+xCpResource
+xbuild/Release-iphoneos/tellMeJesus.app/answer4.aiff
+xanswer4.aiff
+lSLF07#2@17"Copy answer4.aiff292739202#292739202#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/answer4.aiff2540130336#454"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/answer4.aiff /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app0#
+
+CGenerateDSYMFile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app.dSYM /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/OMGHelp
+s292167526.211725
+e292167526.265731
+r1
+xGenerateDSYMFile
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app.dSYM
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/OMGHelp
+lSLF07#2@99"GenerateDSYMFile build/Release-iphoneos/OMGHelp.app.dSYM build/Release-iphoneos/OMGHelp.app/OMGHelp292167526#292167526#0(0"0(0#0#64"/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/OMGHelp4300911832#315"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/OMGHelp -o /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app.dSYM0#
+
+CGenerateDSYMFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app.dSYM /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/guideMeJesus
+s292738920.962470
+e292738921.032263
+r1
+xGenerateDSYMFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app.dSYM
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/guideMeJesus
+lSLF07#2@114"GenerateDSYMFile build/Release-iphoneos/guideMeJesus.app.dSYM build/Release-iphoneos/guideMeJesus.app/guideMeJesus292738920#292738921#0(0"0(0#0#86"/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/guideMeJesus2540130336#366"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/guideMeJesus -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app.dSYM0#
+
+CGenerateDSYMFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app.dSYM /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/tellMeJesus
+s292862965.142390
+e292862965.479799
+r1
+xGenerateDSYMFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app.dSYM
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/tellMeJesus
+lSLF07#2@111"GenerateDSYMFile build/Release-iphoneos/tellMeJesus.app.dSYM build/Release-iphoneos/tellMeJesus.app/tellMeJesus292862965#292862965#0(0"0(0#0#84"/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/tellMeJesus2540130336#363"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/tellMeJesus -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app.dSYM0#
+
+CLd /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/OMGHelp normal armv6
+s292167525.701262
+e292167526.211606
+r1
+xLd
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/OMGHelp
+xnormal
+xarmv6
+lSLF07#2@69"Link /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/OMGHelp292167525#292167526#0(0"0(0#0#0"4300911832#775"    cd /Users/trios1/OMGHelp    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -L/Users/trios1/OMGHelp/build/Release-iphoneos -F/Users/trios1/OMGHelp/build/Release-iphoneos -filelist /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/OMGHelp.LinkFileList -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -o /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/OMGHelp0#
+
+CLd /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/guideMeJesus normal armv6
+s292738920.909434
+e292738920.962310
+r1
+xLd
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/guideMeJesus
+xnormal
+xarmv6
+lSLF07#2@91"Link /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/guideMeJesus292738920#292738921#0(0"0(0#0#0"2540130336#850"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -L/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos -filelist /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/guideMeJesus.LinkFileList -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/guideMeJesus0#
+
+CLd /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/tellMeJesus normal armv6
+s292862964.161473
+e292862965.142053
+r1
+xLd
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/tellMeJesus
+xnormal
+xarmv6
+lSLF07#2@89"Link /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/tellMeJesus292862964#292862965#0(0"0(0#0#0"2540130336#847"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -L/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos -filelist /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/Objects-normal/armv6/tellMeJesus.LinkFileList -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/tellMeJesus0#
+
+CProcessInfoPlistFile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/Info.plist OMGHelp-Info.plist
+s291855407.495573
+e291855407.498860
+r1
+xProcessInfoPlistFile
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/Info.plist
+xOMGHelp-Info.plist
+lSLF07#2@26"Process OMGHelp-Info.plist291855407#291855407#0(0"0(0#0#40"/Users/trios1/OMGHelp/OMGHelp-Info.plist4300911832#500"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility OMGHelp-Info.plist -genpkginfo /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/ResourceRules.plist -o /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/Info.plist0#
+
+CProcessInfoPlistFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/Info.plist OMGHelp-Info.plist
+s292738912.251887
+e292738912.293428
+r1
+xProcessInfoPlistFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/Info.plist
+xOMGHelp-Info.plist
+lSLF07#2@26"Process OMGHelp-Info.plist292738912#292738912#0(0"0(0#0#52"/Volumes/VERBATIM/OMGHelp/OMGHelp/OMGHelp-Info.plist2540130336#563"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility OMGHelp-Info.plist -genpkginfo /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/ResourceRules.plist -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/Info.plist0#
+
+CProcessInfoPlistFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/Info.plist OMGHelp-Info.plist
+s292739197.553260
+e292739197.560996
+r1
+xProcessInfoPlistFile
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/Info.plist
+xOMGHelp-Info.plist
+lSLF07#2@26"Process OMGHelp-Info.plist292739197#292739197#0(0"0(0#0#52"/Volumes/VERBATIM/OMGHelp/OMGHelp/OMGHelp-Info.plist2540130336#560"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility OMGHelp-Info.plist -genpkginfo /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/ResourceRules.plist -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/Info.plist0#
+
+CProcessPCH /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-dizlloaqkzcemtdtujmemwzlxvrj/OMGHelp_Prefix.pch.gch OMGHelp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292739205.813545
+e292739207.211210
+r1
+xProcessPCH
+x/var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-dizlloaqkzcemtdtujmemwzlxvrj/OMGHelp_Prefix.pch.gch
+xOMGHelp_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile OMGHelp_Prefix.pch292739205#292739207#0(0"0(0#0#52"/Volumes/VERBATIM/OMGHelp/OMGHelp/OMGHelp_Prefix.pch2540130336#1649"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources/armv6 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Volumes/VERBATIM/OMGHelp/OMGHelp/OMGHelp_Prefix.pch -o /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-dizlloaqkzcemtdtujmemwzlxvrj/OMGHelp_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-gxxjajskgqucvjergaphgnnzhnrb/OMGHelp_Prefix.pch.gch OMGHelp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291855361.581991
+e291855362.963578
+r1
+xProcessPCH
+x/var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-gxxjajskgqucvjergaphgnnzhnrb/OMGHelp_Prefix.pch.gch
+xOMGHelp_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile OMGHelp_Prefix.pch291855361#291855362#0(0"0(0#0#40"/Users/trios1/OMGHelp/OMGHelp_Prefix.pch4300911832#1513"    cd /Users/trios1/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-generated-files.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-own-target-headers.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-all-target-headers.hmap -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp-project-headers.hmap -F/Users/trios1/OMGHelp/build/Release-iphoneos -I/Users/trios1/OMGHelp/build/Release-iphoneos/include -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources/armv6 -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/trios1/OMGHelp/OMGHelp_Prefix.pch -o /var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-gxxjajskgqucvjergaphgnnzhnrb/OMGHelp_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/trios1/Library/MobileDevice/Provisioning Profiles/AE4247E5-F030-4A9A-A047-D532F37AA30F.mobileprovision" /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/embedded.mobileprovision
+s291855364.007910
+e291855364.009526
+r1
+xProcessProductPackaging
+x/Users/trios1/Library/MobileDevice/Provisioning Profiles/AE4247E5-F030-4A9A-A047-D532F37AA30F.mobileprovision
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/embedded.mobileprovision
+lSLF07#2@195"ProcessProductPackaging "/Users/trios1/Library/MobileDevice/Provisioning Profiles/AE4247E5-F030-4A9A-A047-D532F37AA30F.mobileprovision" build/Release-iphoneos/OMGHelp.app/embedded.mobileprovision291855364#291855364#0(0"0(0#0#81"/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/embedded.mobileprovision4300911832#392"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/trios1/Library/MobileDevice/Provisioning Profiles/AE4247E5-F030-4A9A-A047-D532F37AA30F.mobileprovision" -o /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/trvd1707/Library/MobileDevice/Provisioning Profiles/AE4247E5-F030-4A9A-A047-D532F37AA30F.mobileprovision" /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/embedded.mobileprovision
+s292738921.032428
+e292738921.087290
+r1
+xProcessProductPackaging
+x/Users/trvd1707/Library/MobileDevice/Provisioning Profiles/AE4247E5-F030-4A9A-A047-D532F37AA30F.mobileprovision
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/trvd1707/Library/MobileDevice/Provisioning Profiles/AE4247E5-F030-4A9A-A047-D532F37AA30F.mobileprovision" build/Release-iphoneos/guideMeJesus.app/embedded.mobileprovision292738921#292738921#0(0"0(0#0#98"/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/embedded.mobileprovision2540130336#423"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/trvd1707/Library/MobileDevice/Provisioning Profiles/AE4247E5-F030-4A9A-A047-D532F37AA30F.mobileprovision" -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/trvd1707/Library/MobileDevice/Provisioning Profiles/AE4247E5-F030-4A9A-A047-D532F37AA30F.mobileprovision" /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/embedded.mobileprovision
+s292739208.555479
+e292739208.614676
+r1
+xProcessProductPackaging
+x/Users/trvd1707/Library/MobileDevice/Provisioning Profiles/AE4247E5-F030-4A9A-A047-D532F37AA30F.mobileprovision
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/embedded.mobileprovision
+lSLF07#2@201"ProcessProductPackaging "/Users/trvd1707/Library/MobileDevice/Provisioning Profiles/AE4247E5-F030-4A9A-A047-D532F37AA30F.mobileprovision" build/Release-iphoneos/tellMeJesus.app/embedded.mobileprovision292739208#292739208#0(0"0(0#0#97"/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/embedded.mobileprovision2540130336#422"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/trvd1707/Library/MobileDevice/Provisioning Profiles/AE4247E5-F030-4A9A-A047-D532F37AA30F.mobileprovision" -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp.xcent
+s291855407.507198
+e291855407.537866
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist
+x/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp.xcent
+lSLF07#2@179"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp.xcent291855407#291855407#0(0"0(0#0#86"/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp.xcent4300911832#402"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/OMGHelp.xcent0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/guideMeJesus.xcent
+s292738921.095127
+e292738921.114662
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/guideMeJesus.xcent
+lSLF07#2@184"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist build/OMGHelp.build/Release-iphoneos/OMGHelp.build/guideMeJesus.xcent292738921#292738921#0(0"0(0#0#103"/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/guideMeJesus.xcent2540130336#431"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist -entitlements -format xml -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/guideMeJesus.xcent0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus.xcent
+s292739208.637726
+e292739208.666902
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus.xcent
+lSLF07#2@183"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus.xcent292739208#292739208#0(0"0(0#0#102"/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus.xcent2540130336#430"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist -entitlements -format xml -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphoneos/OMGHelp.build/tellMeJesus.xcent0#
+
+CTouch /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app
+s292167526.265965
+e292167526.269558
+r1
+xTouch
+x/Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app
+lSLF07#2@62"Touch /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app292167526#292167526#0(0"0(0#0#0"4300911832#232"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/trios1/OMGHelp/build/Release-iphoneos/OMGHelp.app0#
+
+CTouch /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app
+s292738921.087403
+e292738921.094939
+r1
+xTouch
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app
+lSLF07#2@79"Touch /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app292738921#292738921#0(0"0(0#0#0"2540130336#261"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/guideMeJesus.app0#
+
+CTouch /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app
+s292862965.480101
+e292862965.503937
+r1
+xTouch
+x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app
+lSLF07#2@78"Touch /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app292862965#292862965#0(0"0(0#0#0"2540130336#260"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphoneos/tellMeJesus.app0#
+

@@ -1,2 +1,0 @@
-/Users/trios1/OMGHelp/Classes/OMGHelpAppDelegate.m:88: warning: property 'nvc2' requires method '-nvc2' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/trios1/OMGHelp/Classes/OMGHelpAppDelegate.m:88: warning: property 'nvc2' requires the method 'setNvc2:' to be defined - use @synthesize, @dynamic or provide a method implementation

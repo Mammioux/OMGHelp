@@ -1,1998 +1,0 @@
-TOMGHelp
-v7
-r0
-t292997112.484485
-cCheck dependencies
-cProcessInfoPlistFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/Info.plist OMGHelp-Info.plist
-cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/MainWindow.xib
-cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/RootViewController.xib
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/Settings.bundle Settings.bundle
-cCopyPlistFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/topics.plist topics.plist
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/JesusRevIcon.png JesusRevIcon.png
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/JesusRevBW.png JesusRevBW.png
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/JesusRevColor.png JesusRevColor.png
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/crownEmpty.png crownEmpty.png
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/crown7.png crown7.png
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/crown6.png crown6.png
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/crown5.png crown5.png
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/crown4.png crown4.png
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/crown3.png crown3.png
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/crown2.png crown2.png
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/crownRuby.png crownRuby.png
-cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.xib
-cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.xib
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/CrossBG.png CrossBG.png
-cCopyPlistFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/jewels.plist Classes/jewels.plist
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/answer0.aiff answer0.aiff
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/answer1.aiff answer1.aiff
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/answer3.aiff answer3.aiff
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/answer2.aiff answer2.aiff
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/answer4.aiff answer4.aiff
-cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabbedAnswer.xib
-cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/GetReal.xib
-cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Links.xib
-cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Explanation.xib
-cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Quote.xib
-cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.xib
-cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.xib
-cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.xib
-cCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/About.xib
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/Disclaimer.htm Disclaimer.htm
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/image002.gif image002.gif
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/image001.png image001.png
-cCpResource build/Release-iphonesimulator/tellMeJesus.app/filelist.xml filelist.xml
-cProcessPCH /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-degsksjqyfzrowaauujtvzdkoiyb/OMGHelp_Prefix.pch.gch OMGHelp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/main.o /Volumes/VERBATIM/OMGHelp/OMGHelp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/OMGHelpAppDelegate.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/OMGHelpAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/QuestionViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/AnswerViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/BibleViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/tabViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/AnswerTableViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/Disclaimer.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/About.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/About.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/RootViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/tellMeJesus normal i386
-cGenerateDSYMFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app.dSYM /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/tellMeJesus
-cTouch /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
-c000000004B69B45C00000000000000EE
-t1265218652
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c000000004B2B4DF500000000000120D0
-t1261129205
-s73936
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
-c000000004B2B4DEF00000000000000EB
-t1261129199
-s235
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004B2B4CC3000000000026EE30
-t1261128899
-s2551344
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004B2B4DC8000000000027E880
-t1261129160
-s2615424
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B2B4DAE0000000000001355
-t1261129134
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.h
-c000000004B2B649D000000000000022F
-t1261135005
-s559
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004B2B61620000000000000788
-t1261134178
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004B2B62B500000000016721E0
-t1261134517
-s23536096
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/Availability.h
-c000000004B2B4EE200000000000019F9
-t1261129442
-s6649
-
-N/Users/trios1/OMGHelp/Classes/AnswerViewController.h
-c000000004BB6D3010000000000000427
-t1270272769
-s1063
-i<UIKit/UIKit.h>
-i<MediaPlayer/MediaPlayer.h>
-i<AVFoundation/AVFoundation.h>
-
-N/Users/trios1/OMGHelp/Classes/AnswerViewController.m
-c000000004BBA58BB0000000000000B2D
-t1270503611
-s2861
-i"AnswerViewController.h"
-
-N/Users/trios1/OMGHelp/Classes/AnswerViewController.xib
-c000000004BB8BECA000000000000676B
-t1270398666
-s26475
-
-N/Users/trios1/OMGHelp/Classes/BibleViewController.h
-c000000004BB69BB600000000000000ED
-t1270258614
-s237
-i<UIKit/UIKit.h>
-
-N/Users/trios1/OMGHelp/Classes/BibleViewController.m
-c000000004BB69BB600000000000005A8
-t1270258614
-s1448
-i"BibleViewController.h"
-
-N/Users/trios1/OMGHelp/Classes/BibleViewController.xib
-c000000004BB69D5800000000000052C1
-t1270259032
-s21185
-
-N/Users/trios1/OMGHelp/Classes/OMGHelpAppDelegate.h
-c000000004BB8C0350000000000000211
-t1270399029
-s529
-i<UIKit/UIKit.h>
-
-N/Users/trios1/OMGHelp/Classes/OMGHelpAppDelegate.m
-c000000004BB8C035000000000000099E
-t1270399029
-s2462
-i"OMGHelpAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/trios1/OMGHelp/Classes/QuestionViewController.h
-c000000004BBA591F000000000000018A
-t1270503711
-s394
-i<UIKit/UIKit.h>
-
-N/Users/trios1/OMGHelp/Classes/QuestionViewController.m
-c000000004BBA0648000000000000152D
-t1270482504
-s5421
-i"QuestionViewController.h"
-i"AnswerViewController.h"
-
-N/Users/trios1/OMGHelp/Classes/QuestionViewController.xib
-c000000004BAC2A280000000000001C8D
-t1269574184
-s7309
-
-N/Users/trios1/OMGHelp/Classes/RootViewController.h
-c000000004BB2AD22000000000000024F
-t1270000930
-s591
-i<UIKit/UIKit.h>
-
-N/Users/trios1/OMGHelp/Classes/RootViewController.m
-c000000004BBA04860000000000001EF8
-t1270482054
-s7928
-i"RootViewController.h"
-i"QuestionViewController.h"
-
-N/Users/trios1/OMGHelp/Classes/jewels.plist
-c000000004BAF9F3E0000000000001CDC
-t1269800766
-s7388
-
-N/Users/trios1/OMGHelp/Classes/tabbedAnswer.xib
-c000000004BB9EF6B0000000000006E70
-t1270476651
-s28272
-
-N/Users/trios1/OMGHelp/CrossBG.png
-c000000004BAD5DD40000000000019B76
-t1269652948
-s105334
-
-N/Users/trios1/OMGHelp/Explanation.xib
-c000000004BB558EC000000000000426E
-t1270175980
-s17006
-
-N/Users/trios1/OMGHelp/GetReal.xib
-c000000004BBA079C0000000000004370
-t1270482844
-s17264
-
-N/Users/trios1/OMGHelp/JesusRevBW.png
-c000000004BAAE7EA00000000000295EA
-t1269491690
-s169450
-
-N/Users/trios1/OMGHelp/JesusRevColor.png
-c000000004B8B1E6C000000000001DFA8
-t1267408492
-s122792
-
-N/Users/trios1/OMGHelp/JesusRevIcon.png
-c000000004B8B1F5E00000000000025EA
-t1267408734
-s9706
-
-N/Users/trios1/OMGHelp/Links.xib
-c000000004BBA59140000000000004AAE
-t1270503700
-s19118
-
-N/Users/trios1/OMGHelp/MainWindow.xib
-c000000004BBA07B600000000000069A7
-t1270482870
-s27047
-
-N/Users/trios1/OMGHelp/OMGHelp_Prefix.pch
-c000000004BA926F00000000000000140
-t1269376752
-s320
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/trios1/OMGHelp/Quote.xib
-c000000004BB5592B0000000000004274
-t1270176043
-s17012
-
-N/Users/trios1/OMGHelp/RootViewController.xib
-c000000004BACC24A0000000000004A3D
-t1269613130
-s19005
-
-N/Users/trios1/OMGHelp/Settings.bundle
-c000000004BAAE22C0000000000000088
-t1269490220
-s136
-
-N/Users/trios1/OMGHelp/answer0.aiff
-c000000004BAF7358000000000004A30A
-t1269789528
-s303882
-
-N/Users/trios1/OMGHelp/answer1.aiff
-c000000004BAF72DA0000000000044E4A
-t1269789402
-s282186
-
-N/Users/trios1/OMGHelp/answer2.aiff
-c000000004BAF67F800000000000886F8
-t1269786616
-s558840
-
-N/Users/trios1/OMGHelp/answer3.aiff
-c000000004BAF6B92000000000005D5AC
-t1269787538
-s382380
-
-N/Users/trios1/OMGHelp/answer4.aiff
-c000000004BAF670E00000000000A0168
-t1269786382
-s655720
-
-N/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/AnswerViewController.o
-t1270504309
-s46060
-
-N/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/BibleViewController.o
-t1270259066
-s29828
-
-N/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/OMGHelp.LinkFileList
-c000000004BB69D7500000000000002CF
-t1270259061
-s719
-
-N/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/OMGHelpAppDelegate.o
-t1270474507
-s45568
-
-N/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/QuestionViewController.o
-t1270504309
-s40428
-
-N/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/RootViewController.o
-t1270504309
-s50976
-
-N/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/main.o
-t1270166170
-s5896
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app
-t1270504309
-s1190
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app.dSYM
-t1270504309
-s102
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/AnswerViewController.nib
-t1270474507
-s3345
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/BibleViewController.nib
-t1270259065
-s2451
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/CrossBG.png
-t1270166168
-s105334
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/Explanation.nib
-t1270176052
-s1728
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/GetReal.nib
-t1270504308
-s1727
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/Info.plist
-t1270166167
-s633
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/JesusRevBW.png
-t1270166167
-s169450
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/JesusRevColor.png
-t1270166167
-s122792
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/JesusRevIcon.png
-t1270166167
-s9706
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/Links.nib
-t1270504308
-s2276
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/MainWindow.nib
-t1270504308
-s2235
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/OMGHelp
-t1270504309
-s36924
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/PkgInfo
-t1270166167
-s8
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/QuestionViewController.nib
-t1270166168
-s1387
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/Quote.nib
-t1270176052
-s1741
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/RootViewController.nib
-t1270166167
-s1389
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/Settings.bundle
-t1270166167
-s136
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/answer0.aiff
-t1270166168
-s303882
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/answer1.aiff
-t1270166168
-s282186
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/answer2.aiff
-t1270166168
-s558840
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/answer3.aiff
-t1270166168
-s382380
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/answer4.aiff
-t1270166168
-s655720
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/crown2.png
-t1270166167
-s40623
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/crown3.png
-t1270166167
-s40653
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/crown4.png
-t1270166167
-s40689
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/crown5.png
-t1270166167
-s40700
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/crown6.png
-t1270166167
-s40730
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/crown7.png
-t1270166167
-s41886
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/crownEmpty.png
-t1270166167
-s37028
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/crownRuby.png
-t1270166167
-s40426
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/jewels.plist
-t1270166168
-s5049
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/tabbedAnswer.nib
-t1270504308
-s2831
-
-N/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/topics.plist
-t1270166167
-s14843
-
-N/Users/trios1/OMGHelp/crown2.png
-c000000004BAC28500000000000009EAF
-t1269573712
-s40623
-
-N/Users/trios1/OMGHelp/crown3.png
-c000000004BAC28640000000000009ECD
-t1269573732
-s40653
-
-N/Users/trios1/OMGHelp/crown4.png
-c000000004BAC28780000000000009EF1
-t1269573752
-s40689
-
-N/Users/trios1/OMGHelp/crown5.png
-c000000004BAC28940000000000009EFC
-t1269573780
-s40700
-
-N/Users/trios1/OMGHelp/crown6.png
-c000000004BAC28AC0000000000009F1A
-t1269573804
-s40730
-
-N/Users/trios1/OMGHelp/crown7.png
-c000000004BAC2996000000000000A39E
-t1269574038
-s41886
-
-N/Users/trios1/OMGHelp/crownEmpty.png
-c000000004BA87DC400000000000090A4
-t1269333444
-s37028
-
-N/Users/trios1/OMGHelp/crownRuby.png
-c000000004BAC283A0000000000009DEA
-t1269573690
-s40426
-
-N/Users/trios1/OMGHelp/main.m
-c000000004BA926F0000000000000016A
-t1269376752
-s362
-i<UIKit/UIKit.h>
-
-N/Users/trios1/OMGHelp/topics.plist
-c000000004BAEA34A000000000000F735
-t1269736266
-s63285
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/About.h
-c000000004BC4BF440000000000000123
-t1271185220
-s291
-i<UIKit/UIKit.h>
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/About.m
-c000000004BC4BF920000000000000592
-t1271185298
-s1426
-i"About.h"
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/About.xib
-c000000004BC4BD200000000000004179
-t1271184672
-s16761
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.h
-c000000004BBFB656000000000000027F
-t1270855254
-s639
-i<UIKit/UIKit.h>
-i<MediaPlayer/MediaPlayer.h>
-i<AVFoundation/AVFoundation.h>
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.m
-c000000004BBFF596000000000000184F
-t1270871446
-s6223
-i"AnswerTableViewController.h"
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.xib
-c000000004BBFC7C80000000000004329
-t1270859720
-s17193
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.h
-c000000004BBBFC2600000000000002F9
-t1270610982
-s761
-i<UIKit/UIKit.h>
-i<MediaPlayer/MediaPlayer.h>
-i<AVFoundation/AVFoundation.h>
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m
-c000000004BBC02B800000000000014CD
-t1270612664
-s5325
-i"AnswerViewController.h"
-i"tabViewController.h"
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.xib
-c000000004BBBE31C0000000000004DB7
-t1270604572
-s19895
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.h
-c000000004BB69BB600000000000000ED
-t1270258614
-s237
-i<UIKit/UIKit.h>
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.m
-c000000004BB69BB600000000000005A8
-t1270258614
-s1448
-i"BibleViewController.h"
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.xib
-c000000004BB69D5800000000000052C1
-t1270259032
-s21185
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.h
-c000000004BC68FD80000000000000119
-t1271304152
-s281
-i<UIKit/UIKit.h>
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.m
-c000000004BC6904000000000000007DB
-t1271304256
-s2011
-i"Disclaimer.h"
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.xib
-c000000004BC68CDC00000000000061D6
-t1271303388
-s25046
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/OMGHelpAppDelegate.h
-c000000004BBA6F1400000000000001B4
-t1270509332
-s436
-i<UIKit/UIKit.h>
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/OMGHelpAppDelegate.m
-c000000004BBA6EE40000000000000995
-t1270509284
-s2453
-i"OMGHelpAppDelegate.h"
-i"RootViewController.h"
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.h
-c000000004BBA591E000000000000018A
-t1270503710
-s394
-i<UIKit/UIKit.h>
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.m
-c000000004BBFBC2600000000000017A5
-t1270856742
-s6053
-i"QuestionViewController.h"
-i"AnswerTableViewController.h"
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.xib
-c000000004BBF89E40000000000004361
-t1270843876
-s17249
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.h
-c000000004BC483220000000000000262
-t1271169826
-s610
-i<UIKit/UIKit.h>
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m
-c000000004BC68AA20000000000002407
-t1271302818
-s9223
-i"RootViewController.h"
-i"QuestionViewController.h"
-i"Disclaimer.h"
-i"About.h"
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/jewels.plist
-c000000004BAF9F3E0000000000001CDC
-t1269800766
-s7388
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabViewController.h
-c000000004BBA67220000000000000135
-t1270507298
-s309
-i<UIKit/UIKit.h>
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabViewController.m
-c000000004BBA67220000000000000627
-t1270507298
-s1575
-i"tabViewController.h"
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabbedAnswer.xib
-c000000004BBBDEB60000000000006E2E
-t1270603446
-s28206
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/CrossBG.png
-c000000004BAD5DD40000000000019B76
-t1269652948
-s105334
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Disclaimer.htm
-c000000004BC20A320000000000002CA3
-t1271007794
-s11427
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Disclaimer_files/filelist.xml
-c000000004BC2097000000000000000C2
-t1271007600
-s194
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Disclaimer_files/image001.png
-c000000004BC2097000000000000025EA
-t1271007600
-s9706
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Disclaimer_files/image002.gif
-c000000004BC2097000000000000011C5
-t1271007600
-s4549
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Explanation.xib
-c000000004BBA66BE0000000000004652
-t1270507198
-s18002
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/GetReal.xib
-c000000004BBA079C0000000000004370
-t1270482844
-s17264
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevBW.png
-c000000004BAAE7EA00000000000295EA
-t1269491690
-s169450
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevColor.png
-c000000004B8B1E6C000000000001DFA8
-t1267408492
-s122792
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevIcon.png
-c000000004B8B1F5E00000000000025EA
-t1267408734
-s9706
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Links.xib
-c000000004BBA59140000000000004AAE
-t1270503700
-s19118
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/MainWindow.xib
-c000000004BC4BBF80000000000006D0B
-t1271184376
-s27915
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/OMGHelp_Prefix.pch
-c000000004BA926F00000000000000140
-t1269376752
-s320
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Quote.xib
-c000000004BBA66DE0000000000004658
-t1270507230
-s18008
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/RootViewController.xib
-c000000004BBBF4F20000000000004A24
-t1270609138
-s18980
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/Settings.bundle
-c000000004BBF55DE0000000000008000
-t1270830558
-s32768
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/answer0.aiff
-c000000004BAF7358000000000004A30A
-t1269789528
-s303882
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/answer1.aiff
-c000000004BAF72DA0000000000044E4A
-t1269789402
-s282186
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/answer2.aiff
-c000000004BAF67F800000000000886F8
-t1269786616
-s558840
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/answer3.aiff
-c000000004BAF6B92000000000005D5AC
-t1269787538
-s382380
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/answer4.aiff
-c000000004BAF670E00000000000A0168
-t1269786382
-s655720
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/About.o
-t1271185300
-s31120
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/AnswerTableViewController.o
-t1271170244
-s40176
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/AnswerViewController.o
-t1271170244
-s48524
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/BibleViewController.o
-t1271170244
-s29852
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/Disclaimer.o
-t1271304256
-s31220
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/OMGHelpAppDelegate.o
-t1271170840
-s43068
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/QuestionViewController.o
-t1271170840
-s36872
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/RootViewController.o
-t1271304152
-s51136
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/main.o
-t1271170840
-s5920
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/tabViewController.o
-t1271170244
-s34444
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/tellMeJesus.LinkFileList
-c000000004BC64D32000000000000051C
-t1271287090
-s1308
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app
-t1271304256
-s32768
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app.dSYM
-t1271304256
-s32768
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/About.nib
-t1271185224
-s1299
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/AnswerTableViewController.nib
-t1271170240
-s1382
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/AnswerViewController.nib
-t1271170236
-s2121
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/BibleViewController.nib
-t1271170240
-s2451
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/CrossBG.png
-t1271170236
-s105334
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/Disclaimer.htm
-t1271185220
-s11427
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/Disclaimer.nib
-t1271303788
-s7014
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/Explanation.nib
-t1271170238
-s1767
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/GetReal.nib
-t1271170238
-s1727
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/Info.plist
-t1271170234
-s649
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/JesusRevBW.png
-t1271170236
-s169450
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/JesusRevColor.png
-t1271170236
-s122792
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/JesusRevIcon.png
-t1271170236
-s9706
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/Links.nib
-t1271170238
-s2276
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/MainWindow.nib
-t1271184382
-s2374
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/PkgInfo
-t1271170234
-s8
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/QuestionViewController.nib
-t1271170236
-s1382
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/Quote.nib
-t1271170240
-s1780
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/RootViewController.nib
-t1271170234
-s1384
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/Settings.bundle
-t1271170236
-s32768
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/answer0.aiff
-t1271170236
-s303882
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/answer1.aiff
-t1271170236
-s282186
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/answer2.aiff
-t1271170236
-s558840
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/answer3.aiff
-t1271170236
-s382380
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/answer4.aiff
-t1271170236
-s655720
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/crown2.png
-t1271170236
-s40623
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/crown3.png
-t1271170236
-s40653
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/crown4.png
-t1271170236
-s40689
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/crown5.png
-t1271170236
-s40700
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/crown6.png
-t1271170236
-s40730
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/crown7.png
-t1271170236
-s41886
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/crownEmpty.png
-t1271170236
-s37028
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/crownRuby.png
-t1271170236
-s40426
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/filelist.xml
-t1271185298
-s194
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/image001.png
-t1271185298
-s9706
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/image002.gif
-t1271185298
-s4549
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/jewels.plist
-t1271170236
-s5049
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/tabbedAnswer.nib
-t1271170238
-s2833
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/tellMeJesus
-t1271304256
-s42676
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/topics.plist
-t1271170236
-s14304
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/crown2.png
-c000000004BAC28500000000000009EAF
-t1269573712
-s40623
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/crown3.png
-c000000004BAC28640000000000009ECD
-t1269573732
-s40653
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/crown4.png
-c000000004BAC28780000000000009EF1
-t1269573752
-s40689
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/crown5.png
-c000000004BAC28940000000000009EFC
-t1269573780
-s40700
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/crown6.png
-c000000004BAC28AC0000000000009F1A
-t1269573804
-s40730
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/crown7.png
-c000000004BAC2996000000000000A39E
-t1269574038
-s41886
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/crownEmpty.png
-c000000004BA87DC400000000000090A4
-t1269333444
-s37028
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/crownRuby.png
-c000000004BAC283A0000000000009DEA
-t1269573690
-s40426
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/filelist.xml
-c000000004BC2097000000000000000C2
-t1271007600
-s194
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/image001.png
-c000000004BC2097000000000000025EA
-t1271007600
-s9706
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/image002.gif
-c000000004BC2097000000000000011C5
-t1271007600
-s4549
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/main.m
-c000000004BA926F0000000000000016A
-t1269376752
-s362
-i<UIKit/UIKit.h>
-
-N/Volumes/VERBATIM/OMGHelp/OMGHelp/topics.plist
-c000000004BBF91200000000000010F17
-t1270845728
-s69399
-
-N/var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-degsksjqyfzrowaauujtvzdkoiyb/OMGHelp_Prefix.pch.gch
-t1271170243
-s8569016
-
-N/var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-aauqwjbaacsryighpiennvcjbram/OMGHelp_Prefix.pch.gch
-t1270166169
-s12727760
-
-NOMGHelp-Info.plist
-c000000004BB524AE0000000000000399
-t1270162606
-s921
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies292997111#292997112#0(0"0(0#1#0"2540130336#0"0#
-
-CCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/About.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/About.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292878099.720269
-e292878100.038868
-r1
-xCompileC
-xbuild/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/About.o
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/About.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/About.m292878099#292878100#0(0"0(0#0#49"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/About.m2540130336#1889"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources/i386 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-degsksjqyfzrowaauujtvzdkoiyb/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/About.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/About.o0#
-
-CCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/AnswerTableViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292863044.524269
-e292863044.860682
-r1
-xCompileC
-xbuild/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/AnswerTableViewController.o
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.m292863044#292863044#0(0"0(0#0#69"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.m2540130336#1929"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources/i386 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-degsksjqyfzrowaauujtvzdkoiyb/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/AnswerTableViewController.o0#
-
-CCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/AnswerViewController.o /Users/trios1/OMGHelp/Classes/AnswerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292197109.618934
-e292197109.788849
-r1
-xCompileC
-xbuild/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/AnswerViewController.o
-x/Users/trios1/OMGHelp/Classes/AnswerViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/trios1/OMGHelp/Classes/AnswerViewController.m292197109#292197109#0(0"0(0#0#52"/Users/trios1/OMGHelp/Classes/AnswerViewController.m4300911832#1771"    cd /Users/trios1/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-generated-files.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-own-target-headers.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-all-target-headers.hmap -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-project-headers.hmap -F/Users/trios1/OMGHelp/build/Release-iphonesimulator -I/Users/trios1/OMGHelp/build/Release-iphonesimulator/include -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources/i386 -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-aauqwjbaacsryighpiennvcjbram/OMGHelp_Prefix.pch -c /Users/trios1/OMGHelp/Classes/AnswerViewController.m -o /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/AnswerViewController.o0#
-
-CCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/AnswerViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292863043.996122
-e292863044.559067
-r1
-xCompileC
-xbuild/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/AnswerViewController.o
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m: In function '-[AnswerViewController initWithNibName:bundle:]':
-o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m:26: warning: 'AnswerViewController' may not respond to '-configureToolbarItems'
-o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m:26: warning: (Messages without a matching method signature
-o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m:26: warning: will be assumed to return 'id' and accept
-o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m:26: warning: '...' as arguments.)
-lSLF07#2@72"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m292863043#292863044#0(617"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m: In function '-[AnswerViewController initWithNibName:bundle:]':/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m:26: warning: 'AnswerViewController' may not respond to '-configureToolbarItems'/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m:26: warning: (Messages without a matching method signature/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m:26: warning: will be assumed to return 'id' and accept/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m:26: warning: '...' as arguments.)2(22@66"'AnswerViewController' may not respond to '-configureToolbarItems'292863044#129#145#0(6@64"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m292305464#26#0#26#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)292863044#274#124#0(6@64"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m292305464#26#0#26#0#0"0(0#0#64"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m2540130336#1919"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources/i386 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-degsksjqyfzrowaauujtvzdkoiyb/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/AnswerViewController.o0#
-
-CCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/BibleViewController.o /Users/trios1/OMGHelp/Classes/BibleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s291951865.437523
-e291951866.316732
-r1
-xCompileC
-xbuild/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/BibleViewController.o
-x/Users/trios1/OMGHelp/Classes/BibleViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/trios1/OMGHelp/Classes/BibleViewController.m291951865#291951866#0(0"0(0#0#51"/Users/trios1/OMGHelp/Classes/BibleViewController.m4300911832#1769"    cd /Users/trios1/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-generated-files.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-own-target-headers.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-all-target-headers.hmap -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-project-headers.hmap -F/Users/trios1/OMGHelp/build/Release-iphonesimulator -I/Users/trios1/OMGHelp/build/Release-iphonesimulator/include -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources/i386 -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-aauqwjbaacsryighpiennvcjbram/OMGHelp_Prefix.pch -c /Users/trios1/OMGHelp/Classes/BibleViewController.m -o /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/BibleViewController.o0#
-
-CCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/BibleViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292863044.258726
-e292863044.368363
-r1
-xCompileC
-xbuild/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/BibleViewController.o
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.m292863044#292863044#0(0"0(0#0#63"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.m2540130336#1917"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources/i386 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-degsksjqyfzrowaauujtvzdkoiyb/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/BibleViewController.o0#
-
-CCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/Disclaimer.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292997057.081062
-e292997057.285726
-r1
-xCompileC
-xbuild/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/Disclaimer.o
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.m292997057#292997057#0(0"0(0#0#54"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.m2540130336#1899"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources/i386 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-degsksjqyfzrowaauujtvzdkoiyb/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/Disclaimer.o0#
-
-CCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/OMGHelpAppDelegate.o /Users/trios1/OMGHelp/Classes/OMGHelpAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292167307.198997
-e292167307.501360
-r1
-xCompileC
-xbuild/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/OMGHelpAppDelegate.o
-x/Users/trios1/OMGHelp/Classes/OMGHelpAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/trios1/OMGHelp/Classes/OMGHelpAppDelegate.m292167307#292167307#0(0"0(0#0#50"/Users/trios1/OMGHelp/Classes/OMGHelpAppDelegate.m4300911832#1767"    cd /Users/trios1/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-generated-files.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-own-target-headers.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-all-target-headers.hmap -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-project-headers.hmap -F/Users/trios1/OMGHelp/build/Release-iphonesimulator -I/Users/trios1/OMGHelp/build/Release-iphonesimulator/include -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources/i386 -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-aauqwjbaacsryighpiennvcjbram/OMGHelp_Prefix.pch -c /Users/trios1/OMGHelp/Classes/OMGHelpAppDelegate.m -o /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/OMGHelpAppDelegate.o0#
-
-CCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/OMGHelpAppDelegate.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/OMGHelpAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292863640.743333
-e292863641.114835
-r1
-xCompileC
-xbuild/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/OMGHelpAppDelegate.o
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/OMGHelpAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/OMGHelpAppDelegate.m292863640#292863641#0(0"0(0#0#62"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/OMGHelpAppDelegate.m2540130336#1915"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources/i386 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-degsksjqyfzrowaauujtvzdkoiyb/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/OMGHelpAppDelegate.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/OMGHelpAppDelegate.o0#
-
-CCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/QuestionViewController.o /Users/trios1/OMGHelp/Classes/QuestionViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292197108.876312
-e292197109.618700
-r1
-xCompileC
-xbuild/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/QuestionViewController.o
-x/Users/trios1/OMGHelp/Classes/QuestionViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/trios1/OMGHelp/Classes/QuestionViewController.m292197108#292197109#0(0"0(0#0#54"/Users/trios1/OMGHelp/Classes/QuestionViewController.m4300911832#1775"    cd /Users/trios1/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-generated-files.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-own-target-headers.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-all-target-headers.hmap -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-project-headers.hmap -F/Users/trios1/OMGHelp/build/Release-iphonesimulator -I/Users/trios1/OMGHelp/build/Release-iphonesimulator/include -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources/i386 -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-aauqwjbaacsryighpiennvcjbram/OMGHelp_Prefix.pch -c /Users/trios1/OMGHelp/Classes/QuestionViewController.m -o /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/QuestionViewController.o0#
-
-CCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/QuestionViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292863640.925546
-e292863641.262052
-r1
-xCompileC
-xbuild/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/QuestionViewController.o
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.m292863640#292863641#0(0"0(0#0#66"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.m2540130336#1923"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources/i386 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-degsksjqyfzrowaauujtvzdkoiyb/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/QuestionViewController.o0#
-
-CCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/RootViewController.o /Users/trios1/OMGHelp/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292197108.875197
-e292197109.620099
-r1
-xCompileC
-xbuild/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/RootViewController.o
-x/Users/trios1/OMGHelp/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/trios1/OMGHelp/Classes/RootViewController.m: In function '-[RootViewController alertView:clickedButtonAtIndex:]':
-o/Users/trios1/OMGHelp/Classes/RootViewController.m:82: warning: 'UIApplication' may not respond to '-terminateWithSuccess'
-o/Users/trios1/OMGHelp/Classes/RootViewController.m:82: warning: (Messages without a matching method signature
-o/Users/trios1/OMGHelp/Classes/RootViewController.m:82: warning: will be assumed to return 'id' and accept
-o/Users/trios1/OMGHelp/Classes/RootViewController.m:82: warning: '...' as arguments.)
-lSLF07#2@58"Compile /Users/trios1/OMGHelp/Classes/RootViewController.m292197108#292197109#0(545"/Users/trios1/OMGHelp/Classes/RootViewController.m: In function '-[RootViewController alertView:clickedButtonAtIndex:]':/Users/trios1/OMGHelp/Classes/RootViewController.m:82: warning: 'UIApplication' may not respond to '-terminateWithSuccess'/Users/trios1/OMGHelp/Classes/RootViewController.m:82: warning: (Messages without a matching method signature/Users/trios1/OMGHelp/Classes/RootViewController.m:82: warning: will be assumed to return 'id' and accept/Users/trios1/OMGHelp/Classes/RootViewController.m:82: warning: '...' as arguments.)2(22@58"'UIApplication' may not respond to '-terminateWithSuccess'292197109#121#123#0(6@50"/Users/trios1/OMGHelp/Classes/RootViewController.m292174854#82#0#82#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)292197109#244#110#0(6@50"/Users/trios1/OMGHelp/Classes/RootViewController.m292174854#82#0#82#0#0"0(0#0#50"/Users/trios1/OMGHelp/Classes/RootViewController.m4300911832#1767"    cd /Users/trios1/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-generated-files.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-own-target-headers.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-all-target-headers.hmap -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-project-headers.hmap -F/Users/trios1/OMGHelp/build/Release-iphonesimulator -I/Users/trios1/OMGHelp/build/Release-iphonesimulator/include -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources/i386 -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-aauqwjbaacsryighpiennvcjbram/OMGHelp_Prefix.pch -c /Users/trios1/OMGHelp/Classes/RootViewController.m -o /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/RootViewController.o0#
-
-CCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/RootViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292996952.631822
-e292996953.235667
-r1
-xCompileC
-xbuild/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/RootViewController.o
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m: In function '-[RootViewController alertView:clickedButtonAtIndex:]':
-o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:107: warning: 'UIApplication' may not respond to '-terminateWithSuccess'
-o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:107: warning: (Messages without a matching method signature
-o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:107: warning: will be assumed to return 'id' and accept
-o/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:107: warning: '...' as arguments.)
-lSLF07#2@70"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m292996952#292996953#0(609"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m: In function '-[RootViewController alertView:clickedButtonAtIndex:]':/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:107: warning: 'UIApplication' may not respond to '-terminateWithSuccess'/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:107: warning: (Messages without a matching method signature/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:107: warning: will be assumed to return 'id' and accept/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m:107: warning: '...' as arguments.)2(22@58"'UIApplication' may not respond to '-terminateWithSuccess'292996952#133#136#0(6@62"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m292995618#107#0#107#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)292996952#269#123#0(6@62"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m292995618#107#0#107#0#0"0(0#0#62"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m2540130336#1915"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources/i386 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-degsksjqyfzrowaauujtvzdkoiyb/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/RootViewController.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/RootViewController.o0#
-
-CCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/main.o /Users/trios1/OMGHelp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s291858970.018288
-e291858970.173456
-r1
-xCompileC
-xbuild/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/main.o
-x/Users/trios1/OMGHelp/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@36"Compile /Users/trios1/OMGHelp/main.m291858970#291858970#0(0"0(0#0#28"/Users/trios1/OMGHelp/main.m4300911832#1731"    cd /Users/trios1/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-generated-files.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-own-target-headers.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-all-target-headers.hmap -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-project-headers.hmap -F/Users/trios1/OMGHelp/build/Release-iphonesimulator -I/Users/trios1/OMGHelp/build/Release-iphonesimulator/include -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources/i386 -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-aauqwjbaacsryighpiennvcjbram/OMGHelp_Prefix.pch -c /Users/trios1/OMGHelp/main.m -o /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/main.o0#
-
-CCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/main.o /Volumes/VERBATIM/OMGHelp/OMGHelp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292863640.740378
-e292863640.925153
-r1
-xCompileC
-xbuild/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/main.o
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@48"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/main.m292863640#292863640#0(0"0(0#0#40"/Volumes/VERBATIM/OMGHelp/OMGHelp/main.m2540130336#1879"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources/i386 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-degsksjqyfzrowaauujtvzdkoiyb/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/main.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/main.o0#
-
-CCompileC build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/tabViewController.o /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292863044.368519
-e292863044.524115
-r1
-xCompileC
-xbuild/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/tabViewController.o
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabViewController.m292863044#292863044#0(0"0(0#0#61"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabViewController.m2540130336#1913"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources/i386 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-degsksjqyfzrowaauujtvzdkoiyb/OMGHelp_Prefix.pch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabViewController.m -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/tabViewController.o0#
-
-CCompileXIB /Users/trios1/OMGHelp/Classes/AnswerViewController.xib
-s292167301.803125
-e292167307.198574
-r1
-xCompileXIB
-x/Users/trios1/OMGHelp/Classes/AnswerViewController.xib
-lSLF07#2@43"CompileXIB Classes/AnswerViewController.xib292167301#292167307#0(0"0(0#0#54"/Users/trios1/OMGHelp/Classes/AnswerViewController.xib4300911832#461"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/AnswerViewController.nib /Users/trios1/OMGHelp/Classes/AnswerViewController.xib0#
-
-CCompileXIB /Users/trios1/OMGHelp/Classes/BibleViewController.xib
-s291951861.943774
-e291951865.216475
-r1
-xCompileXIB
-x/Users/trios1/OMGHelp/Classes/BibleViewController.xib
-lSLF07#2@42"CompileXIB Classes/BibleViewController.xib291951861#291951865#0(0"0(0#0#53"/Users/trios1/OMGHelp/Classes/BibleViewController.xib4300911832#459"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/BibleViewController.nib /Users/trios1/OMGHelp/Classes/BibleViewController.xib0#
-
-CCompileXIB /Users/trios1/OMGHelp/Classes/QuestionViewController.xib
-s291858967.775307
-e291858968.155965
-r1
-xCompileXIB
-x/Users/trios1/OMGHelp/Classes/QuestionViewController.xib
-lSLF07#2@45"CompileXIB Classes/QuestionViewController.xib291858967#291858968#0(0"0(0#0#56"/Users/trios1/OMGHelp/Classes/QuestionViewController.xib4300911832#465"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/QuestionViewController.nib /Users/trios1/OMGHelp/Classes/QuestionViewController.xib0#
-
-CCompileXIB /Users/trios1/OMGHelp/Classes/tabbedAnswer.xib
-s292197108.043966
-e292197108.445054
-r1
-xCompileXIB
-x/Users/trios1/OMGHelp/Classes/tabbedAnswer.xib
-lSLF07#2@35"CompileXIB Classes/tabbedAnswer.xib292197108#292197108#0(0"0(0#0#46"/Users/trios1/OMGHelp/Classes/tabbedAnswer.xib4300911832#445"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/tabbedAnswer.nib /Users/trios1/OMGHelp/Classes/tabbedAnswer.xib0#
-
-CCompileXIB /Users/trios1/OMGHelp/Explanation.xib
-s291868852.159635
-e291868852.575306
-r1
-xCompileXIB
-x/Users/trios1/OMGHelp/Explanation.xib
-lSLF07#2@26"CompileXIB Explanation.xib291868852#291868852#0(0"0(0#0#37"/Users/trios1/OMGHelp/Explanation.xib4300911832#435"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/Explanation.nib /Users/trios1/OMGHelp/Explanation.xib0#
-
-CCompileXIB /Users/trios1/OMGHelp/GetReal.xib
-s292197108.439886
-e292197108.812456
-r1
-xCompileXIB
-x/Users/trios1/OMGHelp/GetReal.xib
-lSLF07#2@22"CompileXIB GetReal.xib292197108#292197108#0(0"0(0#0#33"/Users/trios1/OMGHelp/GetReal.xib4300911832#427"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/GetReal.nib /Users/trios1/OMGHelp/GetReal.xib0#
-
-CCompileXIB /Users/trios1/OMGHelp/Links.xib
-s292197108.445149
-e292197108.874798
-r1
-xCompileXIB
-x/Users/trios1/OMGHelp/Links.xib
-lSLF07#2@20"CompileXIB Links.xib292197108#292197108#0(0"0(0#0#31"/Users/trios1/OMGHelp/Links.xib4300911832#423"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/Links.nib /Users/trios1/OMGHelp/Links.xib0#
-
-CCompileXIB /Users/trios1/OMGHelp/MainWindow.xib
-s292197108.041829
-e292197108.439787
-r1
-xCompileXIB
-x/Users/trios1/OMGHelp/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib292197108#292197108#0(0"0(0#0#36"/Users/trios1/OMGHelp/MainWindow.xib4300911832#433"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/MainWindow.nib /Users/trios1/OMGHelp/MainWindow.xib0#
-
-CCompileXIB /Users/trios1/OMGHelp/Quote.xib
-s291868852.575402
-e291868853.121955
-r1
-xCompileXIB
-x/Users/trios1/OMGHelp/Quote.xib
-lSLF07#2@20"CompileXIB Quote.xib291868852#291868853#0(0"0(0#0#31"/Users/trios1/OMGHelp/Quote.xib4300911832#423"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/Quote.nib /Users/trios1/OMGHelp/Quote.xib0#
-
-CCompileXIB /Users/trios1/OMGHelp/RootViewController.xib
-s291858967.168692
-e291858967.601924
-r1
-xCompileXIB
-x/Users/trios1/OMGHelp/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib291858967#291858967#0(0"0(0#0#44"/Users/trios1/OMGHelp/RootViewController.xib4300911832#449"    cd /Users/trios1/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/RootViewController.nib /Users/trios1/OMGHelp/RootViewController.xib0#
-
-CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/About.xib
-s292878021.118366
-e292878024.104801
-r1
-xCompileXIB
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/About.xib
-lSLF07#2@28"CompileXIB Classes/About.xib292878021#292878024#0(0"0(0#0#51"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/About.xib4877008#471"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/About.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/About.xib0#
-
-CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.xib
-s292863040.385210
-e292863040.938401
-r1
-xCompileXIB
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.xib
-lSLF07#2@48"CompileXIB Classes/AnswerTableViewController.xib292863040#292863040#0(0"0(0#0#71"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.xib2540130336#511"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/AnswerTableViewController.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerTableViewController.xib0#
-
-CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.xib
-s292863036.537342
-e292863037.681020
-r1
-xCompileXIB
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.xib
-lSLF07#2@43"CompileXIB Classes/AnswerViewController.xib292863036#292863037#0(0"0(0#0#66"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.xib2540130336#501"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/AnswerViewController.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/AnswerViewController.xib0#
-
-CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.xib
-s292863039.739915
-e292863040.407737
-r1
-xCompileXIB
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.xib
-lSLF07#2@42"CompileXIB Classes/BibleViewController.xib292863039#292863040#0(0"0(0#0#65"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.xib2540130336#499"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/BibleViewController.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/BibleViewController.xib0#
-
-CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.xib
-s292996583.754321
-e292996588.763491
-r1
-xCompileXIB
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.xib
-lSLF07#2@33"CompileXIB Classes/Disclaimer.xib292996583#292996588#0(0"0(0#0#56"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.xib2540130336#481"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/Disclaimer.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/Disclaimer.xib0#
-
-CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.xib
-s292863036.252142
-e292863037.374904
-r1
-xCompileXIB
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.xib
-lSLF07#2@45"CompileXIB Classes/QuestionViewController.xib292863036#292863037#0(0"0(0#0#68"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.xib2540130336#505"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/QuestionViewController.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/QuestionViewController.xib0#
-
-CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabbedAnswer.xib
-s292863037.511372
-e292863038.592686
-r1
-xCompileXIB
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabbedAnswer.xib
-lSLF07#2@35"CompileXIB Classes/tabbedAnswer.xib292863037#292863038#0(0"0(0#0#58"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabbedAnswer.xib2540130336#485"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/tabbedAnswer.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/tabbedAnswer.xib0#
-
-CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Explanation.xib
-s292863038.800545
-e292863039.565789
-r1
-xCompileXIB
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Explanation.xib
-lSLF07#2@26"CompileXIB Explanation.xib292863038#292863039#0(0"0(0#0#49"/Volumes/VERBATIM/OMGHelp/OMGHelp/Explanation.xib2540130336#475"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/Explanation.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Explanation.xib0#
-
-CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/GetReal.xib
-s292863037.751761
-e292863038.800410
-r1
-xCompileXIB
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/GetReal.xib
-lSLF07#2@22"CompileXIB GetReal.xib292863037#292863038#0(0"0(0#0#45"/Volumes/VERBATIM/OMGHelp/OMGHelp/GetReal.xib2540130336#467"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/GetReal.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/GetReal.xib0#
-
-CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Links.xib
-s292863038.592823
-e292863039.739777
-r1
-xCompileXIB
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Links.xib
-lSLF07#2@20"CompileXIB Links.xib292863038#292863039#0(0"0(0#0#43"/Volumes/VERBATIM/OMGHelp/OMGHelp/Links.xib2540130336#463"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/Links.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Links.xib0#
-
-CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/MainWindow.xib
-s292877182.700409
-e292877183.449465
-r1
-xCompileXIB
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib292877182#292877183#0(0"0(0#0#48"/Volumes/VERBATIM/OMGHelp/OMGHelp/MainWindow.xib2540130336#473"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/MainWindow.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/MainWindow.xib0#
-
-CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/Quote.xib
-s292863039.566045
-e292863040.385083
-r1
-xCompileXIB
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/Quote.xib
-lSLF07#2@20"CompileXIB Quote.xib292863039#292863040#0(0"0(0#0#43"/Volumes/VERBATIM/OMGHelp/OMGHelp/Quote.xib2540130336#463"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/Quote.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/Quote.xib0#
-
-CCompileXIB /Volumes/VERBATIM/OMGHelp/OMGHelp/RootViewController.xib
-s292863035.171248
-e292863035.880314
-r1
-xCompileXIB
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/RootViewController.xib
-o/* com.apple.ibtool.document.warnings */
-o/Volumes/VERBATIM/OMGHelp/OMGHelp/RootViewController.xib:2: warning: The separator style "Single Line Etched" is not supported on iPhone OS versions prior to 3.2.
-lSLF07#2@33"CompileXIB RootViewController.xib292863035#292863035#0(204"/* com.apple.ibtool.document.warnings *//Volumes/VERBATIM/OMGHelp/OMGHelp/RootViewController.xib:2: warning: The separator style "Single Line Etched" is not supported on iPhone OS versions prior to 3.2.1(22@93"The separator style "Single Line Etched" is not supported on iPhone OS versions prior to 3.2.292863035#4294967295#0#0(6@56"/Volumes/VERBATIM/OMGHelp/OMGHelp/RootViewController.xib292301938#2#0#2#0#0"0(0#0#56"/Volumes/VERBATIM/OMGHelp/OMGHelp/RootViewController.xib2540130336#489"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/RootViewController.nib /Volumes/VERBATIM/OMGHelp/OMGHelp/RootViewController.xib0#
-
-CCopyPlistFile /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/jewels.plist Classes/jewels.plist
-s291858968.157954
-e291858968.202937
-r1
-xCopyPlistFile
-x/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/jewels.plist
-xClasses/jewels.plist
-lSLF07#2@25"Copy Classes/jewels.plist291858968#291858968#0(0"0(0#0#42"/Users/trios1/OMGHelp/Classes/jewels.plist4300911832#363"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Classes/jewels.plist --outdir /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCopyPlistFile /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/topics.plist topics.plist
-s291858967.602967
-e291858967.912021
-r1
-xCopyPlistFile
-x/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/topics.plist
-xtopics.plist
-lSLF07#2@17"Copy topics.plist291858967#291858967#0(0"0(0#0#34"/Users/trios1/OMGHelp/topics.plist4300911832#355"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 topics.plist --outdir /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCopyPlistFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/jewels.plist Classes/jewels.plist
-s292863037.376429
-e292863037.453051
-r1
-xCopyPlistFile
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/jewels.plist
-xClasses/jewels.plist
-lSLF07#2@25"Copy Classes/jewels.plist292863037#292863037#0(0"0(0#0#54"/Volumes/VERBATIM/OMGHelp/OMGHelp/Classes/jewels.plist2540130336#391"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Classes/jewels.plist --outdir /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCopyPlistFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/topics.plist topics.plist
-s292863035.882048
-e292863036.537206
-r1
-xCopyPlistFile
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/topics.plist
-xtopics.plist
-lSLF07#2@17"Copy topics.plist292863035#292863036#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/topics.plist2540130336#383"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 topics.plist --outdir /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/OMGHelp.app/CrossBG.png CrossBG.png
-s291858968.156057
-e291858968.165907
-r1
-xCpResource
-xbuild/Release-iphonesimulator/OMGHelp.app/CrossBG.png
-xCrossBG.png
-lSLF07#2@16"Copy CrossBG.png291858968#291858968#0(0"0(0#0#33"/Users/trios1/OMGHelp/CrossBG.png4300911832#427"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/CrossBG.png /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCpResource build/Release-iphonesimulator/OMGHelp.app/JesusRevBW.png JesusRevBW.png
-s291858967.707821
-e291858967.764485
-r1
-xCpResource
-xbuild/Release-iphonesimulator/OMGHelp.app/JesusRevBW.png
-xJesusRevBW.png
-lSLF07#2@19"Copy JesusRevBW.png291858967#291858967#0(0"0(0#0#36"/Users/trios1/OMGHelp/JesusRevBW.png4300911832#430"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/JesusRevBW.png /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCpResource build/Release-iphonesimulator/OMGHelp.app/JesusRevColor.png JesusRevColor.png
-s291858967.708448
-e291858967.764693
-r1
-xCpResource
-xbuild/Release-iphonesimulator/OMGHelp.app/JesusRevColor.png
-xJesusRevColor.png
-lSLF07#2@22"Copy JesusRevColor.png291858967#291858967#0(0"0(0#0#39"/Users/trios1/OMGHelp/JesusRevColor.png4300911832#433"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/JesusRevColor.png /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCpResource build/Release-iphonesimulator/OMGHelp.app/JesusRevIcon.png JesusRevIcon.png
-s291858967.707094
-e291858967.764307
-r1
-xCpResource
-xbuild/Release-iphonesimulator/OMGHelp.app/JesusRevIcon.png
-xJesusRevIcon.png
-lSLF07#2@21"Copy JesusRevIcon.png291858967#291858967#0(0"0(0#0#38"/Users/trios1/OMGHelp/JesusRevIcon.png4300911832#432"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/JesusRevIcon.png /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCpResource build/Release-iphonesimulator/OMGHelp.app/Settings.bundle Settings.bundle
-s291858967.602028
-e291858967.706989
-r1
-xCpResource
-xbuild/Release-iphonesimulator/OMGHelp.app/Settings.bundle
-xSettings.bundle
-lSLF07#2@20"Copy Settings.bundle291858967#291858967#0(0"0(0#0#37"/Users/trios1/OMGHelp/Settings.bundle4300911832#431"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/Settings.bundle /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCpResource build/Release-iphonesimulator/OMGHelp.app/answer0.aiff answer0.aiff
-s291858968.203112
-e291858968.322234
-r1
-xCpResource
-xbuild/Release-iphonesimulator/OMGHelp.app/answer0.aiff
-xanswer0.aiff
-lSLF07#2@17"Copy answer0.aiff291858968#291858968#0(0"0(0#0#34"/Users/trios1/OMGHelp/answer0.aiff4300911832#428"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/answer0.aiff /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCpResource build/Release-iphonesimulator/OMGHelp.app/answer1.aiff answer1.aiff
-s291858968.207153
-e291858968.323937
-r1
-xCpResource
-xbuild/Release-iphonesimulator/OMGHelp.app/answer1.aiff
-xanswer1.aiff
-lSLF07#2@17"Copy answer1.aiff291858968#291858968#0(0"0(0#0#34"/Users/trios1/OMGHelp/answer1.aiff4300911832#428"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/answer1.aiff /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCpResource build/Release-iphonesimulator/OMGHelp.app/answer2.aiff answer2.aiff
-s291858968.221912
-e291858968.333411
-r1
-xCpResource
-xbuild/Release-iphonesimulator/OMGHelp.app/answer2.aiff
-xanswer2.aiff
-lSLF07#2@17"Copy answer2.aiff291858968#291858968#0(0"0(0#0#34"/Users/trios1/OMGHelp/answer2.aiff4300911832#428"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/answer2.aiff /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCpResource build/Release-iphonesimulator/OMGHelp.app/answer3.aiff answer3.aiff
-s291858968.210641
-e291858968.327308
-r1
-xCpResource
-xbuild/Release-iphonesimulator/OMGHelp.app/answer3.aiff
-xanswer3.aiff
-lSLF07#2@17"Copy answer3.aiff291858968#291858968#0(0"0(0#0#34"/Users/trios1/OMGHelp/answer3.aiff4300911832#428"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/answer3.aiff /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCpResource build/Release-iphonesimulator/OMGHelp.app/answer4.aiff answer4.aiff
-s291858968.223844
-e291858968.337866
-r1
-xCpResource
-xbuild/Release-iphonesimulator/OMGHelp.app/answer4.aiff
-xanswer4.aiff
-lSLF07#2@17"Copy answer4.aiff291858968#291858968#0(0"0(0#0#34"/Users/trios1/OMGHelp/answer4.aiff4300911832#428"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/answer4.aiff /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCpResource build/Release-iphonesimulator/OMGHelp.app/crown2.png crown2.png
-s291858967.765267
-e291858967.783607
-r1
-xCpResource
-xbuild/Release-iphonesimulator/OMGHelp.app/crown2.png
-xcrown2.png
-lSLF07#2@15"Copy crown2.png291858967#291858967#0(0"0(0#0#32"/Users/trios1/OMGHelp/crown2.png4300911832#426"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/crown2.png /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCpResource build/Release-iphonesimulator/OMGHelp.app/crown3.png crown3.png
-s291858967.758179
-e291858967.783857
-r1
-xCpResource
-xbuild/Release-iphonesimulator/OMGHelp.app/crown3.png
-xcrown3.png
-lSLF07#2@15"Copy crown3.png291858967#291858967#0(0"0(0#0#32"/Users/trios1/OMGHelp/crown3.png4300911832#426"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/crown3.png /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCpResource build/Release-iphonesimulator/OMGHelp.app/crown4.png crown4.png
-s291858967.735098
-e291858967.780134
-r1
-xCpResource
-xbuild/Release-iphonesimulator/OMGHelp.app/crown4.png
-xcrown4.png
-lSLF07#2@15"Copy crown4.png291858967#291858967#0(0"0(0#0#32"/Users/trios1/OMGHelp/crown4.png4300911832#426"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/crown4.png /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCpResource build/Release-iphonesimulator/OMGHelp.app/crown5.png crown5.png
-s291858967.710875
-e291858967.765192
-r1
-xCpResource
-xbuild/Release-iphonesimulator/OMGHelp.app/crown5.png
-xcrown5.png
-lSLF07#2@15"Copy crown5.png291858967#291858967#0(0"0(0#0#32"/Users/trios1/OMGHelp/crown5.png4300911832#426"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/crown5.png /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCpResource build/Release-iphonesimulator/OMGHelp.app/crown6.png crown6.png
-s291858967.710276
-e291858967.765084
-r1
-xCpResource
-xbuild/Release-iphonesimulator/OMGHelp.app/crown6.png
-xcrown6.png
-lSLF07#2@15"Copy crown6.png291858967#291858967#0(0"0(0#0#32"/Users/trios1/OMGHelp/crown6.png4300911832#426"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/crown6.png /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCpResource build/Release-iphonesimulator/OMGHelp.app/crown7.png crown7.png
-s291858967.709656
-e291858967.764974
-r1
-xCpResource
-xbuild/Release-iphonesimulator/OMGHelp.app/crown7.png
-xcrown7.png
-lSLF07#2@15"Copy crown7.png291858967#291858967#0(0"0(0#0#32"/Users/trios1/OMGHelp/crown7.png4300911832#426"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/crown7.png /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCpResource build/Release-iphonesimulator/OMGHelp.app/crownEmpty.png crownEmpty.png
-s291858967.709056
-e291858967.764805
-r1
-xCpResource
-xbuild/Release-iphonesimulator/OMGHelp.app/crownEmpty.png
-xcrownEmpty.png
-lSLF07#2@19"Copy crownEmpty.png291858967#291858967#0(0"0(0#0#36"/Users/trios1/OMGHelp/crownEmpty.png4300911832#430"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/crownEmpty.png /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCpResource build/Release-iphonesimulator/OMGHelp.app/crownRuby.png crownRuby.png
-s291858967.769656
-e291858967.783742
-r1
-xCpResource
-xbuild/Release-iphonesimulator/OMGHelp.app/crownRuby.png
-xcrownRuby.png
-lSLF07#2@18"Copy crownRuby.png291858967#291858967#0(0"0(0#0#35"/Users/trios1/OMGHelp/crownRuby.png4300911832#429"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/trios1/OMGHelp/crownRuby.png /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/CrossBG.png CrossBG.png
-s292863037.375211
-e292863037.418762
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/CrossBG.png
-xCrossBG.png
-lSLF07#2@16"Copy CrossBG.png292863037#292863037#0(0"0(0#0#45"/Volumes/VERBATIM/OMGHelp/OMGHelp/CrossBG.png2540130336#467"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/CrossBG.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/Disclaimer.htm Disclaimer.htm
-s292878021.120125
-e292878021.447523
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/Disclaimer.htm
-xDisclaimer.htm
-lSLF07#2@19"Copy Disclaimer.htm292878021#292878021#0(0"0(0#0#48"/Volumes/VERBATIM/OMGHelp/OMGHelp/Disclaimer.htm2540130336#470"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/Disclaimer.htm /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/JesusRevBW.png JesusRevBW.png
-s292863036.157144
-e292863036.244610
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/JesusRevBW.png
-xJesusRevBW.png
-lSLF07#2@19"Copy JesusRevBW.png292863036#292863036#0(0"0(0#0#48"/Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevBW.png2540130336#470"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevBW.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/JesusRevColor.png JesusRevColor.png
-s292863036.164003
-e292863036.244790
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/JesusRevColor.png
-xJesusRevColor.png
-lSLF07#2@22"Copy JesusRevColor.png292863036#292863036#0(0"0(0#0#51"/Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevColor.png2540130336#473"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevColor.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/JesusRevIcon.png JesusRevIcon.png
-s292863036.154359
-e292863036.244408
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/JesusRevIcon.png
-xJesusRevIcon.png
-lSLF07#2@21"Copy JesusRevIcon.png292863036#292863036#0(0"0(0#0#50"/Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevIcon.png2540130336#472"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/JesusRevIcon.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/Settings.bundle Settings.bundle
-s292863035.880448
-e292863036.154214
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/Settings.bundle
-xSettings.bundle
-lSLF07#2@20"Copy Settings.bundle292863035#292863036#0(0"0(0#0#49"/Volumes/VERBATIM/OMGHelp/OMGHelp/Settings.bundle2540130336#471"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/Settings.bundle /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/answer0.aiff answer0.aiff
-s292863037.453190
-e292863037.515195
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/answer0.aiff
-xanswer0.aiff
-lSLF07#2@17"Copy answer0.aiff292863037#292863037#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/answer0.aiff2540130336#468"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/answer0.aiff /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/answer1.aiff answer1.aiff
-s292863037.454736
-e292863037.624374
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/answer1.aiff
-xanswer1.aiff
-lSLF07#2@17"Copy answer1.aiff292863037#292863037#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/answer1.aiff2540130336#468"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/answer1.aiff /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/answer2.aiff answer2.aiff
-s292863037.461766
-e292863037.631513
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/answer2.aiff
-xanswer2.aiff
-lSLF07#2@17"Copy answer2.aiff292863037#292863037#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/answer2.aiff2540130336#468"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/answer2.aiff /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/answer3.aiff answer3.aiff
-s292863037.457322
-e292863037.631275
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/answer3.aiff
-xanswer3.aiff
-lSLF07#2@17"Copy answer3.aiff292863037#292863037#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/answer3.aiff2540130336#468"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/answer3.aiff /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/answer4.aiff answer4.aiff
-s292863037.465010
-e292863037.751633
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/answer4.aiff
-xanswer4.aiff
-lSLF07#2@17"Copy answer4.aiff292863037#292863037#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/answer4.aiff2540130336#468"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/answer4.aiff /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/crown2.png crown2.png
-s292863036.245082
-e292863036.340542
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/crown2.png
-xcrown2.png
-lSLF07#2@15"Copy crown2.png292863036#292863036#0(0"0(0#0#44"/Volumes/VERBATIM/OMGHelp/OMGHelp/crown2.png2540130336#466"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/crown2.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/crown3.png crown3.png
-s292863036.236978
-e292863036.340733
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/crown3.png
-xcrown3.png
-lSLF07#2@15"Copy crown3.png292863036#292863036#0(0"0(0#0#44"/Volumes/VERBATIM/OMGHelp/OMGHelp/crown3.png2540130336#466"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/crown3.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/crown4.png crown4.png
-s292863036.208607
-e292863036.301125
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/crown4.png
-xcrown4.png
-lSLF07#2@15"Copy crown4.png292863036#292863036#0(0"0(0#0#44"/Volumes/VERBATIM/OMGHelp/OMGHelp/crown4.png2540130336#466"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/crown4.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/crown5.png crown5.png
-s292863036.198792
-e292863036.294821
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/crown5.png
-xcrown5.png
-lSLF07#2@15"Copy crown5.png292863036#292863036#0(0"0(0#0#44"/Volumes/VERBATIM/OMGHelp/OMGHelp/crown5.png2540130336#466"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/crown5.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/crown6.png crown6.png
-s292863036.192055
-e292863036.296744
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/crown6.png
-xcrown6.png
-lSLF07#2@15"Copy crown6.png292863036#292863036#0(0"0(0#0#44"/Volumes/VERBATIM/OMGHelp/OMGHelp/crown6.png2540130336#466"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/crown6.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/crown7.png crown7.png
-s292863036.187780
-e292863036.299410
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/crown7.png
-xcrown7.png
-lSLF07#2@15"Copy crown7.png292863036#292863036#0(0"0(0#0#44"/Volumes/VERBATIM/OMGHelp/OMGHelp/crown7.png2540130336#466"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/crown7.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/crownEmpty.png crownEmpty.png
-s292863036.184536
-e292863036.244967
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/crownEmpty.png
-xcrownEmpty.png
-lSLF07#2@19"Copy crownEmpty.png292863036#292863036#0(0"0(0#0#48"/Volumes/VERBATIM/OMGHelp/OMGHelp/crownEmpty.png2540130336#470"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/crownEmpty.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/crownRuby.png crownRuby.png
-s292863036.246757
-e292863036.340270
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/crownRuby.png
-xcrownRuby.png
-lSLF07#2@18"Copy crownRuby.png292863036#292863036#0(0"0(0#0#47"/Volumes/VERBATIM/OMGHelp/OMGHelp/crownRuby.png2540130336#469"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/crownRuby.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/filelist.xml Disclaimer_files/filelist.xml
-s292878021.179404
-e292878021.467147
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/filelist.xml
-xDisclaimer_files/filelist.xml
-lSLF07#2@34"Copy Disclaimer_files/filelist.xml292878021#292878021#0(0"0(0#0#63"/Volumes/VERBATIM/OMGHelp/OMGHelp/Disclaimer_files/filelist.xml2540130336#485"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/Disclaimer_files/filelist.xml /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/filelist.xml filelist.xml
-s292878099.648475
-e292878099.716388
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/filelist.xml
-xfilelist.xml
-lSLF07#2@17"Copy filelist.xml292878099#292878099#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/filelist.xml2540130336#468"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/filelist.xml /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/image001.png Disclaimer_files/image001.png
-s292878021.201477
-e292878021.481439
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/image001.png
-xDisclaimer_files/image001.png
-lSLF07#2@34"Copy Disclaimer_files/image001.png292878021#292878021#0(0"0(0#0#63"/Volumes/VERBATIM/OMGHelp/OMGHelp/Disclaimer_files/image001.png2540130336#485"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/Disclaimer_files/image001.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/image001.png image001.png
-s292878099.649887
-e292878099.713843
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/image001.png
-ximage001.png
-lSLF07#2@17"Copy image001.png292878099#292878099#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/image001.png2540130336#468"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/image001.png /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/image002.gif Disclaimer_files/image002.gif
-s292878021.209662
-e292878021.467391
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/image002.gif
-xDisclaimer_files/image002.gif
-lSLF07#2@34"Copy Disclaimer_files/image002.gif292878021#292878021#0(0"0(0#0#63"/Volumes/VERBATIM/OMGHelp/OMGHelp/Disclaimer_files/image002.gif2540130336#485"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/Disclaimer_files/image002.gif /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CCpResource build/Release-iphonesimulator/tellMeJesus.app/image002.gif image002.gif
-s292878099.663255
-e292878099.716755
-r1
-xCpResource
-xbuild/Release-iphonesimulator/tellMeJesus.app/image002.gif
-ximage002.gif
-lSLF07#2@17"Copy image002.gif292878099#292878099#0(0"0(0#0#46"/Volumes/VERBATIM/OMGHelp/OMGHelp/image002.gif2540130336#468"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/VERBATIM/OMGHelp/OMGHelp/image002.gif /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-
-CGenerateDSYMFile /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app.dSYM /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/OMGHelp
-s292197109.842762
-e292197109.879464
-r1
-xGenerateDSYMFile
-x/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app.dSYM
-x/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/OMGHelp
-lSLF07#2@113"GenerateDSYMFile build/Release-iphonesimulator/OMGHelp.app.dSYM build/Release-iphonesimulator/OMGHelp.app/OMGHelp292197109#292197109#0(0"0(0#0#71"/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/OMGHelp4300911832#336"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/OMGHelp -o /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app.dSYM0#
-
-CGenerateDSYMFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app.dSYM /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/tellMeJesus
-s292997057.514146
-e292997057.839689
-r1
-xGenerateDSYMFile
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app.dSYM
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/tellMeJesus
-lSLF07#2@125"GenerateDSYMFile build/Release-iphonesimulator/tellMeJesus.app.dSYM build/Release-iphonesimulator/tellMeJesus.app/tellMeJesus292997057#292997057#0(0"0(0#0#91"/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/tellMeJesus2540130336#384"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/tellMeJesus -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app.dSYM0#
-
-CLd /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/OMGHelp normal i386
-s292197109.788945
-e292197109.842632
-r1
-xLd
-x/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/OMGHelp
-xnormal
-xi386
-lSLF07#2@76"Link /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/OMGHelp292197109#292197109#0(0"0(0#0#0"4300911832#811"    cd /Users/trios1/OMGHelp    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/trios1/OMGHelp/build/Release-iphonesimulator -F/Users/trios1/OMGHelp/build/Release-iphonesimulator -filelist /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/OMGHelp.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -o /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/OMGHelp0#
-
-CLd /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/tellMeJesus normal i386
-s292997057.285854
-e292997057.513996
-r1
-xLd
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/tellMeJesus
-xnormal
-xi386
-lSLF07#2@96"Link /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/tellMeJesus292997057#292997057#0(0"0(0#0#0"2540130336#883"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator -filelist /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/Objects-normal/i386/tellMeJesus.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/tellMeJesus0#
-
-CProcessInfoPlistFile /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/Info.plist OMGHelp-Info.plist
-s291858967.091623
-e291858967.131466
-r1
-xProcessInfoPlistFile
-x/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/Info.plist
-xOMGHelp-Info.plist
-lSLF07#2@26"Process OMGHelp-Info.plist291858967#291858967#0(0"0(0#0#40"/Users/trios1/OMGHelp/OMGHelp-Info.plist4300911832#432"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility OMGHelp-Info.plist -genpkginfo /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app/Info.plist0#
-
-CProcessInfoPlistFile /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/Info.plist OMGHelp-Info.plist
-s292863035.142246
-e292863035.169717
-r1
-xProcessInfoPlistFile
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/Info.plist
-xOMGHelp-Info.plist
-lSLF07#2@26"Process OMGHelp-Info.plist292863035#292863035#0(0"0(0#0#52"/Volumes/VERBATIM/OMGHelp/OMGHelp/OMGHelp-Info.plist2540130336#476"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility OMGHelp-Info.plist -genpkginfo /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app/Info.plist0#
-
-CProcessPCH /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-degsksjqyfzrowaauujtvzdkoiyb/OMGHelp_Prefix.pch.gch OMGHelp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s292863041.187245
-e292863043.504605
-r1
-xProcessPCH
-x/var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-degsksjqyfzrowaauujtvzdkoiyb/OMGHelp_Prefix.pch.gch
-xOMGHelp_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile OMGHelp_Prefix.pch292863041#292863043#0(0"0(0#0#52"/Volumes/VERBATIM/OMGHelp/OMGHelp/OMGHelp_Prefix.pch2540130336#1774"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-generated-files.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-own-target-headers.hmap -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-all-target-headers.hmap -iquote /Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/tellMeJesus-project-headers.hmap -F/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/include -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources/i386 -I/Volumes/VERBATIM/OMGHelp/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Volumes/VERBATIM/OMGHelp/OMGHelp/OMGHelp_Prefix.pch -o /var/folders/5A/5A8If40QEhONF3KBrgJJxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-degsksjqyfzrowaauujtvzdkoiyb/OMGHelp_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-aauqwjbaacsryighpiennvcjbram/OMGHelp_Prefix.pch.gch OMGHelp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s291858968.692950
-e291858970.018162
-r1
-xProcessPCH
-x/var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-aauqwjbaacsryighpiennvcjbram/OMGHelp_Prefix.pch.gch
-xOMGHelp_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile OMGHelp_Prefix.pch291858968#291858970#0(0"0(0#0#40"/Users/trios1/OMGHelp/OMGHelp_Prefix.pch4300911832#1638"    cd /Users/trios1/OMGHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-generated-files.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-own-target-headers.hmap -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-all-target-headers.hmap -iquote /Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/OMGHelp-project-headers.hmap -F/Users/trios1/OMGHelp/build/Release-iphonesimulator -I/Users/trios1/OMGHelp/build/Release-iphonesimulator/include -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources/i386 -I/Users/trios1/OMGHelp/build/OMGHelp.build/Release-iphonesimulator/OMGHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/trios1/OMGHelp/OMGHelp_Prefix.pch -o /var/folders/dd/dd5jTLxtG4mzJCbHNbttsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OMGHelp_Prefix-aauqwjbaacsryighpiennvcjbram/OMGHelp_Prefix.pch.gch0#
-
-CTouch /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app
-s292197109.879555
-e292197109.882806
-r1
-xTouch
-x/Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app
-lSLF07#2@69"Touch /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app292197109#292197109#0(0"0(0#0#0"4300911832#246"    cd /Users/trios1/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/trios1/OMGHelp/build/Release-iphonesimulator/OMGHelp.app0#
-
-CTouch /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app
-s292997057.841133
-e292997057.847631
-r1
-xTouch
-x/Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app
-lSLF07#2@85"Touch /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app292997057#292997057#0(0"0(0#0#0"2540130336#274"    cd /Volumes/VERBATIM/OMGHelp/OMGHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Volumes/VERBATIM/OMGHelp/OMGHelp/build/Release-iphonesimulator/tellMeJesus.app0#
-

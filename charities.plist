@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Student Missions</string>
+		<key>url</key>
+		<string>http://www.idialjesus.com/page1.html</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Christian Education</string>
+		<key>url</key>
+		<string>http://www.idialjesus.com/page2.html</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Feeding the Hungry</string>
+		<key>url</key>
+		<string>http://www.idialjesus.com/page3.html</string>
+	</dict>
+</array>
+</plist>

@@ -97,7 +97,7 @@
         //cell.textLabel.adjustsFontSizeToFitWidth = YES; 
         cell.textLabel.numberOfLines = 7;
         cell.backgroundColor = [UIColor clearColor];
-        cell.textLabel.textAlignment = UITextAlignmentCenter;
+        //cell.textLabel.textAlignment = UITextAlignmentCenter;
         cell.textLabel.baselineAdjustment = UIBaselineAdjustmentAlignBaselines;
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         //cell.detailTextLabel.text = @"sub-title";
@@ -109,7 +109,7 @@
         //cell.textLabel.adjustsFontSizeToFitWidth = YES; 
         cell.textLabel.numberOfLines = 7;
         cell.backgroundColor = [UIColor clearColor];
-        cell.textLabel.textAlignment = UITextAlignmentCenter;
+        //cell.textLabel.textAlignment = UITextAlignmentCenter;
         //cell.detailTextLabel.text = @"sub-title";
         return cell;
     }

@@ -11,14 +11,10 @@
 #import <AVFoundation/AVFoundation.h>
 #import <MessageUI/MessageUI.h>
 #import <MessageUI/MFMailComposeViewController.h>
-#import "FBConnect.h"
 
 @class FBSession;
 
 @interface AnswerTableViewController : UIViewController < UIActionSheetDelegate,
-														  FBDialogDelegate, 
-                                                          FBSessionDelegate, 
-                                                          FBRequestDelegate,
                                                           MFMailComposeViewControllerDelegate,
                                                           AVAudioPlayerDelegate>
 {
@@ -55,7 +51,7 @@
 - (IBAction)previousPage:(id)sender;
 - (IBAction)styleAction:(id)sender;
 
-- (void)showCurrentPage;
+- (IBAction)showCurrentPage;
 
 - (void) configureToolbarItems;
 - (void) showQuote;
@@ -69,9 +65,6 @@
 - (void) actionFaceBook;
 - (void) actionTwitter;
 - (void) actionMusic;
-
-//- (void)publishFeed:(id)target; //olded vertion
-- (void)publishFeed;
 
 -(void)displayComposerSheet;
 -(void)launchMailAppOnDevice;

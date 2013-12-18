@@ -8,8 +8,6 @@
 
 #import "AnswerTableViewController.h"
 #import "CrownViewController.h"
-#import "FBConnect.h"
-#import "FBStreamDialog.h"
 #import "TwitterLoginViewController.h"
 
 @implementation AnswerTableViewController
@@ -149,8 +147,7 @@
 }	
 
 
-- (IBAction)showCurrentPage
-{
+- (IBAction)showCurrentPage {
     NSInteger lastIndex = [self.toolbarItems count] -1;
 	UIBarButtonItem *back = [self.toolbarItems objectAtIndex:0];
 	UIBarButtonItem *next = [self.toolbarItems objectAtIndex:lastIndex];
@@ -473,9 +470,7 @@
 {
     // post this answer on Facebook
     //NSLog(@"post on FB");
-    __session = [FBSession sessionForApplication:@"99d9523b9c944dc7fc25c979a461dd28" secret:@"bad4f5bcd1db752bb9955a267ecd9913" delegate:self];
-    FBLoginDialog* dialog = [[[FBLoginDialog alloc] initWithSession:__session] autorelease]; 
-    [dialog show];
+//    __session = [FBSession sessionForApplication:@"99d9523b9c944dc7fc25c979a461dd28" secret:@"bad4f5bcd1db752bb9955a267ecd9913" delegate:self];
 }
 
 - (void) actionTwitter
@@ -528,7 +523,7 @@
 {
     // show Twitter login screen.
     TwitterLoginViewController *tweet = [[TwitterLoginViewController alloc] initWithNibName:@"TwitterLoginViewController" bundle:nil];
-    [self.navigationController presentModalViewController:tweet animated:YES];
+    [self.navigationController presentViewController:tweet animated:YES completion:nil];
     [tweet release];    
     
 }
@@ -563,37 +558,6 @@
 
 #pragma mark -
 #pragma mark FB
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// FBDialogDelegate
-
-- (void)dialog:(FBDialog*)dialog didFailWithError:(NSError*)error {
-   NSLog(@"Error(%d) %@", error.code, error.localizedDescription);
-}
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// FBSessionDelegate
-
-- (void)session:(FBSession*)session didLogin:(FBUID)uid {
-
-    NSLog(@"User with id %lld logged in.", uid);
-/*    
-FBStreamDialog* dialog = [[[FBStreamDialog alloc] init] autorelease]; 
-    dialog.delegate = self; 
-    dialog.userMessagePrompt = @"Example prompt"; 
-    dialog.attachment = @"{\"name\":\"Facebook iPhone SDK\" ",
-                         "\"href\":\"http://developers.facebook.com/connect.php?tab=iphone\" ",
-                         "\"caption\":\"Caption\",\"description\":\"Description\"," "\"media\":[{\"type\":\"image\"," "\"src\":\"http://img40.yfrog.com/img40/5914/iphoneconnectbtn.jpg\"," "\"href\":\"http://developers.facebook.com/connect.php?tab=iphone/\"}]," "\"properties\":{\"another link\":{\"text\":\"Facebook home page\",\"href\":\"http://www.facebook.com\"}}}"; 
-    // replace this with a friend's UID 
-    dialog.targetId = @"trios1@yahoo.com"; 
-    [dialog show];
-*/
-    [self publishFeed];
-    NSString* fql = [NSString stringWithFormat:
-                     @"select uid,name from user where uid == %lld", session.uid];
-    
-    NSDictionary* params = [NSDictionary dictionaryWithObject:fql forKey:@"query"];
-    [[FBRequest requestWithDelegate:self] call:@"facebook.fql.query" params:params];    
-}
 
 - (void)sessionDidLogout:(FBSession*)session {
     // _label.text = @"";
@@ -603,62 +567,8 @@ FBStreamDialog* dialog = [[[FBStreamDialog alloc] init] autorelease];
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-// FBRequestDelegate
-
-- (void)request:(FBRequest*)request didLoad:(id)result {
-    if ([request.method isEqualToString:@"facebook.fql.query"]) {
-        NSArray* users = result;
-        NSDictionary* user = [users objectAtIndex:0];
-        NSString* name = [user objectForKey:@"name"];
-        NSLog(@"Logged in as %@", name);
-    } else if ([request.method isEqualToString:@"facebook.users.setStatus"]) {
-        NSString* success = result;
-        if ([success isEqualToString:@"1"]) {
-            NSLog(@"Status successfully set"); 
-        } else {
-            NSLog(@"Problem setting status"); 
-        }
-    } else if ([request.method isEqualToString:@"facebook.photos.upload"]) {
-        NSDictionary* photoInfo = result;
-        NSString* pid = [photoInfo objectForKey:@"pid"];
-        NSLog(@"Uploaded with pid %@", pid);
-    }
- }
-
-- (void)request:(FBRequest*)request didFailWithError:(NSError*)error {
-    // _label.text = [NSString stringWithFormat:@"Error(%d) %@", error.code,
-    //                error.localizedDescription];
-    // The user canceled -- simply dismiss the image picker.
-	//[self dismissModalViewControllerAnimated:YES];
-}
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-
-- (void)askPermission:(id)target {
-    FBPermissionDialog* dialog = [[[FBPermissionDialog alloc] init] autorelease];
-    dialog.delegate = self;
-    dialog.permission = @"status_update";
-    [dialog show];
-}
 
 
-- (void)publishFeed {
-    FBStreamDialog* dialog = [[[FBStreamDialog alloc] init] autorelease];
-    dialog.delegate = self;
-    dialog.userMessagePrompt = @"Share this answer with your friends";
-    NSString *attachedMsgFormat= @"{\"name\":\"iDialJesus\",\"href\":\"http://www.iDialJesus.com\",\"caption\":\"{*actor*} liked this Bible quote\",\"description\":\"%@\"}";
-    NSString *attachedMsg = [answer objectForKey:@"bible quote"];
-    attachedMsg = [attachedMsg stringByReplacingOccurrencesOfString:@"\"" withString:@""];
-    attachedMsg = [attachedMsg stringByReplacingOccurrencesOfString:@":" withString:@"="];
-    NSArray *listItems = [attachedMsg componentsSeparatedByString:@"\n"];
-    attachedMsg = [listItems objectAtIndex:0];
-    attachedMsg = [NSString stringWithFormat:attachedMsgFormat,attachedMsg];
-    NSLog(@"%@",attachedMsg);
-    dialog.attachment = attachedMsg;
-    // replace this with a friend's UID
-    // dialog.targetId = @"999999";
-    [dialog show];
-}
 
 #pragma mark -
 #pragma mark MFMailComposeViewController
@@ -686,7 +596,7 @@ FBStreamDialog* dialog = [[[FBStreamDialog alloc] init] autorelease];
 	NSString *emailBody = [answer objectForKey:@"bible quote"];
 	[picker setMessageBody:emailBody isHTML:NO];
 	
-	[self presentModalViewController:picker animated:YES];
+	[self presentViewController:picker animated:YES completion:nil];
     [picker release];
 }
 
@@ -713,7 +623,7 @@ FBStreamDialog* dialog = [[[FBStreamDialog alloc] init] autorelease];
 			//message.text = @"Result: not sent";
 			break;
 	}
-	[self dismissModalViewControllerAnimated:YES];
+	[self dismissViewControllerAnimated:YES completion:nil];
 }
 
 // Launches the Mail application on the device.

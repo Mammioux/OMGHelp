@@ -82,7 +82,7 @@
 
 		// Pass the selected object to the new view controller.
 		Disclaimer *disclaimer = [[Disclaimer alloc] initWithNibName:@"Disclaimer" bundle:nil];
- 		[self.navigationController presentModalViewController:disclaimer animated:YES];
+ 		[self.navigationController presentViewController:disclaimer animated:YES completion:nil];
 		[disclaimer release];
 	} 
 /*    
@@ -211,7 +211,7 @@
 	
 	cell.textLabel.backgroundColor = [UIColor clearColor];
 	cell.backgroundColor = [UIColor clearColor];
-	cell.textLabel.textAlignment = UITextAlignmentCenter; 
+	//cell.textLabel.textAlignment = UITextAlignmentCenter;
     
     NSDictionary *dataItem = [data objectAtIndex:indexPath.row];
     cell.textLabel.text = [dataItem objectForKey:@"topic"];

@@ -75,7 +75,7 @@
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setBool:YES forKey:@"agreed"];
     
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:NULL];
     
 }
 

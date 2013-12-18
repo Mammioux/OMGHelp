@@ -78,7 +78,7 @@
                                              nil]];
 	[segmentedControl addTarget:self action:@selector(segmentAction:) forControlEvents:UIControlEventValueChanged];
 	segmentedControl.frame = CGRectMake(0, 0, 300, 30.0);
-	segmentedControl.segmentedControlStyle = UISegmentedControlStyleBar;
+	//segmentedControl.segmentedControlStyle=UISegmentedControlStyleBar;
     segmentedControl.selectedSegmentIndex = 0;
 	//segmentedControl.momentary = YES;
 	

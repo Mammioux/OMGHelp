@@ -43,8 +43,7 @@
 	self.view.backgroundColor = [UIColor clearColor];
 	self.tableView.separatorColor = [UIColor clearColor];
 	self.navigationItem.title = @"iDialJesus";
-	UIBarButtonItem *done = self.navigationItem.rightBarButtonItem;
-	[done initWithBarButtonSystemItem: UIBarButtonSystemItemDone target:self action: @selector(done:)];
+	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"About" style:UIBarButtonSystemItemDone  target:self action: @selector(done:)];
     
 	// read BETA test settings
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];

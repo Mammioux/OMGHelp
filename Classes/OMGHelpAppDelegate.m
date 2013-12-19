@@ -12,7 +12,7 @@
 
 @implementation OMGHelpAppDelegate
 
-@synthesize window;
+@synthesize window = _window;
 @synthesize nvc1;
 
 

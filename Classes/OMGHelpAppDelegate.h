@@ -8,13 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OMGHelpAppDelegate : NSObject <UIApplicationDelegate> {
-    
-    UIWindow *window;
-    UINavigationController *nvc1;
-}
+@interface OMGHelpAppDelegate : NSObject <UIApplicationDelegate> 
+//{
+//    
+//    UIWindow *window;
+//    UINavigationController *nvc1;
+//}
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
+//@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (strong, nonatomic) UIWindow *window;
 @property (nonatomic, retain) IBOutlet UINavigationController *nvc1;
 
 @end

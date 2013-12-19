@@ -41,7 +41,7 @@
 }
 
 -(void)request:(NSURL *) url {
-	theRequest   = [[[NSMutableURLRequest alloc] initWithURL:url] retain];
+	theRequest   = [[NSMutableURLRequest alloc] initWithURL:url];
 	
 	if(isPost) {
 		NSLog(@"ispost");
@@ -51,13 +51,13 @@
 		[theRequest setValue:[NSString stringWithFormat:@"%d",[requestBody length] ] forHTTPHeaderField:@"Content-Length"];
 	}
 	
-	theConnection = [[[NSURLConnection alloc] initWithRequest:theRequest delegate:self] retain];
+	theConnection = [[NSURLConnection alloc] initWithRequest:theRequest delegate:self];
 	
 	if (theConnection) {
 		// Create the NSMutableData that will hold
 		// the received data
 		// receivedData is declared as a method instance elsewhere
-		receivedData=[[NSMutableData data] retain];
+		receivedData=[NSMutableData data];
 	} else {
 		// inform the user that the download could not be made
 	}
@@ -68,12 +68,11 @@
 	
 	if ([challenge previousFailureCount] == 0) {
         NSURLCredential *newCredential;
-        newCredential=[[NSURLCredential credentialWithUser:[self username]
+        newCredential=[NSURLCredential credentialWithUser:[self username]
                                                  password:[self password]
-                                              persistence:NSURLCredentialPersistenceNone] retain];
+                                              persistence:NSURLCredentialPersistenceNone];
         [[challenge sender] useCredential:newCredential
                forAuthenticationChallenge:challenge];
-		[newCredential release];
     } else {
         [[challenge sender] cancelAuthenticationChallenge:challenge];
         // inform the user that the user name and password
@@ -104,13 +103,7 @@
 - (void)connection:(NSURLConnection *)connection
   didFailWithError:(NSError *)error
 {
-    // release the connection, and the data object
-    [connection release];
     // receivedData is declared as a method instance elsewhere
-    [receivedData release];
-	
-	[theRequest release];
-	
     // inform the user
     NSLog(@"Connection failed! Error - %@ %@",
           [error localizedDescription],
@@ -132,16 +125,6 @@
 			NSLog(@"No response from delegate");
 		}
 	} 
-	
-	// release the connection, and the data object
-	[theConnection release];
-    [receivedData release];
-	[theRequest release];
 }
-
--(void) dealloc {
-	[super dealloc];
-}
-
 
 @end

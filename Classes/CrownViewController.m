@@ -82,7 +82,6 @@
                                                                       action: @selector(left:)];
 		//self.navigationItem.backBarButtonItem = customBack;//
 	    self.navigationItem.leftBarButtonItem = customBack;//we must use left instead of back
-        [customBack release];
         
         //select crown image based on jewel count
         if (count >= ([self.jewelDictArray count]-1)) {
@@ -192,18 +191,15 @@
     
 	NSString *soundFilePath = [[NSBundle mainBundle] pathForResource: filename
                                                         ofType:[song objectForKey:@"ext"]];
-    [filename release];
     //NSLog(@"soundFilePath = %@", soundFilePath);
 	if(soundFilePath != nil) {
 		NSURL *fileURL = [[NSURL alloc] initFileURLWithPath: soundFilePath];
 		AVAudioPlayer *newPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL: fileURL
 																		  error: nil];
-		[fileURL release];
         
         newPlayer.delegate = self;
 		
 		self.player = newPlayer;
-		[newPlayer release];
 		
         //[self.player prepareToPlay];
 		[self.player setVolume: 1.0];
@@ -221,8 +217,6 @@
     [defaults setInteger:count forKey:@"count"];
 	[defaults setInteger:count forKey:@"count_preference"];
     [alert show];
-    [alert release];
-    
 } //- (void)viewDidLoad
 
 /*
@@ -269,7 +263,6 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
-    [jewelsArray release];
 }
 
 #pragma mark -
@@ -367,45 +360,7 @@
                                       delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
     
     [alert show];
-    [alert release];
     
-}
-
-- (void)dealloc {
-    [player release];
-    [jewelsArray release];
-    [songsArray release];
-    [ruby release];
-    [topaz release];
-    [emerald release];
-    [turquoise release];
-    [sapphire release];
-    [amber release];
-    [agate release];
-    [amethyst release];
-    [beryl release];
-    [onyx release];
-    [jasper release];
-    [chalcedony release];
-    [sardonyx release];
-    [chrysoprase release];
-    [aquamarine release];
-    [garnet release]; 
-    [peridot release];
-    [opal release];
-    [yellowsapphire release];
-    [pearl release];
-    [whitesapphire release];
-    [redcoral release];
-    [diamond release];    
-    [crownImage release];
-    
-    [super dealloc];
-    
-    [_playBtnBG release];
-	[_playButton release];
-	[_ffwButton release];
-	[_rewButton release];
 }
 
 #pragma mark -
@@ -420,11 +375,8 @@ This method is NOT called if the player is stopped due to an interruption. */
 	NSString *filename = [[NSString alloc] initWithFormat:@"%@",[song objectForKey:@"name"]];
     NSString *file_ext = [[NSString alloc] initWithFormat:@"%@",[song objectForKey:@"ext"]];
 	NSString *soundFilePath = [[NSBundle mainBundle] pathForResource: filename ofType:file_ext];
-    [filename release];
-    [file_ext release];
     NSURL *fileURL = [[NSURL alloc] initFileURLWithPath: soundFilePath];
     [self.player initWithContentsOfURL: fileURL error: nil];
-    [fileURL release];
     //[self.player prepareToPlay];
     self.player.delegate = self;
     [self.player setVolume: 1.0];
@@ -483,8 +435,6 @@ The player will have been paused. */
 	// use the same style as the nav bar
 	styleAlert.actionSheetStyle = self.navigationController.navigationBar.barStyle;
 	[styleAlert showInView:self.view.window];
-	[styleAlert release];
-    
 }
 - (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo
 {
@@ -502,7 +452,6 @@ The player will have been paused. */
                                           delegate:self cancelButtonTitle:@"Ok" 
                                  otherButtonTitles:nil];
     [alert show];
-    [alert release];
 }
 
 - (void)uploadPhoto:(UIImage *)img

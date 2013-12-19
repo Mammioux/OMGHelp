@@ -55,11 +55,6 @@
     // e.g. self.myOutlet = nil;
 }
 
-
-- (void)dealloc {
-    [super dealloc];
-}
-
 - (IBAction) postTweet: (id) sender {
         NSLog(@"Login to Twitter");
 	t.username = tuid.text;
@@ -89,7 +84,6 @@
 
 - (void) status_updateCallback: (NSData *) content {
 	[loadingActionSheet dismissWithClickedButtonIndex:0 animated:YES];
-	[loadingActionSheet release];
 	NSLog(@"%@",[[NSString alloc] initWithData:content encoding:NSASCIIStringEncoding]);
     [self dismissViewControllerAnimated:YES completion:nil];
 }

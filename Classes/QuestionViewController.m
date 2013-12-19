@@ -87,7 +87,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
     if(indexPath.row % 2 == 0){
         // Configure the even cell...
@@ -191,7 +191,6 @@
         answerTableViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
         // Pass the selected object to the answerViewController.
         [self.navigationController pushViewController:answerTableViewController animated:YES];
-        [answerTableViewController release];
     }//if row is even
     
 }
@@ -211,14 +210,6 @@
     // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
     // For example: self.myOutlet = nil;
 }
-
-
-- (void)dealloc {
-    [questions release];
-    [topic release];
-    [super dealloc];
-}
-
 
 @end
 

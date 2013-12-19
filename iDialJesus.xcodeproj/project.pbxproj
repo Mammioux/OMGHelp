@@ -230,6 +230,8 @@
 		0BF9920A1174F44D00CF910E /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BF992081174F44D00CF910E /* About.xib */; };
 		0BF992231174F5B700CF910E /* filelist.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0BF9921D1174F5B700CF910E /* filelist.xml */; };
 		0BF9929E1175624900CF910E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		0FE3C1A618629EEE008805BA /* iDialJesus_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3C1A518629EEE008805BA /* iDialJesus_iPhone.storyboard */; };
+		0FE3C1A818629F2F008805BA /* IDialJesus_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3C1A718629F2F008805BA /* IDialJesus_iPad.storyboard */; };
 		1D3623260D0F684500981E51 /* OMGHelpAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* OMGHelpAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -470,6 +472,8 @@
 		0BF992071174F44D00CF910E /* About.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = About.m; sourceTree = "<group>"; };
 		0BF992081174F44D00CF910E /* About.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = About.xib; path = Classes/About.xib; sourceTree = "<group>"; };
 		0BF9921D1174F5B700CF910E /* filelist.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = filelist.xml; sourceTree = "<group>"; };
+		0FE3C1A518629EEE008805BA /* iDialJesus_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iDialJesus_iPhone.storyboard; sourceTree = "<group>"; };
+		0FE3C1A718629F2F008805BA /* IDialJesus_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IDialJesus_iPad.storyboard; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* OMGHelpAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGHelpAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* OMGHelpAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGHelpAppDelegate.m; sourceTree = "<group>"; };
@@ -807,6 +811,8 @@
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
 				0BF9921D1174F5B700CF910E /* filelist.xml */,
 				01EE8EFC11EFCDD40090B665 /* Default.png */,
+				0FE3C1A518629EEE008805BA /* iDialJesus_iPhone.storyboard */,
+				0FE3C1A718629F2F008805BA /* IDialJesus_iPad.storyboard */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1019,6 +1025,7 @@
 				0B23A65E11A222E100DB0B65 /* StressedOut3.mp3 in Resources */,
 				0B23A65F11A222E100DB0B65 /* StressedOut4.mp3 in Resources */,
 				0B23A66011A222E100DB0B65 /* StuckUp0.mp3 in Resources */,
+				0FE3C1A818629F2F008805BA /* IDialJesus_iPad.storyboard in Resources */,
 				0B23A66111A222E100DB0B65 /* StuckUp1.mp3 in Resources */,
 				0B23A66211A222E100DB0B65 /* StuckUp2.mp3 in Resources */,
 				0B23A66311A222E100DB0B65 /* StuckUp3.mp3 in Resources */,
@@ -1026,6 +1033,7 @@
 				019527BE11A08358001EFAF9 /* The Greatest Gift.mp3 in Resources */,
 				019528CD11A255E8001EFAF9 /* TopazTBG.png in Resources */,
 				0BA8AAAE1159D1E10002F011 /* topics.plist in Resources */,
+				0FE3C1A618629EEE008805BA /* iDialJesus_iPhone.storyboard in Resources */,
 				019525AA119A3F65001EFAF9 /* transparent Button.png in Resources */,
 				019525A6119A3F65001EFAF9 /* TurquoiseTBG.png in Resources */,
 				019527BF11A08358001EFAF9 /* Well Done.mp3 in Resources */,

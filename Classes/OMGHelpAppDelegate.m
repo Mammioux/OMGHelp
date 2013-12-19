@@ -45,8 +45,8 @@
     [localViewControllersArray release]; // Retained thru above setter
     */
     
-    [window addSubview:[nvc1 view]];
-    [window makeKeyAndVisible];
+    [_window addSubview:[nvc1 view]];
+    [_window makeKeyAndVisible];
 	return YES;
 }
 
@@ -69,7 +69,7 @@
 - (void)dealloc {
     // [tbc release];
 	[nvc1 release];
-	[window release];
+	[_window release];
 	[super dealloc];
 }
 

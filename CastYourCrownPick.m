@@ -71,13 +71,7 @@
     [defaults setBool:YES forKey:@"donated"];
 }
 
-- (void)dealloc {
-    //[charityList release];
-    [super dealloc];
-}
-
-
-#pragma mark - 
+#pragma mark -
 #pragma mark UIAlertViewDelegate
 
 - (void)donate:(id)sender

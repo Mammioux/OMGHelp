@@ -66,19 +66,12 @@
 #pragma mark -
 #pragma mark Memory management
 
-- (void)dealloc {
-    // [tbc release];
-	[nvc1 release];
-	[_window release];
-	[super dealloc];
-}
 
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
 
     [self applicationWillTerminate:application];
-    [self dealloc];
     exit(0);
 }
 @end

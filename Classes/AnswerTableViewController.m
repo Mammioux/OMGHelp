@@ -119,11 +119,6 @@
 	//as in case 0 of showCurrentPage, back button is disabled
 	UIBarButtonItem *back = [self.toolbarItems objectAtIndex:0];
 	back.enabled = NO;
-	[flexibleSpaceButtonItem release];	
-	[actionButtonBar release];
-	[backButtonBar release];
-	[nextButtonBar release];
-	[muteButtonBar release];
 }//- (void)configureToolbarItems
 
 -(IBAction)nextPage:(id)sender
@@ -200,7 +195,6 @@
 	/**/
 	NSString *filename = [[NSString alloc] initWithFormat:@"%@%d", (NSString *)noBlanksTopic , self.index];
 	NSString *soundFilePath = [[NSBundle mainBundle] pathForResource: filename ofType: @"mp3"];
-    [filename release];
     //[noBlanksTopic release];
 	if (soundFilePath != nil) {
 		NSURL *fileURL = [[NSURL alloc] initFileURLWithPath: soundFilePath];
@@ -208,13 +202,11 @@
 			//NSLog(@"Creating new player");
 			AVAudioPlayer *newPlayer = [AVAudioPlayer alloc];
 			self.player = newPlayer;
-			[newPlayer release];
 		} else {
 			//NSLog(@"Reusing player");
 			[self.player stop];
 		}
 	[self.player initWithContentsOfURL:fileURL error:nil];
-		[fileURL release];			
 	}
 	
     if (self.player != nil) {
@@ -296,11 +288,8 @@
 																   style:UIBarButtonItemStyleDone 
 																  target:nil action:NULL ];
 	self.navigationController.navigationItem.backBarButtonItem = customBack;
-    [customBack release];
 	
     [self.navigationController pushViewController:crownViewController animated:YES];
-	
-    [crownViewController release];
 }
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {	
@@ -323,15 +312,12 @@
 									  target:self
 									  action:@selector(done:)];
 	self.navigationItem.rightBarButtonItem = doneButtonBar;
-	[doneButtonBar release];
     //play magic wand sound
 	NSString *soundFilePath = [[NSBundle mainBundle] pathForResource: @"Magic Wand Noise" ofType: @"mp3"];
 	if (soundFilePath != nil) {
 		NSURL *fileURL = [[NSURL alloc] initFileURLWithPath: soundFilePath];
 		AVAudioPlayer *newPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL: fileURL
 																		  error: nil];
-		[fileURL release];
-		
 		//self.player = newPlayer;
         newPlayer.numberOfLoops = 0;
 		newPlayer.delegate = self;
@@ -341,7 +327,6 @@
             [newPlayer play];
         }//if we are not muted 
          //[newPlayer release];
-        [soundFilePath release];
     }//if sound file was found
 	//[theTimer invalidate];
 }//jewel fire method
@@ -507,7 +492,6 @@
         if (self.player != nil) {
             [self.player stop];	
             [self.player initWithContentsOfURL: fileURL error: nil];
-            [fileURL release];					
             self.player.numberOfLoops = 0;
             [self.player prepareToPlay];
             [self.player setVolume: 0.8];
@@ -524,8 +508,6 @@
     // show Twitter login screen.
     TwitterLoginViewController *tweet = [[TwitterLoginViewController alloc] initWithNibName:@"TwitterLoginViewController" bundle:nil];
     [self.navigationController presentViewController:tweet animated:YES completion:nil];
-    [tweet release];    
-    
 }
 
 
@@ -546,7 +528,6 @@
 	// use the same style as the nav bar
 	styleAlert.actionSheetStyle = self.navigationController.navigationBar.barStyle;
 	[styleAlert showInView:self.view.window];
-	[styleAlert release];
 }
 
 #pragma mark -
@@ -597,7 +578,6 @@
 	[picker setMessageBody:emailBody isHTML:NO];
 	
 	[self presentViewController:picker animated:YES completion:nil];
-    [picker release];
 }
 
 // Dismisses the email composition interface when users tap Cancel or Send. Proceeds to update the message field with the result of the operation.
@@ -653,17 +633,6 @@
     // For example: self.myOutlet = nil;
 	[self.player stop];
 }
-
-
-- (void)dealloc {
-    [player release];
-    [answer release];
-    [topic  release];
-    [scrollTextView release];
-    //[_session.delegates removeObject: self]; 
-    [super dealloc];
-}
-
 
 @end
 

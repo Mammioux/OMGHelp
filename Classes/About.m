@@ -47,11 +47,6 @@
 	//self.tableView.separatorColor = [UIColor clearColor];
 	self.parentViewController.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"JesusRevBW.png"]];
 	//self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"JesusRevBW.png"]];
-	
-	[htmlString release];
-	[resourcePath release];
-	
-	
 }
 
 
@@ -74,13 +69,6 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
-}
-
-
-- (void)dealloc {
-    [aboutPage release];
-	[super dealloc];
-	
 }
 
 #pragma mark -

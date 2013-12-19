@@ -65,11 +65,6 @@
     
 }
 
-
-- (void)dealloc {
-    [super dealloc];
-}
-
 -(void) viewWillDisappear:(BOOL)animated
 {
 	//NSLog(@"Disclaimer View going away");
@@ -94,7 +89,6 @@
                                        message:message 
                                       delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
     [alert show];
-    [alert release];    
 }
 
 #pragma mark -

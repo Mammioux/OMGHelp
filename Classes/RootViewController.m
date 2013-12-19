@@ -64,8 +64,6 @@
     NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"topic" ascending:YES];
     NSArray *sortDescriptors = [[NSArray alloc] initWithObjects:&sortDescriptor count:1];
     self.data = [[NSArray arrayWithContentsOfFile:dataPath] sortedArrayUsingDescriptors:sortDescriptors];
-	[sortDescriptor release];
-    [sortDescriptors release];
 	
 	//NSInteger count = [defaults integerForKey:@"count"];
 	BOOL agreed = [defaults	boolForKey:@"agreed_preference"];
@@ -83,8 +81,7 @@
 		// Pass the selected object to the new view controller.
 		Disclaimer *disclaimer = [[Disclaimer alloc] initWithNibName:@"Disclaimer" bundle:nil];
  		[self.navigationController presentViewController:disclaimer animated:YES completion:nil];
-		[disclaimer release];
-	} 
+	}
 /*    
     BOOL donated = [defaults boolForKey:@"donated"];
     
@@ -103,7 +100,6 @@
 - (void)done:(id)sender {
 	About *about = [[About alloc] initWithNibName:@"About" bundle:nil];
 	[self.navigationController pushViewController:about animated:YES];
-	[about release];	
 }
 
 /*
@@ -204,7 +200,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
 	// Configure the cell.
@@ -278,7 +274,6 @@
 	[self.navigationController setToolbarHidden:NO animated:YES];
 	// Pass the selected object to the new view controller.
 	[self.navigationController pushViewController:questionViewController animated:YES];
-	[questionViewController release];
 	//It will call the list of questions for the selected topic
 	
 }
@@ -301,14 +296,6 @@
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	[defaults setInteger:[defaults integerForKey:@"count"] forKey:@"count_prefrence"];
 
-}
-
-
-- (void)dealloc {
-    
-    [data release];
-    //[jewelery release];
-    [super dealloc];
 }
 
 @end

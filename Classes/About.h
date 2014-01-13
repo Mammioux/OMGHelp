@@ -14,6 +14,7 @@
 
 }
 
-@property (nonatomic,retain) IBOutlet UIWebView *aboutPage;
+//@property (nonatomic,retain) IBOutlet UIWebView *aboutPage;
+@property (weak, nonatomic) IBOutlet UIWebView *aboutHtml;
 
 @end

@@ -42,8 +42,8 @@
 	[self.navigationController setToolbarHidden:YES animated:YES];
 	self.view.backgroundColor = [UIColor clearColor];
 	self.tableView.separatorColor = [UIColor clearColor];
-	self.navigationItem.title = @"iDialJesus";
-	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"About" style:UIBarButtonSystemItemDone  target:self action: @selector(done:)];
+//	self.navigationItem.title = @"iDialJesus";
+//	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"About" style:UIBarButtonSystemItemDone  target:self action: @selector(done:)];
     
 	// read BETA test settings
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
@@ -96,10 +96,10 @@
 }
 
 
-- (void)done:(id)sender {
-	About *about = [[About alloc] initWithNibName:@"About" bundle:nil];
-	[self.navigationController pushViewController:about animated:YES];
-}
+//- (void)done:(id)sender {
+//	About *about = [[About alloc] initWithNibName:@"About" bundle:nil];
+//	[self.navigationController pushViewController:about animated:YES];
+//}
 
 /*
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
@@ -195,7 +195,7 @@
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"topicCell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
@@ -258,6 +258,7 @@
 #pragma mark -
 #pragma mark Table view delegate
 
+/*
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
 	
@@ -276,6 +277,42 @@
 	//It will call the list of questions for the selected topic
 	
 }
+
+ - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+ {
+ [self performSegueWithIdentifier:@"toDetail" sender:self];
+ } 
+ 
+*/
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // check for our segue identifier
+    if ([segue.identifier isEqualToString:@"pushQuestionView"])
+    {
+        //QuestionViewController *questionViewController = [[QuestionViewController alloc]
+        //                                                  segue.destinationViewController]]
+        // sender is the table view cell
+        NSIndexPath *indexPath = [self.tableView indexPathForCell:(UITableViewCell *)sender];
+        NSDictionary *dataItem = [data objectAtIndex:indexPath.row];
+        NSArray *questions = [dataItem objectForKey:@"questions"];
+        
+        // prepare question view controller with new content
+        QuestionViewController *questionViewController = segue.destinationViewController;
+        
+        // pass topic data to question view controller
+        questionViewController.questions = questions;
+        questionViewController.topic = [dataItem objectForKey:@"topic"];
+        questionViewController.hidesBottomBarWhenPushed = YES;
+        questionViewController.navigationItem.title = [dataItem objectForKey:@"topic"];
+        self.hidesBottomBarWhenPushed = NO;
+        [self.navigationController setToolbarHidden:NO animated:YES];
+        // // Pass the selected object to the new view controller.
+        //[self.navigationController pushViewController:questionViewController animated:YES];
+        //It will call the list of questions for the selected topic
+    }//if seque == @"pushQuestionView"
+}
+
 
 
 #pragma mark -

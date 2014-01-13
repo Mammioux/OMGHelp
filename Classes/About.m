@@ -11,8 +11,6 @@
 
 @implementation About
 
-@synthesize aboutPage;
-
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -39,9 +37,9 @@
 	// 2) use the content in the html: <body style="background-color: transparent">
 	// 3) opaque property set to NO
 	//
-	//aboutPage.opaque = NO;
-	//aboutPage.backgroundColor = [UIColor clearColor];
-	[self.aboutPage loadHTMLString:htmlString baseURL:[NSURL fileURLWithPath:resourcePath]];
+	//aboutHtml.opaque = NO;
+	//aboutHtml.backgroundColor = [UIColor clearColor];
+	[self.aboutHtml loadHTMLString:htmlString baseURL:[NSURL fileURLWithPath:resourcePath]];
 	
 	self.view.backgroundColor = [UIColor clearColor];
 	//self.tableView.separatorColor = [UIColor clearColor];

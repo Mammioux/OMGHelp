@@ -21,6 +21,5 @@
 @property (nonatomic, retain) NSArray *data;
 @property (nonatomic, retain) NSArray *jewelery;
 
-- (void)done:(id)sender; 
 
 @end

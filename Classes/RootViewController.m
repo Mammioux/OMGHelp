@@ -171,8 +171,7 @@
 	{
 		[UIMenuController sharedMenuController].menuVisible = NO;
 	}
-	return NO;
-	
+	return NO;	
 }
 
 #pragma mark -
@@ -258,8 +257,6 @@
 
 /*
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-	
 	QuestionViewController *questionViewController = [[QuestionViewController alloc] initWithNibName:@"QuestionViewController" bundle:nil];
 	// ...
 	NSDictionary *dataItem = [data objectAtIndex:indexPath.row];
@@ -294,7 +291,7 @@
         questionViewController.questions = questions;
         questionViewController.topic = [dataItem objectForKey:@"topic"];
         questionViewController.hidesBottomBarWhenPushed = YES;
-        questionViewController.navigationItem.title = [dataItem objectForKey:@"topic"];
+        //questionViewController.navigationItem.title = [dataItem objectForKey:@"topic"];
         self.hidesBottomBarWhenPushed = NO;
         [self.navigationController setToolbarHidden:NO animated:YES];
     }//if seque == @"pushQuestionView"

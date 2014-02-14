@@ -21,7 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	
+	self.navigationItem.title = self.topic; //a stile change. Quesion view contrioller loads its own title
 	self.view.backgroundColor = [UIColor clearColor];
 	self.tableView.separatorColor = [UIColor clearColor];
 	self.parentViewController.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"JesusRevBW.png"]];
@@ -189,7 +189,6 @@
 //    
 //}
 
-
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // check for our segue identifier
@@ -197,22 +196,25 @@
     {
         // sender is the table view cell
         NSIndexPath *indexPath = [self.tableView indexPathForCell:(UITableViewCell *)sender];
-        if(indexPath.row % 2 ==0){
-            NSDictionary *dataItem = [questions objectAtIndex:(indexPath.row / 2)];
+        NSInteger tempRow = indexPath.row;  
+        if( tempRow % 2 == 1) tempRow = tempRow - 1;
+        //if(indexPath.row % 2 ==0){
+            NSDictionary *dataItem = [questions objectAtIndex:(tempRow / 2)];
             
             // prepare answer view controller with new content
             AnswerTableViewController *answerViewController = segue.destinationViewController;
             
             // pass answer data to answer view controller
             answerViewController.answer = dataItem;
-            answerViewController.index = (indexPath.row / 2);
-            answerViewController.topic = topic;
+            answerViewController.index = (tempRow / 2);
+            answerViewController.topic = self.topic;
             answerViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
             self.hidesBottomBarWhenPushed = NO;
             [self.navigationController setToolbarHidden:NO animated:YES];
-        }//if row is even
+        //}//if row is even
     }//if seque == @"pushAnswerView"
 }
+
 
 #pragma mark -
 #pragma mark Memory management

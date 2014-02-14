@@ -205,9 +205,9 @@
 		} else {
 			//NSLog(@"Reusing player");
 			[self.player stop];
-		}
+		}//else (player not nil)
 	[self.player initWithContentsOfURL:fileURL error:nil];
-	}
+	}//if (soundFilePath not nil)
 	
     if (self.player != nil) {
         [self.player stop];

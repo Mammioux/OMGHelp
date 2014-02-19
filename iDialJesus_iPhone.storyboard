@@ -118,16 +118,10 @@
                         <viewControllerLayoutGuide type="top" id="YuG-GI-PtK"/>
                         <viewControllerLayoutGuide type="bottom" id="cu9-ez-RIQ"/>
                     </layoutGuides>
-                    <view key="view" opaque="NO" contentMode="scaleToFill" id="roF-qN-dEW">
+                    <view key="view" contentMode="scaleToFill" id="une-nS-Wfx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView hidden="YES" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wfz-DB-9Vn">
-                                <rect key="frame" x="20" y="92" width="287" height="344"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
-                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
-                            </webView>
                             <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CCT-It-tHW">
                                 <rect key="frame" x="17" y="92" width="287" height="344"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -139,6 +133,11 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
                             </textView>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S47-ca-dAq">
+                                <rect key="frame" x="0.0" y="65" width="320" height="457"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
@@ -147,8 +146,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="XFu-3H-DXH"/>
                     <connections>
-                        <outlet property="scrollTextView" destination="CCT-It-tHW" id="oz1-bB-ODc"/>
-                        <outlet property="webView" destination="Wfz-DB-9Vn" id="4Pl-ee-dHW"/>
+                        <outlet property="scrollTextView" destination="CCT-It-tHW" id="Qu3-9e-y01"/>
+                        <outlet property="webView" destination="S47-ca-dAq" id="Gyt-Oe-kfu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aLX-2E-QbD" userLabel="First Responder" sceneMemberID="firstResponder"/>

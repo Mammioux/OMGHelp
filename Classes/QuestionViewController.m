@@ -21,7 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	self.navigationItem.title = self.topic; //a stile change. Quesion view contrioller loads its own title
+	self.navigationItem.title = self.topic;//Stile change: the controller loads its own title.
 	self.view.backgroundColor = [UIColor clearColor];
 	self.tableView.separatorColor = [UIColor clearColor];
 	self.parentViewController.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"JesusRevBW.png"]];
@@ -208,7 +208,6 @@
             answerViewController.answer = dataItem;
             answerViewController.index = (tempRow / 2);
             answerViewController.topic = self.topic;
-            answerViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
             self.hidesBottomBarWhenPushed = NO;
             [self.navigationController setToolbarHidden:NO animated:YES];
         //}//if row is even

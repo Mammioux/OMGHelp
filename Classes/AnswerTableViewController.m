@@ -44,6 +44,7 @@
     self.hidesBottomBarWhenPushed = NO;
     [self.navigationController setToolbarHidden:NO animated:YES];
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    self.navigationItem.prompt = [answer objectForKey:@"question"];//The controller loads its own title.
 	self.muted = [defaults boolForKey:@"muted"];
     [self configureToolbarItems];
     
@@ -181,7 +182,7 @@
 - (void) showQuote
 {
 	self.navigationItem.title = @"Bible Quote";
-	scrollTextView.text = [answer objectForKey:@"bible quote"];
+    scrollTextView.text = [answer objectForKey:@"bible quote"];
 	webView.hidden = YES;
 	scrollTextView.hidden = NO;
 	NSMutableString *noBlanksTopic = [[NSMutableString alloc] initWithCapacity:[self.topic length]];

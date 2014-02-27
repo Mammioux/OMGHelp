@@ -76,11 +76,16 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return( [questions count] * 2);
+    return([questions count]);
 }
 
 
 // Customize the appearance of table view cells.
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    //Return the height of a question view row
+    return 80.0;
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     static NSString *CellIdentifier = @"questionCell";
@@ -89,23 +94,16 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
-    if(indexPath.row % 2 == 0){
-        // Configure the even cell...
-        NSDictionary *dataItem = [questions objectAtIndex: (indexPath.row / 2) ];
-        cell.textLabel.text = [dataItem objectForKey:@"question"];
-        cell.textLabel.baselineAdjustment = UIBaselineAdjustmentAlignBaselines;
-        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    }else {
-        // Configure the odd cell...
-        cell.textLabel.text = @"";
-    }
+    // Configure cell
+    NSDictionary *dataItem = [questions objectAtIndex: (indexPath.row)];
+    cell.textLabel.text = [dataItem objectForKey:@"question"];
+    cell.textLabel.baselineAdjustment = UIBaselineAdjustmentAlignBaselines;
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.textLabel.font = [UIFont fontWithName:@"STHeitiK-Medium" size:14];
     //cell.textLabel.adjustsFontSizeToFitWidth = YES; 
     cell.textLabel.numberOfLines = 7;
     cell.backgroundColor = [UIColor clearColor];
     //cell.textLabel.textAlignment = UITextAlignmentCenter;
-    //cell.textLabel.baselineAdjustment = UIBaselineAdjustmentAlignBaselines; //if even cell
-    //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;; //if even cell
     //cell.detailTextLabel.text = @"sub-title";
     return cell;
 }
@@ -170,6 +168,11 @@
 #pragma mark -
 #pragma mark Table view delegate
 
+//  The method below is the old way to transition from one view controller to another, before the
+//storyborad. It also uses the old cell indexing, in which only even cells have relevant content and
+//odd cells are separators. Maybe it should just be completely deleted for it is beyond deprecated 
+//it is incompatible with the code now.
+
 //- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 //    // Navigation logic may go here. Create and push another view controller.
 //    if(indexPath.row % 2 ==0){
@@ -196,21 +199,17 @@
     {
         // sender is the table view cell
         NSIndexPath *indexPath = [self.tableView indexPathForCell:(UITableViewCell *)sender];
-        NSInteger tempRow = indexPath.row;  
-        if( tempRow % 2 == 1) tempRow = tempRow - 1;
-        //if(indexPath.row % 2 ==0){
-            NSDictionary *dataItem = [questions objectAtIndex:(tempRow / 2)];
+        NSDictionary *dataItem = [questions objectAtIndex:(indexPath.row)];            
+        
+        // prepare answer view controller with new content
+        AnswerTableViewController *answerViewController = segue.destinationViewController;
             
-            // prepare answer view controller with new content
-            AnswerTableViewController *answerViewController = segue.destinationViewController;
-            
-            // pass answer data to answer view controller
-            answerViewController.answer = dataItem;
-            answerViewController.index = (tempRow / 2);
-            answerViewController.topic = self.topic;
-            self.hidesBottomBarWhenPushed = NO;
-            [self.navigationController setToolbarHidden:NO animated:YES];
-        //}//if row is even
+        // pass answer data to answer view controller
+        answerViewController.answer = dataItem;
+        answerViewController.index = (indexPath.row);
+        answerViewController.topic = self.topic;
+        self.hidesBottomBarWhenPushed = NO;
+        [self.navigationController setToolbarHidden:NO animated:YES];
     }//if seque == @"pushAnswerView"
 }
 

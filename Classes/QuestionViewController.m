@@ -12,7 +12,7 @@
 
 
 @implementation QuestionViewController
-@synthesize topic, questions;
+@synthesize topic, questions, font;
 
 
 #pragma mark -
@@ -21,9 +21,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	self.navigationItem.title = self.topic;//Stile change: the controller loads its own title.
+	self.navigationItem.title = self.topic;//Style change: the controller loads its own title.
 	self.view.backgroundColor = [UIColor clearColor];
 	self.tableView.separatorColor = [UIColor clearColor];
+    self.font = [UIFont fontWithName:@"STHeitiK-Medium" size:14]; // define font for all questions
 	self.parentViewController.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"JesusRevBW.png"]];
     
     // Uncomment the following line to preserve selection between presentations.
@@ -83,7 +84,8 @@
 // Customize the appearance of table view cells.
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     //Return the height of a question view row
-    return 80.0;
+    //return 80.0;
+    return 6 * self.font.lineHeight;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -99,7 +101,8 @@
     cell.textLabel.text = [dataItem objectForKey:@"question"];
     cell.textLabel.baselineAdjustment = UIBaselineAdjustmentAlignBaselines;
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    cell.textLabel.font = [UIFont fontWithName:@"STHeitiK-Medium" size:14];
+    //cell.textLabel.font = [UIFont fontWithName:@"STHeitiK-Medium" size:14];
+    cell.textLabel.font = self.font;
     //cell.textLabel.adjustsFontSizeToFitWidth = YES; 
     cell.textLabel.numberOfLines = 7;
     cell.backgroundColor = [UIColor clearColor];

@@ -17,4 +17,5 @@
 
 @property (nonatomic, retain) NSArray *questions;
 @property (nonatomic, retain) NSString *topic;
+@property (nonatomic, retain) UIFont *font;
 @end

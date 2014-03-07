@@ -66,17 +66,17 @@
 - (void)configureToolbarItems
 {
 	//It may be called a button, but it is really the space between buttons.
-	UIBarButtonItem *flexibleSpaceButtonItem = [[UIBarButtonItem alloc]												
+	UIBarButtonItem *flexibleSpaceButtonItem = [[UIBarButtonItem alloc] 
 												initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace
 												target:nil action:nil];
 	
-	UIBarButtonItem *actionButtonBar = [[UIBarButtonItem alloc]												
+	UIBarButtonItem *actionButtonBar = [[UIBarButtonItem alloc]	
 										initWithBarButtonSystemItem:UIBarButtonSystemItemAction
 										target:self action:@selector(styleAction:)];
     
     UIImage *img = [UIImage imageNamed:@"left_arrow-32.png"];
 	
-	UIBarButtonItem *backButtonBar = [[UIBarButtonItem alloc]												
+	UIBarButtonItem *backButtonBar = [[UIBarButtonItem alloc]
                                       initWithImage:img 
                                       style:UIBarButtonItemStylePlain 
                                       target:self 
@@ -84,7 +84,7 @@
 	
     img = [UIImage imageNamed:@"right_arrow-32.png"];
 	
-	UIBarButtonItem *nextButtonBar = [[UIBarButtonItem alloc]												
+	UIBarButtonItem *nextButtonBar = [[UIBarButtonItem alloc]
                                       initWithImage:img 
                                       style:UIBarButtonItemStylePlain 
                                       target:self
@@ -92,7 +92,7 @@
 	
     img = muted?[UIImage imageNamed:@"Mute-32.png"]:[UIImage imageNamed:@"Sound-32.png"];
     
-	UIBarButtonItem *muteButtonBar = [[UIBarButtonItem alloc]												
+	UIBarButtonItem *muteButtonBar = [[UIBarButtonItem alloc]
 									  initWithImage:img
                                       style:UIBarButtonItemStylePlain
 									  target:self action: @selector(toggleSound:)];

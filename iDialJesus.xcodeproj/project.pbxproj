@@ -160,6 +160,7 @@
 		0B53452B11829BF4000F33C6 /* CrownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B53452911829BF4000F33C6 /* CrownViewController.m */; };
 		0B53452C11829BF4000F33C6 /* CrownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B53452A11829BF4000F33C6 /* CrownViewController.xib */; };
 		0B61185A19E19333002A01A5 /* AnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B61185919E19333002A01A5 /* AnswerViewController.m */; };
+		0B61185C19E1CC67002A01A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B61185B19E1CC67002A01A5 /* Images.xcassets */; };
 		0B843D3B11B28FA000DFC99C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B843D3A11B28FA000DFC99C /* MessageUI.framework */; };
 		0BA7183D117770FE00B54059 /* About.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0BA7183C117770FE00B54059 /* About.htm */; };
 		0BA8AAAE1159D1E10002F011 /* topics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BA8AAAD1159D1E10002F011 /* topics.plist */; };
@@ -396,6 +397,8 @@
 		0B53452A11829BF4000F33C6 /* CrownViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CrownViewController.xib; path = Classes/CrownViewController.xib; sourceTree = "<group>"; };
 		0B61185819E19333002A01A5 /* AnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerViewController.h; sourceTree = "<group>"; };
 		0B61185919E19333002A01A5 /* AnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerViewController.m; sourceTree = "<group>"; };
+		0B61185B19E1CC67002A01A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iDialJesus/Images.xcassets; sourceTree = "<group>"; };
+		0B61185D19E1CCFA002A01A5 /* iDialJesusIcon512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon512x512.png; sourceTree = "<group>"; };
 		0B843D3A11B28FA000DFC99C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		0BA7183C117770FE00B54059 /* About.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = About.htm; sourceTree = "<group>"; };
 		0BA8AAAD1159D1E10002F011 /* topics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topics.plist; sourceTree = "<group>"; };
@@ -729,6 +732,7 @@
 		0BA8AB11115BE18D0002F011 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				0B61185D19E1CCFA002A01A5 /* iDialJesusIcon512x512.png */,
 				01865A8711E5D5E6002ED948 /* pause.png */,
 				01865A9B11EA606D002ED948 /* play.png */,
 				0BF0A2C911C55029000E10A7 /* forward.png */,
@@ -779,6 +783,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0B61185B19E1CC67002A01A5 /* Images.xcassets */,
 				01F1C32D122853340003AC87 /* image002.gif */,
 				0B29330011B4ADD500D63F85 /* TwitterLoginViewController.xib */,
 				0BA8AB11115BE18D0002F011 /* images */,
@@ -846,7 +851,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = iDialJesus;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
@@ -930,6 +935,7 @@
 				0B23A62311A222E100DB0B65 /* Forgiveness4.mp3 in Resources */,
 				019528C311A255E8001EFAF9 /* GarnetTBG.png in Resources */,
 				0B23A62411A222E100DB0B65 /* Heaven0.mp3 in Resources */,
+				0B61185C19E1CC67002A01A5 /* Images.xcassets in Resources */,
 				0B23A62511A222E100DB0B65 /* Heaven1.mp3 in Resources */,
 				0B23A62611A222E100DB0B65 /* Heaven2.mp3 in Resources */,
 				0B23A62711A222E100DB0B65 /* Heaven3.mp3 in Resources */,
@@ -1138,7 +1144,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Janet Rod";
@@ -1161,7 +1168,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -1185,7 +1193,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
@@ -1215,6 +1224,7 @@
 				HEADER_SEARCH_PATHS = "";
 				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = ./FBConnect;

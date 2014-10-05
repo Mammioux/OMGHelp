@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		01068F09180F1E0600C955AA /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01068F08180F1E0500C955AA /* libxml2.2.dylib */; };
-		0117B4BB1862353E000F214C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0117B4BA1862353E000F214C /* Default-568h@2x.png */; };
 		01865A8811E5D5E6002ED948 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 01865A8711E5D5E6002ED948 /* pause.png */; };
 		01865A9C11EA606E002ED948 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 01865A9B11EA606D002ED948 /* play.png */; };
 		0195259B119A3F65001EFAF9 /* BerylTBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 0195258A119A3F63001EFAF9 /* BerylTBG.png */; };
@@ -59,6 +58,13 @@
 		01EE8D9811EF7D460090B665 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EE8D9711EF7D460090B665 /* SystemConfiguration.framework */; };
 		01EE8EFD11EFCDD40090B665 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 01EE8EFC11EFCDD40090B665 /* Default.png */; };
 		01F1C32E122853340003AC87 /* image002.gif in Resources */ = {isa = PBXBuildFile; fileRef = 01F1C32D122853340003AC87 /* image002.gif */; };
+		0B0A42A919E1EC1E0029816E /* iDialJesusIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A42A819E1EC1E0029816E /* iDialJesusIcon29x29.png */; };
+		0B0A42AB19E1ECA60029816E /* iDialJesusIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A42AA19E1ECA60029816E /* iDialJesusIcon40x40.png */; };
+		0B0A42AD19E1ECF60029816E /* iDialJesusIcon50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A42AC19E1ECF60029816E /* iDialJesusIcon50x50.png */; };
+		0B0A42AF19E1ED340029816E /* iDialJesusIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A42AE19E1ED340029816E /* iDialJesusIcon57x57.png */; };
+		0B0A42B119E1ED750029816E /* iDialJesusIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A42B019E1ED750029816E /* iDialJesusIcon60x60.png */; };
+		0B0A42B319E1EDB80029816E /* iDialJesusIcon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A42B219E1EDB80029816E /* iDialJesusIcon72x72.png */; };
+		0B0A42B519E1EDF90029816E /* iDialJesusIcon76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A42B419E1EDF90029816E /* iDialJesusIcon76x76.png */; };
 		0B1E9E28119075CD00A2E1F4 /* CastYourCrown.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B1E9E26119075CD00A2E1F4 /* CastYourCrown.xib */; };
 		0B1E9E461190A05800A2E1F4 /* CastYourCrownPick.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E9E441190A05800A2E1F4 /* CastYourCrownPick.m */; };
 		0B1E9E471190A05800A2E1F4 /* CastYourCrownPick.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B1E9E451190A05800A2E1F4 /* CastYourCrownPick.xib */; };
@@ -240,7 +246,6 @@
 
 /* Begin PBXFileReference section */
 		01068F08180F1E0500C955AA /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
-		0117B4BA1862353E000F214C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		01865A8711E5D5E6002ED948 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
 		01865A9B11EA606D002ED948 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		0195258A119A3F63001EFAF9 /* BerylTBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BerylTBG.png; sourceTree = "<group>"; };
@@ -291,6 +296,13 @@
 		01EE8D9711EF7D460090B665 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		01EE8EFC11EFCDD40090B665 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		01F1C32D122853340003AC87 /* image002.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = image002.gif; sourceTree = "<group>"; };
+		0B0A42A819E1EC1E0029816E /* iDialJesusIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon29x29.png; sourceTree = "<group>"; };
+		0B0A42AA19E1ECA60029816E /* iDialJesusIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon40x40.png; sourceTree = "<group>"; };
+		0B0A42AC19E1ECF60029816E /* iDialJesusIcon50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon50x50.png; sourceTree = "<group>"; };
+		0B0A42AE19E1ED340029816E /* iDialJesusIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon57x57.png; sourceTree = "<group>"; };
+		0B0A42B019E1ED750029816E /* iDialJesusIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon60x60.png; sourceTree = "<group>"; };
+		0B0A42B219E1EDB80029816E /* iDialJesusIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon72x72.png; sourceTree = "<group>"; };
+		0B0A42B419E1EDF90029816E /* iDialJesusIcon76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon76x76.png; sourceTree = "<group>"; };
 		0B1E9E26119075CD00A2E1F4 /* CastYourCrown.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CastYourCrown.xib; path = Classes/CastYourCrown.xib; sourceTree = "<group>"; };
 		0B1E9E431190A05800A2E1F4 /* CastYourCrownPick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CastYourCrownPick.h; path = ../CastYourCrownPick.h; sourceTree = "<group>"; };
 		0B1E9E441190A05800A2E1F4 /* CastYourCrownPick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CastYourCrownPick.m; path = ../CastYourCrownPick.m; sourceTree = "<group>"; };
@@ -732,6 +744,13 @@
 		0BA8AB11115BE18D0002F011 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				0B0A42B419E1EDF90029816E /* iDialJesusIcon76x76.png */,
+				0B0A42B219E1EDB80029816E /* iDialJesusIcon72x72.png */,
+				0B0A42B019E1ED750029816E /* iDialJesusIcon60x60.png */,
+				0B0A42AE19E1ED340029816E /* iDialJesusIcon57x57.png */,
+				0B0A42AC19E1ECF60029816E /* iDialJesusIcon50x50.png */,
+				0B0A42AA19E1ECA60029816E /* iDialJesusIcon40x40.png */,
+				0B0A42A819E1EC1E0029816E /* iDialJesusIcon29x29.png */,
 				0B61185D19E1CCFA002A01A5 /* iDialJesusIcon512x512.png */,
 				01865A8711E5D5E6002ED948 /* pause.png */,
 				01865A9B11EA606D002ED948 /* play.png */,
@@ -761,7 +780,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				0117B4BA1862353E000F214C /* Default-568h@2x.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -972,11 +990,14 @@
 				0B23A63B11A222E100DB0B65 /* MyGifts3.mp3 in Resources */,
 				0B23A63C11A222E100DB0B65 /* MyGifts4.mp3 in Resources */,
 				019528C711A255E8001EFAF9 /* OnyxTBG.png in Resources */,
+				0B0A42AF19E1ED340029816E /* iDialJesusIcon57x57.png in Resources */,
 				019528C111A255E8001EFAF9 /* OpalTBG.png in Resources */,
 				0B23A63D11A222E100DB0B65 /* Partying0.mp3 in Resources */,
+				0B0A42AD19E1ECF60029816E /* iDialJesusIcon50x50.png in Resources */,
 				0B23A63E11A222E100DB0B65 /* Partying1.mp3 in Resources */,
 				0B23A63F11A222E100DB0B65 /* Partying2.mp3 in Resources */,
 				0B23A64011A222E100DB0B65 /* Partying3.mp3 in Resources */,
+				0B0A42B519E1EDF90029816E /* iDialJesusIcon76x76.png in Resources */,
 				0B23A64111A222E100DB0B65 /* Partying4.mp3 in Resources */,
 				01952A2511A4E533001EFAF9 /* PearlTBG.png in Resources */,
 				019528C211A255E8001EFAF9 /* PeridotTBG.png in Resources */,
@@ -996,6 +1017,7 @@
 				019528CE11A255E8001EFAF9 /* RubyTBG.png in Resources */,
 				019528CB11A255E8001EFAF9 /* SapphireTBG.png in Resources */,
 				019528C511A255E8001EFAF9 /* SardonyxTBG.png in Resources */,
+				0B0A42B319E1EDB80029816E /* iDialJesusIcon72x72.png in Resources */,
 				0B23A64C11A222E100DB0B65 /* Saved0.mp3 in Resources */,
 				0B23A64D11A222E100DB0B65 /* Saved1.mp3 in Resources */,
 				0B23A64E11A222E100DB0B65 /* Saved2.mp3 in Resources */,
@@ -1004,8 +1026,10 @@
 				0B23A65111A222E100DB0B65 /* SelfControl0.mp3 in Resources */,
 				0B23A65211A222E100DB0B65 /* SelfControl1.mp3 in Resources */,
 				0B23A65311A222E100DB0B65 /* SelfControl2.mp3 in Resources */,
+				0B0A42B119E1ED750029816E /* iDialJesusIcon60x60.png in Resources */,
 				0B23A65411A222E100DB0B65 /* SelfControl3.mp3 in Resources */,
 				0B23A65511A222E100DB0B65 /* SelfControl4.mp3 in Resources */,
+				0B0A42A919E1EC1E0029816E /* iDialJesusIcon29x29.png in Resources */,
 				0B23A65611A222E100DB0B65 /* Sex0.mp3 in Resources */,
 				0B23A65711A222E100DB0B65 /* Sex1.mp3 in Resources */,
 				0B23A65811A222E100DB0B65 /* Sex2.mp3 in Resources */,
@@ -1067,6 +1091,7 @@
 				0BC38B8311A6DDB100BBC1ED /* Sin4.mp3 in Resources */,
 				0BC38B9A11A77D1B00BBC1ED /* Guilt0.mp3 in Resources */,
 				0BC38B9B11A77D1B00BBC1ED /* Guilt1.mp3 in Resources */,
+				0B0A42AB19E1ECA60029816E /* iDialJesusIcon40x40.png in Resources */,
 				0BC38B9C11A77D1B00BBC1ED /* Guilt2.mp3 in Resources */,
 				0BC38B9D11A77D1B00BBC1ED /* Guilt3.mp3 in Resources */,
 				0BC38B9E11A77D1B00BBC1ED /* Guilt4.mp3 in Resources */,
@@ -1087,7 +1112,6 @@
 				0BC38BAD11A77D1B00BBC1ED /* Witnessing4.mp3 in Resources */,
 				0BC38BAF11AA232A00BBC1ED /* LINKS.html in Resources */,
 				0B29330211B4ADD500D63F85 /* TwitterLoginViewController.xib in Resources */,
-				0117B4BB1862353E000F214C /* Default-568h@2x.png in Resources */,
 				0BF0A2CB11C55029000E10A7 /* forward.png in Resources */,
 				0BF0A2CC11C55029000E10A7 /* rewind.png in Resources */,
 				01865A8811E5D5E6002ED948 /* pause.png in Resources */,

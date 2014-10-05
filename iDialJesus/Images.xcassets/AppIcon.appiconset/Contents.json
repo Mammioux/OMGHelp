@@ -3,103 +3,103 @@
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "JesusRevIcon-1.png",
+      "filename" : "iDialJesusIcon29x29-1.png",
       "scale" : "1x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "iDialJesusIcon512x512-1.png",
+      "filename" : "iDialJesusIcon29x29.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "iDialJesusIcon512x512-2.png",
+      "filename" : "iDialJesusIcon40x40.png",
       "scale" : "2x"
     },
     {
       "size" : "57x57",
       "idiom" : "iphone",
-      "filename" : "JesusRevIcon.png",
+      "filename" : "iDialJesusIcon57x57.png",
       "scale" : "1x"
     },
     {
       "size" : "57x57",
       "idiom" : "iphone",
-      "filename" : "iDialJesusIcon512x512-3.png",
+      "filename" : "iDialJesusIcon57x57-1.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "iDialJesusIcon512x512-4.png",
+      "filename" : "iDialJesusIcon60x60.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "iDialJesusIcon512x512-5.png",
+      "filename" : "iDialJesusIcon60x60-1.png",
       "scale" : "3x"
     },
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "JesusRevIcon-2.png",
+      "filename" : "iDialJesusIcon29x29-2.png",
       "scale" : "1x"
     },
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "iDialJesusIcon512x512-6.png",
+      "filename" : "iDialJesusIcon29x29-3.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "ipad",
-      "filename" : "JesusRevIcon-3.png",
+      "filename" : "iDialJesusIcon40x40-1.png",
       "scale" : "1x"
     },
     {
       "size" : "40x40",
       "idiom" : "ipad",
-      "filename" : "iDialJesusIcon512x512-7.png",
+      "filename" : "iDialJesusIcon40x40-2.png",
       "scale" : "2x"
     },
     {
       "size" : "50x50",
       "idiom" : "ipad",
-      "filename" : "JesusRevIcon-4.png",
+      "filename" : "iDialJesusIcon50x50.png",
       "scale" : "1x"
     },
     {
       "size" : "50x50",
       "idiom" : "ipad",
-      "filename" : "iDialJesusIcon512x512-8.png",
+      "filename" : "iDialJesusIcon50x50-1.png",
       "scale" : "2x"
     },
     {
       "size" : "72x72",
       "idiom" : "ipad",
-      "filename" : "JesusRevIcon-5.png",
+      "filename" : "iDialJesusIcon72x72.png",
       "scale" : "1x"
     },
     {
       "size" : "72x72",
       "idiom" : "ipad",
-      "filename" : "iDialJesusIcon512x512-9.png",
+      "filename" : "iDialJesusIcon72x72-1.png",
       "scale" : "2x"
     },
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "JesusRevIcon-6.png",
+      "filename" : "iDialJesusIcon76x76.png",
       "scale" : "1x"
     },
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "iDialJesusIcon512x512.png",
+      "filename" : "iDialJesusIcon76x76-1.png",
       "scale" : "2x"
     }
   ],

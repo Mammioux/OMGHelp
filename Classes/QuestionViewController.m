@@ -8,7 +8,7 @@
 
 #import "QuestionViewController.h"
 //#import	"AnswerViewController.h"
-#import	"AnswerTableViewController.h"
+#import	"AnswerViewController.h"
 
 
 @implementation QuestionViewController
@@ -205,7 +205,7 @@
         NSDictionary *dataItem = [questions objectAtIndex:(indexPath.row)];            
         
         // prepare answer view controller with new content
-        AnswerTableViewController *answerViewController = segue.destinationViewController;
+        AnswerViewController *answerViewController = segue.destinationViewController;
             
         // pass answer data to answer view controller
         answerViewController.answer = dataItem;

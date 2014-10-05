@@ -122,6 +122,7 @@
     NSDate *now = [NSDate date];
     NSTimeInterval minWaitTime = [defaults integerForKey:@"time_preference"];
     //NSLog(@"and %ld seconds interval between adding jewels", minWaitTime);
+        self.navigationController.hidesBarsOnTap = true;
     
     if (count == 0)
     {
@@ -231,6 +232,7 @@
     //NSLog(@"Crown View Controller will appear");   
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSInteger count = [defaults integerForKey:@"count"];
+    count = 23;
 	
 	[self enableJewels: jewelsArray count: count];
 }

@@ -291,12 +291,6 @@
     [self.navigationController pushViewController:crownViewController animated:YES];
 }
 
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {	
-    //this method is doing nothing should we remove it?
-	if ([alertView.title compare:@"Closing iDialJesus"] == NSOrderedSame) {
-		//[[UIApplication sharedApplication] terminateWithSuccess];	
-	}
-}
 
 - (void)jewelFireMethod:(NSTimer*)theTimer
 {    

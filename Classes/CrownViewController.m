@@ -122,7 +122,8 @@
     NSDate *now = [NSDate date];
     NSTimeInterval minWaitTime = [defaults integerForKey:@"time_preference"];
     //NSLog(@"and %ld seconds interval between adding jewels", minWaitTime);
-        self.navigationController.hidesBarsOnTap = true;
+
+    self.navigationController.navigationBar.hidden = YES;
     
     if (count == 0)
     {
@@ -320,6 +321,7 @@
     //BOOL toolBarShown = !(self.navigationController.toolbarHidden);
     //[self.navigationController setToolbarHidden:toolBarShown animated:YES];
     self._playBar.hidden = !self._playBar.hidden;
+    self.navigationController.navigationBar.hidden = !self.navigationController.navigationBar.hidden;
 }
 
 - (void)doubleTap
@@ -383,6 +385,8 @@ This method is NOT called if the player is stopped due to an interruption. */
     self.player.delegate = self;
     [self.player setVolume: 1.0];
     [self.player play];
+    [self updateViewForPlayerState];
+
 }
 
 /* if an error occurs while decoding it will be reported to the delegate. */
@@ -523,7 +527,7 @@ The player will have been paused. */
 {
     // go to next song
 	AVAudioPlayer *locPlayer = _ffwTimer.userInfo;
-    [ self audioPlayerDidFinishPlaying:locPlayer successfully:YES];
+    [self audioPlayerDidFinishPlaying:locPlayer successfully:YES];
 	//locPlayer.currentTime+= SKIP_TIME;	
 	//[self updateCurrentTime];
 }
@@ -550,7 +554,7 @@ The player will have been paused. */
 - (void)updateViewForPlayerState
 {
     self.muted = self.player.playing;
-    UIImage *img = (self.player.playing == NO)?[UIImage imageNamed:@"pause.png"]:[UIImage imageNamed:@"play.png"];
+    UIImage *img = (self.player.playing == YES)?[UIImage imageNamed:@"pause.png"]:[UIImage imageNamed:@"play.png"];
 
     [self._playButton setImage:img];
 }

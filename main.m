@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "OMGHelpAppDelegate.h"
+#import "IDialJesusAppDelegate.h"
 
 int main(int argc, char *argv[]) {
     
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([OMGHelpAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([IDialJesusAppDelegate class]));
     }
 }

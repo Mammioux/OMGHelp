@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OMGHelpAppDelegate : NSObject <UIApplicationDelegate> 
+@interface IDialJesusAppDelegate : UIResponder <UIApplicationDelegate>
 //{
 //    
 //    UIWindow *window;

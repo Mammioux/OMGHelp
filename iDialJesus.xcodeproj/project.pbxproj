@@ -236,7 +236,7 @@
 		0BF9929E1175624900CF910E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		0FE3C1A818629F2F008805BA /* IDialJesus_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3C1A718629F2F008805BA /* IDialJesus_iPad.storyboard */; };
 		0FEF9E4018B46D5700879297 /* iDialJesus_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3C1A518629EEE008805BA /* iDialJesus_iPhone.storyboard */; };
-		1D3623260D0F684500981E51 /* OMGHelpAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* OMGHelpAppDelegate.m */; };
+		1D3623260D0F684500981E51 /* IDialJesusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* IDialJesusAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -483,8 +483,8 @@
 		0FE3C1A518629EEE008805BA /* iDialJesus_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iDialJesus_iPhone.storyboard; sourceTree = SOURCE_ROOT; };
 		0FE3C1A718629F2F008805BA /* IDialJesus_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IDialJesus_iPad.storyboard; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* OMGHelpAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGHelpAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* OMGHelpAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGHelpAppDelegate.m; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* IDialJesusAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDialJesusAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* IDialJesusAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDialJesusAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* iDialJesus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDialJesus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -696,8 +696,8 @@
 				0B53452911829BF4000F33C6 /* CrownViewController.m */,
 				0BF991AC11722A2600CF910E /* Disclaimer.h */,
 				0BF991AD11722A2700CF910E /* Disclaimer.m */,
-				1D3623240D0F684500981E51 /* OMGHelpAppDelegate.h */,
-				1D3623250D0F684500981E51 /* OMGHelpAppDelegate.m */,
+				1D3623240D0F684500981E51 /* IDialJesusAppDelegate.h */,
+				1D3623250D0F684500981E51 /* IDialJesusAppDelegate.m */,
 				0BA8ABCB115C61A90002F011 /* QuestionViewController.h */,
 				0BA8ABCC115C61A90002F011 /* QuestionViewController.m */,
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
@@ -1129,7 +1129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* OMGHelpAppDelegate.m in Sources */,
+				1D3623260D0F684500981E51 /* IDialJesusAppDelegate.m in Sources */,
 				0BA8ABCE115C61A90002F011 /* QuestionViewController.m in Sources */,
 				0B61185A19E19333002A01A5 /* AnswerViewController.m in Sources */,
 				0BF991AF11722A2700CF910E /* Disclaimer.m in Sources */,
@@ -1177,7 +1177,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iDialJesus_Prefix.pch;
 				INFOPLIST_FILE = "iDialJesus-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1202,7 +1202,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iDialJesus_Prefix.pch;
 				INFOPLIST_FILE = "iDialJesus-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1225,7 +1225,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iDialJesus_Prefix.pch;
 				INFOPLIST_FILE = "iDialJesus-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",

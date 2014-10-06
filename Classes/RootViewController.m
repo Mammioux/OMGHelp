@@ -35,6 +35,15 @@
  }
  */
 
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+        self.clearsSelectionOnViewWillAppear = NO;
+        self.preferredContentSize = CGSizeMake(320.0, 600.0);
+    }
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 	//basic configuration
@@ -294,6 +303,12 @@
         //questionViewController.navigationItem.title = [dataItem objectForKey:@"topic"];
         self.hidesBottomBarWhenPushed = NO;
         [self.navigationController setToolbarHidden:NO animated:YES];
+        if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
+            questionViewController.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
+        } else {
+            questionViewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil];
+        }
+        questionViewController.navigationItem.leftItemsSupplementBackButton = YES;
     }//if seque == @"pushQuestionView"
 }
 

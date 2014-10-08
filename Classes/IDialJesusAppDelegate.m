@@ -57,7 +57,8 @@
         UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
        
         if ([[UIDevice currentDevice].systemVersion compare:@"8.0"] == NSOrderedAscending ) {
-            navigationController.topViewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil];
+            navigationController.topViewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Categories" style:UIBarButtonItemStylePlain target:self
+                                                                                                                      action: @selector(splitViewController:collapseSecondaryViewController:ontoPrimaryViewController:)];
         } else {
             navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
         }

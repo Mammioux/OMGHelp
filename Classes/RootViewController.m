@@ -14,7 +14,6 @@
 //hopefully only one will stay
 #import "CastYourCrownPick.h"
 
-
 @implementation RootViewController
 
 @synthesize data;
@@ -48,7 +47,7 @@
     [super viewDidLoad];
 	//basic configuration
 	self.hidesBottomBarWhenPushed = YES;
-	[self.navigationController setToolbarHidden:YES animated:YES];
+    [self.navigationController setToolbarHidden:!isIPAD animated:YES];
 	self.view.backgroundColor = [UIColor clearColor];
 	self.tableView.separatorColor = [UIColor clearColor];
     
@@ -264,24 +263,25 @@
 #pragma mark -
 #pragma mark Table view delegate
 
-/*
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	QuestionViewController *questionViewController = [[QuestionViewController alloc] initWithNibName:@"QuestionViewController" bundle:nil];
-	// ...
-	NSDictionary *dataItem = [data objectAtIndex:indexPath.row];
-    NSArray *questions = [dataItem objectForKey:@"questions"];
-	questionViewController.questions = questions;
-	questionViewController.topic = [dataItem objectForKey:@"topic"];
-    questionViewController.hidesBottomBarWhenPushed = YES;
-    questionViewController.navigationItem.title = [dataItem objectForKey:@"topic"];
-	self.hidesBottomBarWhenPushed = NO;
-	[self.navigationController setToolbarHidden:NO animated:YES];
-	// Pass the selected object to the new view controller.
-	[self.navigationController pushViewController:questionViewController animated:YES];
-	//It will call the list of questions for the selected topic
-	
-}
-*/
+
+//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+//    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
+//       	QuestionViewController *questionViewController = [[QuestionViewController alloc] initWithNibName:@"QuestionViewController" bundle:nil];
+//        // ...
+//        NSDictionary *dataItem = [data objectAtIndex:indexPath.row];
+//        NSArray *questions = [dataItem objectForKey:@"questions"];
+//        questionViewController.questions = questions;
+//        questionViewController.topic = [dataItem objectForKey:@"topic"];
+//        questionViewController.hidesBottomBarWhenPushed = YES;
+//        questionViewController.navigationItem.title = [dataItem objectForKey:@"topic"];
+//        self.hidesBottomBarWhenPushed = NO;
+//        [self.navigationController setToolbarHidden:NO animated:YES];
+//        // Pass the selected object to the new view controller.
+//        [self.navigationController pushViewController:questionViewController animated:YES];
+//        //It will call the list of questions for the selected topic 
+//    }
+//	
+//}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
@@ -294,7 +294,7 @@
         NSArray *questions = [dataItem objectForKey:@"questions"];
         
         // prepare question view controller with new content
-        QuestionViewController *questionViewController = segue.destinationViewController;
+        QuestionViewController *questionViewController = isIPAD? (QuestionViewController *)[[segue destinationViewController] topViewController]:(QuestionViewController *)segue.destinationViewController;
         
         // pass topic data to question view controller
         questionViewController.questions = questions;
@@ -312,7 +312,13 @@
     }//if seque == @"pushQuestionView"
 }
 
-
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier
+                                  sender:(id)sender {
+    if ([identifier isEqualToString:@"pushQuestionView"]) {
+        return YES;
+    }
+    return NO;
+}
 
 #pragma mark -
 #pragma mark Memory management

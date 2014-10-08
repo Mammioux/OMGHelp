@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A379a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Um9-GI-9ua">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A386a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Um9-GI-9ua">
     <dependencies>
-        <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
         <!--AnswerNavBar-->
         <scene sceneID="gyf-57-ZX7">
             <objects>
-                <navigationController id="ARj-ZD-dWL" userLabel="AnswerNavBar" sceneMemberID="viewController">
+                <navigationController title="Answers" id="ARj-ZD-dWL" userLabel="AnswerNavBar" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="e6c-1r-hZ2"/>
                     <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="GJH-cM-8EQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -52,12 +52,12 @@
         <scene sceneID="VH5-hy-brb">
             <objects>
                 <tableViewController title="iDialJesus" clearsSelectionOnViewWillAppear="NO" id="pJ4-dg-h9D" customClass="RootViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Qw4-57-pWV">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelectionDuringEditing="YES" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Qw4-57-pWV">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="aG5-fx-fFc" style="IBUITableViewCellStyleDefault" id="6yY-jw-sVD">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="CategoryCell" textLabel="aG5-fx-fFc" style="IBUITableViewCellStyleDefault" id="6yY-jw-sVD">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6yY-jw-sVD" id="IVV-Og-ngc">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -71,7 +71,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="DYh-ID-yGD" kind="show" identifier="pushQuestionView" id="OaU-8a-Hci"/>
+                                    <segue destination="DYh-ID-yGD" kind="push" id="TSI-Ju-77J"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -80,11 +80,46 @@
                             <outlet property="delegate" destination="pJ4-dg-h9D" id="edF-Mw-Qg7"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="iDialJesus" id="uML-iP-tqI"/>
+                    <navigationItem key="navigationItem" title="iDialJesus" id="uML-iP-tqI">
+                        <barButtonItem key="rightBarButtonItem" title="About" id="J0A-0H-b21">
+                            <connections>
+                                <segue destination="iYU-bg-4cB" kind="popoverPresentation" popoverAnchorBarButtonItem="J0A-0H-b21" id="HI3-ha-5je">
+                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                </segue>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ylq-KN-KFl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1622" y="-75"/>
+        </scene>
+        <!--About iDialJesus-->
+        <scene sceneID="Q32-k0-4xt">
+            <objects>
+                <viewController title="About iDialJesus" id="iYU-bg-4cB" customClass="About" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="V3p-i9-EPJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="C6g-td-uA2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sud-dx-I3e">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qzg-hN-IAL">
+                                <rect key="frame" x="-6" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="aboutHtml" destination="qzg-hN-IAL" id="PZ6-Rw-tBt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v9G-za-0jz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2468" y="-783"/>
         </scene>
         <!--Question View Controller-->
         <scene sceneID="vAN-UQ-u6S">
@@ -95,13 +130,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="Fvq-92-wnV">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="QuestionCell" id="Fvq-92-wnV">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Fvq-92-wnV" id="KF8-sP-Klk">
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="ARj-ZD-dWL" kind="showDetail" id="qXI-a0-BOb"/>
+                                    <segue destination="ARj-ZD-dWL" kind="push" id="yzj-dn-qhw"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -147,6 +182,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Eak-FK-ZL6"/>
+        <segue reference="yzj-dn-qhw"/>
     </inferredMetricsTieBreakers>
 </document>

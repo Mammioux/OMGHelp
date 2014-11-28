@@ -7,12 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-@class AnswerViewController;
 
 @interface QuestionViewController : UITableViewController {
 	NSArray *questions;
 	NSString *topic;
-	AnswerViewController * iv; // information value
 }
 
 @property (nonatomic, retain) NSArray *questions;

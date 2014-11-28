@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		01068F09180F1E0600C955AA /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01068F08180F1E0500C955AA /* libxml2.2.dylib */; };
-		0117B4BB1862353E000F214C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0117B4BA1862353E000F214C /* Default-568h@2x.png */; };
 		01865A8811E5D5E6002ED948 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 01865A8711E5D5E6002ED948 /* pause.png */; };
 		01865A9C11EA606E002ED948 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 01865A9B11EA606D002ED948 /* play.png */; };
 		0195259B119A3F65001EFAF9 /* BerylTBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 0195258A119A3F63001EFAF9 /* BerylTBG.png */; };
@@ -59,13 +58,19 @@
 		01EE8D9811EF7D460090B665 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EE8D9711EF7D460090B665 /* SystemConfiguration.framework */; };
 		01EE8EFD11EFCDD40090B665 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 01EE8EFC11EFCDD40090B665 /* Default.png */; };
 		01F1C32E122853340003AC87 /* image002.gif in Resources */ = {isa = PBXBuildFile; fileRef = 01F1C32D122853340003AC87 /* image002.gif */; };
+		0B0A42A919E1EC1E0029816E /* iDialJesusIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A42A819E1EC1E0029816E /* iDialJesusIcon29x29.png */; };
+		0B0A42AB19E1ECA60029816E /* iDialJesusIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A42AA19E1ECA60029816E /* iDialJesusIcon40x40.png */; };
+		0B0A42AD19E1ECF60029816E /* iDialJesusIcon50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A42AC19E1ECF60029816E /* iDialJesusIcon50x50.png */; };
+		0B0A42AF19E1ED340029816E /* iDialJesusIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A42AE19E1ED340029816E /* iDialJesusIcon57x57.png */; };
+		0B0A42B119E1ED750029816E /* iDialJesusIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A42B019E1ED750029816E /* iDialJesusIcon60x60.png */; };
+		0B0A42B319E1EDB80029816E /* iDialJesusIcon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A42B219E1EDB80029816E /* iDialJesusIcon72x72.png */; };
+		0B0A42B519E1EDF90029816E /* iDialJesusIcon76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A42B419E1EDF90029816E /* iDialJesusIcon76x76.png */; };
 		0B1E9E28119075CD00A2E1F4 /* CastYourCrown.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B1E9E26119075CD00A2E1F4 /* CastYourCrown.xib */; };
 		0B1E9E461190A05800A2E1F4 /* CastYourCrownPick.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E9E441190A05800A2E1F4 /* CastYourCrownPick.m */; };
 		0B1E9E471190A05800A2E1F4 /* CastYourCrownPick.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B1E9E451190A05800A2E1F4 /* CastYourCrownPick.xib */; };
 		0B1E9E9C11910EAA00A2E1F4 /* charities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B1E9E9B11910EAA00A2E1F4 /* charities.plist */; };
 		0B1E9FB0119286B500A2E1F4 /* jewels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B1E9FAF119286B500A2E1F4 /* jewels.plist */; };
 		0B1E9FB21192891A00A2E1F4 /* Renewal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B1E9FB11192891A00A2E1F4 /* Renewal.mp3 */; };
-		0B1EA1CF119DFB9A00A2E1F4 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B1EA1CE119DFB9A00A2E1F4 /* Settings.bundle */; };
 		0B23A61111A222E100DB0B65 /* Abuse1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B23A5BD11A222DE00DB0B65 /* Abuse1.mp3 */; };
 		0B23A61211A222E100DB0B65 /* Abuse2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B23A5BE11A222DE00DB0B65 /* Abuse2.mp3 */; };
 		0B23A61311A222E100DB0B65 /* Abuse3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B23A5BF11A222DE00DB0B65 /* Abuse3.mp3 */; };
@@ -160,13 +165,14 @@
 		0B534527118251AB000F33C6 /* crownEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B534526118251AB000F33C6 /* crownEmpty.png */; };
 		0B53452B11829BF4000F33C6 /* CrownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B53452911829BF4000F33C6 /* CrownViewController.m */; };
 		0B53452C11829BF4000F33C6 /* CrownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B53452A11829BF4000F33C6 /* CrownViewController.xib */; };
+		0B61185A19E19333002A01A5 /* AnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B61185919E19333002A01A5 /* AnswerViewController.m */; };
+		0B61185C19E1CC67002A01A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B61185B19E1CC67002A01A5 /* Images.xcassets */; };
 		0B843D3B11B28FA000DFC99C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B843D3A11B28FA000DFC99C /* MessageUI.framework */; };
 		0BA7183D117770FE00B54059 /* About.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0BA7183C117770FE00B54059 /* About.htm */; };
 		0BA8AAAE1159D1E10002F011 /* topics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BA8AAAD1159D1E10002F011 /* topics.plist */; };
 		0BA8AAF8115B198F0002F011 /* JesusRevIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA8AAF6115B198F0002F011 /* JesusRevIcon.png */; };
 		0BA8AB0E115B26110002F011 /* JesusRevBW.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA8AB0C115B26110002F011 /* JesusRevBW.png */; };
 		0BA8ABCE115C61A90002F011 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8ABCC115C61A90002F011 /* QuestionViewController.m */; };
-		0BA8ABCF115C61A90002F011 /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BA8ABCD115C61A90002F011 /* QuestionViewController.xib */; };
 		0BB3781E11ADF8C100971B71 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB3781D11ADF8C100971B71 /* libsqlite3.0.dylib */; };
 		0BC38A7F11A4FD1800BBC1ED /* ChristsReturn0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0BC38A7511A4FD1800BBC1ED /* ChristsReturn0.mp3 */; };
 		0BC38A8011A4FD1800BBC1ED /* ChristsReturn1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0BC38A7611A4FD1800BBC1ED /* ChristsReturn1.mp3 */; };
@@ -222,8 +228,6 @@
 		0BC38BAF11AA232A00BBC1ED /* LINKS.html in Resources */ = {isa = PBXBuildFile; fileRef = 0BC38BAE11AA232A00BBC1ED /* LINKS.html */; };
 		0BF0A2CB11C55029000E10A7 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF0A2C911C55029000E10A7 /* forward.png */; };
 		0BF0A2CC11C55029000E10A7 /* rewind.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF0A2CA11C55029000E10A7 /* rewind.png */; };
-		0BF84EA7116FCC6A00CDF00E /* AnswerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF84EA5116FCC6A00CDF00E /* AnswerTableViewController.m */; };
-		0BF84EA8116FCC6A00CDF00E /* AnswerTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BF84EA6116FCC6A00CDF00E /* AnswerTableViewController.xib */; };
 		0BF991AF11722A2700CF910E /* Disclaimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF991AD11722A2700CF910E /* Disclaimer.m */; };
 		0BF991B011722A2700CF910E /* Disclaimer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BF991AE11722A2700CF910E /* Disclaimer.xib */; };
 		0BF992091174F44D00CF910E /* About.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF992071174F44D00CF910E /* About.m */; };
@@ -232,7 +236,7 @@
 		0BF9929E1175624900CF910E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		0FE3C1A818629F2F008805BA /* IDialJesus_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3C1A718629F2F008805BA /* IDialJesus_iPad.storyboard */; };
 		0FEF9E4018B46D5700879297 /* iDialJesus_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3C1A518629EEE008805BA /* iDialJesus_iPhone.storyboard */; };
-		1D3623260D0F684500981E51 /* OMGHelpAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* OMGHelpAppDelegate.m */; };
+		1D3623260D0F684500981E51 /* IDialJesusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* IDialJesusAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -242,7 +246,6 @@
 
 /* Begin PBXFileReference section */
 		01068F08180F1E0500C955AA /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
-		0117B4BA1862353E000F214C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		01865A8711E5D5E6002ED948 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
 		01865A9B11EA606D002ED948 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		0195258A119A3F63001EFAF9 /* BerylTBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BerylTBG.png; sourceTree = "<group>"; };
@@ -293,6 +296,13 @@
 		01EE8D9711EF7D460090B665 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		01EE8EFC11EFCDD40090B665 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		01F1C32D122853340003AC87 /* image002.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = image002.gif; sourceTree = "<group>"; };
+		0B0A42A819E1EC1E0029816E /* iDialJesusIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon29x29.png; sourceTree = "<group>"; };
+		0B0A42AA19E1ECA60029816E /* iDialJesusIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon40x40.png; sourceTree = "<group>"; };
+		0B0A42AC19E1ECF60029816E /* iDialJesusIcon50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon50x50.png; sourceTree = "<group>"; };
+		0B0A42AE19E1ED340029816E /* iDialJesusIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon57x57.png; sourceTree = "<group>"; };
+		0B0A42B019E1ED750029816E /* iDialJesusIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon60x60.png; sourceTree = "<group>"; };
+		0B0A42B219E1EDB80029816E /* iDialJesusIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon72x72.png; sourceTree = "<group>"; };
+		0B0A42B419E1EDF90029816E /* iDialJesusIcon76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon76x76.png; sourceTree = "<group>"; };
 		0B1E9E26119075CD00A2E1F4 /* CastYourCrown.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CastYourCrown.xib; path = Classes/CastYourCrown.xib; sourceTree = "<group>"; };
 		0B1E9E431190A05800A2E1F4 /* CastYourCrownPick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CastYourCrownPick.h; path = ../CastYourCrownPick.h; sourceTree = "<group>"; };
 		0B1E9E441190A05800A2E1F4 /* CastYourCrownPick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CastYourCrownPick.m; path = ../CastYourCrownPick.m; sourceTree = "<group>"; };
@@ -300,7 +310,6 @@
 		0B1E9E9B11910EAA00A2E1F4 /* charities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = charities.plist; sourceTree = "<group>"; };
 		0B1E9FAF119286B500A2E1F4 /* jewels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jewels.plist; sourceTree = "<group>"; };
 		0B1E9FB11192891A00A2E1F4 /* Renewal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Renewal.mp3; sourceTree = "<group>"; };
-		0B1EA1CE119DFB9A00A2E1F4 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		0B23A5BD11A222DE00DB0B65 /* Abuse1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Abuse1.mp3; sourceTree = "<group>"; };
 		0B23A5BE11A222DE00DB0B65 /* Abuse2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Abuse2.mp3; sourceTree = "<group>"; };
 		0B23A5BF11A222DE00DB0B65 /* Abuse3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Abuse3.mp3; sourceTree = "<group>"; };
@@ -398,6 +407,10 @@
 		0B53452811829BF4000F33C6 /* CrownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrownViewController.h; sourceTree = "<group>"; };
 		0B53452911829BF4000F33C6 /* CrownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrownViewController.m; sourceTree = "<group>"; };
 		0B53452A11829BF4000F33C6 /* CrownViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CrownViewController.xib; path = Classes/CrownViewController.xib; sourceTree = "<group>"; };
+		0B61185819E19333002A01A5 /* AnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerViewController.h; sourceTree = "<group>"; };
+		0B61185919E19333002A01A5 /* AnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerViewController.m; sourceTree = "<group>"; };
+		0B61185B19E1CC67002A01A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iDialJesus/Images.xcassets; sourceTree = "<group>"; };
+		0B61185D19E1CCFA002A01A5 /* iDialJesusIcon512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon512x512.png; sourceTree = "<group>"; };
 		0B843D3A11B28FA000DFC99C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		0BA7183C117770FE00B54059 /* About.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = About.htm; sourceTree = "<group>"; };
 		0BA8AAAD1159D1E10002F011 /* topics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topics.plist; sourceTree = "<group>"; };
@@ -405,7 +418,6 @@
 		0BA8AB0C115B26110002F011 /* JesusRevBW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JesusRevBW.png; sourceTree = "<group>"; };
 		0BA8ABCB115C61A90002F011 /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
 		0BA8ABCC115C61A90002F011 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
-		0BA8ABCD115C61A90002F011 /* QuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = QuestionViewController.xib; path = Classes/QuestionViewController.xib; sourceTree = "<group>"; };
 		0BB3781D11ADF8C100971B71 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		0BC38A7511A4FD1800BBC1ED /* ChristsReturn0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChristsReturn0.mp3; sourceTree = "<group>"; };
 		0BC38A7611A4FD1800BBC1ED /* ChristsReturn1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChristsReturn1.mp3; sourceTree = "<group>"; };
@@ -461,9 +473,6 @@
 		0BC38BAE11AA232A00BBC1ED /* LINKS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LINKS.html; sourceTree = "<group>"; };
 		0BF0A2C911C55029000E10A7 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
 		0BF0A2CA11C55029000E10A7 /* rewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rewind.png; sourceTree = "<group>"; };
-		0BF84EA4116FCC6A00CDF00E /* AnswerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerTableViewController.h; sourceTree = "<group>"; };
-		0BF84EA5116FCC6A00CDF00E /* AnswerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerTableViewController.m; sourceTree = "<group>"; };
-		0BF84EA6116FCC6A00CDF00E /* AnswerTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AnswerTableViewController.xib; path = Classes/AnswerTableViewController.xib; sourceTree = "<group>"; };
 		0BF991AC11722A2600CF910E /* Disclaimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Disclaimer.h; sourceTree = "<group>"; };
 		0BF991AD11722A2700CF910E /* Disclaimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Disclaimer.m; sourceTree = "<group>"; };
 		0BF991AE11722A2700CF910E /* Disclaimer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Disclaimer.xib; path = Classes/Disclaimer.xib; sourceTree = "<group>"; };
@@ -474,8 +483,8 @@
 		0FE3C1A518629EEE008805BA /* iDialJesus_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iDialJesus_iPhone.storyboard; sourceTree = SOURCE_ROOT; };
 		0FE3C1A718629F2F008805BA /* IDialJesus_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IDialJesus_iPad.storyboard; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* OMGHelpAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGHelpAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* OMGHelpAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGHelpAppDelegate.m; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* IDialJesusAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDialJesusAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* IDialJesusAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDialJesusAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* iDialJesus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDialJesus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -677,18 +686,18 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0B61185819E19333002A01A5 /* AnswerViewController.h */,
+				0B61185919E19333002A01A5 /* AnswerViewController.m */,
 				0BF992061174F44D00CF910E /* About.h */,
 				0BF992071174F44D00CF910E /* About.m */,
-				0BF84EA4116FCC6A00CDF00E /* AnswerTableViewController.h */,
-				0BF84EA5116FCC6A00CDF00E /* AnswerTableViewController.m */,
 				0B1E9E431190A05800A2E1F4 /* CastYourCrownPick.h */,
 				0B1E9E441190A05800A2E1F4 /* CastYourCrownPick.m */,
 				0B53452811829BF4000F33C6 /* CrownViewController.h */,
 				0B53452911829BF4000F33C6 /* CrownViewController.m */,
 				0BF991AC11722A2600CF910E /* Disclaimer.h */,
 				0BF991AD11722A2700CF910E /* Disclaimer.m */,
-				1D3623240D0F684500981E51 /* OMGHelpAppDelegate.h */,
-				1D3623250D0F684500981E51 /* OMGHelpAppDelegate.m */,
+				1D3623240D0F684500981E51 /* IDialJesusAppDelegate.h */,
+				1D3623250D0F684500981E51 /* IDialJesusAppDelegate.m */,
 				0BA8ABCB115C61A90002F011 /* QuestionViewController.h */,
 				0BA8ABCC115C61A90002F011 /* QuestionViewController.m */,
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
@@ -735,6 +744,14 @@
 		0BA8AB11115BE18D0002F011 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				0B0A42B419E1EDF90029816E /* iDialJesusIcon76x76.png */,
+				0B0A42B219E1EDB80029816E /* iDialJesusIcon72x72.png */,
+				0B0A42B019E1ED750029816E /* iDialJesusIcon60x60.png */,
+				0B0A42AE19E1ED340029816E /* iDialJesusIcon57x57.png */,
+				0B0A42AC19E1ECF60029816E /* iDialJesusIcon50x50.png */,
+				0B0A42AA19E1ECA60029816E /* iDialJesusIcon40x40.png */,
+				0B0A42A819E1EC1E0029816E /* iDialJesusIcon29x29.png */,
+				0B61185D19E1CCFA002A01A5 /* iDialJesusIcon512x512.png */,
 				01865A8711E5D5E6002ED948 /* pause.png */,
 				01865A9B11EA606D002ED948 /* play.png */,
 				0BF0A2C911C55029000E10A7 /* forward.png */,
@@ -763,7 +780,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				0117B4BA1862353E000F214C /* Default-568h@2x.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -785,12 +801,12 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0B61185B19E1CC67002A01A5 /* Images.xcassets */,
 				01F1C32D122853340003AC87 /* image002.gif */,
 				0B29330011B4ADD500D63F85 /* TwitterLoginViewController.xib */,
 				0BA8AB11115BE18D0002F011 /* images */,
 				0195280011A16A2D001EFAF9 /* music */,
 				01C963E7116304B700C462FC /* sound */,
-				0B1EA1CE119DFB9A00A2E1F4 /* Settings.bundle */,
 				0BA7183C117770FE00B54059 /* About.htm */,
 				0BC38BAE11AA232A00BBC1ED /* LINKS.html */,
 				0B1E9E9B11910EAA00A2E1F4 /* charities.plist */,
@@ -799,13 +815,11 @@
 				019527C111A08445001EFAF9 /* songs.plist */,
 				0BA8AAAD1159D1E10002F011 /* topics.plist */,
 				0BF992081174F44D00CF910E /* About.xib */,
-				0BF84EA6116FCC6A00CDF00E /* AnswerTableViewController.xib */,
 				0B1E9E26119075CD00A2E1F4 /* CastYourCrown.xib */,
 				0B1E9E451190A05800A2E1F4 /* CastYourCrownPick.xib */,
 				0B53452A11829BF4000F33C6 /* CrownViewController.xib */,
 				0BF991AE11722A2700CF910E /* Disclaimer.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
-				0BA8ABCD115C61A90002F011 /* QuestionViewController.xib */,
 				0BF9921D1174F5B700CF910E /* filelist.xml */,
 				01EE8EFC11EFCDD40090B665 /* Default.png */,
 				0FE3C1A518629EEE008805BA /* iDialJesus_iPhone.storyboard */,
@@ -855,7 +869,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = iDialJesus;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
@@ -898,7 +912,6 @@
 				019528C911A255E8001EFAF9 /* AgateTBG.png in Resources */,
 				019528CA11A255E8001EFAF9 /* AmberTBG.png in Resources */,
 				019528C811A255E8001EFAF9 /* AmethystTBG.png in Resources */,
-				0BF84EA8116FCC6A00CDF00E /* AnswerTableViewController.xib in Resources */,
 				019527B311A08358001EFAF9 /* Anything You Ask.mp3 in Resources */,
 				01952A2F11A4E61E001EFAF9 /* AquamarineTBG.png in Resources */,
 				019527B411A08358001EFAF9 /* Author of My Life.mp3 in Resources */,
@@ -940,6 +953,7 @@
 				0B23A62311A222E100DB0B65 /* Forgiveness4.mp3 in Resources */,
 				019528C311A255E8001EFAF9 /* GarnetTBG.png in Resources */,
 				0B23A62411A222E100DB0B65 /* Heaven0.mp3 in Resources */,
+				0B61185C19E1CC67002A01A5 /* Images.xcassets in Resources */,
 				0B23A62511A222E100DB0B65 /* Heaven1.mp3 in Resources */,
 				0B23A62611A222E100DB0B65 /* Heaven2.mp3 in Resources */,
 				0B23A62711A222E100DB0B65 /* Heaven3.mp3 in Resources */,
@@ -976,11 +990,14 @@
 				0B23A63B11A222E100DB0B65 /* MyGifts3.mp3 in Resources */,
 				0B23A63C11A222E100DB0B65 /* MyGifts4.mp3 in Resources */,
 				019528C711A255E8001EFAF9 /* OnyxTBG.png in Resources */,
+				0B0A42AF19E1ED340029816E /* iDialJesusIcon57x57.png in Resources */,
 				019528C111A255E8001EFAF9 /* OpalTBG.png in Resources */,
 				0B23A63D11A222E100DB0B65 /* Partying0.mp3 in Resources */,
+				0B0A42AD19E1ECF60029816E /* iDialJesusIcon50x50.png in Resources */,
 				0B23A63E11A222E100DB0B65 /* Partying1.mp3 in Resources */,
 				0B23A63F11A222E100DB0B65 /* Partying2.mp3 in Resources */,
 				0B23A64011A222E100DB0B65 /* Partying3.mp3 in Resources */,
+				0B0A42B519E1EDF90029816E /* iDialJesusIcon76x76.png in Resources */,
 				0B23A64111A222E100DB0B65 /* Partying4.mp3 in Resources */,
 				01952A2511A4E533001EFAF9 /* PearlTBG.png in Resources */,
 				019528C211A255E8001EFAF9 /* PeridotTBG.png in Resources */,
@@ -994,13 +1011,13 @@
 				0B23A64911A222E100DB0B65 /* Questioning2.mp3 in Resources */,
 				0B23A64A11A222E100DB0B65 /* Questioning3.mp3 in Resources */,
 				0B23A64B11A222E100DB0B65 /* Questioning4.mp3 in Resources */,
-				0BA8ABCF115C61A90002F011 /* QuestionViewController.xib in Resources */,
 				019528BF11A255E8001EFAF9 /* RedCoralTBG.png in Resources */,
 				0B1E9FB21192891A00A2E1F4 /* Renewal.mp3 in Resources */,
 				019525A1119A3F65001EFAF9 /* right_arrow-32.png in Resources */,
 				019528CE11A255E8001EFAF9 /* RubyTBG.png in Resources */,
 				019528CB11A255E8001EFAF9 /* SapphireTBG.png in Resources */,
 				019528C511A255E8001EFAF9 /* SardonyxTBG.png in Resources */,
+				0B0A42B319E1EDB80029816E /* iDialJesusIcon72x72.png in Resources */,
 				0B23A64C11A222E100DB0B65 /* Saved0.mp3 in Resources */,
 				0B23A64D11A222E100DB0B65 /* Saved1.mp3 in Resources */,
 				0B23A64E11A222E100DB0B65 /* Saved2.mp3 in Resources */,
@@ -1009,9 +1026,10 @@
 				0B23A65111A222E100DB0B65 /* SelfControl0.mp3 in Resources */,
 				0B23A65211A222E100DB0B65 /* SelfControl1.mp3 in Resources */,
 				0B23A65311A222E100DB0B65 /* SelfControl2.mp3 in Resources */,
+				0B0A42B119E1ED750029816E /* iDialJesusIcon60x60.png in Resources */,
 				0B23A65411A222E100DB0B65 /* SelfControl3.mp3 in Resources */,
 				0B23A65511A222E100DB0B65 /* SelfControl4.mp3 in Resources */,
-				0B1EA1CF119DFB9A00A2E1F4 /* Settings.bundle in Resources */,
+				0B0A42A919E1EC1E0029816E /* iDialJesusIcon29x29.png in Resources */,
 				0B23A65611A222E100DB0B65 /* Sex0.mp3 in Resources */,
 				0B23A65711A222E100DB0B65 /* Sex1.mp3 in Resources */,
 				0B23A65811A222E100DB0B65 /* Sex2.mp3 in Resources */,
@@ -1073,6 +1091,7 @@
 				0BC38B8311A6DDB100BBC1ED /* Sin4.mp3 in Resources */,
 				0BC38B9A11A77D1B00BBC1ED /* Guilt0.mp3 in Resources */,
 				0BC38B9B11A77D1B00BBC1ED /* Guilt1.mp3 in Resources */,
+				0B0A42AB19E1ECA60029816E /* iDialJesusIcon40x40.png in Resources */,
 				0BC38B9C11A77D1B00BBC1ED /* Guilt2.mp3 in Resources */,
 				0BC38B9D11A77D1B00BBC1ED /* Guilt3.mp3 in Resources */,
 				0BC38B9E11A77D1B00BBC1ED /* Guilt4.mp3 in Resources */,
@@ -1093,7 +1112,6 @@
 				0BC38BAD11A77D1B00BBC1ED /* Witnessing4.mp3 in Resources */,
 				0BC38BAF11AA232A00BBC1ED /* LINKS.html in Resources */,
 				0B29330211B4ADD500D63F85 /* TwitterLoginViewController.xib in Resources */,
-				0117B4BB1862353E000F214C /* Default-568h@2x.png in Resources */,
 				0BF0A2CB11C55029000E10A7 /* forward.png in Resources */,
 				0BF0A2CC11C55029000E10A7 /* rewind.png in Resources */,
 				01865A8811E5D5E6002ED948 /* pause.png in Resources */,
@@ -1111,9 +1129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* OMGHelpAppDelegate.m in Sources */,
+				1D3623260D0F684500981E51 /* IDialJesusAppDelegate.m in Sources */,
 				0BA8ABCE115C61A90002F011 /* QuestionViewController.m in Sources */,
-				0BF84EA7116FCC6A00CDF00E /* AnswerTableViewController.m in Sources */,
+				0B61185A19E19333002A01A5 /* AnswerViewController.m in Sources */,
 				0BF991AF11722A2700CF910E /* Disclaimer.m in Sources */,
 				0BF992091174F44D00CF910E /* About.m in Sources */,
 				0BF9929E1175624900CF910E /* RootViewController.m in Sources */,
@@ -1150,14 +1168,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Janet Rod";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iDialJesus_Prefix.pch;
 				INFOPLIST_FILE = "iDialJesus-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1172,7 +1192,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -1181,7 +1202,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iDialJesus_Prefix.pch;
 				INFOPLIST_FILE = "iDialJesus-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1196,14 +1217,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iDialJesus_Prefix.pch;
 				INFOPLIST_FILE = "iDialJesus-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1226,6 +1248,7 @@
 				HEADER_SEARCH_PATHS = "";
 				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = ./FBConnect;

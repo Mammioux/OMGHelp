@@ -8,7 +8,7 @@
 
 #import "QuestionViewController.h"
 //#import	"AnswerViewController.h"
-#import	"AnswerTableViewController.h"
+#import	"AnswerViewController.h"
 
 
 @implementation QuestionViewController
@@ -180,17 +180,17 @@
 //    // Navigation logic may go here. Create and push another view controller.
 //    if(indexPath.row % 2 ==0){
 //        self.hidesBottomBarWhenPushed = NO;
-//        AnswerTableViewController *answerTableViewController = [[AnswerTableViewController alloc] initWithNibName:@"AnswerTableViewController" bundle:nil];
+//        AnswerViewController *answerViewController = [[AnswerViewController alloc] initWithNibName:@"AnswerTableViewController" bundle:nil];
 //        
 //        //Get dictionary at selected row, than get all the data assocciated with that particular question
 //        NSDictionary *dataItem = [questions objectAtIndex:(indexPath.row / 2)];
 //        //It will call the all answering data of the one selected question
-//        answerTableViewController.answer = dataItem;
-//        answerTableViewController.index = (indexPath.row / 2);
-//        answerTableViewController.topic = topic;
-//        answerTableViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
+//        answerViewController.answer = dataItem;
+//        answerViewController.index = (indexPath.row / 2);
+//        answerViewController.topic = topic;
+//        answerViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
 //        // Pass the selected object to the answerViewController.
-//        [self.navigationController pushViewController:answerTableViewController animated:YES];
+//        [self.navigationController pushViewController:answerViewController animated:YES];
 //    }//if row is even
 //    
 //}
@@ -205,7 +205,7 @@
         NSDictionary *dataItem = [questions objectAtIndex:(indexPath.row)];            
         
         // prepare answer view controller with new content
-        AnswerTableViewController *answerViewController = segue.destinationViewController;
+        AnswerViewController *answerViewController = segue.destinationViewController;
             
         // pass answer data to answer view controller
         answerViewController.answer = dataItem;
@@ -213,7 +213,25 @@
         answerViewController.topic = self.topic;
         self.hidesBottomBarWhenPushed = NO;
         [self.navigationController setToolbarHidden:NO animated:YES];
+        return;
     }//if seque == @"pushAnswerView"
+    if ([segue.identifier isEqualToString:@"showAnswerView"])
+    {
+        // sender is the table view cell
+        NSIndexPath *indexPath = [self.tableView indexPathForCell:(UITableViewCell *)sender];
+        NSDictionary *dataItem = [questions objectAtIndex:(indexPath.row)];
+        
+        // prepare answer view controller with new content
+        AnswerViewController *answerViewController = segue.destinationViewController;
+        
+        // pass answer data to answer view controller
+        answerViewController.answer = dataItem;
+        answerViewController.index = (indexPath.row);
+        answerViewController.topic = self.topic;
+        answerViewController.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
+        answerViewController.navigationItem.leftItemsSupplementBackButton = YES;
+    }//if seque == @"showAnswerView"
+
 }
 
 

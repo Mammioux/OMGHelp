@@ -15,11 +15,11 @@
 @interface RootViewController : UITableViewController <UIAlertViewDelegate>
 {
 	NSArray *data;
-	UIBarButtonItem *rightBarButtonItem;
 	NSArray *jewelery;
 }
 @property (nonatomic, retain) NSArray *data;
 @property (nonatomic, retain) NSArray *jewelery;
+@property (nonatomic, retain) IBOutlet	UIBarButtonItem *aboutBarButtonItem;
 
 
 @end

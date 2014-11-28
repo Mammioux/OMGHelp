@@ -478,7 +478,7 @@
 		0BF991AE11722A2700CF910E /* Disclaimer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Disclaimer.xib; path = Classes/Disclaimer.xib; sourceTree = "<group>"; };
 		0BF992061174F44D00CF910E /* About.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = About.h; sourceTree = "<group>"; usesTabs = 0; };
 		0BF992071174F44D00CF910E /* About.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = About.m; sourceTree = "<group>"; };
-		0BF992081174F44D00CF910E /* About.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = About.xib; path = Classes/About.xib; sourceTree = "<group>"; };
+		0BF992081174F44D00CF910E /* About.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = About.xib; sourceTree = "<group>"; };
 		0BF9921D1174F5B700CF910E /* filelist.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = filelist.xml; sourceTree = "<group>"; };
 		0FE3C1A518629EEE008805BA /* iDialJesus_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iDialJesus_iPhone.storyboard; sourceTree = SOURCE_ROOT; };
 		0FE3C1A718629F2F008805BA /* IDialJesus_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IDialJesus_iPad.storyboard; sourceTree = "<group>"; };
@@ -690,6 +690,7 @@
 				0B61185919E19333002A01A5 /* AnswerViewController.m */,
 				0BF992061174F44D00CF910E /* About.h */,
 				0BF992071174F44D00CF910E /* About.m */,
+				0BF992081174F44D00CF910E /* About.xib */,
 				0B1E9E431190A05800A2E1F4 /* CastYourCrownPick.h */,
 				0B1E9E441190A05800A2E1F4 /* CastYourCrownPick.m */,
 				0B53452811829BF4000F33C6 /* CrownViewController.h */,
@@ -814,7 +815,6 @@
 				0B1E9FAF119286B500A2E1F4 /* jewels.plist */,
 				019527C111A08445001EFAF9 /* songs.plist */,
 				0BA8AAAD1159D1E10002F011 /* topics.plist */,
-				0BF992081174F44D00CF910E /* About.xib */,
 				0B1E9E26119075CD00A2E1F4 /* CastYourCrown.xib */,
 				0B1E9E451190A05800A2E1F4 /* CastYourCrownPick.xib */,
 				0B53452A11829BF4000F33C6 /* CrownViewController.xib */,

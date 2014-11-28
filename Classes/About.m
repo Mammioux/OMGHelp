@@ -43,7 +43,12 @@
 	
 	self.view.backgroundColor = [UIColor clearColor];
 	//self.tableView.separatorColor = [UIColor clearColor];
-	self.parentViewController.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"JesusRevBW.png"]];
+    UIGraphicsBeginImageContext(self.view.frame.size);
+    [[UIImage imageNamed:@"JesusRevBW.png"] drawInRect:self.view.bounds];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    self.view.backgroundColor = [UIColor colorWithPatternImage:image];
 	//self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"JesusRevBW.png"]];
 }
 

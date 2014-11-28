@@ -61,8 +61,14 @@
 	[defaults setInteger:[defaults integerForKey:@"count_preference"] forKey:@"count"];
 	
     // Load the data.
-	self.parentViewController.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"JesusRevBW.png"]];
-	NSString *dataPath     = [[NSBundle mainBundle] pathForResource:@"topics"   ofType:@"plist"];
+    UIGraphicsBeginImageContext(self.view.frame.size);
+    [[UIImage imageNamed:@"JesusRevBW.png"] drawInRect:self.view.bounds];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    self.view.backgroundColor = [UIColor colorWithPatternImage:image];
+
+    NSString *dataPath     = [[NSBundle mainBundle] pathForResource:@"topics"   ofType:@"plist"];
 	//NSString *jewelPath    = [[NSBundle mainBundle] pathForResource:@"jewels"   ofType:@"plist"];
 	
 	// sort by topic

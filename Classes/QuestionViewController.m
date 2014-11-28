@@ -25,7 +25,12 @@
 	self.view.backgroundColor = [UIColor clearColor];
 	self.tableView.separatorColor = [UIColor clearColor];
     self.font = [UIFont fontWithName:@"STHeitiK-Medium" size:14]; // define font for all questions
-	self.parentViewController.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"JesusRevBW.png"]];
+    UIGraphicsBeginImageContext(self.view.frame.size);
+    [[UIImage imageNamed:@"JesusRevBW.png"] drawInRect:self.view.bounds];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    self.view.backgroundColor = [UIColor colorWithPatternImage:image];
     
     // Uncomment the following line to preserve selection between presentations.
     //self.clearsSelectionOnViewWillAppear = NO;

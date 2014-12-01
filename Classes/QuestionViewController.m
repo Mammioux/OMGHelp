@@ -183,7 +183,6 @@
 
 //- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 //    // Navigation logic may go here. Create and push another view controller.
-//    if(indexPath.row % 2 ==0){
 //        self.hidesBottomBarWhenPushed = NO;
 //        AnswerViewController *answerViewController = [[AnswerViewController alloc] initWithNibName:@"AnswerTableViewController" bundle:nil];
 //        
@@ -196,8 +195,6 @@
 //        answerViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
 //        // Pass the selected object to the answerViewController.
 //        [self.navigationController pushViewController:answerViewController animated:YES];
-//    }//if row is even
-//    
 //}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

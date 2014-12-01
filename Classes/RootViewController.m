@@ -270,24 +270,24 @@
 #pragma mark Table view delegate
 
 
-//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-//    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
-//       	QuestionViewController *questionViewController = [[QuestionViewController alloc] initWithNibName:@"QuestionViewController" bundle:nil];
-//        // ...
-//        NSDictionary *dataItem = [data objectAtIndex:indexPath.row];
-//        NSArray *questions = [dataItem objectForKey:@"questions"];
-//        questionViewController.questions = questions;
-//        questionViewController.topic = [dataItem objectForKey:@"topic"];
-//        questionViewController.hidesBottomBarWhenPushed = YES;
-//        questionViewController.navigationItem.title = [dataItem objectForKey:@"topic"];
-//        self.hidesBottomBarWhenPushed = NO;
-//        [self.navigationController setToolbarHidden:NO animated:YES];
-//        // Pass the selected object to the new view controller.
-//        [self.navigationController pushViewController:questionViewController animated:YES];
-//        //It will call the list of questions for the selected topic 
-//    }
-//	
-//}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
+       	QuestionViewController *questionViewController = [[QuestionViewController alloc] initWithNibName:@"QuestionViewController" bundle:nil];
+        // ...
+        NSDictionary *dataItem = [data objectAtIndex:indexPath.row];
+        NSArray *questions = [dataItem objectForKey:@"questions"];
+        questionViewController.questions = questions;
+        questionViewController.topic = [dataItem objectForKey:@"topic"];
+        questionViewController.hidesBottomBarWhenPushed = YES;
+        questionViewController.navigationItem.title = [dataItem objectForKey:@"topic"];
+        self.hidesBottomBarWhenPushed = NO;
+        [self.navigationController setToolbarHidden:NO animated:YES];
+        // Pass the selected object to the new view controller.
+        [self.navigationController pushViewController:questionViewController animated:YES];
+        //It will call the list of questions for the selected topic 
+    }
+	
+}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
@@ -312,7 +312,7 @@
         if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
             questionViewController.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
         } else {
-            questionViewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil];
+            //questionViewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil];
         }
         questionViewController.navigationItem.leftItemsSupplementBackButton = YES;
     }//if seque == @"pushQuestionView"

@@ -31,6 +31,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
 	
 	// initial values for global variables
 	self.circularCounter = 0;
@@ -58,7 +59,7 @@
     
     self.scrollTextView.font = [UIFont fontWithName:@"STHeitiK-Medium" size:16];
 	//webView.backgroundColor = [UIColor clearColor];
-	//scrollTextView.backgroundColor = [UIColor clearColor];
+    //scrollTextView.backgroundColor = [UIColor whiteColor];
 }//- (void)viewDidLoad
 
 - (void)configureToolbarItems

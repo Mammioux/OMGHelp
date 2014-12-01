@@ -55,12 +55,15 @@
     if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
         UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
         UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
-       
+        NSLog(@"System Version: %@", [UIDevice currentDevice].systemVersion);
         if ([[UIDevice currentDevice].systemVersion compare:@"8.0"] == NSOrderedAscending ) {
             navigationController.topViewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Categories" style:UIBarButtonItemStylePlain target:self
                                                                                                                       action: @selector(splitViewController:collapseSecondaryViewController:ontoPrimaryViewController:)];
         } else {
+            NSLog(@"display mode button Item: %@", splitViewController.displayModeButtonItem.title);
+            
             navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
+            navigationController.topViewController.navigationItem.leftBarButtonItem.title = @"Categories";
         }
         splitViewController.delegate = self;
     } else {

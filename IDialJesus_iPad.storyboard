@@ -71,7 +71,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="DYh-ID-yGD" kind="push" id="TSI-Ju-77J"/>
+                                    <segue destination="DYh-ID-yGD" kind="push" identifier="pushQuestionView" splitViewControllerTargetIndex="0" id="263-dA-ie6"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -136,7 +136,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="ARj-ZD-dWL" kind="push" id="yzj-dn-qhw"/>
+                                    <segue destination="ARj-ZD-dWL" kind="showDetail" identifier="showAnswerView" id="f4Z-WF-Yhx"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -182,6 +182,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="yzj-dn-qhw"/>
+        <segue reference="Eak-FK-ZL6"/>
     </inferredMetricsTieBreakers>
 </document>

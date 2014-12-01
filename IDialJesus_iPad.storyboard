@@ -21,7 +21,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="DYh-ID-yGD" kind="push" identifier="pushQuestionView" splitViewControllerTargetIndex="0" id="263-dA-ie6"/>
+                                    <segue destination="DYh-ID-yGD" kind="push" identifier="pushQuestionView" id="263-dA-ie6"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

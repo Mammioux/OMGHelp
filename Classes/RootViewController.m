@@ -318,13 +318,6 @@
     }//if seque == @"pushQuestionView"
 }
 
-- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier
-                                  sender:(id)sender {
-    if ([identifier isEqualToString:@"pushQuestionView"]) {
-        return YES;
-    }
-    return NO;
-}
 
 #pragma mark -
 #pragma mark Memory management

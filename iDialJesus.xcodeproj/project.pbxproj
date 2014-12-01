@@ -168,6 +168,7 @@
 		0B61185A19E19333002A01A5 /* AnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B61185919E19333002A01A5 /* AnswerViewController.m */; };
 		0B61185C19E1CC67002A01A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B61185B19E1CC67002A01A5 /* Images.xcassets */; };
 		0B843D3B11B28FA000DFC99C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B843D3A11B28FA000DFC99C /* MessageUI.framework */; };
+		0B90649219E6494A00E4FB96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B90649119E6494A00E4FB96 /* Main.storyboard */; };
 		0BA7183D117770FE00B54059 /* About.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0BA7183C117770FE00B54059 /* About.htm */; };
 		0BA8AAAE1159D1E10002F011 /* topics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BA8AAAD1159D1E10002F011 /* topics.plist */; };
 		0BA8AAF8115B198F0002F011 /* JesusRevIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA8AAF6115B198F0002F011 /* JesusRevIcon.png */; };
@@ -412,6 +413,7 @@
 		0B61185B19E1CC67002A01A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iDialJesus/Images.xcassets; sourceTree = "<group>"; };
 		0B61185D19E1CCFA002A01A5 /* iDialJesusIcon512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon512x512.png; sourceTree = "<group>"; };
 		0B843D3A11B28FA000DFC99C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0B90649119E6494A00E4FB96 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0BA7183C117770FE00B54059 /* About.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = About.htm; sourceTree = "<group>"; };
 		0BA8AAAD1159D1E10002F011 /* topics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topics.plist; sourceTree = "<group>"; };
 		0BA8AAF6115B198F0002F011 /* JesusRevIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JesusRevIcon.png; sourceTree = "<group>"; };
@@ -824,6 +826,7 @@
 				01EE8EFC11EFCDD40090B665 /* Default.png */,
 				0FE3C1A518629EEE008805BA /* iDialJesus_iPhone.storyboard */,
 				0FE3C1A718629F2F008805BA /* IDialJesus_iPad.storyboard */,
+				0B90649119E6494A00E4FB96 /* Main.storyboard */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -993,6 +996,7 @@
 				0B0A42AF19E1ED340029816E /* iDialJesusIcon57x57.png in Resources */,
 				019528C111A255E8001EFAF9 /* OpalTBG.png in Resources */,
 				0B23A63D11A222E100DB0B65 /* Partying0.mp3 in Resources */,
+				0B90649219E6494A00E4FB96 /* Main.storyboard in Resources */,
 				0B0A42AD19E1ECF60029816E /* iDialJesusIcon50x50.png in Resources */,
 				0B23A63E11A222E100DB0B65 /* Partying1.mp3 in Resources */,
 				0B23A63F11A222E100DB0B65 /* Partying2.mp3 in Resources */,

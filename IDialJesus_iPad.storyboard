@@ -21,7 +21,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="Q37-C8-zj0" kind="push" identifier="pushQuestionView" id="G7H-ht-vJp"/>
+                                    <segue destination="DYh-ID-yGD" kind="push" identifier="pushQuestionView" splitViewControllerTargetIndex="0" id="263-dA-ie6"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -92,7 +92,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <connections>
-                                    <segue destination="LBg-Sb-2Fs" kind="push" identifier="pushAnswerView" id="kah-SP-NJe"/>
+                                    <segue destination="ARj-ZD-dWL" kind="showDetail" identifier="showAnswerView" id="f4Z-WF-Yhx"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -165,9 +165,7 @@
             <point key="canvasLocation" x="-989" y="-108"/>
         </scene>
     </scenes>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="lightContent"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination"/>
-    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="Eak-FK-ZL6"/>
+    </inferredMetricsTieBreakers>
 </document>

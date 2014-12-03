@@ -66,6 +66,8 @@
             navigationController.topViewController.navigationItem.leftBarButtonItem.title = @"Categories";
         }
         splitViewController.delegate = self;
+        nvc1 = navigationController;
+        _detailvc = splitViewController.viewControllers.count >1 ? [splitViewController.viewControllers objectAtIndex:1]:nil;
     } else {
         [_window addSubview:[nvc1 view]];
         [_window makeKeyAndVisible];

@@ -7,8 +7,8 @@
 //
 
 #import "QuestionViewController.h"
-//#import	"AnswerViewController.h"
 #import	"AnswerViewController.h"
+#import "IDialJesusAppDelegate.h"
 
 
 @implementation QuestionViewController
@@ -181,21 +181,27 @@
 //odd cells are separators. Maybe it should just be completely deleted for it is beyond deprecated 
 //it is incompatible with the code now.
 
-//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-//    // Navigation logic may go here. Create and push another view controller.
-//        self.hidesBottomBarWhenPushed = NO;
-//        AnswerViewController *answerViewController = [[AnswerViewController alloc] initWithNibName:@"AnswerTableViewController" bundle:nil];
-//        
-//        //Get dictionary at selected row, than get all the data assocciated with that particular question
-//        NSDictionary *dataItem = [questions objectAtIndex:(indexPath.row / 2)];
-//        //It will call the all answering data of the one selected question
-//        answerViewController.answer = dataItem;
-//        answerViewController.index = (indexPath.row / 2);
-//        answerViewController.topic = topic;
-//        answerViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
-//        // Pass the selected object to the answerViewController.
-//        [self.navigationController pushViewController:answerViewController animated:YES];
-//}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    // Navigation logic may go here. Create and push another view controller.
+        self.hidesBottomBarWhenPushed = NO;
+        AnswerViewController *answerViewController = [[AnswerViewController alloc] initWithNibName:@"AnswerTableViewController" bundle:nil];
+        
+        //Get dictionary at selected row, than get all the data assocciated with that particular question
+        NSDictionary *dataItem = [questions objectAtIndex:(indexPath.row)];
+        //It will call the all answering data of the one selected question
+        answerViewController.answer = dataItem;
+        answerViewController.index = (indexPath.row);
+        answerViewController.topic = topic;
+        answerViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
+        // Pass the selected object to the answerViewController.
+    if (isIPAD) {
+        NSLog(@"Load  answer on detail panel of split view");
+        IDialJesusAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
+        appDelegate.detailvc = answerViewController;
+    } else {
+        [self.navigationController pushViewController:answerViewController animated:YES];
+    }
+}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {

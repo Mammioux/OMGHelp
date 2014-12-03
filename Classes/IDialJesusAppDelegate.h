@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+@class AnswerViewController;
 @interface IDialJesusAppDelegate : UIResponder <UIApplicationDelegate>
 //{
 //    
@@ -18,6 +19,6 @@
 //@property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (strong, nonatomic) UIWindow *window;
 @property (nonatomic, retain) IBOutlet UINavigationController *nvc1;
-
+@property (nonatomic, retain) IBOutlet AnswerViewController *detailvc;
 @end
 

@@ -31,7 +31,7 @@
 	<key>UIMainStoryboardFile</key>
 	<string>iDialJesus_iPhone</string>
 	<key>UIMainStoryboardFile~ipad</key>
-	<string>Main</string>
+	<string>IDialJesus_iPad</string>
 	<key>UIStatusBarHidden</key>
 	<false/>
 	<key>UIStatusBarHidden~ipad</key>

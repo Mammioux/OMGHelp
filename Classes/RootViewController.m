@@ -10,6 +10,7 @@
 #import	"QuestionViewController.h"
 #import "Disclaimer.h"
 #import "About.h"
+#import "IDialJesusAppDelegate.h"
 
 //hopefully only one will stay
 #import "CastYourCrownPick.h"
@@ -280,6 +281,10 @@
         questionViewController.topic = [dataItem objectForKey:@"topic"];
         questionViewController.hidesBottomBarWhenPushed = YES;
         questionViewController.navigationItem.title = [dataItem objectForKey:@"topic"];
+        
+        IDialJesusAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
+        questionViewController.delegate = appDelegate.detailvc ;
+        
         self.hidesBottomBarWhenPushed = NO;
         [self.navigationController setToolbarHidden:NO animated:YES];
         // Pass the selected object to the new view controller.

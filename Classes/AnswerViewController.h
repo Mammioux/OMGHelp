@@ -11,39 +11,24 @@
 #import <AVFoundation/AVFoundation.h>
 #import <MessageUI/MessageUI.h>
 #import <MessageUI/MFMailComposeViewController.h>
+#import "QuestionViewController.h"
 
 @class FBSession;
 
 @interface AnswerViewController : UIViewController < UIActionSheetDelegate,
                                                           MFMailComposeViewControllerDelegate,
-                                                          AVAudioPlayerDelegate>
-{
-
-	int index;
-    AVAudioPlayer *player;
-    AVAudioPlayer *prizes;
-	NSDictionary *answer;
-	NSString *topic;
-	NSTimer *waitAwhile;
-    UITextView *scrollTextView;
-	UIWebView *webView;
-    BOOL  muted;
-	int circularCounter;
-    FBSession * __session;
-    
-    //UIImageView *imageView;
-    //UISegmentedControl *segmentedControl;
-}
+                                                          AVAudioPlayerDelegate, UISplitViewControllerDelegate, QuestionDelegate >
 
 @property (nonatomic, readwrite) int index;
-@property (nonatomic, retain) AVAudioPlayer *player;
-@property (nonatomic, retain) NSDictionary *answer;
-@property (nonatomic, retain) NSString *topic;
-@property (nonatomic, retain) IBOutlet UITextView *scrollTextView;
-@property (nonatomic, retain) IBOutlet UIWebView *webView;
+@property (nonatomic, strong) AVAudioPlayer *player;
+@property (nonatomic, strong) AVAudioPlayer *prizes;
+@property (nonatomic, strong) NSDictionary *answer;
+@property (nonatomic, strong) NSString *topic;
+@property (nonatomic, strong) IBOutlet UITextView *scrollTextView;
+@property (nonatomic, strong) IBOutlet UIWebView *webView;
 @property (nonatomic, readwrite) BOOL muted;
 @property (nonatomic,readwrite) int circularCounter;
-@property (nonatomic, retain) NSTimer *waitAwhile;
+@property (nonatomic, strong) NSTimer *waitAwhile;
 
 - (IBAction)toggleSound:(id)sender;
 - (IBAction)done:(id)sender;

@@ -11,25 +11,26 @@
 #import "TwitterLoginViewController.h"
 
 @implementation AnswerViewController
-@synthesize index, player;
-@synthesize answer, topic;
-@synthesize scrollTextView, webView;
-@synthesize muted;
-@synthesize circularCounter;
-@synthesize waitAwhile;
+//@synthesize index, player;
+//@synthesize scrollTextView, webView;
+//@synthesize answer, topic;
+//@synthesize muted;
+//@synthesize circularCounter;
+//@synthesize waitAwhile;
 
 
 #pragma mark -
 #pragma mark View lifecycle
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if (self = [super initWithNibName:@"AnswerViewController" bundle:nibBundleOrNil]) {
-        
+       NSLog(@"Init  answer view from nib"); 
     }
     return self;
 }
 
 
 - (void)viewDidLoad {
+    NSLog(@"Load  answer view");
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
 	
@@ -43,7 +44,7 @@
     self.hidesBottomBarWhenPushed = NO;
     [self.navigationController setToolbarHidden:NO animated:YES];
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    self.navigationItem.prompt = [answer objectForKey:@"question"];//The controller loads its own title.
+    self.navigationItem.prompt = [self.answer objectForKey:@"question"];//The controller loads its own title.
 	self.muted = [defaults boolForKey:@"muted"];
     [self configureToolbarItems];
     
@@ -89,7 +90,7 @@
                                       target:self
                                       action:@selector(nextPage:)];
 	
-    img = muted?[UIImage imageNamed:@"Mute-32.png"]:[UIImage imageNamed:@"Sound-32.png"];
+    img = _muted?[UIImage imageNamed:@"Mute-32.png"]:[UIImage imageNamed:@"Sound-32.png"];
     
 	UIBarButtonItem *muteButtonBar = [[UIBarButtonItem alloc]
 									  initWithImage:img
@@ -146,7 +147,8 @@
     NSInteger lastIndex = [self.toolbarItems count] -1;
 	UIBarButtonItem *back = [self.toolbarItems objectAtIndex:0];
 	UIBarButtonItem *next = [self.toolbarItems objectAtIndex:lastIndex];
-    switch (circularCounter) {
+    NSLog(@"Current page: %d", self.circularCounter);
+    switch (_circularCounter) {
         case 0:
             [self showQuote];
 			//first case: back disdabled, next enabled
@@ -181,9 +183,9 @@
 - (void) showQuote
 {
 	self.navigationItem.title = @"Bible Quote";
-    scrollTextView.text = [answer objectForKey:@"bible quote"];
-	webView.hidden = YES;
-	scrollTextView.hidden = NO;
+    _scrollTextView.text = [_answer objectForKey:@"bible quote"];
+	_webView.hidden = YES;
+	_scrollTextView.hidden = NO;
 	NSMutableString *noBlanksTopic = [[NSMutableString alloc] initWithCapacity:[self.topic length]];
 	for (int i = 0; i < [self.topic length]; i++) {
 		//NSLog(@"character from topic: %C", [self.topic characterAtIndex:i]);
@@ -206,7 +208,7 @@
 			//NSLog(@"Reusing player");
 			[self.player stop];
 		}//else (player not nil)
-	[self.player initWithContentsOfURL:fileURL error:nil];
+        [self.player initWithContentsOfURL:fileURL error:nil];
 	}//if (soundFilePath not nil)
 	
     if (self.player != nil) {
@@ -214,7 +216,7 @@
         [self.player prepareToPlay];
         [self.player setVolume: 1.0];
         
-        if (muted) {
+        if (_muted) {
             [self.player pause];
         } else {
             [self.player play];
@@ -225,9 +227,9 @@
 - (void) showExplanation
 {   
 	self.navigationItem.title = @"Explanation";
-	scrollTextView.text = [answer objectForKey:@"explanation"];
-	webView.hidden = YES;
-	scrollTextView.hidden = NO;
+	_scrollTextView.text = [_answer objectForKey:@"explanation"];
+	_webView.hidden = YES;
+	_scrollTextView.hidden = NO;
 	[self.player pause];
 }
 
@@ -237,9 +239,9 @@
     //[self.navigationItem setRightBarButtonItem:done];
 	//[done release];
 	self.navigationItem.title = @"Keep it Real";
-	scrollTextView.text = [answer objectForKey:@"examples"];
-	webView.hidden = YES;
-	scrollTextView.hidden = NO;
+	_scrollTextView.text = [_answer objectForKey:@"examples"];
+	_webView.hidden = YES;
+	_scrollTextView.hidden = NO;
 	[self.player pause];
 	
 	// only create timer to wait for reading on the first time this page is visited
@@ -254,9 +256,9 @@
 {
 	self.navigationItem.title = @"Links";
 	//scrollTextView.text = [[answer objectForKey:@"links"] description];
-	webView.hidden = NO;
-	scrollTextView.hidden = YES;
-	webView.backgroundColor = [UIColor clearColor]; 
+	_webView.hidden = NO;
+	_scrollTextView.hidden = YES;
+	_webView.backgroundColor = [UIColor clearColor];
 	NSString *path = [[NSBundle mainBundle] pathForResource:@"LINKS" ofType:@"html"];
 	NSString *resourcePath = [[NSBundle mainBundle] bundlePath];
 	NSFileHandle *readHandle = [NSFileHandle fileHandleForReadingAtPath:path];
@@ -272,7 +274,7 @@
 	//webView.backgroundColor = [UIColor clearColor];
 	//scrollTextView.backgroundColor = [UIColor clearColor];
 	[self.webView loadHTMLString:htmlString baseURL:[NSURL fileURLWithPath:resourcePath]];
-	[self.view sendSubviewToBack:scrollTextView];
+	[self.view sendSubviewToBack:_scrollTextView];
 	[self.player pause];
 }
 //the previous 4 methods are called by - (IBAction)showCurrentPage; as needed
@@ -317,7 +319,7 @@
 		newPlayer.delegate = self;
 		//[newPlayer prepareToPlay];
 		[newPlayer setVolume: 0.4];
-		if(!muted){
+		if(!_muted){
             [newPlayer play];
         }//if we are not muted 
          //[newPlayer release];
@@ -373,10 +375,10 @@
 - (IBAction)toggleSound:(id)sender
 {
    	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-	muted = !muted;
-	[defaults setBool:muted forKey:@"muted"];
+	_muted = !_muted;
+	[defaults setBool:_muted forKey:@"muted"];
 	
-	if(!muted) {
+	if(!_muted) {
 		[self.player play];
 	}
 	else       {
@@ -471,14 +473,14 @@
     //NSLog(@"Show Music page and play song");
     self.navigationItem.title = @"Music";
     NSString *htmlString = @"<html><bodystyle=\"background-color: transparent\">Go To www.cdbaby.com/cd/shafer to download the featured song, Renewal, on this app from artist Drew Shafer's CD entitled Sincerely Jesus.</body></html>";
-    webView.hidden = NO;
-    scrollTextView.hidden = YES;
-    webView.backgroundColor = [UIColor clearColor]; 
+    _webView.hidden = NO;
+    _scrollTextView.hidden = YES;
+    _webView.backgroundColor = [UIColor clearColor];
     
     
     [self.webView loadHTMLString:htmlString baseURL:nil];
     
-    [self.view sendSubviewToBack:scrollTextView];
+    [self.view sendSubviewToBack:_scrollTextView];
     
     NSString *soundFilePath = [[NSBundle mainBundle] pathForResource: @"Renewal" ofType: @"mp3"];
     if (soundFilePath != nil) {
@@ -489,7 +491,7 @@
             self.player.numberOfLoops = 0;
             [self.player prepareToPlay];
             [self.player setVolume: 0.8];
-            if(!muted){
+            if(!_muted){
                 [self.player play];
             }//if we are not muted 
         }//if player has been initialised
@@ -553,7 +555,7 @@
 	MFMailComposeViewController *picker = [[MFMailComposeViewController alloc] init];
 	picker.mailComposeDelegate = self;
 	
-    NSString *question = [answer objectForKey:@"question"];
+    NSString *question = [_answer objectForKey:@"question"];
 	[picker setSubject:question];
 	
     
@@ -568,7 +570,7 @@
 	[picker addAttachmentData:myData mimeType:@"image/png" fileName:@"rainy"];
 	
 	// Fill out the email body text
-	NSString *emailBody = [answer objectForKey:@"bible quote"];
+	NSString *emailBody = [_answer objectForKey:@"bible quote"];
 	[picker setMessageBody:emailBody isHTML:NO];
 	
 	[self presentViewController:picker animated:YES completion:nil];
@@ -604,7 +606,7 @@
 -(void)launchMailAppOnDevice
 {
 	NSString *recipients = @"mailto:%20&subject=Hello from California!";
-	NSString *body = [answer objectForKey:@"bible quote"];
+	NSString *body = [_answer objectForKey:@"bible quote"];
 	
 	NSString *email = [NSString stringWithFormat:@"%@%@", recipients, body];
 	email = [email stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
@@ -626,6 +628,38 @@
     // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
     // For example: self.myOutlet = nil;
 	[self.player stop];
+}
+
+#pragma mark UISplitViewController delegate methods
+- (void)splitViewController:(UISplitViewController *)svc willHideViewController:(UIViewController *)aViewController withBarButtonItem:(UIBarButtonItem *)barButtonItem forPopoverController:(UIPopoverController *)pc
+	{
+        barButtonItem.title = NSLocalizedString(@"iDialJesus", @"iDialJesus");
+        self.navigationItem.prompt = [self.answer objectForKey:@"question"];
+          [self.navigationItem setLeftBarButtonItem:barButtonItem animated:YES];
+ 
+    }
+
+- (void)splitViewController:(UISplitViewController *)svc willShowViewController:(UIViewController *)aViewController invalidatingBarButtonItem:(UIBarButtonItem *)button
+{
+    [self.navigationItem setLeftBarButtonItem:nil animated:NO];
+    self.navigationItem.prompt = nil;
+}
+
+- (BOOL)splitViewController:(UISplitViewController *)splitViewController collapseSecondaryViewController:(UIViewController *)secondaryViewController ontoPrimaryViewController:(UIViewController *)primaryViewController {
+    if ([secondaryViewController isKindOfClass:[UINavigationController class]] && [[(UINavigationController *)secondaryViewController topViewController] isKindOfClass:[AnswerViewController class]] && ([(AnswerViewController *)[(UINavigationController *)secondaryViewController topViewController] answer] == nil)) {
+        // Return YES to indicate that we have handled the collapse by doing nothing; the secondary controller will be discarded.
+        return YES;
+    } else {
+        return NO;
+    }
+}
+
+#pragma mark QuestionDelegate
+
+-(void) didSelectQuestion:(NSDictionary *) answerDict {
+    NSLog(@"Calling Question Delegate");
+    self.answer = answerDict;
+    [self viewDidLoad];
 }
 
 @end

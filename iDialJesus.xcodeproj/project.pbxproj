@@ -162,6 +162,7 @@
 		0B29330111B4ADD500D63F85 /* TwitterLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2932FF11B4ADD500D63F85 /* TwitterLoginViewController.m */; };
 		0B29330211B4ADD500D63F85 /* TwitterLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B29330011B4ADD500D63F85 /* TwitterLoginViewController.xib */; };
 		0B29334A11B53CE200D63F85 /* TwitterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B29334911B53CE200D63F85 /* TwitterRequest.m */; };
+		0B36CF061A3AA4CA006D61F0 /* crown31.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B36CF051A3AA4CA006D61F0 /* crown31.png */; };
 		0B534527118251AB000F33C6 /* crownEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B534526118251AB000F33C6 /* crownEmpty.png */; };
 		0B53452B11829BF4000F33C6 /* CrownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B53452911829BF4000F33C6 /* CrownViewController.m */; };
 		0B53452C11829BF4000F33C6 /* CrownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B53452A11829BF4000F33C6 /* CrownViewController.xib */; };
@@ -404,6 +405,7 @@
 		0B29330011B4ADD500D63F85 /* TwitterLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TwitterLoginViewController.xib; path = Classes/TwitterLoginViewController.xib; sourceTree = "<group>"; };
 		0B29334811B53CE200D63F85 /* TwitterRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterRequest.h; sourceTree = "<group>"; };
 		0B29334911B53CE200D63F85 /* TwitterRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterRequest.m; sourceTree = "<group>"; };
+		0B36CF051A3AA4CA006D61F0 /* crown31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown31.png; sourceTree = "<group>"; };
 		0B534526118251AB000F33C6 /* crownEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crownEmpty.png; sourceTree = "<group>"; };
 		0B53452811829BF4000F33C6 /* CrownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrownViewController.h; sourceTree = "<group>"; };
 		0B53452911829BF4000F33C6 /* CrownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrownViewController.m; sourceTree = "<group>"; };
@@ -747,6 +749,7 @@
 		0BA8AB11115BE18D0002F011 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				0B36CF051A3AA4CA006D61F0 /* crown31.png */,
 				0B0A42B419E1EDF90029816E /* iDialJesusIcon76x76.png */,
 				0B0A42B219E1EDB80029816E /* iDialJesusIcon72x72.png */,
 				0B0A42B019E1ED750029816E /* iDialJesusIcon60x60.png */,
@@ -1058,6 +1061,7 @@
 				0BA8AAAE1159D1E10002F011 /* topics.plist in Resources */,
 				0FEF9E4018B46D5700879297 /* iDialJesus_iPhone.storyboard in Resources */,
 				019525AA119A3F65001EFAF9 /* transparent Button.png in Resources */,
+				0B36CF061A3AA4CA006D61F0 /* crown31.png in Resources */,
 				019525A6119A3F65001EFAF9 /* TurquoiseTBG.png in Resources */,
 				019527BF11A08358001EFAF9 /* Well Done.mp3 in Resources */,
 				01952A2411A4E533001EFAF9 /* WhiteSapphireTBG.png in Resources */,

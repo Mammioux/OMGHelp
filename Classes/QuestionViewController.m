@@ -25,6 +25,7 @@
 	self.view.backgroundColor = [UIColor clearColor];
 	self.tableView.separatorColor = [UIColor clearColor];
     self.font = [UIFont fontWithName:@"STHeitiK-Medium" size:14]; // define font for all questions
+    
     UIGraphicsBeginImageContext(self.view.frame.size);
     [[UIImage imageNamed:@"JesusRevBW.png"] drawInRect:self.view.bounds];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
@@ -184,27 +185,35 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
         self.hidesBottomBarWhenPushed = NO;
+    
+    NSLog(@"Question Selected");
+    
+    //Get dictionary at selected row, than get all the data assocciated with that particular question
+    NSDictionary *dataItem = [questions objectAtIndex:(indexPath.row)];
+        // Pass the selected object to the answerViewController.
+    if (isIPAD) {
+        AnswerViewController *answerViewController = (AnswerViewController *)self.delegate;
+        answerViewController.index = (indexPath.row);
+        answerViewController.topic = topic;
+        answerViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
+
+        [self.delegate didSelectQuestion:dataItem];
+    } else {
         AnswerViewController *answerViewController = [[AnswerViewController alloc] initWithNibName:@"AnswerTableViewController" bundle:nil];
         
-        //Get dictionary at selected row, than get all the data assocciated with that particular question
-        NSDictionary *dataItem = [questions objectAtIndex:(indexPath.row)];
         //It will call the all answering data of the one selected question
         answerViewController.answer = dataItem;
         answerViewController.index = (indexPath.row);
         answerViewController.topic = topic;
         answerViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
-        // Pass the selected object to the answerViewController.
-    if (isIPAD) {
-        NSLog(@"Load  answer on detail panel of split view");
-        IDialJesusAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
-        appDelegate.detailvc = answerViewController;
-    } else {
+
         [self.navigationController pushViewController:answerViewController animated:YES];
     }
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    NSLog(@"Preparing for Segue");
     // check for our segue identifier
     if ([segue.identifier isEqualToString:@"pushAnswerView"])
     {

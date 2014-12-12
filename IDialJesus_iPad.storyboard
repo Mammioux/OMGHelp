@@ -1,52 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14C68k" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Um9-GI-9ua">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C78c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Um9-GI-9ua">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--AnswerNavBar-->
-        <scene sceneID="gyf-57-ZX7">
-            <objects>
-                <navigationController title="Answers" id="ARj-ZD-dWL" userLabel="AnswerNavBar" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="e6c-1r-hZ2"/>
-                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="GJH-cM-8EQ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="vt3-HU-9qa" kind="relationship" relationship="rootViewController" id="6mh-Pj-2Dz"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TuA-F3-aKJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1113" y="676"/>
-        </scene>
         <!--Answer-->
         <scene sceneID="JnG-M1-YyF">
             <objects>
                 <viewController title="Answer" id="vt3-HU-9qa" customClass="AnswerViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="2Lm-Pj-Cav"/>
-                        <viewControllerLayoutGuide type="bottom" id="FN8-fu-m1f"/>
+                        <viewControllerLayoutGuide type="top" id="YxY-Iu-0px"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Am-R4-vse"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="gQs-a6-EXF">
+                    <view key="view" contentMode="scaleToFill" id="u1y-Nf-UOl">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Answer Goes here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Krc-bJ-7U9">
-                                <rect key="frame" x="230" y="308" width="141" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fh5-rg-RWP">
+                                <rect key="frame" x="16" y="94" width="568" height="506"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IGd-fY-mgO">
+                                <rect key="frame" x="16" y="94" width="568" height="506"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.50196081399917603" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Fh5-rg-RWP" firstAttribute="top" secondItem="YxY-Iu-0px" secondAttribute="bottom" id="DCV-3V-vu0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IGd-fY-mgO" secondAttribute="trailing" id="F3l-O1-7f4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Fh5-rg-RWP" secondAttribute="trailing" id="IJS-98-Rff"/>
+                            <constraint firstItem="IGd-fY-mgO" firstAttribute="leading" secondItem="u1y-Nf-UOl" secondAttribute="leadingMargin" id="LgU-zs-RYv"/>
+                            <constraint firstItem="7Am-R4-vse" firstAttribute="top" secondItem="IGd-fY-mgO" secondAttribute="bottom" id="NKt-SF-5jI"/>
+                            <constraint firstItem="IGd-fY-mgO" firstAttribute="top" secondItem="YxY-Iu-0px" secondAttribute="bottom" id="efE-Mg-9jE"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Fh5-rg-RWP" secondAttribute="bottom" id="h8c-3h-APj"/>
+                            <constraint firstItem="Fh5-rg-RWP" firstAttribute="leading" secondItem="u1y-Nf-UOl" secondAttribute="leadingMargin" id="y2L-bg-M8X"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Answer" prompt="Question" id="HuD-qG-4a6"/>
+                    <connections>
+                        <outlet property="scrollTextView" destination="Fh5-rg-RWP" id="8EV-Ly-wgS"/>
+                        <outlet property="webView" destination="IGd-fY-mgO" id="zRP-HP-fmU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rce-tY-ejy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1908" y="676"/>
+            <point key="canvasLocation" x="897" y="1209"/>
         </scene>
         <!--iDialJesus-->
         <scene sceneID="VH5-hy-brb">
@@ -140,7 +143,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="ARj-ZD-dWL" kind="showDetail" identifier="showAnswerView" id="f4Z-WF-Yhx"/>
+                                    <segue destination="vt3-HU-9qa" kind="showDetail" identifier="showAnswerView" id="iQ7-ig-lQp"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -175,18 +178,35 @@
         <scene sceneID="nhX-8N-jcE">
             <objects>
                 <splitViewController id="Um9-GI-9ua" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="zKa-yn-bpc"/>
                     <connections>
                         <segue destination="7Ft-rb-FLm" kind="relationship" relationship="masterViewController" id="Uma-JK-CP2"/>
-                        <segue destination="ARj-ZD-dWL" kind="relationship" relationship="detailViewController" id="Eak-FK-ZL6"/>
+                        <segue destination="j3N-TU-5ow" kind="relationship" relationship="detailViewController" id="eJb-hO-LMC"/>
                     </connections>
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sny-rE-GOa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="39" y="423"/>
+            <point key="canvasLocation" x="128" y="398"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="S4x-B6-7iI">
+            <objects>
+                <navigationController id="j3N-TU-5ow" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ith-ba-0gC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vt3-HU-9qa" kind="relationship" relationship="rootViewController" id="mRA-fZ-4ta"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="geq-TK-Wqn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128" y="1209"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Eak-FK-ZL6"/>
-        <segue reference="5dx-25-0gl"/>
+        <segue reference="mRA-fZ-4ta"/>
+        <segue reference="263-dA-ie6"/>
     </inferredMetricsTieBreakers>
 </document>

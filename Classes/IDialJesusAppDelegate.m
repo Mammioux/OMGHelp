@@ -10,7 +10,7 @@
 #import "RootViewController.h"
 #import "AnswerViewController.h"
 
-@interface IDialJesusAppDelegate () <UISplitViewControllerDelegate>
+@interface IDialJesusAppDelegate () 
 
 @end
 
@@ -54,20 +54,22 @@
     
     if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
         UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
-        UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
+        RootViewController * rootViewController = (RootViewController *)[[splitViewController.viewControllers objectAtIndex:0] topViewController];
+        UINavigationController *nvc = [splitViewController.viewControllers objectAtIndex:0];
+        _detailvc = (AnswerViewController*)[[splitViewController.viewControllers lastObject] topViewController];
         NSLog(@"System Version: %@", [UIDevice currentDevice].systemVersion);
-        if ([[UIDevice currentDevice].systemVersion compare:@"8.0"] == NSOrderedAscending ) {
-            navigationController.topViewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Categories" style:UIBarButtonItemStylePlain target:self
+        rootViewController.navigationItem.title = @"Categories";
+        if ([[UIDevice currentDevice].systemVersion doubleValue] >= 8.0 ) {
+           nvc.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Categories" style:UIBarButtonItemStylePlain target:_detailvc
                                                                                                                       action: @selector(splitViewController:collapseSecondaryViewController:ontoPrimaryViewController:)];
         } else {
             NSLog(@"display mode button Item: %@", splitViewController.displayModeButtonItem.title);
             
-            navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
-            navigationController.topViewController.navigationItem.leftBarButtonItem.title = @"Categories";
+            nvc.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
+            nvc.navigationItem.leftBarButtonItem.title = @"Categories";
         }
-        splitViewController.delegate = self;
-        nvc1 = navigationController;
-        _detailvc = splitViewController.viewControllers.count >1 ? [splitViewController.viewControllers objectAtIndex:1]:nil;
+        NSLog(@"Class of last Object %@", [[splitViewController.viewControllers lastObject] class] );
+        splitViewController.delegate = _detailvc;
     } else {
         [_window addSubview:[nvc1 view]];
         [_window makeKeyAndVisible];
@@ -111,15 +113,6 @@
 
 
 #pragma mark - Split view
-
-- (BOOL)splitViewController:(UISplitViewController *)splitViewController collapseSecondaryViewController:(UIViewController *)secondaryViewController ontoPrimaryViewController:(UIViewController *)primaryViewController {
-    if ([secondaryViewController isKindOfClass:[UINavigationController class]] && [[(UINavigationController *)secondaryViewController topViewController] isKindOfClass:[AnswerViewController class]] && ([(AnswerViewController *)[(UINavigationController *)secondaryViewController topViewController] answer] == nil)) {
-        // Return YES to indicate that we have handled the collapse by doing nothing; the secondary controller will be discarded.
-        return YES;
-    } else {
-        return NO;
-    }
-}
 
 
 @end

@@ -7,11 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+@protocol QuestionDelegate <NSObject>
 
-@interface QuestionViewController : UITableViewController {
+-(void) didSelectQuestion:(NSDictionary *) answer;
+
+@end
+
+@interface QuestionViewController : UITableViewController <UISplitViewControllerDelegate> {
 	NSArray *questions;
 	NSString *topic;
 }
+
+@property (nonatomic,retain) id<QuestionDelegate> delegate;
 
 @property (nonatomic, retain) NSArray *questions;
 @property (nonatomic, retain) NSString *topic;

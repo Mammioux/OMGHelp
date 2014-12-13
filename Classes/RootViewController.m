@@ -59,16 +59,19 @@
 	//NSLog(@"and %ld seconds interval between adding jewels",[defaults integerForKey:@"time_preference"]);
 
 	//initialize internal persistent jewel count in BETA test
-	[defaults setInteger:[defaults integerForKey:@"count_preference"] forKey:@"count"];
-	
-    // Load the data.
-    UIGraphicsBeginImageContext(self.view.frame.size);
-    [[UIImage imageNamed:@"JesusRevBW.png"] drawInRect:self.view.bounds];
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
+    [defaults setInteger:[defaults integerForKey:@"count_preference"] forKey:@"count"];
     
-    self.view.backgroundColor = [UIColor colorWithPatternImage:image];
-
+    if (isIPAD) {
+        self.view.backgroundColor =[UIColor whiteColor];
+    } else {
+        UIGraphicsBeginImageContext(self.view.frame.size);
+        [[UIImage imageNamed:@"JesusRevBW.png"] drawInRect:self.view.bounds];
+        UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+        self.view.backgroundColor = [UIColor colorWithPatternImage:image];
+    }
+    
+    // Load the data.
     NSString *dataPath     = [[NSBundle mainBundle] pathForResource:@"topics"   ofType:@"plist"];
 	//NSString *jewelPath    = [[NSBundle mainBundle] pathForResource:@"jewels"   ofType:@"plist"];
 	
@@ -296,6 +299,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    NSLog(@"Preparing for Segue in Categories");
     // check for our segue identifier
     if ([segue.identifier isEqualToString:@"pushQuestionView"])
     {

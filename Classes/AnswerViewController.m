@@ -32,7 +32,16 @@
 - (void)viewDidLoad {
     NSLog(@"Load  answer view");
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    if (isIPAD) {
+        UIGraphicsBeginImageContext(self.view.frame.size);
+        [[UIImage imageNamed:@"JesusRevBW.png"] drawInRect:self.view.bounds];
+        UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+        self.view.backgroundColor = [UIColor colorWithPatternImage:image];
+    } else {
+        self.view.backgroundColor = [UIColor whiteColor];
+    }
+    
 	
 	// initial values for global variables
 	self.circularCounter = 0;
@@ -302,11 +311,19 @@
 	[theTimer invalidate];
 	theTimer = nil;
 	//show done button
-	UIBarButtonItem *doneButtonBar = [[UIBarButtonItem alloc]
-									  initWithTitle:@"Prize"
-									  style:UIBarButtonItemStyleDone
-									  target:self
-									  action:@selector(done:)];
+//	UIBarButtonItem *doneButtonBar = [[UIBarButtonItem alloc]
+//									  initWithTitle:@"Prize"
+//									  style:UIBarButtonItemStyleDone
+//									  target:self
+//									  action:@selector(done:)];
+//
+    UIImage *prizeImage = [UIImage imageNamed:@"crwon31.png"];
+    UIBarButtonItem *doneButtonBar = [[UIBarButtonItem alloc]
+                                      initWithImage:prizeImage
+                                      style:UIBarButtonItemStylePlain
+                                      target:self
+                                      action:@selector(done:)];
+    
 	self.navigationItem.rightBarButtonItem = doneButtonBar;
     //play magic wand sound
 	NSString *soundFilePath = [[NSBundle mainBundle] pathForResource: @"Magic Wand Noise" ofType: @"mp3"];

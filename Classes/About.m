@@ -41,15 +41,12 @@
 	//aboutHtml.backgroundColor = [UIColor clearColor];
 	[self.aboutHtml loadHTMLString:htmlString baseURL:[NSURL fileURLWithPath:resourcePath]];
 	
-	self.view.backgroundColor = [UIColor clearColor];
-	//self.tableView.separatorColor = [UIColor clearColor];
     UIGraphicsBeginImageContext(self.view.frame.size);
     [[UIImage imageNamed:@"JesusRevBW.png"] drawInRect:self.view.bounds];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
-    
     self.view.backgroundColor = [UIColor colorWithPatternImage:image];
-	//self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"JesusRevBW.png"]];
+//    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"JesusRevBW.png"]];
 }
 
 

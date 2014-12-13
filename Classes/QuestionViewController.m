@@ -26,13 +26,16 @@
 	self.tableView.separatorColor = [UIColor clearColor];
     self.font = [UIFont fontWithName:@"STHeitiK-Medium" size:14]; // define font for all questions
     
-    UIGraphicsBeginImageContext(self.view.frame.size);
-    [[UIImage imageNamed:@"JesusRevBW.png"] drawInRect:self.view.bounds];
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    
-    self.view.backgroundColor = [UIColor colorWithPatternImage:image];
-    
+    if (isIPAD) {
+        self.view.backgroundColor =[UIColor whiteColor];
+    } else {
+        UIGraphicsBeginImageContext(self.view.frame.size);
+        [[UIImage imageNamed:@"JesusRevBW.png"] drawInRect:self.view.bounds];
+        UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+        self.view.backgroundColor = [UIColor colorWithPatternImage:image];
+    }
+
     // Uncomment the following line to preserve selection between presentations.
     //self.clearsSelectionOnViewWillAppear = NO;
     
@@ -182,38 +185,38 @@
 //odd cells are separators. Maybe it should just be completely deleted for it is beyond deprecated 
 //it is incompatible with the code now.
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
-        self.hidesBottomBarWhenPushed = NO;
-    
-    NSLog(@"Question Selected");
-    
-    //Get dictionary at selected row, than get all the data assocciated with that particular question
-    NSDictionary *dataItem = [questions objectAtIndex:(indexPath.row)];
-        // Pass the selected object to the answerViewController.
-    if (isIPAD) {
-        AnswerViewController *answerViewController = (AnswerViewController *)self.delegate;
-        answerViewController.index = (indexPath.row);
-        answerViewController.topic = topic;
-        answerViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
-
-        [self.delegate didSelectQuestion:dataItem];
-    } else {
-        AnswerViewController *answerViewController = [[AnswerViewController alloc] initWithNibName:@"AnswerTableViewController" bundle:nil];
-        
-        //It will call the all answering data of the one selected question
-        answerViewController.answer = dataItem;
-        answerViewController.index = (indexPath.row);
-        answerViewController.topic = topic;
-        answerViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
-
-        [self.navigationController pushViewController:answerViewController animated:YES];
-    }
-}
+//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+//    // Navigation logic may go here. Create and push another view controller.
+//        self.hidesBottomBarWhenPushed = NO;
+//    
+//    NSLog(@"Question Selected");
+//    
+//    //Get dictionary at selected row, than get all the data assocciated with that particular question
+//    NSDictionary *dataItem = [questions objectAtIndex:(indexPath.row)];
+//        // Pass the selected object to the answerViewController.
+//    if (isIPAD) {
+//        AnswerViewController *answerViewController = (AnswerViewController *)self.delegate;
+//        answerViewController.index = (indexPath.row);
+//        answerViewController.topic = topic;
+//        answerViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
+//
+//        [self.delegate didSelectQuestion:dataItem];
+//    } else {
+//        AnswerViewController *answerViewController = [[AnswerViewController alloc] initWithNibName:@"AnswerTableViewController" bundle:nil];
+//        
+//        //It will call the all answering data of the one selected question
+//        answerViewController.answer = dataItem;
+//        answerViewController.index = (indexPath.row);
+//        answerViewController.topic = topic;
+//        answerViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
+//
+//        [self.navigationController pushViewController:answerViewController animated:YES];
+//    }
+//}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    NSLog(@"Preparing for Segue");
+    NSLog(@"Preparing for Segue in QUestion table");
     // check for our segue identifier
     if ([segue.identifier isEqualToString:@"pushAnswerView"])
     {
@@ -247,6 +250,7 @@
         answerViewController.topic = self.topic;
         answerViewController.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
         answerViewController.navigationItem.leftItemsSupplementBackButton = YES;
+        self.delegate = answerViewController;
     }//if seque == @"showAnswerView"
 
 }

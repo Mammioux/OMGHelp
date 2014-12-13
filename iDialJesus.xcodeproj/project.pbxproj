@@ -163,13 +163,14 @@
 		0B29330211B4ADD500D63F85 /* TwitterLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B29330011B4ADD500D63F85 /* TwitterLoginViewController.xib */; };
 		0B29334A11B53CE200D63F85 /* TwitterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B29334911B53CE200D63F85 /* TwitterRequest.m */; };
 		0B36CF061A3AA4CA006D61F0 /* crown31.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B36CF051A3AA4CA006D61F0 /* crown31.png */; };
+		0B36CF081A3C7117006D61F0 /* NoTopic0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B36CF071A3C7117006D61F0 /* NoTopic0.mp3 */; };
+		0B36CF0A1A3C7B39006D61F0 /* NoTopic.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B36CF091A3C7B39006D61F0 /* NoTopic.plist */; };
 		0B534527118251AB000F33C6 /* crownEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B534526118251AB000F33C6 /* crownEmpty.png */; };
 		0B53452B11829BF4000F33C6 /* CrownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B53452911829BF4000F33C6 /* CrownViewController.m */; };
 		0B53452C11829BF4000F33C6 /* CrownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B53452A11829BF4000F33C6 /* CrownViewController.xib */; };
 		0B61185A19E19333002A01A5 /* AnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B61185919E19333002A01A5 /* AnswerViewController.m */; };
 		0B61185C19E1CC67002A01A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B61185B19E1CC67002A01A5 /* Images.xcassets */; };
 		0B843D3B11B28FA000DFC99C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B843D3A11B28FA000DFC99C /* MessageUI.framework */; };
-		0B90649219E6494A00E4FB96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B90649119E6494A00E4FB96 /* Main.storyboard */; };
 		0BA7183D117770FE00B54059 /* About.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0BA7183C117770FE00B54059 /* About.htm */; };
 		0BA8AAAE1159D1E10002F011 /* topics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BA8AAAD1159D1E10002F011 /* topics.plist */; };
 		0BA8AAF8115B198F0002F011 /* JesusRevIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA8AAF6115B198F0002F011 /* JesusRevIcon.png */; };
@@ -406,6 +407,8 @@
 		0B29334811B53CE200D63F85 /* TwitterRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterRequest.h; sourceTree = "<group>"; };
 		0B29334911B53CE200D63F85 /* TwitterRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterRequest.m; sourceTree = "<group>"; };
 		0B36CF051A3AA4CA006D61F0 /* crown31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown31.png; sourceTree = "<group>"; };
+		0B36CF071A3C7117006D61F0 /* NoTopic0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NoTopic0.mp3; sourceTree = "<group>"; };
+		0B36CF091A3C7B39006D61F0 /* NoTopic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = NoTopic.plist; path = Resources/NoTopic.plist; sourceTree = "<group>"; };
 		0B534526118251AB000F33C6 /* crownEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crownEmpty.png; sourceTree = "<group>"; };
 		0B53452811829BF4000F33C6 /* CrownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrownViewController.h; sourceTree = "<group>"; };
 		0B53452911829BF4000F33C6 /* CrownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrownViewController.m; sourceTree = "<group>"; };
@@ -415,7 +418,6 @@
 		0B61185B19E1CC67002A01A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iDialJesus/Images.xcassets; sourceTree = "<group>"; };
 		0B61185D19E1CCFA002A01A5 /* iDialJesusIcon512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon512x512.png; sourceTree = "<group>"; };
 		0B843D3A11B28FA000DFC99C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		0B90649119E6494A00E4FB96 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0BA7183C117770FE00B54059 /* About.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = About.htm; sourceTree = "<group>"; };
 		0BA8AAAD1159D1E10002F011 /* topics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topics.plist; sourceTree = "<group>"; };
 		0BA8AAF6115B198F0002F011 /* JesusRevIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JesusRevIcon.png; sourceTree = "<group>"; };
@@ -543,6 +545,7 @@
 		01C963E7116304B700C462FC /* sound */ = {
 			isa = PBXGroup;
 			children = (
+				0B36CF071A3C7117006D61F0 /* NoTopic0.mp3 */,
 				0195281011A17033001EFAF9 /* Abuse0.mp3 */,
 				0B23A5BD11A222DE00DB0B65 /* Abuse1.mp3 */,
 				0B23A5BE11A222DE00DB0B65 /* Abuse2.mp3 */,
@@ -829,7 +832,7 @@
 				01EE8EFC11EFCDD40090B665 /* Default.png */,
 				0FE3C1A518629EEE008805BA /* iDialJesus_iPhone.storyboard */,
 				0FE3C1A718629F2F008805BA /* IDialJesus_iPad.storyboard */,
-				0B90649119E6494A00E4FB96 /* Main.storyboard */,
+				0B36CF091A3C7B39006D61F0 /* NoTopic.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -999,7 +1002,6 @@
 				0B0A42AF19E1ED340029816E /* iDialJesusIcon57x57.png in Resources */,
 				019528C111A255E8001EFAF9 /* OpalTBG.png in Resources */,
 				0B23A63D11A222E100DB0B65 /* Partying0.mp3 in Resources */,
-				0B90649219E6494A00E4FB96 /* Main.storyboard in Resources */,
 				0B0A42AD19E1ECF60029816E /* iDialJesusIcon50x50.png in Resources */,
 				0B23A63E11A222E100DB0B65 /* Partying1.mp3 in Resources */,
 				0B23A63F11A222E100DB0B65 /* Partying2.mp3 in Resources */,
@@ -1014,6 +1016,7 @@
 				0B23A64511A222E100DB0B65 /* Prayer3.mp3 in Resources */,
 				0B23A64611A222E100DB0B65 /* Prayer4.mp3 in Resources */,
 				0B23A64711A222E100DB0B65 /* Questioning0.mp3 in Resources */,
+				0B36CF081A3C7117006D61F0 /* NoTopic0.mp3 in Resources */,
 				0B23A64811A222E100DB0B65 /* Questioning1.mp3 in Resources */,
 				0B23A64911A222E100DB0B65 /* Questioning2.mp3 in Resources */,
 				0B23A64A11A222E100DB0B65 /* Questioning3.mp3 in Resources */,
@@ -1120,6 +1123,7 @@
 				0BC38BAD11A77D1B00BBC1ED /* Witnessing4.mp3 in Resources */,
 				0BC38BAF11AA232A00BBC1ED /* LINKS.html in Resources */,
 				0B29330211B4ADD500D63F85 /* TwitterLoginViewController.xib in Resources */,
+				0B36CF0A1A3C7B39006D61F0 /* NoTopic.plist in Resources */,
 				0BF0A2CB11C55029000E10A7 /* forward.png in Resources */,
 				0BF0A2CC11C55029000E10A7 /* rewind.png in Resources */,
 				01865A8811E5D5E6002ED948 /* pause.png in Resources */,

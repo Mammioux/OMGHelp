@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>examples</key>
+	<string></string>
+	<key>explanation</key>
+	<string>Choose a category and a question to hear His answer</string>
+	<key>bible quote</key>
+	<string>I will instruct you and teach you in the way you should go; I will counsel you with my eye upon you. -- Psalm 32:8   </string>
+	<key>question</key>
+	<string></string>
+</dict>
+</plist>

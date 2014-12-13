@@ -19,14 +19,14 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fh5-rg-RWP">
                                 <rect key="frame" x="16" y="94" width="568" height="506"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IGd-fY-mgO">
                                 <rect key="frame" x="16" y="94" width="568" height="506"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" red="0.50196081399917603" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -74,7 +74,6 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="DYh-ID-yGD" kind="push" identifier="pushQuestionView" id="263-dA-ie6"/>
                                     <segue destination="DYh-ID-yGD" kind="show" identifier="pushQuestionView" trigger="accessoryAction" id="5dx-25-0gl"/>
                                 </connections>
                             </tableViewCell>
@@ -113,12 +112,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qzg-hN-IAL">
-                                <rect key="frame" x="-6" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qzg-hN-IAL">
+                                <rect key="frame" x="16" y="0.0" width="568" height="600"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qzg-hN-IAL" firstAttribute="leading" secondItem="sud-dx-I3e" secondAttribute="leadingMargin" id="EcJ-S3-a1J"/>
+                            <constraint firstItem="qzg-hN-IAL" firstAttribute="top" secondItem="sud-dx-I3e" secondAttribute="topMargin" id="U2a-cf-cQQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qzg-hN-IAL" secondAttribute="trailing" id="ntZ-9w-6uZ"/>
+                            <constraint firstItem="C6g-td-uA2" firstAttribute="top" secondItem="qzg-hN-IAL" secondAttribute="bottom" id="t2y-DS-NHQ"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="aboutHtml" destination="qzg-hN-IAL" id="PZ6-Rw-tBt"/>
@@ -207,6 +212,5 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="mRA-fZ-4ta"/>
-        <segue reference="263-dA-ie6"/>
     </inferredMetricsTieBreakers>
 </document>

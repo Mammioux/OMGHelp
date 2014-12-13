@@ -57,6 +57,12 @@
         RootViewController * rootViewController = (RootViewController *)[[splitViewController.viewControllers objectAtIndex:0] topViewController];
         UINavigationController *nvc = [splitViewController.viewControllers objectAtIndex:0];
         _detailvc = (AnswerViewController*)[[splitViewController.viewControllers lastObject] topViewController];
+        _detailvc.topic = @"NoTopic";
+        _detailvc.index = 0;
+        NSString *dataPath     = [[NSBundle mainBundle] pathForResource:@"NoTopic"   ofType:@"plist"];
+        NSDictionary *data = [NSDictionary dictionaryWithContentsOfFile:dataPath];
+        _detailvc.answer = data;
+
         NSLog(@"System Version: %@", [UIDevice currentDevice].systemVersion);
         rootViewController.navigationItem.title = @"Categories";
         if ([[UIDevice currentDevice].systemVersion doubleValue] >= 8.0 ) {

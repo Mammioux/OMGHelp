@@ -27,7 +27,7 @@
 	<key>UIApplicationExitsOnSuspend</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
-	<string>iDialJesus_iPhone</string>
+	<string>LaunchImage</string>
 	<key>UIMainStoryboardFile</key>
 	<string>iDialJesus_iPhone</string>
 	<key>UIMainStoryboardFile~ipad</key>
@@ -35,7 +35,7 @@
 	<key>UIStatusBarHidden</key>
 	<false/>
 	<key>UIStatusBarHidden~ipad</key>
-	<false/>
+	<true/>
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleDefault</string>
 	<key>UISupportedInterfaceOrientations</key>

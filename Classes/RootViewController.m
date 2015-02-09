@@ -299,7 +299,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    NSLog(@"Preparing for Segue in Categories");
+    NSLog(@"Preparing for Segue in Categories %@", segue.identifier);
     // check for our segue identifier
     if ([segue.identifier isEqualToString:@"pushQuestionView"])
     {

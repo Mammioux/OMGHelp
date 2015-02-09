@@ -18,9 +18,10 @@
 	NSString *topic;
 }
 
-@property (nonatomic,retain) id<QuestionDelegate> delegate;
+@property (nonatomic,strong) id<QuestionDelegate> delegate;
 
-@property (nonatomic, retain) NSArray *questions;
-@property (nonatomic, retain) NSString *topic;
-@property (nonatomic, retain) UIFont *font;
+@property (nonatomic, strong) NSArray *questions;
+@property (nonatomic, strong) NSString *topic;
+@property (nonatomic, strong) UIFont *font;
+@property (nonatomic, strong) IBOutlet UIStoryboardSegue *showSegue;
 @end

@@ -185,38 +185,32 @@
 //odd cells are separators. Maybe it should just be completely deleted for it is beyond deprecated 
 //it is incompatible with the code now.
 
-//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-//    // Navigation logic may go here. Create and push another view controller.
-//        self.hidesBottomBarWhenPushed = NO;
-//    
-//    NSLog(@"Question Selected");
-//    
-//    //Get dictionary at selected row, than get all the data assocciated with that particular question
-//    NSDictionary *dataItem = [questions objectAtIndex:(indexPath.row)];
-//        // Pass the selected object to the answerViewController.
-//    if (isIPAD) {
-//        AnswerViewController *answerViewController = (AnswerViewController *)self.delegate;
-//        answerViewController.index = (indexPath.row);
-//        answerViewController.topic = topic;
-//        answerViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
-//
-//        [self.delegate didSelectQuestion:dataItem];
-//    } else {
-//        AnswerViewController *answerViewController = [[AnswerViewController alloc] initWithNibName:@"AnswerTableViewController" bundle:nil];
-//        
-//        //It will call the all answering data of the one selected question
-//        answerViewController.answer = dataItem;
-//        answerViewController.index = (indexPath.row);
-//        answerViewController.topic = topic;
-//        answerViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
-//
-//        [self.navigationController pushViewController:answerViewController animated:YES];
-//    }
-//}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (isIPHONE) {
+        NSLog(@"Ignore selection in iPhone");
+        return;
+    }
+    // Navigation logic may go here. Create and push another view controller.
+        self.hidesBottomBarWhenPushed = NO;
+    
+    NSLog(@"Question Selected");
+    
+    //Get dictionary at selected row, than get all the data assocciated with that particular question
+    NSDictionary *dataItem = [questions objectAtIndex:(indexPath.row)];
+        // Pass the selected object to the answerViewController.
+    if (isIPAD) {
+        AnswerViewController *answerViewController = (AnswerViewController *)self.delegate;
+        answerViewController.index = (indexPath.row);
+        answerViewController.topic = topic;
+        answerViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
+
+        [self.delegate didSelectQuestion:dataItem];
+    }
+}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    NSLog(@"Preparing for Segue in QUestion table");
+    NSLog(@"Preparing for Segue: %@ in Question table", segue.identifier);
     // check for our segue identifier
     if ([segue.identifier isEqualToString:@"pushAnswerView"])
     {

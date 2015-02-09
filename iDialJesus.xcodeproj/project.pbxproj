@@ -427,7 +427,7 @@
 		0B53452911829BF4000F33C6 /* CrownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrownViewController.m; sourceTree = "<group>"; };
 		0B53452A11829BF4000F33C6 /* CrownViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CrownViewController.xib; path = Classes/CrownViewController.xib; sourceTree = "<group>"; };
 		0B5FEABE1A8877EE00EA0B14 /* iDialJesus Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iDialJesus Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B5FEAC11A8877EE00EA0B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B5FEAC11A8877EE00EA0B14 /* iDialJesus Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "iDialJesus Tests-Info.plist"; path = "iDialJesus Tests/iDialJesus Tests-Info.plist"; sourceTree = "<group>"; };
 		0B5FEAC21A8877EE00EA0B14 /* iDialJesus_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDialJesus_Tests.m; sourceTree = "<group>"; };
 		0B61185819E19333002A01A5 /* AnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerViewController.h; sourceTree = "<group>"; };
 		0B61185919E19333002A01A5 /* AnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerViewController.m; sourceTree = "<group>"; };
@@ -794,7 +794,7 @@
 		0B5FEAC01A8877EE00EA0B14 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0B5FEAC11A8877EE00EA0B14 /* Info.plist */,
+				0B5FEAC11A8877EE00EA0B14 /* iDialJesus Tests-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";

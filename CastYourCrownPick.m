@@ -1,6 +1,6 @@
 //
 //  CastYourCrowPick.m
-//  OMGHelp
+//  iDialJesus
 //
 //  Created by Teresa Rios-Van Dusen on 5/4/10.
 //  Copyright 2010 Apple Inc. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  QuestionViewController.h
-//  OMGHelp
+//  iDialJesus
 //
 //  Created by Teresa Rios-Van Dusen on 3/25/10.
 //  Copyright 2010 Apple Inc. All rights reserved.
@@ -13,10 +13,9 @@
 
 @end
 
-@interface QuestionViewController : UITableViewController <UISplitViewControllerDelegate> {
-	NSArray *questions;
-	NSString *topic;
-}
+@interface QuestionViewController : UITableViewController <UISplitViewControllerDelegate> 
+
+
 
 @property (nonatomic,strong) id<QuestionDelegate> delegate;
 

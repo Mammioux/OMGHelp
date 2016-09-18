@@ -1,6 +1,6 @@
 //
 //  CrownViewController.m
-//  OMGHelp
+//  iDialJesus
 //
 //  Created by Teresa Rios-Van Dusen on 4/23/10.
 //  Copyright 2010 Apple Inc. All rights reserved.
@@ -144,7 +144,7 @@
         //get last time stamp
         //Jewels from the second to the last all check against the previous time stamp
         //this is why the first jewel was handled in its own case
-        NSDate *nextTime =[[defaults objectForKey:@"timestamp"] addTimeInterval: minWaitTime];
+        NSDate *nextTime =[[defaults objectForKey:@"timestamp"] dateByAddingTimeInterval: minWaitTime];
         
         if( ([now compare:nextTime] == NSOrderedSame)||([now compare:nextTime] == NSOrderedDescending) )
         {

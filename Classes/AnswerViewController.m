@@ -1,6 +1,6 @@
 //
 //  AnswerTableViewController.m
-//  OMGHelp
+//  iDialJesus
 //
 //  Created by Teresa Rios-Van Dusen on 4/9/10.
 //  Copyright 2010 Apple Inc. All rights reserved.
@@ -204,7 +204,7 @@
 		}//if character is a letter
 	}//for all characters in topic
 	/**/
-	NSString *filename = [[NSString alloc] initWithFormat:@"%@%d", (NSString *)noBlanksTopic , self.index];
+	NSString *filename = [[NSString alloc] initWithFormat:@"%@%ld", (NSString *)noBlanksTopic , (long)self.index];
 	NSString *soundFilePath = [[NSBundle mainBundle] pathForResource: filename ofType: @"mp3"];
     //[noBlanksTopic release];
 	if (soundFilePath != nil) {

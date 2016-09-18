@@ -1,6 +1,6 @@
 //
 //  RootViewController.m
-//  OMGHelp
+//  iDialJesus
 //
 //  Created by Teresa Rios-Van Dusen on 3/23/10.
 //  Copyright Apple Inc 2010. All rights reserved.
@@ -147,12 +147,12 @@
 	 
 	 if ([defaults objectForKey:@"firstTime"]==nil ){
 	 NSLog(@"first time use");
-	 alert = [[UIAlertView alloc] initWithTitle:@"OMGHelp" message:@"Leaving the application after first time use"
+	 alert = [[UIAlertView alloc] initWithTitle:@"iDialJesus" message:@"Leaving the application after first time use"
 	 delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
 	 [defaults setBool:NO forKey:@"firstTime"];
 	 }
 	 else {
-	 alert = [[UIAlertView alloc] initWithTitle:@"OMGHelp" message:@"Leaving the application already used"
+	 alert = [[UIAlertView alloc] initWithTitle:@"iDialJesus" message:@"Leaving the application already used"
 	 delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
 	 
 	 }
@@ -285,7 +285,7 @@
         questionViewController.hidesBottomBarWhenPushed = YES;
         questionViewController.navigationItem.title = [dataItem objectForKey:@"topic"];
         
-        IDialJesusAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
+         IDialJesusAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
         questionViewController.delegate = appDelegate.detailvc ;
         
         self.hidesBottomBarWhenPushed = NO;

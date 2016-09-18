@@ -48,7 +48,7 @@
 		[theRequest setHTTPMethod:@"POST"];
 		[theRequest setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
 		[theRequest setHTTPBody:[requestBody dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES]];
-		[theRequest setValue:[NSString stringWithFormat:@"%d",[requestBody length] ] forHTTPHeaderField:@"Content-Length"];
+		[theRequest setValue:[NSString stringWithFormat:@"%lu",(unsigned long)[requestBody length] ] forHTTPHeaderField:@"Content-Length"];
 	}
 	
 	theConnection = [[NSURLConnection alloc] initWithRequest:theRequest delegate:self];
@@ -107,7 +107,7 @@
     // inform the user
     NSLog(@"Connection failed! Error - %@ %@",
           [error localizedDescription],
-          [[error userInfo] objectForKey:NSErrorFailingURLStringKey]);
+          [[error userInfo] objectForKey:NSURLErrorFailingURLStringErrorKey]);
 	
 	if(errorCallback) {
 		[delegate performSelector:errorCallback withObject:error];

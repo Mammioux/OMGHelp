@@ -1,6 +1,6 @@
 //
 //  QuestionViewController.m
-//  OMGHelp
+//  iDialJesus
 //
 //  Created by Teresa Rios-Van Dusen on 3/25/10.
 //  Copyright 2010 Apple Inc. All rights reserved.
@@ -12,7 +12,6 @@
 
 
 @implementation QuestionViewController
-@synthesize topic, questions, font;
 
 
 #pragma mark -
@@ -24,7 +23,7 @@
 	self.navigationItem.title = self.topic;//Style change: the controller loads its own title.
 	self.view.backgroundColor = [UIColor clearColor];
 	self.tableView.separatorColor = [UIColor clearColor];
-    self.font = [UIFont fontWithName:@"STHeitiK-Medium" size:14]; // define font for all questions
+    self.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody]; // define font for all questions
     
     if (isIPAD) {
         self.view.backgroundColor =[UIColor whiteColor];
@@ -80,13 +79,15 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
+    NSLog(@"Sections in Questions: %d",1);
     return 1;
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return([questions count]);
+        NSLog(@"Questions in Topic %@: %lu",self.topic, (unsigned long)self.questions.count);
+    return(self.questions.count);
 }
 
 
@@ -94,26 +95,28 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     //Return the height of a question view row
     //return 80.0;
-    return 6 * self.font.lineHeight;
+    CGFloat h = 5 * self.font.lineHeight;
+    return h;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     static NSString *CellIdentifier = @"questionCell";
     
+    NSLog(@"Fetching row: %ld",(long)indexPath.row);
+    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
     // Configure cell
-    NSDictionary *dataItem = [questions objectAtIndex: (indexPath.row)];
+    NSDictionary *dataItem = [self.questions objectAtIndex: (indexPath.row)];
     cell.textLabel.text = [dataItem objectForKey:@"question"];
     cell.textLabel.baselineAdjustment = UIBaselineAdjustmentAlignBaselines;
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    //cell.textLabel.font = [UIFont fontWithName:@"STHeitiK-Medium" size:14];
     cell.textLabel.font = self.font;
     //cell.textLabel.adjustsFontSizeToFitWidth = YES; 
-    cell.textLabel.numberOfLines = 7;
+    cell.textLabel.numberOfLines = 5;
     cell.backgroundColor = [UIColor clearColor];
     //cell.textLabel.textAlignment = UITextAlignmentCenter;
     //cell.detailTextLabel.text = @"sub-title";
@@ -196,12 +199,12 @@
     NSLog(@"Question Selected");
     
     //Get dictionary at selected row, than get all the data assocciated with that particular question
-    NSDictionary *dataItem = [questions objectAtIndex:(indexPath.row)];
+    NSDictionary *dataItem = [_questions objectAtIndex:(indexPath.row)];
         // Pass the selected object to the answerViewController.
     if (isIPAD) {
         AnswerViewController *answerViewController = (AnswerViewController *)self.delegate;
         answerViewController.index = (indexPath.row);
-        answerViewController.topic = topic;
+        answerViewController.topic = _topic;
         answerViewController.navigationItem.prompt = [dataItem objectForKey:@"question"];
 
         [self.delegate didSelectQuestion:dataItem];
@@ -216,7 +219,7 @@
     {
         // sender is the table view cell
         NSIndexPath *indexPath = [self.tableView indexPathForCell:(UITableViewCell *)sender];
-        NSDictionary *dataItem = [questions objectAtIndex:(indexPath.row)];            
+        NSDictionary *dataItem = [_questions objectAtIndex:(indexPath.row)];            
         
         // prepare answer view controller with new content
         AnswerViewController *answerViewController = segue.destinationViewController;
@@ -233,7 +236,7 @@
     {
         // sender is the table view cell
         NSIndexPath *indexPath = [self.tableView indexPathForCell:(UITableViewCell *)sender];
-        NSDictionary *dataItem = [questions objectAtIndex:(indexPath.row)];
+        NSDictionary *dataItem = [_questions objectAtIndex:(indexPath.row)];
         
         // prepare answer view controller with new content
         AnswerViewController *answerViewController = segue.destinationViewController;

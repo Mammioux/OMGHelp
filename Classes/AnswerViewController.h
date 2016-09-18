@@ -1,6 +1,6 @@
 //
 //  AnswerTableViewController.h
-//  OMGHelp
+//  iDialJesus
 //
 //  Created by Teresa Rios-Van Dusen on 4/9/10.
 //  Copyright 2010 Apple Inc. All rights reserved.
@@ -19,7 +19,7 @@
                                                           MFMailComposeViewControllerDelegate,
                                                           AVAudioPlayerDelegate, UISplitViewControllerDelegate, QuestionDelegate >
 
-@property (nonatomic, readwrite) int index;
+@property (nonatomic, readwrite) NSInteger index;
 @property (nonatomic, strong) AVAudioPlayer *player;
 @property (nonatomic, strong) AVAudioPlayer *prizes;
 @property (nonatomic, strong) NSDictionary *answer;

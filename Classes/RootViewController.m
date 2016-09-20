@@ -276,7 +276,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
-       	QuestionViewController *questionViewController = [[QuestionViewController alloc] initWithNibName:@"QuestionViewController" bundle:nil];
+       	QuestionViewController *questionViewController = [[QuestionViewController alloc] initWithNibName:nil bundle:nil];
         // ...
         NSDictionary *dataItem = [data objectAtIndex:indexPath.row];
         NSArray *questions = [dataItem objectForKey:@"questions"];

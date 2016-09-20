@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01068F09180F1E0600C955AA /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01068F08180F1E0500C955AA /* libxml2.2.dylib */; };
 		01865A8811E5D5E6002ED948 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 01865A8711E5D5E6002ED948 /* pause.png */; };
 		01865A9C11EA606E002ED948 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 01865A9B11EA606D002ED948 /* play.png */; };
 		0195259B119A3F65001EFAF9 /* BerylTBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 0195258A119A3F63001EFAF9 /* BerylTBG.png */; };
@@ -178,7 +177,6 @@
 		0BA8AAF8115B198F0002F011 /* JesusRevIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA8AAF6115B198F0002F011 /* JesusRevIcon.png */; };
 		0BA8AB0E115B26110002F011 /* JesusRevBW.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA8AB0C115B26110002F011 /* JesusRevBW.png */; };
 		0BA8ABCE115C61A90002F011 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8ABCC115C61A90002F011 /* QuestionViewController.m */; };
-		0BB3781E11ADF8C100971B71 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB3781D11ADF8C100971B71 /* libsqlite3.0.dylib */; };
 		0BC38A7F11A4FD1800BBC1ED /* ChristsReturn0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0BC38A7511A4FD1800BBC1ED /* ChristsReturn0.mp3 */; };
 		0BC38A8011A4FD1800BBC1ED /* ChristsReturn1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0BC38A7611A4FD1800BBC1ED /* ChristsReturn1.mp3 */; };
 		0BC38A8111A4FD1800BBC1ED /* ChristsReturn2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0BC38A7711A4FD1800BBC1ED /* ChristsReturn2.mp3 */; };
@@ -260,7 +258,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01068F08180F1E0500C955AA /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
 		01865A8711E5D5E6002ED948 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
 		01865A9B11EA606D002ED948 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		0195258A119A3F63001EFAF9 /* BerylTBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BerylTBG.png; sourceTree = "<group>"; };
@@ -440,7 +437,6 @@
 		0BA8AB0C115B26110002F011 /* JesusRevBW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JesusRevBW.png; sourceTree = "<group>"; };
 		0BA8ABCB115C61A90002F011 /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
 		0BA8ABCC115C61A90002F011 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
-		0BB3781D11ADF8C100971B71 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		0BC38A7511A4FD1800BBC1ED /* ChristsReturn0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChristsReturn0.mp3; sourceTree = "<group>"; };
 		0BC38A7611A4FD1800BBC1ED /* ChristsReturn1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChristsReturn1.mp3; sourceTree = "<group>"; };
 		0BC38A7711A4FD1800BBC1ED /* ChristsReturn2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChristsReturn2.mp3; sourceTree = "<group>"; };
@@ -530,12 +526,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01068F09180F1E0600C955AA /* libxml2.2.dylib in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
 				01C963C1116302C800C462FC /* AVFoundation.framework in Frameworks */,
-				0BB3781E11ADF8C100971B71 /* libsqlite3.0.dylib in Frameworks */,
 				0B843D3B11B28FA000DFC99C /* MessageUI.framework in Frameworks */,
 				01EE8D9811EF7D460090B665 /* SystemConfiguration.framework in Frameworks */,
 			);
@@ -891,12 +885,10 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				01068F08180F1E0500C955AA /* libxml2.2.dylib */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
 				01C963C0116302C800C462FC /* AVFoundation.framework */,
-				0BB3781D11ADF8C100971B71 /* libsqlite3.0.dylib */,
 				0B843D3A11B28FA000DFC99C /* MessageUI.framework */,
 				01EE8D9711EF7D460090B665 /* SystemConfiguration.framework */,
 			);

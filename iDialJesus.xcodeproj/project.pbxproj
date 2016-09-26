@@ -171,6 +171,8 @@
 		0B5FEAC31A8877EE00EA0B14 /* iDialJesus_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5FEAC21A8877EE00EA0B14 /* iDialJesus_Tests.m */; };
 		0B61185A19E19333002A01A5 /* AnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B61185919E19333002A01A5 /* AnswerViewController.m */; };
 		0B61185C19E1CC67002A01A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B61185B19E1CC67002A01A5 /* Images.xcassets */; };
+		0B738F141D98A41E002B84F1 /* JesusRevColor1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B738F131D98A41E002B84F1 /* JesusRevColor1024.png */; };
+		0B738F161D98B0BB002B84F1 /* iDialJesus Tests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B738F151D98B0BB002B84F1 /* iDialJesus Tests-Info.plist */; };
 		0B843D3B11B28FA000DFC99C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B843D3A11B28FA000DFC99C /* MessageUI.framework */; };
 		0BA7183D117770FE00B54059 /* About.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0BA7183C117770FE00B54059 /* About.htm */; };
 		0BA8AAAE1159D1E10002F011 /* topics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BA8AAAD1159D1E10002F011 /* topics.plist */; };
@@ -424,12 +426,13 @@
 		0B53452911829BF4000F33C6 /* CrownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrownViewController.m; sourceTree = "<group>"; };
 		0B53452A11829BF4000F33C6 /* CrownViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CrownViewController.xib; path = Classes/CrownViewController.xib; sourceTree = "<group>"; };
 		0B5FEABE1A8877EE00EA0B14 /* iDialJesus Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iDialJesus Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B5FEAC11A8877EE00EA0B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "iDialJesus Tests/Info.plist"; sourceTree = "<group>"; };
 		0B5FEAC21A8877EE00EA0B14 /* iDialJesus_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDialJesus_Tests.m; sourceTree = "<group>"; };
 		0B61185819E19333002A01A5 /* AnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerViewController.h; sourceTree = "<group>"; };
 		0B61185919E19333002A01A5 /* AnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerViewController.m; sourceTree = "<group>"; };
 		0B61185B19E1CC67002A01A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iDialJesus/Images.xcassets; sourceTree = "<group>"; };
 		0B61185D19E1CCFA002A01A5 /* iDialJesusIcon512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iDialJesusIcon512x512.png; sourceTree = "<group>"; };
+		0B738F131D98A41E002B84F1 /* JesusRevColor1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JesusRevColor1024.png; sourceTree = "<group>"; };
+		0B738F151D98B0BB002B84F1 /* iDialJesus Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iDialJesus Tests-Info.plist"; sourceTree = "<group>"; };
 		0B843D3A11B28FA000DFC99C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		0BA7183C117770FE00B54059 /* About.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = About.htm; sourceTree = "<group>"; };
 		0BA8AAAD1159D1E10002F011 /* topics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topics.plist; sourceTree = "<group>"; };
@@ -788,7 +791,7 @@
 		0B5FEAC01A8877EE00EA0B14 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0B5FEAC11A8877EE00EA0B14 /* Info.plist */,
+				0B738F151D98B0BB002B84F1 /* iDialJesus Tests-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -816,6 +819,7 @@
 				0195258F119A3F63001EFAF9 /* Sound-32.png */,
 				0B1E9CE41188634700A2E1F4 /* jewels */,
 				0B534526118251AB000F33C6 /* crownEmpty.png */,
+				0B738F131D98A41E002B84F1 /* JesusRevColor1024.png */,
 				0BA8AAF6115B198F0002F011 /* JesusRevIcon.png */,
 				0BA8AB0C115B26110002F011 /* JesusRevBW.png */,
 			);
@@ -944,10 +948,13 @@
 				TargetAttributes = {
 					0B5FEABD1A8877EE00EA0B14 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 3XN6EFHJXW;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 1D6058900D05DD3D006BFB54;
 					};
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = 26PEVNP488;
+						DevelopmentTeam = 3XN6EFHJXW;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -977,6 +984,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B738F161D98B0BB002B84F1 /* iDialJesus Tests-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1155,6 +1163,7 @@
 				0BC38A8811A4FD1800BBC1ED /* Leadership4.mp3 in Resources */,
 				0BC38B6F11A6DDB100BBC1ED /* Forgiveness1.mp3 in Resources */,
 				0BC38B7011A6DDB100BBC1ED /* Hope0.mp3 in Resources */,
+				0B738F141D98A41E002B84F1 /* JesusRevColor1024.png in Resources */,
 				0BC38B7111A6DDB100BBC1ED /* Hope1.mp3 in Resources */,
 				0BC38B7211A6DDB100BBC1ED /* Hope2.mp3 in Resources */,
 				0BC38B7311A6DDB100BBC1ED /* Hope3.mp3 in Resources */,
@@ -1290,9 +1299,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Janet Rod";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3XN6EFHJXW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iDialJesus_Prefix.pch;
 				INFOPLIST_FILE = "iDialJesus-Info.plist";
@@ -1312,7 +1322,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1326,7 +1335,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 3XN6EFHJXW;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -1359,7 +1370,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1373,6 +1383,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1401,7 +1412,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1415,6 +1425,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1447,8 +1458,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3XN6EFHJXW;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1474,8 +1487,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3XN6EFHJXW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iDialJesus_Prefix.pch;
 				INFOPLIST_FILE = "iDialJesus-Info.plist";
@@ -1504,10 +1519,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Janet Rod (H8GV7H753V)";
 				CURRENT_PROJECT_VERSION = 0.95;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTABILITY = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1540,6 +1555,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Janet Rod (H8GV7H753V)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0.95;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;

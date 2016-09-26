@@ -539,7 +539,7 @@
 								 nil];
 	
 	// use the same style as the nav bar
-	styleAlert.actionSheetStyle = self.navigationController.navigationBar.barStyle;
+    styleAlert.actionSheetStyle = UIActionSheetStyleAutomatic;
 	[styleAlert showInView:self.view.window];
 }
 

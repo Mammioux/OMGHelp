@@ -185,7 +185,7 @@
 	_ffwTimer = nil;
     
 	self.muted = [defaults boolForKey:@"muted"];
-    srandom(time(NULL));
+
     int index = (random() % [self.songsArray count]);
     NSDictionary *song = [self.songsArray objectAtIndex:index];
 	NSString *filename = [[NSString alloc] initWithFormat:@"%@",[song objectForKey:@"name"]];
@@ -373,7 +373,7 @@
 /* audioPlayerDidFinishPlaying:successfully: is called when a sound has finished playing. 
 This method is NOT called if the player is stopped due to an interruption. */
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag {
-    srandom(time(NULL));
+
     int index = (random() % [self.songsArray count]);
     NSDictionary *song = [self.songsArray objectAtIndex:index];
 	NSString *filename = [[NSString alloc] initWithFormat:@"%@",[song objectForKey:@"name"]];
@@ -439,7 +439,7 @@ The player will have been paused. */
                                                                       nil];
 	
 	// use the same style as the nav bar
-	styleAlert.actionSheetStyle = self.navigationController.navigationBar.barStyle;
+	styleAlert.actionSheetStyle = UIActionSheetStyleAutomatic;
 	[styleAlert showInView:self.view.window];
 }
 - (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo

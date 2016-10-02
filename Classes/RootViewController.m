@@ -146,7 +146,7 @@
 	 NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	 
 	 if ([defaults objectForKey:@"firstTime"]==nil ){
-	 NSLog(@"first time use");
+	 // NsLog(@"first time use");
 	 alert = [[UIAlertView alloc] initWithTitle:@"iDialJesus" message:@"Leaving the application after first time use"
 	 delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
 	 [defaults setBool:NO forKey:@"firstTime"];
@@ -299,7 +299,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    NSLog(@"Preparing for Segue in Categories %@", segue.identifier);
+    // NsLog(@"Preparing for Segue in Categories %@", segue.identifier);
     // check for our segue identifier
     if ([segue.identifier isEqualToString:@"pushQuestionView"])
     {

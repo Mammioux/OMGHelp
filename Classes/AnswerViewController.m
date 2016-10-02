@@ -8,7 +8,6 @@
 
 #import "AnswerViewController.h"
 #import "CrownViewController.h"
-#import "TwitterLoginViewController.h"
 
 @implementation AnswerViewController
 //@synthesize index, player;
@@ -23,14 +22,14 @@
 #pragma mark View lifecycle
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if (self = [super initWithNibName:@"AnswerViewController" bundle:nibBundleOrNil]) {
-       NSLog(@"Init  answer view from nib"); 
+       // NsLog(@"Init  answer view from nib"); 
     }
     return self;
 }
 
 
 - (void)viewDidLoad {
-    NSLog(@"Load  answer view");
+    // NsLog(@"Load  answer view");
     [super viewDidLoad];
     if (isIPAD) {
         UIGraphicsBeginImageContext(self.view.frame.size);
@@ -156,7 +155,7 @@
     NSInteger lastIndex = [self.toolbarItems count] -1;
 	UIBarButtonItem *back = [self.toolbarItems objectAtIndex:0];
 	UIBarButtonItem *next = [self.toolbarItems objectAtIndex:lastIndex];
-    NSLog(@"Current page: %d", self.circularCounter);
+    // NsLog(@"Current page: %d", self.circularCounter);
     switch (_circularCounter) {
         case 0:
             [self showQuote];
@@ -183,7 +182,7 @@
 			next.enabled = NO;
             break;
         default:
-			NSLog(@"Current page: %d, circular counter must be wrong", self.circularCounter);
+			// NsLog(@"Current page: %d, circular counter must be wrong", self.circularCounter);
             break;
     }//switch (circularCounter)
 }//- (IBAction)showCurrentPage
@@ -519,8 +518,8 @@
 -(void) loginTwitterId: (NSString *)twitterId withPwd: (NSString *)twitterPwd
 {
     // show Twitter login screen.
-    TwitterLoginViewController *tweet = [[TwitterLoginViewController alloc] initWithNibName:@"TwitterLoginViewController" bundle:nil];
-    [self.navigationController presentViewController:tweet animated:YES completion:nil];
+//    TwitterLoginViewController *tweet = [[TwitterLoginViewController alloc] initWithNibName:@"TwitterLoginViewController" bundle:nil];
+//    [self.navigationController presentViewController:tweet animated:YES completion:nil];
 }
 
 
@@ -674,7 +673,7 @@
 #pragma mark QuestionDelegate
 
 -(void) didSelectQuestion:(NSDictionary *) answerDict {
-    NSLog(@"Calling Question Delegate");
+    // NsLog(@"Calling Question Delegate");
     self.answer = answerDict;
     [self viewDidLoad];
 }

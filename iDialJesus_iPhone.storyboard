@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="86" width="375" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zcF-6y-Ypv" id="HIB-8N-ez0">
-                                    <frame key="frameInset" width="342" height="40"/>
+                                    <frame key="frameInset" width="342" height="39"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
@@ -96,7 +96,7 @@
                                 <rect key="frame" x="0.0" y="86" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="questionCell" tableViewCell="U1A-wA-H6V" id="GvW-bx-rea">
-                                    <frame key="frameInset" width="342" height="44"/>
+                                    <frame key="frameInset" width="342" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -145,13 +145,13 @@
                         <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="CCT-It-tHW" firstAttribute="leading" secondItem="une-nS-Wfx" secondAttribute="leadingMargin" id="5s8-N0-tli"/>
+                            <constraint firstItem="S47-ca-dAq" firstAttribute="top" secondItem="CCT-It-tHW" secondAttribute="top" id="AGl-MP-PcD"/>
                             <constraint firstItem="S47-ca-dAq" firstAttribute="leading" secondItem="une-nS-Wfx" secondAttribute="leadingMargin" id="BJc-8f-nBE"/>
                             <constraint firstItem="CCT-It-tHW" firstAttribute="trailing" secondItem="une-nS-Wfx" secondAttribute="trailingMargin" id="Bi2-eL-DyZ"/>
-                            <constraint firstItem="CCT-It-tHW" firstAttribute="top" secondItem="YuG-GI-PtK" secondAttribute="bottom" id="RTR-1t-B0h"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="S47-ca-dAq" secondAttribute="bottom" constant="40" id="iLg-Xk-OEZ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="S47-ca-dAq" secondAttribute="bottom" constant="8" id="o3C-YV-Wfb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="S47-ca-dAq" secondAttribute="trailing" id="owk-aM-tao"/>
                             <constraint firstItem="cu9-ez-RIQ" firstAttribute="top" secondItem="CCT-It-tHW" secondAttribute="bottom" id="sHV-pl-xEJ"/>
-                            <constraint firstItem="S47-ca-dAq" firstAttribute="top" secondItem="une-nS-Wfx" secondAttribute="topMargin" constant="90" id="vhU-Th-usr"/>
+                            <constraint firstItem="S47-ca-dAq" firstAttribute="top" secondItem="YuG-GI-PtK" secondAttribute="bottom" constant="8" id="sa3-Wc-6fS"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="XFu-3H-DXH"/>

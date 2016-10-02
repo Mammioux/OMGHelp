@@ -63,18 +63,18 @@
         NSDictionary *data = [NSDictionary dictionaryWithContentsOfFile:dataPath];
         _detailvc.answer = data;
 
-        NSLog(@"System Version: %@", [UIDevice currentDevice].systemVersion);
+        // NsLog(@"System Version: %@", [UIDevice currentDevice].systemVersion);
         rootViewController.navigationItem.title = @"Categories";
         if ([[UIDevice currentDevice].systemVersion doubleValue] >= 8.0 ) {
            nvc.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Categories" style:UIBarButtonItemStylePlain target:_detailvc
                                                                                                                       action: @selector(splitViewController:collapseSecondaryViewController:ontoPrimaryViewController:)];
         } else {
-            NSLog(@"display mode button Item: %@", splitViewController.displayModeButtonItem.title);
+            // NsLog(@"display mode button Item: %@", splitViewController.displayModeButtonItem.title);
             
             nvc.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
             nvc.navigationItem.leftBarButtonItem.title = @"Categories";
         }
-        NSLog(@"Class of last Object %@", [[splitViewController.viewControllers lastObject] class] );
+        // NsLog(@"Class of last Object %@", [[splitViewController.viewControllers lastObject] class] );
         splitViewController.delegate = _detailvc;
     } else {
         [_window addSubview:[nvc1 view]];

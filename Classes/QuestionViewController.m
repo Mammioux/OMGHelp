@@ -79,14 +79,14 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    NSLog(@"Sections in Questions: %d",1);
+    // NsLog(@"Sections in Questions: %d",1);
     return 1;
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-        NSLog(@"Questions in Topic %@: %lu",self.topic, (unsigned long)self.questions.count);
+        // NsLog(@"Questions in Topic %@: %lu",self.topic, (unsigned long)self.questions.count);
     return(self.questions.count);
 }
 
@@ -103,7 +103,7 @@
     
     static NSString *CellIdentifier = @"questionCell";
     
-    NSLog(@"Fetching row: %ld",(long)indexPath.row);
+    // NsLog(@"Fetching row: %ld",(long)indexPath.row);
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
@@ -190,13 +190,13 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     if (isIPHONE) {
-        NSLog(@"Ignore selection in iPhone");
+        // NsLog(@"Ignore selection in iPhone");
         return;
     }
     // Navigation logic may go here. Create and push another view controller.
         self.hidesBottomBarWhenPushed = NO;
     
-    NSLog(@"Question Selected");
+    // NsLog(@"Question Selected");
     
     //Get dictionary at selected row, than get all the data assocciated with that particular question
     NSDictionary *dataItem = [_questions objectAtIndex:(indexPath.row)];
@@ -213,7 +213,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    NSLog(@"Preparing for Segue: %@ in Question table", segue.identifier);
+    // NsLog(@"Preparing for Segue: %@ in Question table", segue.identifier);
     // check for our segue identifier
     if ([segue.identifier isEqualToString:@"pushAnswerView"])
     {
